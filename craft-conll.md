@@ -6,9 +6,9 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 [Back to main page](./index.html)
 
-[GENIA annotations](./genia.html)
+[GENIA annotations](./genia-conll.html)
 
-~~~conllu
+~~~ conllu
 1	An	an	DT	DT	_	2	NMOD	_	_
 2	evaluation	evaluation	NN	NN	_	0	ROOT	_	_
 3	of	of	IN	IN	_	2	NMOD	_	_
@@ -34,7 +34,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	Of	of	IN	IN	_	12	NMOD	_	_
 2	the	the	DT	DT	_	4	NMOD	_	_
 3	104	0	CD	CD	_	4	NMOD	_	_
@@ -71,7 +71,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	The	the	DT	DT	_	2	NMOD	_	_
 2	results	result	NNS	NNS	_	3	SBJ	_	_
 3	suggest	suggest	VBP	VBP	_	35	DEP	_	_
@@ -118,7 +118,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	Identification	identification	NN	NN	_	0	ROOT	_	_
 2	of	of	IN	IN	_	1	NMOD	_	_
 3	a	a	DT	DT	_	8	NMOD	_	_
@@ -139,7 +139,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	The	the	DT	DT	_	2	NMOD	_	_
 2	interaction	interaction	NN	NN	_	11	SBJ	_	_
 3	between	between	IN	IN	_	2	NMOD	_	_
@@ -158,7 +158,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	Characterization	characterization	NN	NN	_	14	SBJ	_	_
 2	of	of	IN	IN	_	1	NMOD	_	_
 3	the	the	DT	DT	_	5	NMOD	_	_
@@ -187,7 +187,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	The	the	DT	DT	_	2	NMOD	_	_
 2	presence	presence	NN	NN	_	11	SBJ	_	_
 3	of	of	IN	IN	_	2	NMOD	_	_
@@ -204,7 +204,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	An	an	DT	DT	_	2	NMOD	_	_
 2	activity	activity	NN	NN	_	16	SBJ	_	_
 3	binding	bind	VBG	VBG	_	2	NMOD	_	_
@@ -238,7 +238,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	Cross-inhibition	cross-inhibition	NN	NN	_	2	NMOD	_	_
 2	experiments	experiment	NNS	NNS	_	3	SBJ	_	_
 3	suggested	suggest	VBD	VBD	_	0	ROOT	_	_
@@ -257,7 +257,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	The	the	DT	DT	_	5	NMOD	_	_
 2	glycoprotein	glycoprotein	NN	NN	_	4	AMOD	_	_
 3	-	-	HYPH	HYPH	_	2	P	_	_
@@ -293,7 +293,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	The	the	DT	DT	_	2	NMOD	_	_
 2	activity	activity	NN	NN	_	3	SBJ	_	_
 3	was	be	VBD	VBD	_	0	ROOT	_	_
@@ -330,7 +330,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	Genotyping	genotyping	NN	NN	_	0	ROOT	_	_
 2	by	by	IN	IN	_	1	NMOD	_	_
 3	restriction	restriction	NN	NN	_	5	NMOD	_	_
@@ -359,7 +359,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	To	to	TO	TO	_	26	PRP	_	_
 2	assist	assist	VB	VB	_	1	IM	_	_
 3	in	in	IN	IN	_	2	ADV	_	_
@@ -421,7 +421,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	Prospective	prospective	JJ	JJ	_	4	NMOD	_	_
 2	screening	screening	NN	NN	_	3	NMOD	_	_
 3	culture	culture	NN	NN	_	4	NMOD	_	_
@@ -454,7 +454,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	MRSA	mrsa	NN	NN	_	2	SBJ	_	_
 2	were	be	VBD	VBD	_	0	ROOT	_	_
 3	isolated	isolate	VBN	VBN	_	2	VC	_	_
@@ -466,7 +466,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	Antibiograms	antibiograms	NNS	NNS	_	2	SBJ	_	_
 2	were	be	VBD	VBD	_	0	ROOT	_	_
 3	determined	determine	VBN	VBN	_	2	VC	_	_
@@ -487,7 +487,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	It	it	PRP	PRP	_	2	SBJ	_	_
 2	was	be	VBD	VBD	_	0	ROOT	_	_
 3	shown	show	VBN	VBN	_	2	VC	_	_
@@ -541,7 +541,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	Our	our	PRP$	PRP$	_	2	NMOD	_	_
 2	study	study	NN	NN	_	3	SBJ	_	_
 3	demonstrated	demonstrate	VBD	VBD	_	0	ROOT	_	_
@@ -595,7 +595,7 @@ Output from a pre-trained Biaffine v2 parser on the CRAFT Treebank
 
 ~~~
 
-~~~conllu
+~~~ conllu
 1	The	the	DT	DT	_	3	NMOD	_	_
 2	discriminatory	discriminatory	JJ	JJ	_	3	NMOD	_	_
 3	index	index	NN	NN	_	18	SBJ	_	_

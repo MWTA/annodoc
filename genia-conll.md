@@ -6,7 +6,7 @@ Output from a pre-trained Biaffine v2 parser on the GENIA Treebank
 
 [Back to main page](./index.html)
 
-[CRAFT annotations](./craft.html)
+[CRAFT annotations](./craft-conll.html)
 
 ~~~ conllu
 1	An	an	DT	DT	_	2	det	_	_
