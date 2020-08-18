@@ -1,4 +1,4 @@
 Annodoc: annotation documentation support system
 ================================================
 
-Home page: <http://spyysalo.github.io/annodoc>
+Home page: <https://daniloblera.github.io/annodoc>
