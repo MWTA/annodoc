@@ -1,0 +1,203 @@
+# sent_id = 1
+# text = Lymphogranuloma venereum presenting as perianal ulceration: an emerging clinical presentation?
+1	Lymphogranuloma	Lymphogranuloma	PROPN	NNP	NounType=prop|Number=sing	2	compound	_	_
+2	venereum	venereum	NOUN	NN	Number=sing	0	ROOT	_	_
+3	presenting	present	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	2	acl	_	_
+4	as	as	SCONJ	IN	_	3	prep	_	_
+5	perianal	perianal	ADJ	JJ	Degree=pos	6	amod	_	_
+6	ulceration	ulceration	NOUN	NN	Number=sing	4	pobj	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	2	punct	_	_
+8	an	an	DET	DT	_	11	det	_	_
+9	emerging	emerge	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	11	amod	_	_
+10	clinical	clinical	ADJ	JJ	Degree=pos	11	amod	_	_
+11	presentation	presentation	NOUN	NN	Number=sing	2	dep	_	SpaceAfter=No
+12	?	?	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = An outbreak of lymphogranuloma venereum (LGV) infection has been recognised in the UK since 2004, predominantly affecting HIV-positive men who have sex with men (MSM).
+1	An	an	DET	DT	_	2	det	_	_
+2	outbreak	outbreak	NOUN	NN	Number=sing	12	nsubjpass	_	_
+3	of	of	ADP	IN	_	9	case	_	_
+4	lymphogranuloma	lymphogranuloma	NOUN	NN	Number=sing	5	compound	_	_
+5	venereum	venereum	NOUN	NN	Number=sing	9	compound	_	_
+6	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	7	punct	_	SpaceAfter=No
+7	LGV	lgv	NOUN	NN	Number=sing	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	7	punct	_	_
+9	infection	infection	NOUN	NN	Number=sing	2	nmod	_	_
+10	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	12	aux	_	_
+11	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	12	auxpass	_	_
+12	recognised	recognise	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+13	in	in	ADP	IN	_	12	prep	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	UK	UK	PROPN	NNP	NounType=prop|Number=sing	13	pobj	_	_
+16	since	since	SCONJ	IN	_	12	prep	_	_
+17	2004	2004	NUM	CD	NumType=card	16	pobj	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=comm	12	punct	_	_
+19	predominantly	predominantly	ADV	RB	Degree=pos	20	advmod	_	_
+20	affecting	affect	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	12	advcl	_	_
+21	HIV-positive	hiv-positive	ADJ	JJ	Degree=pos	22	amod	_	_
+22	men	man	NOUN	NNS	Number=plur	20	dobj	_	_
+23	who	who	PRON	WP	_	24	nsubj	_	_
+24	have	have	AUX	VBP	VerbForm=fin|Tense=pres	22	relcl	_	_
+25	sex	sex	NOUN	NN	Number=sing	24	dobj	_	_
+26	with	with	ADP	IN	_	24	prep	_	_
+27	men	man	NOUN	NNS	Number=plur	26	pobj	_	_
+28	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	29	punct	_	SpaceAfter=No
+29	MSM	msm	NOUN	NN	Number=sing	27	appos	_	SpaceAfter=No
+30	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	12	punct	_	_
+
+# sent_id = 3
+# text = Patients typically present with proctitis symptoms.
+1	Patients	patient	NOUN	NNS	Number=plur	0	ROOT	_	_
+2	typically	typically	ADV	RB	Degree=pos	3	advmod	_	_
+3	present	present	ADJ	JJ	Degree=pos	1	amod	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	proctitis	proctitis	NOUN	NN	Number=sing	6	compound	_	_
+6	symptoms	symptom	NOUN	NNS	Number=plur	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 4
+# text = The prevalence of rectal LGV in MSM attending sexually transmitted infection clinics in London is estimated at 1%.
+1	The	the	DET	DT	_	2	det	_	_
+2	prevalence	prevalence	NOUN	NN	Number=sing	16	nsubjpass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	rectal	rectal	ADJ	JJ	Degree=pos	5	amod	_	_
+5	LGV	lgv	NOUN	NN	Number=sing	2	nmod	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	MSM	msm	NOUN	NN	Number=sing	8	compound	_	_
+8	attending	attend	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	12	compound	_	_
+9	sexually	sexually	ADV	RB	Degree=pos	10	advmod	_	_
+10	transmitted	transmit	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	12	amod	_	_
+11	infection	infection	NOUN	NN	Number=sing	12	compound	_	_
+12	clinics	clinic	NOUN	NNS	Number=plur	2	nmod	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	London	London	PROPN	NNP	NounType=prop|Number=sing	12	nmod	_	_
+15	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	16	auxpass	_	_
+16	estimated	estimate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+17	at	at	ADP	IN	_	16	prep	_	_
+18	1	1	NUM	CD	NumType=card	19	nummod	_	SpaceAfter=No
+19	%	%	NOUN	NN	Number=sing	17	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	16	punct	_	_
+
+# sent_id = 5
+# text = Health Protection Agency surveillance has shown a decrease in anorectal manifestations despite little demographic change.
+1	Health	Health	PROPN	NNP	NounType=prop|Number=sing	3	compound	_	_
+2	Protection	Protection	PROPN	NNP	NounType=prop|Number=sing	3	compound	_	_
+3	Agency	Agency	PROPN	NNP	NounType=prop|Number=sing	4	compound	_	_
+4	surveillance	surveillance	NOUN	NN	Number=sing	6	nsubj	_	_
+5	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	6	aux	_	_
+6	shown	show	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+7	a	a	DET	DT	_	8	det	_	_
+8	decrease	decrease	NOUN	NN	Number=sing	6	dobj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	anorectal	anorectal	ADJ	JJ	Degree=pos	11	amod	_	_
+11	manifestations	manifestation	NOUN	NNS	Number=plur	8	nmod	_	_
+12	despite	despite	SCONJ	IN	_	15	case	_	_
+13	little	little	ADJ	JJ	Degree=pos	15	amod	_	_
+14	demographic	demographic	ADJ	JJ	Degree=pos	15	amod	_	_
+15	change	change	NOUN	NN	Number=sing	8	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 6
+# text = Two cases of HIV-infected patients presenting with isolated perianal ulcer disease are reported here.
+1	Two	two	NUM	CD	NumType=card	2	nummod	_	_
+2	cases	case	NOUN	NNS	Number=plur	13	nsubjpass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	HIV-infected	hiv-infected	ADJ	JJ	Degree=pos	5	amod	_	_
+5	patients	patient	NOUN	NNS	Number=plur	2	nmod	_	_
+6	presenting	present	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	5	acl	_	_
+7	with	with	ADP	IN	_	11	case	_	_
+8	isolated	isolate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	11	amod	_	_
+9	perianal	perianal	ADJ	JJ	Degree=pos	11	amod	_	_
+10	ulcer	ulcer	NOUN	NN	Number=sing	11	compound	_	_
+11	disease	disease	NOUN	NN	Number=sing	6	nmod	_	_
+12	are	be	AUX	VBP	VerbForm=fin|Tense=pres	13	auxpass	_	_
+13	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+14	here	here	ADV	RB	Degree=pos	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	13	punct	_	_
+
+# sent_id = 7
+# text = Both cases were confirmed to have rectal Chlamydia trachomatis-specific DNA of an LGV associated serovar.
+1	Both	both	DET	DT	_	2	det	_	_
+2	cases	case	NOUN	NNS	Number=plur	4	nsubjpass	_	_
+3	were	be	AUX	VBD	VerbForm=fin|Tense=past	4	auxpass	_	_
+4	confirmed	confirm	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+5	to	to	PART	TO	PartType=inf|VerbForm=inf	6	mark	_	_
+6	have	have	AUX	VB	VerbForm=inf	4	xcomp	_	_
+7	rectal	rectal	ADJ	JJ	Degree=pos	10	amod	_	_
+8	Chlamydia	chlamydia	NOUN	NN	Number=sing	10	nmod	_	_
+9	trachomatis-specific	trachomatis-specific	ADJ	JJ	Degree=pos	10	amod	_	_
+10	DNA	dna	NOUN	NN	Number=sing	6	dobj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	an	an	DET	DT	_	13	det	_	_
+13	LGV	lgv	NOUN	NN	Number=sing	10	nmod	_	_
+14	associated	associated	ADJ	JJ	Degree=pos	15	amod	_	_
+15	serovar	serovar	NOUN	NNS	Number=plur	6	dobj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 8
+# text = As presentations of LGV diversify, further education and surveillance are needed in order to reduce transmission and prevent long-term complications.
+1	As	as	SCONJ	IN	_	12	prep	_	_
+2	presentations	presentation	NOUN	NNS	Number=plur	1	pobj	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	LGV	lgv	NOUN	NN	Number=sing	5	compound	_	_
+5	diversify	diversify	NOUN	NN	Number=sing	3	pobj	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	12	punct	_	_
+7	further	further	ADJ	JJ	Degree=pos	8	amod	_	_
+8	education	education	NOUN	NN	Number=sing	12	nsubjpass	_	_
+9	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+10	surveillance	surveillance	NOUN	NN	Number=sing	8	conj	_	_
+11	are	be	AUX	VBP	VerbForm=fin|Tense=pres	12	auxpass	_	_
+12	needed	need	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+13	in	in	ADP	IN	_	12	prep	_	_
+14	order	order	NOUN	NN	Number=sing	13	pobj	_	_
+15	to	to	PART	TO	PartType=inf|VerbForm=inf	16	aux	_	_
+16	reduce	reduce	VERB	VB	VerbForm=inf	14	acl	_	_
+17	transmission	transmission	NOUN	NN	Number=sing	16	dobj	_	_
+18	and	and	CCONJ	CC	ConjType=comp	16	cc	_	_
+19	prevent	prevent	VERB	VB	VerbForm=inf	16	conj	_	_
+20	long-term	long-term	ADJ	JJ	Degree=pos	21	amod	_	_
+21	complications	complication	NOUN	NNS	Number=plur	19	dobj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=peri	12	punct	_	_
+
+# sent_id = 9
+# text = A strong argument already exists for the incorporation of chlamydia nucleic acid amplification tests in the management of MSM with proctitis; this paper provides evidence that this should be extended to MSM with perianal ulcer disease.
+1	A	a	DET	DT	_	3	det	_	_
+2	strong	strong	ADJ	JJ	Degree=pos	3	amod	_	_
+3	argument	argument	NOUN	NN	Number=sing	5	nsubj	_	_
+4	already	already	ADV	RB	Degree=pos	5	advmod	_	_
+5	exists	exist	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+6	for	for	ADP	IN	_	5	prep	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	incorporation	incorporation	NOUN	NN	Number=sing	6	pobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	chlamydia	chlamydia	NOUN	NN	Number=sing	14	compound	_	_
+11	nucleic	nucleic	ADJ	JJ	Degree=pos	14	amod	_	_
+12	acid	acid	NOUN	NN	Number=sing	14	compound	_	_
+13	amplification	amplification	NOUN	NN	Number=sing	14	compound	_	_
+14	tests	test	NOUN	NNS	Number=plur	9	pobj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	management	management	NOUN	NN	Number=sing	14	nmod	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	MSM	msm	NOUN	NN	Number=sing	17	nmod	_	_
+20	with	with	ADP	IN	_	21	case	_	_
+21	proctitis	proctitis	NOUN	NN	Number=sing	17	nmod	_	SpaceAfter=No
+22	;	;	PUNCT	:	_	25	punct	_	_
+23	this	this	DET	DT	_	24	det	_	_
+24	paper	paper	NOUN	NN	Number=sing	25	nsubj	_	_
+25	provides	provide	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	5	parataxis	_	_
+26	evidence	evidence	NOUN	NN	Number=sing	25	dobj	_	_
+27	that	that	SCONJ	IN	_	31	mark	_	_
+28	this	this	DET	DT	_	31	nsubjpass	_	_
+29	should	should	VERB	MD	VerbType=mod	31	aux	_	_
+30	be	be	AUX	VB	VerbForm=inf	31	auxpass	_	_
+31	extended	extend	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	26	ccomp	_	_
+32	to	to	PART	TO	PartType=inf|VerbForm=inf	33	case	_	_
+33	MSM	msm	NOUN	NN	Number=sing	31	nmod	_	_
+34	with	with	ADP	IN	_	37	case	_	_
+35	perianal	perianal	ADJ	JJ	Degree=pos	37	amod	_	_
+36	ulcer	ulcer	NOUN	NN	Number=sing	37	compound	_	_
+37	disease	disease	NOUN	NN	Number=sing	33	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	PunctType=peri	25	punct	_	SpaceAfter=No

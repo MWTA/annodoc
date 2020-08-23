@@ -1,0 +1,63 @@
+# sent_id = 1
+# text = Methylocella: a gourmand among methanotrophs.
+1	Methylocella	methylocella	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	gourmand	gourmand	NOUN	NN	Number=sing	1	appos	_	_
+5	among	among	ADP	IN	_	4	prep	_	_
+6	methanotrophs	methanotroph	NOUN	NNS	Number=plur	5	pobj	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = A recent article in Nature describes the ability of Methylocella silvestris to grow simultaneously on methane and longer chain alkanes, something never before observed in the microbial world.
+1	A	a	DET	DT	_	3	det	_	_
+2	recent	recent	ADJ	JJ	Degree=pos	3	amod	_	_
+3	article	article	NOUN	NN	Number=sing	6	nsubj	_	_
+4	in	in	ADP	IN	_	3	prep	_	_
+5	Nature	Nature	PROPN	NNP	NounType=prop|Number=sing	4	pobj	_	_
+6	describes	describe	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	ability	ability	NOUN	NN	Number=sing	6	dobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	Methylocella	Methylocella	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+11	silvestris	silvestris	NOUN	NN	Number=sing	9	pobj	_	_
+12	to	to	PART	TO	PartType=inf|VerbForm=inf	13	aux	_	_
+13	grow	grow	VERB	VB	VerbForm=inf	8	acl	_	_
+14	simultaneously	simultaneously	ADV	RB	Degree=pos	13	advmod	_	_
+15	on	on	ADP	IN	_	13	prep	_	_
+16	methane	methane	NOUN	NN	Number=sing	20	amod	_	_
+17	and	and	CCONJ	CC	ConjType=comp	16	cc	_	_
+18	longer	long	ADJ	JJR	Degree=comp	16	conj	_	_
+19	chain	chain	NOUN	NN	Number=sing	20	compound	_	_
+20	alkanes	alkane	NOUN	NNS	Number=plur	15	pobj	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+22	something	something	PRON	NN	Number=sing	6	npadvmod	_	_
+23	never	never	ADV	RB	Degree=pos	25	neg	_	_
+24	before	before	ADV	RB	Degree=pos	25	mark	_	_
+25	observed	observe	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	22	acl	_	_
+26	in	in	ADP	IN	_	25	prep	_	_
+27	the	the	DET	DT	_	29	det	_	_
+28	microbial	microbial	ADJ	JJ	Degree=pos	29	amod	_	_
+29	world	world	NOUN	NN	Number=sing	26	pobj	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 3
+# text = It adds to a growing list of unique metabolic traits that distinguish Methylocella from any other bacterium.
+1	It	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	adds	add	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+3	to	to	ADP	IN	_	2	prep	_	_
+4	a	a	DET	DT	_	6	det	_	_
+5	growing	grow	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	6	amod	_	_
+6	list	list	NOUN	NN	Number=sing	3	pobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	unique	unique	ADJ	JJ	Degree=pos	10	amod	_	_
+9	metabolic	metabolic	ADJ	JJ	Degree=pos	10	amod	_	_
+10	traits	trait	NOUN	NNS	Number=plur	7	pobj	_	_
+11	that	that	DET	WDT	_	12	nsubj	_	_
+12	distinguish	distinguish	VERB	VBP	VerbForm=fin|Tense=pres	10	relcl	_	_
+13	Methylocella	Methylocella	PROPN	NNP	NounType=prop|Number=sing	12	dobj	_	_
+14	from	from	ADP	IN	_	12	prep	_	_
+15	any	any	DET	DT	_	17	det	_	_
+16	other	other	ADJ	JJ	Degree=pos	17	amod	_	_
+17	bacterium	bacterium	NOUN	NN	Number=sing	14	pobj	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No

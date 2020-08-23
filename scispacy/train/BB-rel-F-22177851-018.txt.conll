@@ -1,0 +1,114 @@
+# sent_id = 1
+# text = These branch-chain aldehydes and alcohols are
+1	These	these	DET	DT	_	3	det	_	_
+2	branch-chain	branch-chain	ADJ	JJ	Degree=pos	3	compound	_	_
+3	aldehydes	aldehyde	NOUN	NNS	Number=plur	6	nsubj	_	_
+4	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+5	alcohols	alcohol	NOUN	NNS	Number=plur	3	conj	_	_
+6	are	be	AUX	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2
+# text = associated with fruity tastes and are considered to be potent odorants
+1	associated	associate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+2	with	with	ADP	IN	_	4	case	_	_
+3	fruity	fruity	NOUN	NN	Number=sing	4	compound	_	_
+4	tastes	taste	NOUN	NNS	Number=plur	1	nmod	_	_
+5	and	and	CCONJ	CC	ConjType=comp	1	cc	_	_
+6	are	be	AUX	VBP	VerbForm=fin|Tense=pres	7	auxpass	_	_
+7	considered	consider	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	1	conj	_	_
+8	to	to	PART	TO	PartType=inf|VerbForm=inf	11	mark	_	_
+9	be	be	AUX	VB	VerbForm=inf	11	cop	_	_
+10	potent	potent	ADJ	JJ	Degree=pos	11	amod	_	_
+11	odorants	odorant	NOUN	NNS	Number=plur	7	xcomp	_	SpaceAfter=No
+
+# sent_id = 3
+# text = in Camembert ( Curioni and Bosset, 2002).
+1	in	in	ADP	IN	_	0	ROOT	_	_
+2	Camembert	Camembert	PROPN	NNP	NounType=prop|Number=sing	1	pobj	_	_
+3	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	4	punct	_	_
+4	Curioni	Curioni	PROPN	NNP	NounType=prop|Number=sing	2	appos	_	_
+5	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+6	Bosset	Bosset	PROPN	NNP	NounType=prop|Number=sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+8	2002	2002	NUM	CD	NumType=card	4	appos	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	4	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 4
+# text = The production of 3-methylbutanal and 3-methylbutanol has already been reported in P. phenylpyruvica in a cured meat model system ( Moller et al., 1998), and in Psychrobacter sp. in a model cheese ( Deetae et al., 2009a).
+1	The	the	DET	DT	_	2	det	_	_
+2	production	production	NOUN	NN	Number=sing	10	nsubjpass	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	3-methylbutanal	3-methylbutanal	ADJ	JJ	Degree=pos	2	nmod	_	_
+5	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+6	3-methylbutanol	3-methylbutanol	NOUN	NN	Number=sing	4	conj	_	_
+7	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	10	aux	_	_
+8	already	already	ADV	RB	Degree=pos	10	advmod	_	_
+9	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	10	auxpass	_	_
+10	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	P.	P.	PROPN	NNP	NounType=prop|Number=sing	13	compound	_	_
+13	phenylpyruvica	phenylpyruvica	NOUN	NN	Number=sing	10	nmod	_	_
+14	in	in	ADP	IN	_	19	case	_	_
+15	a	a	DET	DT	_	19	det	_	_
+16	cured	cure	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	19	amod	_	_
+17	meat	meat	NOUN	NN	Number=sing	19	compound	_	_
+18	model	model	NOUN	NN	Number=sing	19	compound	_	_
+19	system	system	NOUN	NN	Number=sing	10	nmod	_	_
+20	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	21	punct	_	_
+21	Moller	Moller	PROPN	NNP	NounType=prop|Number=sing	19	dep	_	_
+22	et	et	X	FW	Foreign=yes	21	dep	_	_
+23	al.	al.	X	FW	Foreign=yes	21	dep	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=comm	21	punct	_	_
+25	1998	1998	NUM	CD	NumType=card	21	appos	_	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	21	punct	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=comm	19	punct	_	_
+28	and	and	CCONJ	CC	ConjType=comp	19	cc	_	_
+29	in	in	ADP	IN	_	19	conj	_	_
+30	Psychrobacter	Psychrobacter	PROPN	NNP	NounType=prop|Number=sing	29	pobj	_	_
+31	sp.	sp.	PROPN	NNP	NounType=prop|Number=sing	10	punct	_	_
+32	in	in	ADP	IN	_	35	case	_	_
+33	a	a	DET	DT	_	35	det	_	_
+34	model	model	NOUN	NN	Number=sing	35	compound	_	_
+35	cheese	cheese	NOUN	NN	Number=sing	10	nmod	_	_
+36	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	37	punct	_	_
+37	Deetae	Deetae	PROPN	NNP	NounType=prop|Number=sing	35	dep	_	_
+38	et	et	X	FW	Foreign=yes	37	dep	_	_
+39	al.	al.	X	FW	Foreign=yes	37	dep	_	SpaceAfter=No
+40	,	,	PUNCT	,	PunctType=comm	37	punct	_	_
+41	2009a	2009a	NUM	CD	NumType=card	37	appos	_	SpaceAfter=No
+42	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	37	punct	_	SpaceAfter=No
+43	.	.	PUNCT	.	PunctType=peri	10	punct	_	_
+
+# sent_id = 5
+# text = When P. celer
+1	When	when	ADV	WRB	_	3	advmod	_	_
+2	P.	p.	X	FW	Foreign=yes	3	compound	_	_
+3	celer	celer	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 6
+# text = was present in cheeses, 2-pentanone, 2-heptanone and 2-nonanone were
+1	was	be	AUX	VBD	VerbForm=fin|Tense=past	2	cop	_	_
+2	present	present	ADJ	JJ	Degree=pos	0	ROOT	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	cheeses	cheese	NOUN	NNS	Number=plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+6	2-pentanone	2-pentanone	NOUN	NN	Number=sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+8	2-heptanone	2-heptanone	NOUN	NN	Number=sing	6	conj	_	_
+9	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+10	2-nonanone	2-nonanone	NOUN	NN	Number=sing	6	conj	_	_
+11	were	be	AUX	VBD	VerbForm=fin|Tense=past	2	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = produced in greater quantities than in the control cheeses.
+1	produced	produce	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+2	in	in	ADP	IN	_	1	prep	_	_
+3	greater	great	ADJ	JJR	Degree=comp	4	amod	_	_
+4	quantities	quantity	NOUN	NNS	Number=plur	2	pobj	_	_
+5	than	than	SCONJ	IN	_	1	prep	_	_
+6	in	in	ADP	IN	_	5	prep	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	control	control	NOUN	NN	Number=sing	9	compound	_	_
+9	cheeses	cheese	NOUN	NNS	Number=plur	6	pobj	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No

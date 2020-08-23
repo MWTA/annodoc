@@ -1,0 +1,218 @@
+# sent_id = 1
+# text = Heat-shock response and its contribution to thermotolerance of the nitrogen-fixing cyanobacterium Anabaena sp. strain L-31.
+1	Heat-shock	heat-shock	ADJ	JJ	Degree=pos	2	amod	_	_
+2	response	response	NOUN	NN	Number=sing	0	ROOT	_	_
+3	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+4	its	-PRON-	DET	PRP$	PronType=prs|Poss=yes	5	nmod:poss	_	_
+5	contribution	contribution	NOUN	NN	Number=sing	2	conj	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	thermotolerance	thermotolerance	NOUN	NN	Number=sing	5	nmod	_	_
+8	of	of	ADP	IN	_	15	case	_	_
+9	the	the	DET	DT	_	14	det	_	_
+10	nitrogen-fixing	nitrogen-fixing	ADJ	JJ	Degree=pos	12	amod	_	_
+11	cyanobacterium	cyanobacterium	NOUN	NN	Number=sing	12	compound	_	_
+12	Anabaena	anabaena	NOUN	NN	Number=sing	9	punct	_	_
+13	sp.	sp.	X	FW	Foreign=yes	14	compound	_	_
+14	strain	strain	NOUN	NN	Number=sing	15	compound	_	_
+15	L-31	l-31	NOUN	NN	Number=sing	7	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = Compared to Escherichia coli, the nitrogen-fixing soil cyanobacterium Anabaena sp. strain L-31 exhibited significantly superior abilities to survive prolonged and continuous heat stress and recover therefrom.
+1	Compared	compare	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	case	_	_
+2	to	to	ADP	IN	_	4	case	_	_
+3	Escherichia	escherichia	X	FW	Foreign=yes	4	compound	_	_
+4	coli	coli	X	FW	Foreign=yes	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+6	the	the	DET	DT	_	10	dep	_	_
+7	nitrogen-fixing	nitrogen-fixing	ADJ	JJ	Degree=pos	8	amod	_	_
+8	soil	soil	NOUN	NN	Number=sing	10	compound	_	_
+9	cyanobacterium	cyanobacterium	NOUN	NN	Number=sing	10	compound	_	_
+10	Anabaena	Anabaena	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+11	sp.	sp.	X	FW	Foreign=yes	12	compound	_	_
+12	strain	strain	NOUN	NN	Number=sing	13	compound	_	_
+13	L-31	l-31	NOUN	NN	Number=sing	4	appos	_	_
+14	exhibited	exhibit	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+15	significantly	significantly	ADV	RB	Degree=pos	16	advmod	_	_
+16	superior	superior	ADJ	JJ	Degree=pos	17	amod	_	_
+17	abilities	ability	NOUN	NNS	Number=plur	14	dobj	_	_
+18	to	to	PART	TO	PartType=inf|VerbForm=inf	19	mark	_	_
+19	survive	survive	VERB	VB	VerbForm=inf	17	acl	_	_
+20	prolonged	prolonged	ADJ	JJ	Degree=pos	24	amod	_	_
+21	and	and	CCONJ	CC	ConjType=comp	20	cc	_	_
+22	continuous	continuous	ADJ	JJ	Degree=pos	20	conj	_	_
+23	heat	heat	NOUN	NN	Number=sing	24	compound	_	_
+24	stress	stress	NOUN	NN	Number=sing	19	dobj	_	_
+25	and	and	CCONJ	CC	ConjType=comp	14	cc	_	_
+26	recover	recover	VERB	VB	VerbForm=inf	14	conj	_	_
+27	therefrom	therefrom	NOUN	NN	Number=sing	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=peri	14	punct	_	_
+
+# sent_id = 3
+# text = Temperature upshift induced the synthesis of heat-shock proteins of similar molecular mass in the two microbes.
+1	Temperature	temperature	ADJ	JJ	Degree=pos	2	compound	_	_
+2	upshift	upshift	NOUN	NN	Number=sing	3	nsubj	_	_
+3	induced	induce	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	synthesis	synthesis	NOUN	NN	Number=sing	3	dobj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	heat-shock	heat-shock	ADJ	JJ	Degree=pos	8	amod	_	_
+8	proteins	protein	NOUN	NNS	Number=plur	5	nmod	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	similar	similar	ADJ	JJ	Degree=pos	12	amod	_	_
+11	molecular	molecular	ADJ	JJ	Degree=pos	12	amod	_	_
+12	mass	mass	NOUN	NN	Number=sing	8	nmod	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	two	two	NUM	CD	NumType=card	16	nummod	_	_
+16	microbes	microbe	NOUN	NNS	Number=plur	5	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 4
+# text = However, in Anabaena sp. strain L-31 the heat-shock proteins (particularly the GroEL proteins) were synthesised throughout the stress period, were much more stable and accumulated during heat stress.
+1	However	however	ADV	RB	Degree=pos	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	18	punct	_	_
+3	in	in	ADP	IN	_	10	case	_	_
+4	Anabaena	Anabaena	PROPN	NNP	NounType=prop|Number=sing	5	compound	_	_
+5	sp.	sp.	X	FW	Foreign=yes	6	compound	_	_
+6	strain	strain	NOUN	NN	Number=sing	7	compound	_	_
+7	L-31	l-31	NOUN	NN	Number=sing	3	pobj	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	heat-shock	heat-shock	ADJ	JJ	Degree=pos	10	amod	_	_
+10	proteins	protein	NOUN	NNS	Number=plur	18	nsubjpass	_	_
+11	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	15	punct	_	SpaceAfter=No
+12	particularly	particularly	ADV	RB	Degree=pos	15	advmod	_	_
+13	the	the	DET	DT	_	15	det	_	_
+14	GroEL	groel	NOUN	NN	Number=sing	15	compound	_	_
+15	proteins	protein	NOUN	NNS	Number=plur	10	appos	_	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	15	punct	_	_
+17	were	be	AUX	VBD	VerbForm=fin|Tense=past	18	auxpass	_	_
+18	synthesised	synthesise	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+19	throughout	throughout	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	_	22	det	_	_
+21	stress	stress	NOUN	NN	Number=sing	22	compound	_	_
+22	period	period	NOUN	NN	Number=sing	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	18	punct	_	_
+24	were	be	AUX	VBD	VerbForm=fin|Tense=past	27	cop	_	_
+25	much	much	ADV	RB	Degree=pos	26	advmod	_	_
+26	more	more	ADV	RBR	Degree=comp	27	advmod	_	_
+27	stable	stable	ADJ	JJ	Degree=pos	18	conj	_	_
+28	and	and	CCONJ	CC	ConjType=comp	27	cc	_	_
+29	accumulated	accumulate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	27	conj	_	_
+30	during	during	ADP	IN	_	32	case	_	_
+31	heat	heat	NOUN	NN	Number=sing	32	compound	_	_
+32	stress	stress	NOUN	NN	Number=sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	PunctType=peri	18	punct	_	_
+
+# sent_id = 5
+# text = In contrast, in E. coli the heat-shock proteins were transiently synthesised, quickly turned over and did not accumulate.
+1	In	in	ADP	IN	_	2	case	_	_
+2	contrast	contrast	NOUN	NN	Number=sing	15	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	15	punct	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	E.	e.	X	FW	Foreign=yes	6	compound	_	_
+6	coli	coli	X	FW	Foreign=yes	12	nmod	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	heat-shock	heat-shock	ADJ	JJ	Degree=pos	9	amod	_	_
+9	proteins	protein	NOUN	NNS	Number=plur	12	nsubjpass	_	_
+10	were	be	AUX	VBD	VerbForm=fin|Tense=past	12	auxpass	_	_
+11	transiently	transiently	ADV	RB	Degree=pos	12	advmod	_	_
+12	synthesised	synthesise	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	15	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=comm	15	punct	_	_
+14	quickly	quickly	ADV	RB	Degree=pos	15	advmod	_	_
+15	turned	turn	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+16	over	over	ADP	RP	_	15	prt	_	_
+17	and	and	CCONJ	CC	ConjType=comp	15	cc	_	_
+18	did	do	AUX	VBD	VerbForm=fin|Tense=past	20	aux	_	_
+19	not	not	PART	RB	Degree=pos	20	neg	_	_
+20	accumulate	accumulate	VERB	VB	VerbForm=inf	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=peri	15	punct	_	_
+
+# sent_id = 6
+# text = Nitrogenase activity of Anabaena cells of sp. strain L-31 continuously exposed to heat stress for 7 days rapidly recovered from thermal injury, although growth recovery was delayed.
+1	Nitrogenase	nitrogenase	NOUN	NN	Number=sing	2	compound	_	_
+2	activity	activity	NOUN	NN	Number=sing	0	ROOT	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	Anabaena	anabaena	ADJ	JJ	Degree=pos	5	compound	_	_
+5	cells	cell	NOUN	NNS	Number=plur	2	nmod	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	sp.	sp.	X	FW	Foreign=yes	8	compound	_	_
+8	strain	strain	NOUN	NN	Number=sing	9	compound	_	_
+9	L-31	l-31	NOUN	NN	Number=sing	2	nmod	_	_
+10	continuously	continuously	ADV	RB	Degree=pos	11	advmod	_	_
+11	exposed	expose	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	acl	_	_
+12	to	to	PART	TO	PartType=inf|VerbForm=inf	14	case	_	_
+13	heat	heat	NOUN	NN	Number=sing	14	compound	_	_
+14	stress	stress	NOUN	NN	Number=sing	11	nmod	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	7	7	NUM	CD	NumType=card	17	nummod	_	_
+17	days	day	NOUN	NNS	Number=plur	11	nmod	_	_
+18	rapidly	rapidly	ADV	RB	Degree=pos	19	advmod	_	_
+19	recovered	recover	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	17	acl	_	_
+20	from	from	ADP	IN	_	22	case	_	_
+21	thermal	thermal	ADJ	JJ	Degree=pos	22	amod	_	_
+22	injury	injury	NOUN	NN	Number=sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+24	although	although	SCONJ	IN	_	28	mark	_	_
+25	growth	growth	NOUN	NN	Number=sing	26	compound	_	_
+26	recovery	recovery	NOUN	NN	Number=sing	28	nsubjpass	_	_
+27	was	be	AUX	VBD	VerbForm=fin|Tense=past	28	auxpass	_	_
+28	delayed	delay	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 7
+# text = Exposure of E. coli cells to >4.5 h of heat stress resulted in a complete loss of viability and the ability to recover.
+1	Exposure	exposure	NOUN	NN	Number=sing	13	nsubj	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	E.	e.	X	FW	Foreign=yes	5	compound	_	_
+4	coli	coli	X	FW	Foreign=yes	5	compound	_	_
+5	cells	cell	NOUN	NNS	Number=plur	1	nmod	_	_
+6	to	to	PART	TO	PartType=inf|VerbForm=inf	9	case	_	_
+7	>	>	X	XX	_	9	compound	_	SpaceAfter=No
+8	4.5	4.5	NUM	CD	NumType=card	9	nummod	_	_
+9	h	h	NOUN	NN	Number=sing	1	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	heat	heat	NOUN	NN	Number=sing	12	compound	_	_
+12	stress	stress	NOUN	NN	Number=sing	9	nmod	_	_
+13	resulted	result	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	a	a	DET	DT	_	17	det	_	_
+16	complete	complete	ADJ	JJ	Degree=pos	17	amod	_	_
+17	loss	loss	NOUN	NN	Number=sing	13	nmod	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	viability	viability	NOUN	NN	Number=sing	17	nmod	_	_
+20	and	and	CCONJ	CC	ConjType=comp	17	cc	_	_
+21	the	the	DET	DT	_	22	det	_	_
+22	ability	ability	NOUN	NN	Number=sing	17	conj	_	_
+23	to	to	PART	TO	PartType=inf|VerbForm=inf	24	mark	_	_
+24	recover	recover	VERB	VB	VerbForm=inf	22	acl	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	13	punct	_	_
+
+# sent_id = 8
+# text = Marked differences in the synthesis, stability and accumulation of heat-shock proteins appear to distinguish these bacteria in their thermotolerance and recovery from heat stress.
+1	Marked	marked	ADJ	JJ	Degree=pos	2	amod	_	_
+2	differences	difference	NOUN	NNS	Number=plur	13	nsubj	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	synthesis	synthesis	NOUN	NN	Number=sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+7	stability	stability	NOUN	NN	Number=sing	5	conj	_	_
+8	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+9	accumulation	accumulation	NOUN	NN	Number=sing	5	conj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	heat-shock	heat-shock	ADJ	JJ	Degree=pos	12	amod	_	_
+12	proteins	protein	NOUN	NNS	Number=plur	5	nmod	_	_
+13	appear	appear	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+14	to	to	PART	TO	PartType=inf|VerbForm=inf	15	mark	_	_
+15	distinguish	distinguish	VERB	VB	VerbForm=inf	13	xcomp	_	_
+16	these	these	DET	DT	_	17	det	_	_
+17	bacteria	bacteria	NOUN	NNS	Number=plur	15	dobj	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	20	poss	_	_
+20	thermotolerance	thermotolerance	NOUN	NN	Number=sing	15	nmod	_	_
+21	and	and	CCONJ	CC	ConjType=comp	20	cc	_	_
+22	recovery	recovery	NOUN	NN	Number=sing	20	conj	_	_
+23	from	from	ADP	IN	_	25	case	_	_
+24	heat	heat	NOUN	NN	Number=sing	25	compound	_	_
+25	stress	stress	NOUN	NN	Number=sing	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	13	punct	_	SpaceAfter=No

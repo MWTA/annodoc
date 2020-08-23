@@ -1,0 +1,195 @@
+# sent_id = 1
+# text = Identification of a novel glycoprotein-binding activity in Streptococcus pyogenes regulated by the mga gene.
+1	Identification	identification	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	6	case	_	_
+3	a	a	DET	DT	_	6	det	_	_
+4	novel	novel	ADJ	JJ	Degree=pos	6	amod	_	_
+5	glycoprotein-binding	glycoprotein-binding	ADJ	JJ	Degree=pos	6	amod	_	_
+6	activity	activity	NOUN	NN	Number=sing	1	nmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	Streptococcus	streptococcus	NOUN	NN	Number=sing	9	compound	_	_
+9	pyogenes	pyogene	NOUN	NNS	Number=plur	6	nmod	_	_
+10	regulated	regulate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	9	acl	_	_
+11	by	by	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	mga	mga	NOUN	NN	Number=sing	14	compound	_	_
+14	gene	gene	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = The interaction between Streptococcus pyogenes and the host cell surface is not completely understood.
+1	The	the	DET	DT	_	2	det	_	_
+2	interaction	interaction	NOUN	NN	Number=sing	14	nsubjpass	_	_
+3	between	between	ADP	IN	_	5	case	_	_
+4	Streptococcus	streptococcus	NOUN	NN	Number=sing	5	compound	_	_
+5	pyogenes	pyogene	NOUN	NNS	Number=plur	2	nmod	_	_
+6	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+7	the	the	DET	DT	_	10	det	_	_
+8	host	host	NOUN	NN	Number=sing	10	compound	_	_
+9	cell	cell	NOUN	NN	Number=sing	10	compound	_	_
+10	surface	surface	NOUN	NN	Number=sing	5	conj	_	_
+11	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	14	auxpass	_	_
+12	not	not	PART	RB	Degree=pos	14	neg	_	_
+13	completely	completely	ADV	RB	Degree=pos	14	advmod	_	_
+14	understood	understand	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	14	punct	_	_
+
+# sent_id = 3
+# text = Characterization of the adhesion mechanisms of the bacterium to the host cell surface is needed in order to develop new vaccines and anti-adhesion drugs.
+1	Characterization	characterization	NOUN	NN	Number=sing	15	nsubjpass	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	adhesion	adhesion	NOUN	NN	Number=sing	5	compound	_	_
+5	mechanisms	mechanism	NOUN	NNS	Number=plur	1	nmod	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	bacterium	bacterium	NOUN	NN	Number=sing	5	nmod	_	_
+9	to	to	PART	TO	PartType=inf|VerbForm=inf	13	case	_	_
+10	the	the	DET	DT	_	13	det	_	_
+11	host	host	NOUN	NN	Number=sing	13	compound	_	_
+12	cell	cell	NOUN	NN	Number=sing	13	compound	_	_
+13	surface	surface	NOUN	NN	Number=sing	1	nmod	_	_
+14	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	15	auxpass	_	_
+15	needed	need	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	order	order	NOUN	NN	Number=sing	15	nmod	_	_
+18	to	to	PART	TO	PartType=inf|VerbForm=inf	19	aux	_	_
+19	develop	develop	VERB	VB	VerbForm=inf	17	acl	_	_
+20	new	new	ADJ	JJ	Degree=pos	21	amod	_	_
+21	vaccines	vaccine	NOUN	NNS	Number=plur	19	dobj	_	_
+22	and	and	CCONJ	CC	ConjType=comp	21	cc	_	_
+23	anti-adhesion	anti-adhesion	ADJ	JJ	Degree=pos	24	amod	_	_
+24	drugs	drug	NOUN	NNS	Number=plur	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	15	punct	_	_
+
+# sent_id = 4
+# text = The presence of glycoprotein-binding activities among streptococcal strains was investigated.
+1	The	the	DET	DT	_	2	det	_	_
+2	presence	presence	NOUN	NN	Number=sing	10	nsubjpass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	glycoprotein-binding	glycoprotein-binding	ADJ	JJ	Degree=pos	5	amod	_	_
+5	activities	activity	NOUN	NNS	Number=plur	2	nmod	_	_
+6	among	among	ADP	IN	_	8	case	_	_
+7	streptococcal	streptococcal	ADJ	JJ	Degree=pos	8	amod	_	_
+8	strains	strain	NOUN	NNS	Number=plur	5	nmod	_	_
+9	was	be	AUX	VBD	VerbForm=fin|Tense=past	10	auxpass	_	_
+10	investigated	investigate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=peri	10	punct	_	_
+
+# sent_id = 5
+# text = An activity binding to thyroglobulin, fetuin, asialofetuin and mucin but not non-glycosylated proteins was found to be present in the majority of the S. pyogenes strains studied.
+1	An	an	DET	DT	_	2	det	_	_
+2	activity	activity	NOUN	NN	Number=sing	17	nsubjpass	_	_
+3	binding	bind	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	2	acl	_	_
+4	to	to	PART	TO	PartType=inf|VerbForm=inf	5	case	_	_
+5	thyroglobulin	thyroglobulin	NOUN	NN	Number=sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+7	fetuin	fetuin	NOUN	NN	Number=sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+9	asialofetuin	asialofetuin	NOUN	NN	Number=sing	5	conj	_	_
+10	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+11	mucin	mucin	NOUN	NN	Number=sing	9	conj	_	_
+12	but	but	CCONJ	CC	ConjType=comp	13	cc	_	_
+13	not	not	PART	RB	Degree=pos	5	cc	_	_
+14	non-glycosylated	non-glycosylated	ADJ	JJ	Degree=pos	15	amod	_	_
+15	proteins	protein	NOUN	NNS	Number=plur	17	nsubjpass	_	_
+16	was	be	AUX	VBD	VerbForm=fin|Tense=past	17	auxpass	_	_
+17	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+18	to	to	PART	TO	PartType=inf|VerbForm=inf	20	mark	_	_
+19	be	be	AUX	VB	VerbForm=inf	20	cop	_	_
+20	present	present	ADJ	JJ	Degree=pos	17	xcomp	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	_	23	det	_	_
+23	majority	majority	NOUN	NN	Number=sing	20	nmod	_	_
+24	of	of	ADP	IN	_	28	case	_	_
+25	the	the	DET	DT	_	28	det	_	_
+26	S.	s.	X	FW	Foreign=yes	28	compound	_	_
+27	pyogenes	pyogene	NOUN	NNS	Number=plur	28	compound	_	_
+28	strains	strain	NOUN	NNS	Number=plur	23	nmod	_	_
+29	studied	study	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	28	acl	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=peri	17	punct	_	_
+
+# sent_id = 6
+# text = Cross-inhibition experiments suggested that the glycoproteins share a common structure recognized by the bacteria.
+1	Cross-inhibition	cross-inhibition	NOUN	NN	Number=sing	2	amod	_	_
+2	experiments	experiment	NOUN	NNS	Number=plur	3	nsubj	_	_
+3	suggested	suggest	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	glycoproteins	glycoprotein	NOUN	NNS	Number=plur	7	nsubj	_	_
+7	share	share	VERB	VBP	VerbForm=fin|Tense=pres	3	ccomp	_	_
+8	a	a	DET	DT	_	10	det	_	_
+9	common	common	ADJ	JJ	Degree=pos	10	amod	_	_
+10	structure	structure	NOUN	NN	Number=sing	7	dobj	_	_
+11	recognized	recognize	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	10	acl	_	_
+12	by	by	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	bacteria	bacteria	NOUN	NNS	Number=plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 7
+# text = The glycoprotein-binding activity was found to be proteinaceous, tightly attached to the bacterial surface and it also mediated the adherence of bacteria to solid surfaces coated with glycoproteins.
+1	The	the	DET	DT	_	3	det	_	_
+2	glycoprotein-binding	glycoprotein-binding	ADJ	JJ	Degree=pos	3	amod	_	_
+3	activity	activity	NOUN	NN	Number=sing	5	nsubjpass	_	_
+4	was	be	AUX	VBD	VerbForm=fin|Tense=past	5	auxpass	_	_
+5	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	to	to	PART	TO	PartType=inf|VerbForm=inf	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=inf	8	cop	_	_
+8	proteinaceous	proteinaceous	ADJ	JJ	Degree=pos	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+10	tightly	tightly	ADV	RB	Degree=pos	11	advmod	_	_
+11	attached	attach	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	5	advcl	_	_
+12	to	to	PART	TO	PartType=inf|VerbForm=inf	15	case	_	_
+13	the	the	DET	DT	_	15	det	_	_
+14	bacterial	bacterial	ADJ	JJ	Degree=pos	15	amod	_	_
+15	surface	surface	NOUN	NN	Number=sing	11	nmod	_	_
+16	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+17	it	-PRON-	PRON	PRP	PronType=prs	19	nsubj	_	_
+18	also	also	ADV	RB	Degree=pos	19	advmod	_	_
+19	mediated	mediate	VERB	VBD	VerbForm=fin|Tense=past	5	conj	_	_
+20	the	the	DET	DT	_	21	det	_	_
+21	adherence	adherence	NOUN	NN	Number=sing	19	dobj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	bacteria	bacteria	NOUN	NNS	Number=plur	21	nmod	_	_
+24	to	to	PART	TO	PartType=inf|VerbForm=inf	26	case	_	_
+25	solid	solid	ADJ	JJ	Degree=pos	26	amod	_	_
+26	surfaces	surface	NOUN	NNS	Number=plur	21	nmod	_	_
+27	coated	coat	VERB	VBD	VerbForm=fin|Tense=past	26	acl	_	_
+28	with	with	ADP	IN	_	29	case	_	_
+29	glycoproteins	glycoprotein	NOUN	NNS	Number=plur	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 8
+# text = The activity was found by transposon mutagenesis and complementation to be regulated by the multiple-gene regulator Mga, which has been implicated as a regulator of S. pyogenes virulence factors.
+1	The	the	DET	DT	_	2	det	_	_
+2	activity	activity	NOUN	NN	Number=sing	4	nsubjpass	_	_
+3	was	be	AUX	VBD	VerbForm=fin|Tense=past	4	auxpass	_	_
+4	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+5	by	by	ADP	IN	_	7	case	_	_
+6	transposon	transposon	NOUN	NN	Number=sing	7	amod	_	_
+7	mutagenesis	mutagenesis	NOUN	NN	Number=sing	4	nmod	_	_
+8	and	and	CCONJ	CC	ConjType=comp	7	cc	_	_
+9	complementation	complementation	NOUN	NN	Number=sing	7	conj	_	_
+10	to	to	PART	TO	PartType=inf|VerbForm=inf	12	mark	_	_
+11	be	be	AUX	VB	VerbForm=inf	12	auxpass	_	_
+12	regulated	regulate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	xcomp	_	_
+13	by	by	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	multiple-gene	multiple-gene	ADJ	JJ	Degree=pos	16	amod	_	_
+16	regulator	regulator	NOUN	NN	Number=sing	12	nmod	_	_
+17	Mga	mga	ADV	RB	Degree=pos	16	appos	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=comm	17	punct	_	_
+19	which	which	DET	WDT	_	22	nsubjpass	_	_
+20	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	22	aux	_	_
+21	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	22	auxpass	_	_
+22	implicated	implicate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	17	acl:relcl	_	_
+23	as	as	SCONJ	IN	_	25	case	_	_
+24	a	a	DET	DT	_	25	det	_	_
+25	regulator	regulator	NOUN	NN	Number=sing	22	nmod	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	S.	s.	X	FW	Foreign=yes	28	compound	_	_
+28	pyogenes	pyogenes	X	FW	Foreign=yes	25	nmod	_	_
+29	virulence	virulence	NOUN	NN	Number=sing	30	compound	_	_
+30	factors	factor	NOUN	NNS	Number=plur	25	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	4	punct	_	SpaceAfter=No

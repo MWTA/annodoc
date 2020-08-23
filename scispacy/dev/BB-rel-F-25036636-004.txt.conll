@@ -1,0 +1,101 @@
+# sent_id = 1
+# text = From our metagenomic reads, we identified
+1	From	from	ADP	IN	_	7	prep	_	_
+2	our	-PRON-	DET	PRP$	PronType=prs|Poss=yes	4	poss	_	_
+3	metagenomic	metagenomic	ADJ	JJ	Degree=pos	4	amod	_	_
+4	reads	read	NOUN	NNS	Number=plur	1	pobj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+6	we	-PRON-	PRON	PRP	PronType=prs	7	nsubj	_	_
+7	identified	identify	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2
+# text = homologs of a previously characterized secreted cold-adapted lipase and
+1	homologs	homolog	NOUN	NNS	Number=plur	0	ROOT	_	_
+2	of	of	ADP	IN	_	8	case	_	_
+3	a	a	DET	DT	_	8	det	_	_
+4	previously	previously	ADV	RB	Degree=pos	5	advmod	_	_
+5	characterized	characterize	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	amod	_	_
+6	secreted	secrete	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	amod	_	_
+7	cold-adapted	cold-adapted	ADJ	JJ	Degree=pos	8	amod	_	_
+8	lipase	lipase	NOUN	NN	Number=sing	1	nmod	_	_
+9	and	and	CCONJ	CC	ConjType=comp	1	cc	_	SpaceAfter=No
+
+# sent_id = 3
+# text = protease ( de Pascale et al., 2008 and de Pascale et al., 2010) (Table S4C),
+1	protease	protease	NOUN	NN	Number=sing	0	ROOT	_	_
+2	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	4	punct	_	_
+3	de	de	X	FW	Foreign=yes	4	amod	_	_
+4	Pascale	Pascale	PROPN	NNP	NounType=prop|Number=sing	1	dep	_	_
+5	et	et	X	FW	Foreign=yes	4	nummod	_	_
+6	al.	al.	X	FW	Foreign=yes	4	dep	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+8	2008	2008	NUM	CD	NumType=card	4	amod	_	_
+9	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+10	de	de	ADP	IN	_	11	compound	_	_
+11	Pascale	Pascale	PROPN	NNP	NounType=prop|Number=sing	8	conj	_	_
+12	et	et	X	FW	Foreign=yes	4	dep	_	_
+13	al.	al.	X	FW	Foreign=yes	4	dep	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+15	2010	2010	NUM	CD	NumType=card	4	amod	_	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	4	punct	_	_
+17	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	19	punct	_	SpaceAfter=No
+18	Table	table	ADJ	JJ	Degree=pos	19	compound	_	_
+19	S4C	s4c	NOUN	NN	Number=sing	4	appos	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=comm	4	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = which could contribute to lipolysis and proteolysis and subsequent
+1	which	which	DET	WDT	_	3	nsubj	_	_
+2	could	could	VERB	MD	VerbType=mod	3	aux	_	_
+3	contribute	contribute	VERB	VB	VerbForm=inf	0	ROOT	_	_
+4	to	to	PART	TO	PartType=inf|VerbForm=inf	5	case	_	_
+5	lipolysis	lipolysis	NOUN	NN	Number=sing	3	nmod	_	_
+6	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+7	proteolysis	proteolysis	NOUN	NN	Number=sing	5	conj	_	_
+8	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+9	subsequent	subsequent	ADJ	JJ	Degree=pos	3	conj	_	SpaceAfter=No
+
+# sent_id = 5
+# text = flavor formation in cheeses.
+1	flavor	flavor	NOUN	NN	Number=sing	0	ROOT	_	_
+2	formation	formation	NOUN	NN	Number=sing	1	dobj	_	_
+3	in	in	ADP	IN	_	2	prep	_	_
+4	cheeses	cheese	NOUN	NNS	Number=plur	3	pobj	_	SpaceAfter=No
+5	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 6
+# text = Collectively, these metagenomic insights
+1	Collectively	collectively	ADV	RB	Degree=pos	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+3	these	these	DET	DT	_	5	det	_	_
+4	metagenomic	metagenomic	ADJ	JJ	Degree=pos	5	amod	_	_
+5	insights	insight	NOUN	NNS	Number=plur	2	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = into the potential function of Pseudoalteromonas suggest that this and other uninoculated yet abundant microbes could play key roles in cheese rind microbial communities.
+1	into	into	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	potential	potential	ADJ	JJ	Degree=pos	4	amod	_	_
+4	function	function	NOUN	NN	Number=sing	7	nmod	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Pseudoalteromonas	pseudoalteromona	NOUN	NNS	Number=plur	4	nmod	_	_
+7	suggest	suggest	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+8	that	that	SCONJ	IN	_	17	mark	_	_
+9	this	this	DET	DT	_	17	nsubj	_	_
+10	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+11	other	other	ADJ	JJ	Degree=pos	15	amod	_	_
+12	uninoculated	uninoculated	ADJ	JJ	Degree=pos	15	amod	_	_
+13	yet	yet	ADV	RB	Degree=pos	12	cc	_	_
+14	abundant	abundant	ADJ	JJ	Degree=pos	12	conj	_	_
+15	microbes	microbe	NOUN	NNS	Number=plur	9	conj	_	_
+16	could	could	VERB	MD	VerbType=mod	17	aux	_	_
+17	play	play	VERB	VB	VerbForm=inf	7	ccomp	_	_
+18	key	key	ADJ	JJ	Degree=pos	19	amod	_	_
+19	roles	role	NOUN	NNS	Number=plur	17	dobj	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	cheese	cheese	NOUN	NN	Number=sing	22	amod	_	_
+22	rind	rind	NOUN	NN	Number=sing	17	nmod	_	_
+23	microbial	microbial	ADJ	JJ	Degree=pos	24	amod	_	_
+24	communities	community	NOUN	NNS	Number=plur	22	dobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	7	punct	_	SpaceAfter=No

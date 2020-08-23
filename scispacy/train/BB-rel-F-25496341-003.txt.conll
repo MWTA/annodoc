@@ -1,0 +1,91 @@
+# sent_id = 1
+# text = As a second example, we compared the genomes of two strains of Streptococcus infantarius
+1	As	as	SCONJ	IN	_	7	prep	_	_
+2	a	a	DET	DT	_	4	det	_	_
+3	second	second	ADJ	JJ	Degree=pos	4	amod	_	_
+4	example	example	NOUN	NN	Number=sing	1	pobj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+6	we	-PRON-	PRON	PRP	PronType=prs	7	nsubj	_	_
+7	compared	compare	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	genomes	genome	NOUN	NNS	Number=plur	7	dobj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	two	two	NUM	CD	NumType=card	12	nummod	_	_
+12	strains	strain	NOUN	NNS	Number=plur	9	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	Streptococcus	Streptococcus	PROPN	NNP	NounType=prop|Number=sing	15	compound	_	_
+15	infantarius	infantarius	NOUN	NN	Number=sing	12	nmod	_	SpaceAfter=No
+
+# sent_id = 2
+# text = isolated from Western African fermented milks, sequenced in this work
+1	isolated	isolate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+2	from	from	ADP	IN	_	1	prep	_	_
+3	Western	western	ADJ	JJ	Degree=pos	4	compound	_	_
+4	African	african	ADJ	JJ	Degree=pos	6	amod	_	_
+5	fermented	ferment	VERB	VBD	VerbForm=fin|Tense=past	6	amod	_	_
+6	milks	milk	NOUN	NNS	Number=plur	2	pobj	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+8	sequenced	sequence	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	1	advcl	_	_
+9	in	in	ADP	IN	_	8	prep	_	_
+10	this	this	DET	DT	_	11	det	_	_
+11	work	work	NOUN	NN	Number=sing	9	pobj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = (3AG and 11FA), with those of the type strain isolated from infant feces
+1	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	2	punct	_	SpaceAfter=No
+2	3AG	3ag	NUM	CD	NumType=card	0	ROOT	_	_
+3	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+4	11FA	11fa	NUM	CD	NumType=card	2	conj	_	SpaceAfter=No
+5	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	2	punct	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	those	those	DET	DT	_	2	nmod	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	_	12	det	_	_
+11	type	type	NOUN	NN	Number=sing	12	compound	_	_
+12	strain	strain	NOUN	NN	Number=sing	8	nmod	_	_
+13	isolated	isolate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	12	acl	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	infant	infant	ADJ	JJ	Degree=pos	16	amod	_	_
+16	feces	fece	NOUN	NNS	Number=plur	13	nmod	_	SpaceAfter=No
+
+# sent_id = 4
+# text = (ATCC BAA-102), and of strain CJ18, isolated from Eastern African
+1	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	3	punct	_	SpaceAfter=No
+2	ATCC	atcc	NOUN	NN	Number=sing	3	compound	_	_
+3	BAA-102	baa-102	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+4	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+6	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	strain	strain	NOUN	NN	Number=sing	9	compound	_	_
+9	CJ18	cj18	NOUN	NN	Number=sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+11	isolated	isolate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	3	acl	_	_
+12	from	from	ADP	IN	_	11	prep	_	_
+13	Eastern	eastern	ADJ	JJ	Degree=pos	14	compound	_	_
+14	African	african	NOUN	NN	Number=sing	12	pobj	_	SpaceAfter=No
+
+# sent_id = 5
+# text = fermented milk.
+1	fermented	ferment	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	amod	_	_
+2	milk	milk	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+3	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 6
+# text = The four strains contain each 1900–2000 genes and share
+1	The	the	DET	DT	_	3	det	_	_
+2	four	four	NUM	CD	NumType=card	3	nummod	_	_
+3	strains	strain	NOUN	NNS	Number=plur	4	nsubj	_	_
+4	contain	contain	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+5	each	each	DET	DT	_	7	det	_	_
+6	1900–2000	1900–2000	NOUN	NN	Number=sing	7	nummod	_	_
+7	genes	gene	NOUN	NNS	Number=plur	4	dobj	_	_
+8	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+9	share	share	NOUN	NN	Number=sing	4	conj	_	SpaceAfter=No
+
+# sent_id = 7
+# text = 1567 genes.
+1	1567	1567	NUM	CD	NumType=card	2	nummod	_	_
+2	genes	gene	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+3	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No

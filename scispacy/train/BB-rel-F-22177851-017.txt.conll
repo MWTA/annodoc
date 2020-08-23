@@ -1,0 +1,36 @@
+# sent_id = 1
+# text = The
+1	The	the	DET	DT	_	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2
+# text = most abundant aroma compounds produced during cheese ripening in the
+1	most	most	ADJ	JJS	Degree=sup	2	advmod	_	_
+2	abundant	abundant	ADJ	JJ	Degree=pos	4	amod	_	_
+3	aroma	aroma	NOUN	NN	Number=sing	4	compound	_	_
+4	compounds	compound	NOUN	NNS	Number=plur	0	ROOT	_	_
+5	produced	produce	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	acl	_	_
+6	during	during	ADP	IN	_	7	case	_	_
+7	cheese	cheese	NOUN	NN	Number=sing	5	nmod	_	_
+8	ripening	ripen	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	7	acl	_	_
+9	in	in	ADP	IN	_	8	prep	_	_
+10	the	the	DET	DT	_	9	pobj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = presence of P. celer were branched-chain aldehydes such as
+1	presence	presence	NOUN	NN	Number=sing	5	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	P.	p.	X	FW	Foreign=yes	4	compound	_	_
+4	celer	celer	NOUN	NN	Number=sing	1	nmod	_	_
+5	were	be	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+6	branched-chain	branched-chain	ADJ	JJ	Degree=pos	7	amod	_	_
+7	aldehydes	aldehyde	NOUN	NNS	Number=plur	5	attr	_	_
+8	such	such	ADJ	JJ	Degree=pos	9	amod	_	_
+9	as	as	SCONJ	IN	_	7	prep	_	SpaceAfter=No
+
+# sent_id = 4
+# text = 3-methyl butanal and ketones.
+1	3-methyl	3-methyl	ADJ	JJ	Degree=pos	2	amod	_	_
+2	butanal	butanal	NOUN	NN	Number=sing	0	ROOT	_	_
+3	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+4	ketones	ketone	NOUN	NNS	Number=plur	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No

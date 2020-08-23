@@ -1,0 +1,315 @@
+# sent_id = 1
+# text = XopC and XopJ, two novel type III effector proteins from Xanthomonas campestris pv. vesicatoria.
+1	XopC	xopc	NOUN	NN	Number=sing	16	compound	_	_
+2	and	and	CCONJ	CC	ConjType=comp	1	cc	_	_
+3	XopJ	xopj	NOUN	NN	Number=sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+5	two	two	NUM	CD	NumType=card	10	nummod	_	_
+6	novel	novel	ADJ	JJ	Degree=pos	10	amod	_	_
+7	type	type	NOUN	NN	Number=sing	10	compound	_	_
+8	III	iii	NUM	CD	NumType=card	10	nummod	_	_
+9	effector	effector	NOUN	NN	Number=sing	10	compound	_	_
+10	proteins	protein	NOUN	NNS	Number=plur	1	appos	_	_
+11	from	from	ADP	IN	_	14	case	_	_
+12	Xanthomonas	xanthomonas	NOUN	NN	Number=sing	14	compound	_	_
+13	campestris	campestris	NOUN	NN	Number=sing	14	compound	_	_
+14	pv	pv	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+16	vesicatoria	vesicatoria	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	16	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = Pathogenicity of the gram-negative plant pathogen Xanthomonas campestris pv.
+1	Pathogenicity	pathogenicity	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	9	case	_	_
+3	the	the	DET	DT	_	9	det	_	_
+4	gram-negative	gram-negative	ADJ	JJ	Degree=pos	9	amod	_	_
+5	plant	plant	NOUN	NN	Number=sing	9	compound	_	_
+6	pathogen	pathogen	NOUN	NN	Number=sing	9	compound	_	_
+7	Xanthomonas	xanthomonas	NOUN	NN	Number=sing	9	compound	_	_
+8	campestris	campestris	NOUN	NN	Number=sing	9	compound	_	_
+9	pv	pv	NOUN	NN	Number=sing	1	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 3
+# text = vesicatoria depends on a type III secretion (TTS) system which translocates bacterial effector proteins into the plant cell.
+1	vesicatoria	vesicatoria	NOUN	NN	Number=sing	2	nsubj	_	_
+2	depends	depend	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+3	on	on	ADP	IN	_	11	case	_	_
+4	a	a	DET	DT	_	11	det	_	_
+5	type	type	NOUN	NN	Number=sing	11	compound	_	_
+6	III	iii	NUM	CD	NumType=card	11	nummod	_	_
+7	secretion	secretion	NOUN	NN	Number=sing	11	compound	_	_
+8	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	9	punct	_	SpaceAfter=No
+9	TTS	tts	NOUN	NN	Number=sing	11	compound	_	SpaceAfter=No
+10	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	9	punct	_	_
+11	system	system	NOUN	NN	Number=sing	2	nmod	_	_
+12	which	which	DET	WDT	_	13	nsubj	_	_
+13	translocates	translocate	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	11	acl:relcl	_	_
+14	bacterial	bacterial	ADJ	JJ	Degree=pos	16	amod	_	_
+15	effector	effector	NOUN	NN	Number=sing	16	compound	_	_
+16	proteins	protein	NOUN	NNS	Number=plur	13	dobj	_	_
+17	into	into	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	_	20	det	_	_
+19	plant	plant	NOUN	NN	Number=sing	20	compound	_	_
+20	cell	cell	NOUN	NN	Number=sing	13	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 4
+# text = Previous transcriptome analysis identified a genome-wide regulon of putative virulence genes that are coexpressed with the TTS system.
+1	Previous	previous	ADJ	JJ	Degree=pos	3	amod	_	_
+2	transcriptome	transcriptome	NOUN	NN	Number=sing	3	compound	_	_
+3	analysis	analysis	NOUN	NN	Number=sing	4	nsubj	_	_
+4	identified	identify	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+5	a	a	DET	DT	_	7	det	_	_
+6	genome-wide	genome-wide	ADJ	JJ	Degree=pos	7	amod	_	_
+7	regulon	regulon	NOUN	NN	Number=sing	4	dobj	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	putative	putative	ADJ	JJ	Degree=pos	11	amod	_	_
+10	virulence	virulence	NOUN	NN	Number=sing	11	compound	_	_
+11	genes	gene	NOUN	NNS	Number=plur	7	nmod	_	_
+12	that	that	DET	WDT	_	14	nsubjpass	_	_
+13	are	be	AUX	VBP	VerbForm=fin|Tense=pres	14	auxpass	_	_
+14	coexpressed	coexpresse	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	11	acl:relcl	_	_
+15	with	with	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	_	18	det	_	_
+17	TTS	TTS	PROPN	NNP	NounType=prop|Number=sing	18	compound	_	_
+18	system	system	NOUN	NN	Number=sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 5
+# text = In this study, we characterized two of these genes, xopC and xopJ. Both genes encode Xanthomonas outer proteins (Xops) that were shown to be secreted by the TTS system.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	_	3	det	_	_
+3	study	study	NOUN	NN	Number=sing	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+5	we	-PRON-	PRON	PRP	PronType=prs	6	nsubj	_	_
+6	characterized	characterize	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+7	two	two	NUM	CD	NumType=card	6	dobj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	these	these	DET	DT	_	10	det	_	_
+10	genes	gene	NOUN	NNS	Number=plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+12	xopC	xopc	NOUN	NN	Number=sing	7	appos	_	_
+13	and	and	CCONJ	CC	ConjType=comp	12	cc	_	_
+14	xopJ.	xopj.	NOUN	NN	Number=sing	12	conj	_	_
+15	Both	both	DET	DT	_	16	det	_	_
+16	genes	gene	NOUN	NNS	Number=plur	17	nsubj	_	_
+17	encode	encode	VERB	VBP	VerbForm=fin|Tense=pres	6	conj	_	_
+18	Xanthomonas	xanthomonas	NOUN	NN	Number=sing	20	compound	_	_
+19	outer	outer	ADJ	JJ	Degree=pos	20	amod	_	_
+20	proteins	protein	NOUN	NNS	Number=plur	17	dobj	_	_
+21	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	22	punct	_	SpaceAfter=No
+22	Xops	xops	NOUN	NN	Number=sing	20	appos	_	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	22	punct	_	_
+24	that	that	DET	WDT	_	26	nsubjpass	_	_
+25	were	be	AUX	VBD	VerbForm=fin|Tense=past	26	auxpass	_	_
+26	shown	show	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	20	acl:relcl	_	_
+27	to	to	PART	TO	PartType=inf|VerbForm=inf	29	mark	_	_
+28	be	be	AUX	VB	VerbForm=inf	29	auxpass	_	_
+29	secreted	secrete	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	26	xcomp	_	_
+30	by	by	ADP	IN	_	33	case	_	_
+31	the	the	DET	DT	_	33	det	_	_
+32	TTS	TTS	PROPN	NNP	NounType=prop|Number=sing	33	compound	_	_
+33	system	system	NOUN	NN	Number=sing	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 6
+# text = In addition, type III-dependent translocation of both proteins into the plant cell was demonstrated using the AvrBs3 effector domain as a reporter.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=sing	15	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	15	punct	_	_
+4	type	type	NOUN	NN	Number=sing	6	compound	_	_
+5	III-dependent	iii-dependent	ADJ	JJ	Degree=pos	6	amod	_	_
+6	translocation	translocation	NOUN	NN	Number=sing	15	nsubjpass	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	both	both	DET	DT	_	9	det	_	_
+9	proteins	protein	NOUN	NNS	Number=plur	6	nmod	_	_
+10	into	into	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	plant	plant	NOUN	NN	Number=sing	13	compound	_	_
+13	cell	cell	NOUN	NN	Number=sing	6	nmod	_	_
+14	was	be	AUX	VBD	VerbForm=fin|Tense=past	15	auxpass	_	_
+15	demonstrated	demonstrate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+16	using	use	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	15	xcomp	_	_
+17	the	the	DET	DT	_	20	det	_	_
+18	AvrBs3	avrbs3	ADJ	JJ	Degree=pos	20	compound	_	_
+19	effector	effector	NOUN	NN	Number=sing	20	compound	_	_
+20	domain	domain	NOUN	NN	Number=sing	16	dobj	_	_
+21	as	as	SCONJ	IN	_	23	case	_	_
+22	a	a	DET	DT	_	23	det	_	_
+23	reporter	reporter	NOUN	NN	Number=sing	16	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=peri	15	punct	_	_
+
+# sent_id = 7
+# text = XopJ belongs to the AvrRxv/YopJ family of effector proteins from plant and animal pathogenic bacteria.
+1	XopJ	xopj	NOUN	NN	Number=sing	2	nsubj	_	_
+2	belongs	belong	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+3	to	to	PART	TO	PartType=inf|VerbForm=inf	6	case	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	AvrRxv/YopJ	avrrxv/yopj	ADJ	JJ	Degree=pos	6	compound	_	_
+6	family	family	NOUN	NN	Number=sing	2	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	effector	effector	NOUN	NN	Number=sing	9	compound	_	_
+9	proteins	protein	NOUN	NNS	Number=plur	6	nmod	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	plant	plant	NOUN	NN	Number=sing	9	nmod	_	_
+12	and	and	CCONJ	CC	ConjType=comp	11	cc	_	_
+13	animal	animal	NOUN	NN	Number=sing	11	conj	_	_
+14	pathogenic	pathogenic	ADJ	JJ	Degree=pos	15	amod	_	_
+15	bacteria	bacteria	NOUN	NNS	Number=plur	11	dep	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 8
+# text = By contrast, XopC does not share significant homology to proteins in the database.
+1	By	by	ADP	IN	_	2	case	_	_
+2	contrast	contrast	NOUN	NN	Number=sing	7	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+4	XopC	xopc	NOUN	NN	Number=sing	7	nsubj	_	_
+5	does	do	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	7	aux	_	_
+6	not	not	PART	RB	Degree=pos	7	neg	_	_
+7	share	share	VERB	VB	VerbForm=inf	0	ROOT	_	_
+8	significant	significant	ADJ	JJ	Degree=pos	9	amod	_	_
+9	homology	homology	NOUN	NN	Number=sing	7	dobj	_	_
+10	to	to	PART	TO	PartType=inf|VerbForm=inf	11	case	_	_
+11	proteins	protein	NOUN	NNS	Number=plur	9	nmod	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	database	database	NOUN	NN	Number=sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	7	punct	_	_
+
+# sent_id = 9
+# text = Sequence analysis revealed that the xopC locus contains several features that are reminiscent of pathogenicity islands.
+1	Sequence	sequence	NOUN	NN	Number=sing	2	compound	_	_
+2	analysis	analysis	NOUN	NN	Number=sing	3	nsubj	_	_
+3	revealed	reveal	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	xopC	xopc	NOUN	NN	Number=sing	7	compound	_	_
+7	locus	locus	NOUN	NN	Number=sing	8	nsubj	_	_
+8	contains	contain	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	3	ccomp	_	_
+9	several	several	ADJ	JJ	Degree=pos	10	amod	_	_
+10	features	feature	NOUN	NNS	Number=plur	8	dobj	_	_
+11	that	that	DET	WDT	_	13	nsubj	_	_
+12	are	be	AUX	VBP	VerbForm=fin|Tense=pres	13	cop	_	_
+13	reminiscent	reminiscent	ADJ	JJ	Degree=pos	10	acl:relcl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	pathogenicity	pathogenicity	NOUN	NN	Number=sing	16	compound	_	_
+16	islands	island	NOUN	NNS	Number=plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 10
+# text = Interestingly, the xopC region is flanked by 62-bp inverted repeats that are also associated with members of the Xanthomonas avrBs3 effector family.
+1	Interestingly	interestingly	ADV	RB	Degree=pos	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	xopC	xopc	NOUN	NN	Number=sing	5	compound	_	_
+5	region	region	NOUN	NN	Number=sing	7	nsubjpass	_	_
+6	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	7	auxpass	_	_
+7	flanked	flank	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+8	by	by	ADP	IN	_	11	case	_	_
+9	62-bp	62-bp	ADJ	JJ	Degree=pos	11	amod	_	_
+10	inverted	invert	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	11	amod	_	_
+11	repeats	repeat	NOUN	NNS	Number=plur	7	nmod	_	_
+12	that	that	DET	WDT	_	15	nsubjpass	_	_
+13	are	be	AUX	VBP	VerbForm=fin|Tense=pres	15	auxpass	_	_
+14	also	also	ADV	RB	Degree=pos	15	advmod	_	_
+15	associated	associate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	11	acl:relcl	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	members	member	NOUN	NNS	Number=plur	15	nmod	_	_
+18	of	of	ADP	IN	_	23	case	_	_
+19	the	the	DET	DT	_	23	det	_	_
+20	Xanthomonas	xanthomonas	NOUN	NN	Number=sing	23	compound	_	_
+21	avrBs3	avrbs3	ADJ	JJ	Degree=pos	23	compound	_	_
+22	effector	effector	NOUN	NN	Number=sing	23	compound	_	_
+23	family	family	NOUN	NN	Number=sing	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=peri	7	punct	_	_
+
+# sent_id = 11
+# text = Besides xopC, a second gene of the locus, designated hpaJ, was shown to be coexpressed with the TTS system.
+1	Besides	besides	SCONJ	IN	_	2	case	_	_
+2	xopC	xopc	NOUN	NN	Number=sing	15	nsubjpass	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+4	a	a	DET	DT	_	6	det	_	_
+5	second	second	ADJ	JJ	Degree=pos	6	amod	_	_
+6	gene	gene	NOUN	NN	Number=sing	2	appos	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	locus	locus	NOUN	NN	Number=sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+11	designated	designate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	acl	_	_
+12	hpaJ	hpaj	NOUN	NN	Number=sing	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+14	was	be	AUX	VBD	VerbForm=fin|Tense=past	15	auxpass	_	_
+15	shown	show	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+16	to	to	PART	TO	PartType=inf|VerbForm=inf	18	mark	_	_
+17	be	be	AUX	VB	VerbForm=inf	18	auxpass	_	_
+18	coexpressed	coexpresse	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	15	xcomp	_	_
+19	with	with	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	_	22	det	_	_
+21	TTS	TTS	PROPN	NNP	NounType=prop|Number=sing	22	compound	_	_
+22	system	system	NOUN	NN	Number=sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=peri	15	punct	_	_
+
+# sent_id = 12
+# text = hpaJ encodes a protein with similarity to transglycosylases and to the Pseudomonas syringae pv.
+1	hpaJ	hpaj	NOUN	NN	Number=sing	2	nsubj	_	_
+2	encodes	encode	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	protein	protein	NOUN	NN	Number=sing	2	dobj	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	similarity	similarity	NOUN	NN	Number=sing	4	nmod	_	_
+7	to	to	PART	TO	PartType=inf|VerbForm=inf	8	case	_	_
+8	transglycosylases	transglycosylase	NOUN	NNS	Number=plur	6	nmod	_	_
+9	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+10	to	to	ADP	IN	_	8	conj	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	Pseudomonas	Pseudomonas	PROPN	NNP	NounType=prop|Number=sing	10	pobj	_	_
+13	syringae	syringae	NOUN	NN	Number=sing	2	conj	_	_
+14	pv	pv	INTJ	UH	_	13	dobj	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 13
+# text = maculicola protein HopPmaG. HpaJ secretion and translocation by the X. campestris pv.
+1	maculicola	maculicola	ADJ	JJ	Degree=pos	5	amod	_	_
+2	protein	protein	NOUN	NN	Number=sing	4	compound	_	_
+3	HopPmaG.	hoppmag.	NOUN	NN	Number=sing	4	compound	_	_
+4	HpaJ	hpaj	NOUN	NN	Number=sing	5	compound	_	_
+5	secretion	secretion	NOUN	NN	Number=sing	0	ROOT	_	_
+6	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+7	translocation	translocation	NOUN	NN	Number=sing	5	conj	_	_
+8	by	by	ADP	IN	_	12	case	_	_
+9	the	the	DET	DT	_	12	det	_	_
+10	X.	X.	PROPN	NNP	NounType=prop|Number=sing	12	compound	_	_
+11	campestris	campestris	NOUN	NN	Number=sing	12	compound	_	_
+12	pv	pv	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 14
+# text = vesicatoria TTS system was not detectable, which is consistent with its predicted Sec signal and a putative function as transglycosylase in the bacterial periplasm.
+1	vesicatoria	vesicatoria	ADP	IN	_	3	compound	_	_
+2	TTS	TTS	PROPN	NNP	NounType=prop|Number=sing	3	compound	_	_
+3	system	system	NOUN	NN	Number=sing	6	nsubj	_	_
+4	was	be	AUX	VBD	VerbForm=fin|Tense=past	6	cop	_	_
+5	not	not	PART	RB	Degree=pos	6	neg	_	_
+6	detectable	detectable	ADJ	JJ	Degree=pos	0	ROOT	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+8	which	which	DET	WDT	_	10	nsubj	_	_
+9	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	10	cop	_	_
+10	consistent	consistent	ADJ	JJ	Degree=pos	6	ccomp	_	_
+11	with	with	ADP	IN	_	15	case	_	_
+12	its	-PRON-	DET	PRP$	PronType=prs|Poss=yes	15	nmod:poss	_	_
+13	predicted	predict	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	15	amod	_	_
+14	Sec	sec	NOUN	NN	Number=sing	15	compound	_	_
+15	signal	signal	NOUN	NN	Number=sing	10	nmod	_	_
+16	and	and	CCONJ	CC	ConjType=comp	15	cc	_	_
+17	a	a	DET	DT	_	19	det	_	_
+18	putative	putative	ADJ	JJ	Degree=pos	19	amod	_	_
+19	function	function	NOUN	NN	Number=sing	15	conj	_	_
+20	as	as	SCONJ	IN	_	21	case	_	_
+21	transglycosylase	transglycosylase	NOUN	NN	Number=sing	15	nmod	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	_	25	det	_	_
+24	bacterial	bacterial	ADJ	JJ	Degree=pos	25	amod	_	_
+25	periplasm	periplasm	NOUN	NN	Number=sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	6	punct	_	SpaceAfter=No

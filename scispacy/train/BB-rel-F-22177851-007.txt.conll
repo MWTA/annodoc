@@ -1,0 +1,151 @@
+# sent_id = 1
+# text = Growth
+1	Growth	growth	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2
+# text = of two Gram-negative bacteria during ripening had no effect on the
+1	of	of	ADP	IN	_	7	prep	_	_
+2	two	two	NUM	CD	NumType=card	4	nummod	_	_
+3	Gram-negative	gram-negative	ADJ	JJ	Degree=pos	4	amod	_	_
+4	bacteria	bacteria	NOUN	NNS	Number=plur	1	pobj	_	_
+5	during	during	ADP	IN	_	1	prep	_	_
+6	ripening	ripening	NOUN	NN	Number=sing	5	pobj	_	_
+7	had	have	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+8	no	no	DET	DT	_	9	neg	_	_
+9	effect	effect	NOUN	NN	Number=sing	7	dobj	_	_
+10	on	on	ADP	IN	_	7	prep	_	_
+11	the	the	DET	DT	_	10	pobj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = growth of the yeasts studied (data not shown).
+1	growth	growth	NOUN	NN	Number=sing	5	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	yeasts	yeast	NOUN	NNS	Number=plur	1	nmod	_	_
+5	studied	study	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	7	punct	_	SpaceAfter=No
+7	data	datum	NOUN	NNS	Number=plur	5	dep	_	_
+8	not	not	PART	RB	Degree=pos	9	neg	_	_
+9	shown	show	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	7	acl	_	SpaceAfter=No
+10	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 4
+# text = All yeast communities,
+1	All	all	DET	DT	_	3	det	_	_
+2	yeast	yeast	NOUN	NN	Number=sing	3	compound	_	_
+3	communities	community	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	3	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = with or without Gram-negative bacteria, reached viable cell numbers
+1	with	with	ADP	IN	_	7	prep	_	_
+2	or	or	CCONJ	CC	ConjType=comp	1	cc	_	_
+3	without	without	ADP	IN	_	1	conj	_	_
+4	Gram-negative	gram-negative	ADJ	JJ	Degree=pos	5	amod	_	_
+5	bacteria	bacteria	NOUN	NNS	Number=plur	3	pobj	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+7	reached	reach	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+8	viable	viable	ADJ	JJ	Degree=pos	10	amod	_	_
+9	cell	cell	NOUN	NN	Number=sing	10	compound	_	_
+10	numbers	number	NOUN	NNS	Number=plur	7	dobj	_	SpaceAfter=No
+
+# sent_id = 6
+# text = above 7.9–8.0 log10 cfu/g after 5 days of ripening.
+1	above	above	ADP	IN	_	4	case	_	_
+2	7.9–8.0	7.9–8.0	NUM	CD	NumType=card	4	compound	_	_
+3	log10	log10	NOUN	NN	Number=sing	4	compound	_	_
+4	cfu/g	cfu/g	NOUN	NN	Number=sing	0	ROOT	_	_
+5	after	after	ADP	IN	_	7	case	_	_
+6	5	5	NUM	CD	NumType=card	7	nummod	_	_
+7	days	day	NOUN	NNS	Number=plur	4	nmod	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	ripening	ripen	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	8	pobj	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 7
+# text = D. hansenii followed by G. candidum dominated the cheese surface on day 5 with 7.6 log10 cfu/g and 7.1 log10 cfu/g, respectively.
+1	D.	d.	ADJ	JJ	Degree=pos	2	compound	_	_
+2	hansenii	hansenii	NOUN	NN	Number=sing	7	nsubj	_	_
+3	followed	follow	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	acl	_	_
+4	by	by	ADP	IN	_	6	case	_	_
+5	G.	G.	PROPN	NNP	NounType=prop|Number=sing	6	compound	_	_
+6	candidum	candidum	NOUN	NN	Number=sing	3	nmod	_	_
+7	dominated	dominate	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	cheese	cheese	NOUN	NN	Number=sing	10	amod	_	_
+10	surface	surface	NOUN	NN	Number=sing	7	dobj	_	_
+11	on	on	ADP	IN	_	12	case	_	_
+12	day	day	NOUN	NN	Number=sing	7	nmod	_	_
+13	5	5	NUM	CD	NumType=card	12	nummod	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	7.6	7.6	NUM	CD	NumType=card	16	nummod	_	_
+16	log10	log10	NOUN	NN	Number=sing	12	nmod	_	_
+17	cfu/g	cfu/g	NOUN	NN	Number=sing	16	dep	_	_
+18	and	and	CCONJ	CC	ConjType=comp	17	cc	_	_
+19	7.1	7.1	NUM	CD	NumType=card	20	compound	_	_
+20	log10	log10	NOUN	NN	Number=sing	21	compound	_	_
+21	cfu/g	cfu/g	NOUN	NN	Number=sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+23	respectively	respectively	ADV	RB	Degree=pos	7	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=peri	7	punct	_	_
+
+# sent_id = 8
+# text = After day 5, G. candidum levels remained close to 7.8 log10 cfu/g while the D. hansenii population decreased by 1.0 to 1.5 log10 cfu/g between day 15 and day 35.
+1	After	after	ADP	IN	_	2	case	_	_
+2	day	day	NOUN	NN	Number=sing	8	nmod	_	_
+3	5	5	NUM	CD	NumType=card	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	8	punct	_	_
+5	G.	g.	NOUN	NN	Number=sing	6	compound	_	_
+6	candidum	candidum	NOUN	NN	Number=sing	7	compound	_	_
+7	levels	level	NOUN	NNS	Number=plur	8	nsubj	_	_
+8	remained	remain	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+9	close	close	ADJ	JJ	Degree=pos	11	advmod	_	_
+10	to	to	PART	TO	PartType=inf|VerbForm=inf	11	dep	_	_
+11	7.8	7.8	NUM	CD	NumType=card	12	nummod	_	_
+12	log10	log10	NOUN	NN	Number=sing	13	compound	_	_
+13	cfu/g	cfu/g	NOUN	NN	Number=sing	8	dobj	_	_
+14	while	while	SCONJ	IN	_	19	mark	_	_
+15	the	the	DET	DT	_	18	det	_	_
+16	D.	D.	PROPN	NNP	NounType=prop|Number=sing	18	compound	_	_
+17	hansenii	hansenii	ADJ	JJ	Degree=pos	18	amod	_	_
+18	population	population	NOUN	NN	Number=sing	19	nsubj	_	_
+19	decreased	decrease	VERB	VBD	VerbForm=fin|Tense=past	8	advcl	_	_
+20	by	by	ADP	IN	_	25	case	_	_
+21	1.0	1.0	NUM	CD	NumType=card	23	compound	_	_
+22	to	to	PART	TO	PartType=inf|VerbForm=inf	23	dep	_	_
+23	1.5	1.5	NUM	CD	NumType=card	24	nummod	_	_
+24	log10	log10	NOUN	NN	Number=sing	25	compound	_	_
+25	cfu/g	cfu/g	NOUN	NN	Number=sing	19	nmod	_	_
+26	between	between	ADP	IN	_	27	case	_	_
+27	day	day	NOUN	NN	Number=sing	19	nmod	_	_
+28	15	15	NUM	CD	NumType=card	27	nummod	_	_
+29	and	and	CCONJ	CC	ConjType=comp	27	cc	_	_
+30	day	day	NOUN	NN	Number=sing	27	conj	_	_
+31	35	35	NUM	CD	NumType=card	30	nummod	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=peri	8	punct	_	_
+
+# sent_id = 9
+# text = Y. lipolytica levels slightly increased after day 5 and reached a maximum after 35 days with counts of 7.5 log10 cfu/g.
+1	Y.	y.	ADJ	JJ	Degree=pos	3	compound	_	_
+2	lipolytica	lipolytica	ADJ	JJ	Degree=pos	3	compound	_	_
+3	levels	level	NOUN	NNS	Number=plur	5	nsubj	_	_
+4	slightly	slightly	ADV	RB	Degree=pos	5	advmod	_	_
+5	increased	increase	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+6	after	after	ADP	IN	_	7	case	_	_
+7	day	day	NOUN	NN	Number=sing	5	nmod	_	_
+8	5	5	NUM	CD	NumType=card	7	nummod	_	_
+9	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+10	reached	reach	VERB	VBD	VerbForm=fin|Tense=past	5	conj	_	_
+11	a	a	DET	DT	_	12	det	_	_
+12	maximum	maximum	NOUN	NN	Number=sing	10	dobj	_	_
+13	after	after	ADP	IN	_	15	case	_	_
+14	35	35	NUM	CD	NumType=card	15	nummod	_	_
+15	days	day	NOUN	NNS	Number=plur	10	nmod	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	counts	count	NOUN	NNS	Number=plur	15	nmod	_	_
+18	of	of	ADP	IN	_	21	case	_	_
+19	7.5	7.5	NUM	CD	NumType=card	20	nummod	_	_
+20	log10	log10	NOUN	NN	Number=sing	21	compound	_	_
+21	cfu/g	cfu/g	NOUN	NN	Number=sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=peri	5	punct	_	SpaceAfter=No

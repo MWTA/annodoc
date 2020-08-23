@@ -1,0 +1,188 @@
+# sent_id = 1
+# text = Recurrence of Pelecypod-associated cholera in Sardinia.
+1	Recurrence	recurrence	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	Pelecypod-associated	pelecypod-associated	ADJ	JJ	Degree=pos	4	amod	_	_
+4	cholera	cholera	NOUN	NN	Number=sing	2	pobj	_	_
+5	in	in	ADP	IN	_	1	prep	_	_
+6	Sardinia	Sardinia	PROPN	NNP	NounType=prop|Number=sing	5	pobj	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = From Oct. 30 to Nov. 7, 1979, 10 people in the Sardinian province of Cagliari had onset of bacteriologically confirmed cholera.
+1	From	from	ADP	IN	_	18	prep	_	_
+2	Oct.	October	PROPN	NNP	NounType=prop|Number=sing	1	pobj	_	_
+3	30	30	NUM	CD	NumType=card	2	nummod	_	_
+4	to	to	ADP	IN	_	1	prep	_	_
+5	Nov.	November	PROPN	NNP	NounType=prop|Number=sing	4	pobj	_	_
+6	7	7	NUM	CD	NumType=card	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+8	1979	1979	NUM	CD	NumType=card	5	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+10	10	10	NUM	CD	NumType=card	11	nummod	_	_
+11	people	people	NOUN	NNS	Number=plur	5	appos	_	_
+12	in	in	ADP	IN	_	11	prep	_	_
+13	the	the	DET	DT	_	15	det	_	_
+14	Sardinian	sardinian	ADJ	JJ	Degree=pos	15	compound	_	_
+15	province	province	NOUN	NN	Number=sing	12	pobj	_	_
+16	of	of	ADP	IN	_	15	prep	_	_
+17	Cagliari	Cagliari	PROPN	NNP	NounType=prop|Number=sing	16	pobj	_	_
+18	had	have	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+19	onset	onset	NOUN	NN	Number=sing	18	dobj	_	_
+20	of	of	ADP	IN	_	23	case	_	_
+21	bacteriologically	bacteriologically	ADV	RB	Degree=pos	22	advmod	_	_
+22	confirmed	confirm	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	23	amod	_	_
+23	cholera	cholera	NOUN	NN	Number=sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=peri	18	punct	_	_
+
+# sent_id = 3
+# text = Two symptom-free excretors of Vibrio cholerae O:1 were detected in household contacts of the patients.
+1	Two	two	NUM	CD	NumType=card	3	nummod	_	_
+2	symptom-free	symptom-free	ADJ	JJ	Degree=pos	3	amod	_	_
+3	excretors	excretor	NOUN	NNS	Number=plur	9	nsubjpass	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	Vibrio	Vibrio	PROPN	NNP	NounType=prop|Number=sing	7	compound	_	_
+6	cholerae	cholerae	NOUN	NN	Number=sing	7	compound	_	_
+7	O:1	o:1	NOUN	NN	Number=sing	4	pobj	_	_
+8	were	be	AUX	VBD	VerbForm=fin|Tense=past	9	auxpass	_	_
+9	detected	detect	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	household	household	NOUN	NN	Number=sing	12	compound	_	_
+12	contacts	contact	NOUN	NNS	Number=plur	9	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	patients	patient	NOUN	NNS	Number=plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 4
+# text = There were no deaths.
+1	There	there	PRON	EX	AdvType=ex	2	expl	_	_
+2	were	be	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	deaths	death	NOUN	NNS	Number=plur	2	attr	_	SpaceAfter=No
+5	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 5
+# text = All but 1 of the 12 people with V. cholerae O:1 infection gave a history of recent consumption of marine bivalves known locally as arselle (pelecypods).
+1	All	all	DET	DT	_	13	nsubj	_	_
+2	but	but	CCONJ	CC	ConjType=comp	1	cc	_	_
+3	1	1	NUM	CD	NumType=card	1	conj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	12	12	NUM	CD	NumType=card	7	nummod	_	_
+7	people	people	NOUN	NNS	Number=plur	4	pobj	_	_
+8	with	with	ADP	IN	_	7	prep	_	_
+9	V.	v.	ADJ	JJ	Degree=pos	12	compound	_	_
+10	cholerae	cholerae	NOUN	NN	Number=sing	12	compound	_	_
+11	O:1	o:1	ADJ	JJ	Degree=pos	12	compound	_	_
+12	infection	infection	NOUN	NN	Number=sing	8	pobj	_	_
+13	gave	give	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+14	a	a	DET	DT	_	15	det	_	_
+15	history	history	NOUN	NN	Number=sing	13	dobj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	recent	recent	ADJ	JJ	Degree=pos	18	amod	_	_
+18	consumption	consumption	NOUN	NN	Number=sing	15	nmod	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	marine	marine	NOUN	NN	Number=sing	18	nmod	_	_
+21	bivalves	bivalve	NOUN	NNS	Number=plur	13	dobj	_	_
+22	known	know	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	21	acl	_	_
+23	locally	locally	ADV	RB	Degree=pos	22	advmod	_	_
+24	as	as	SCONJ	IN	_	25	case	_	_
+25	arselle	arselle	NOUN	NN	Number=sing	22	advcl	_	_
+26	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	27	punct	_	SpaceAfter=No
+27	pelecypods	pelecypod	NOUN	NNS	Number=plur	25	appos	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=peri	13	punct	_	_
+
+# sent_id = 6
+# text = Triplicate matched neighbourhood controls for each of the first 7 cases identified were also interviewed; none had recently eaten arselle.
+1	Triplicate	Triplicate	PROPN	NNP	NounType=prop|Number=sing	4	compound	_	_
+2	matched	match	VERB	VBD	VerbForm=fin|Tense=past	4	amod	_	_
+3	neighbourhood	neighbourhood	NOUN	NN	Number=sing	4	compound	_	_
+4	controls	control	NOUN	NNS	Number=plur	15	nsubjpass	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	each	each	DET	DT	_	4	nmod	_	_
+7	of	of	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	_	11	det	_	_
+9	first	first	ADJ	JJ	Degree=pos	11	amod	_	_
+10	7	7	NUM	CD	NumType=card	11	nummod	_	_
+11	cases	case	NOUN	NNS	Number=plur	6	nmod	_	_
+12	identified	identify	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	11	acl	_	_
+13	were	be	AUX	VBD	VerbForm=fin|Tense=past	15	auxpass	_	_
+14	also	also	ADV	RB	Degree=pos	15	advmod	_	_
+15	interviewed	interview	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	20	ccomp	_	SpaceAfter=No
+16	;	;	PUNCT	:	_	20	punct	_	_
+17	none	none	NOUN	NN	Number=sing	20	nsubj	_	_
+18	had	have	AUX	VBD	VerbForm=fin|Tense=past	20	aux	_	_
+19	recently	recently	ADV	RB	Degree=pos	20	advmod	_	_
+20	eaten	eat	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+21	arselle	arselle	NOUN	NN	Number=sing	20	dobj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=peri	20	punct	_	_
+
+# sent_id = 7
+# text = V. cholerae O:1 was also recovered from samples of water and bivalves obtained from a lagoon on the outskirts of the city of Cagliari.
+1	V.	v.	NOUN	NN	Number=sing	3	compound	_	_
+2	cholerae	cholerae	NOUN	NN	Number=sing	3	compound	_	_
+3	O:1	o:1	NOUN	NN	Number=sing	6	nsubjpass	_	_
+4	was	be	AUX	VBD	VerbForm=fin|Tense=past	6	auxpass	_	_
+5	also	also	ADV	RB	Degree=pos	6	advmod	_	_
+6	recovered	recover	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	samples	sample	NOUN	NNS	Number=plur	6	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	water	water	NOUN	NN	Number=sing	8	nmod	_	_
+11	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+12	bivalves	bivalve	NOUN	NNS	Number=plur	8	conj	_	_
+13	obtained	obtain	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	12	acl	_	_
+14	from	from	ADP	IN	_	13	prep	_	_
+15	a	a	DET	DT	_	16	det	_	_
+16	lagoon	lagoon	NOUN	NN	Number=sing	14	pobj	_	_
+17	on	on	ADP	IN	_	16	prep	_	_
+18	the	the	DET	DT	_	19	det	_	_
+19	outskirts	outskirt	NOUN	NNS	Number=plur	17	pobj	_	_
+20	of	of	ADP	IN	_	19	prep	_	_
+21	the	the	DET	DT	_	22	det	_	_
+22	city	city	NOUN	NN	Number=sing	20	pobj	_	_
+23	of	of	ADP	IN	_	22	prep	_	_
+24	Cagliari	Cagliari	PROPN	NNP	NounType=prop|Number=sing	23	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 8
+# text = Arselle had also been implicated as the vehicle of transmission in 1973 in the last outbreak of cholera in Sardinia.
+1	Arselle	Arselle	PROPN	NNP	NounType=prop|Number=sing	5	nsubjpass	_	_
+2	had	have	AUX	VBD	VerbForm=fin|Tense=past	5	aux	_	_
+3	also	also	ADV	RB	Degree=pos	5	advmod	_	_
+4	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	5	auxpass	_	_
+5	implicated	implicate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	as	as	SCONJ	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	vehicle	vehicle	NOUN	NN	Number=sing	5	nmod	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	transmission	transmission	NOUN	NN	Number=sing	9	pobj	_	_
+11	in	in	ADP	IN	_	5	prep	_	_
+12	1973	1973	NUM	CD	NumType=card	11	pobj	_	_
+13	in	in	ADP	IN	_	5	prep	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	last	last	ADJ	JJ	Degree=pos	16	amod	_	_
+16	outbreak	outbreak	NOUN	NN	Number=sing	13	pobj	_	_
+17	of	of	ADP	IN	_	16	prep	_	_
+18	cholera	cholera	NOUN	NN	Number=sing	17	pobj	_	_
+19	in	in	ADP	IN	_	16	prep	_	_
+20	Sardinia	Sardinia	PROPN	NNP	NounType=prop|Number=sing	19	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 9
+# text = It seems unlikely that cholera transmission had persisted locally in the interim.
+1	It	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	seems	seem	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+3	unlikely	unlikely	ADJ	JJ	Degree=pos	2	advmod	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	cholera	cholera	NOUN	NN	Number=sing	6	compound	_	_
+6	transmission	transmission	NOUN	NN	Number=sing	8	nsubj	_	_
+7	had	have	AUX	VBD	VerbForm=fin|Tense=past	8	aux	_	_
+8	persisted	persist	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	ccomp	_	_
+9	locally	locally	ADV	RB	Degree=pos	8	advmod	_	_
+10	in	in	ADP	IN	_	8	prep	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	interim	interim	NOUN	NN	Number=sing	10	pobj	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No

@@ -1,0 +1,28 @@
+# sent_id = 1
+# text = [The infections from "Serratia" in the Hospital S. Camillo De Lellis of Roma (Italy) (author's transl)].
+1	[	[	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	_	3	det	_	_
+3	infections	infection	NOUN	NNS	Number=plur	0	ROOT	_	_
+4	from	from	ADP	IN	_	3	prep	_	_
+5	"	"	PUNCT	``	PunctType=quot|PunctSide=ini	6	punct	_	SpaceAfter=No
+6	Serratia	Serratia	PROPN	NNP	NounType=prop|Number=sing	4	pobj	_	SpaceAfter=No
+7	"	"	PUNCT	''	PunctType=quot|PunctSide=fin	6	punct	_	_
+8	in	in	ADP	IN	_	3	prep	_	_
+9	the	the	DET	DT	_	14	det	_	_
+10	Hospital	Hospital	PROPN	NNP	NounType=prop|Number=sing	14	compound	_	_
+11	S.	S.	PROPN	NNP	NounType=prop|Number=sing	12	compound	_	_
+12	Camillo	Camillo	PROPN	NNP	NounType=prop|Number=sing	14	compound	_	_
+13	De	De	PROPN	NNP	NounType=prop|Number=sing	14	compound	_	_
+14	Lellis	Lellis	PROPN	NNP	NounType=prop|Number=sing	8	pobj	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	Roma	Roma	PROPN	NNP	NounType=prop|Number=sing	15	pobj	_	_
+17	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	18	punct	_	SpaceAfter=No
+18	Italy	italy	NOUN	NN	Number=sing	16	appos	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	18	punct	_	_
+20	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	21	punct	_	SpaceAfter=No
+21	author	author	NOUN	NN	Number=sing	23	poss	_	SpaceAfter=No
+22	's	's	PART	POS	Poss=yes	21	case	_	_
+23	transl	transl	NOUN	NN	Number=sing	3	appos	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	23	punct	_	SpaceAfter=No
+25	]	]	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	3	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No

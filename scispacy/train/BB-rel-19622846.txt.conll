@@ -1,0 +1,170 @@
+# sent_id = 1
+# text = Detection of Staphylococcus aureus including MRSA on environmental surfaces in a jail setting.
+1	Detection	detection	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	Staphylococcus	staphylococcus	X	FW	Foreign=yes	4	compound	_	_
+4	aureus	aureus	X	FW	Foreign=yes	1	nmod	_	_
+5	including	include	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	6	case	_	_
+6	MRSA	mrsa	NOUN	NN	Number=sing	4	nmod	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	environmental	environmental	ADJ	JJ	Degree=pos	9	amod	_	_
+9	surfaces	surface	NOUN	NNS	Number=plur	1	nmod	_	_
+10	in	in	ADP	IN	_	1	prep	_	_
+11	a	a	DET	DT	_	12	det	_	_
+12	jail	jail	NOUN	NN	Number=sing	10	pobj	_	_
+13	setting	setting	NOUN	NN	Number=sing	12	acl	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = We examined jail environmental surfaces to explore whether they might serve as reservoirs of viable methicillin-resistant Staphylococcus aureus (MRSA).
+1	We	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	examined	examine	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	jail	jail	NOUN	NN	Number=sing	5	compound	_	_
+4	environmental	environmental	ADJ	JJ	Degree=pos	5	amod	_	_
+5	surfaces	surface	NOUN	NNS	Number=plur	2	dobj	_	_
+6	to	to	PART	TO	PartType=inf|VerbForm=inf	7	aux	_	_
+7	explore	explore	VERB	VB	VerbForm=inf	2	xcomp	_	_
+8	whether	whether	SCONJ	IN	_	11	mark	_	_
+9	they	-PRON-	PRON	PRP	PronType=prs	11	nsubj	_	_
+10	might	may	VERB	MD	VerbType=mod	11	aux	_	_
+11	serve	serve	VERB	VB	VerbForm=inf	7	ccomp	_	_
+12	as	as	SCONJ	IN	_	11	prep	_	_
+13	reservoirs	reservoir	NOUN	NNS	Number=plur	12	pobj	_	_
+14	of	of	ADP	IN	_	13	prep	_	_
+15	viable	viable	ADJ	JJ	Degree=pos	18	amod	_	_
+16	methicillin-resistant	methicillin-resistant	ADJ	JJ	Degree=pos	18	amod	_	_
+17	Staphylococcus	staphylococcus	X	FW	Foreign=yes	18	compound	_	_
+18	aureus	aureus	X	FW	Foreign=yes	14	pobj	_	_
+19	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	20	punct	_	SpaceAfter=No
+20	MRSA	mrsa	NOUN	NN	Number=sing	18	appos	_	SpaceAfter=No
+21	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 3
+# text = We swabbed 132 surfaces, inoculated primary and secondary mannitol salts and oxacillin-resistant screening agar, and used API tests to identify S. aureus and E-tests to determine methicillin/oxacillin resistance.
+1	We	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	swabbed	swab	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	132	132	NUM	CD	NumType=card	4	nummod	_	_
+4	surfaces	surface	NOUN	NNS	Number=plur	2	dobj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+6	inoculated	inoculate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	conj	_	_
+7	primary	primary	ADJ	JJ	Degree=pos	11	amod	_	_
+8	and	and	CCONJ	CC	ConjType=comp	7	cc	_	_
+9	secondary	secondary	ADJ	JJ	Degree=pos	7	conj	_	_
+10	mannitol	mannitol	NOUN	NN	Number=sing	11	compound	_	_
+11	salts	salt	NOUN	NNS	Number=plur	6	dobj	_	_
+12	and	and	CCONJ	CC	ConjType=comp	11	cc	_	_
+13	oxacillin-resistant	oxacillin-resistant	ADJ	JJ	Degree=pos	15	amod	_	_
+14	screening	screening	NOUN	NN	Number=sing	15	compound	_	_
+15	agar	agar	NOUN	NN	Number=sing	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+17	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+18	used	use	VERB	VBD	VerbForm=fin|Tense=past	2	conj	_	_
+19	API	api	NOUN	NN	Number=sing	20	compound	_	_
+20	tests	test	NOUN	NNS	Number=plur	18	dobj	_	_
+21	to	to	PART	TO	PartType=inf|VerbForm=inf	22	mark	_	_
+22	identify	identify	VERB	VB	VerbForm=inf	18	xcomp	_	_
+23	S.	s.	X	FW	Foreign=yes	24	compound	_	_
+24	aureus	aureus	X	FW	Foreign=yes	22	dobj	_	_
+25	and	and	CCONJ	CC	ConjType=comp	24	cc	_	_
+26	E-tests	e-test	NOUN	NNS	Number=plur	24	conj	_	_
+27	to	to	PART	TO	PartType=inf|VerbForm=inf	28	mark	_	_
+28	determine	determine	VERB	VB	VerbForm=inf	22	advcl	_	_
+29	methicillin/oxacillin	methicillin/oxacillin	NOUN	NN	Number=sing	30	compound	_	_
+30	resistance	resistance	NOUN	NN	Number=sing	28	dobj	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 4
+# text = We recovered S. aureus from 10 (7.6%) surfaces; eight (6.1%) isolates were MRSA.
+1	We	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	recovered	recover	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	S.	s.	X	FW	Foreign=yes	4	compound	_	_
+4	aureus	aureus	X	FW	Foreign=yes	2	dobj	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	10	10	NUM	CD	NumType=card	11	nummod	_	_
+7	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	9	punct	_	SpaceAfter=No
+8	7.6	7.6	NUM	CD	NumType=card	9	nummod	_	SpaceAfter=No
+9	%	%	NOUN	NN	Number=sing	6	dep	_	SpaceAfter=No
+10	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	9	punct	_	_
+11	surfaces	surface	NOUN	NNS	Number=plur	2	dobj	_	SpaceAfter=No
+12	;	;	PUNCT	:	_	11	punct	_	_
+13	eight	eight	NUM	CD	NumType=card	18	nummod	_	_
+14	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	16	punct	_	SpaceAfter=No
+15	6.1	6.1	NUM	CD	NumType=card	16	nummod	_	SpaceAfter=No
+16	%	%	NOUN	NN	Number=sing	13	dep	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	16	punct	_	_
+18	isolates	isolate	NOUN	NNS	Number=plur	20	nsubj	_	_
+19	were	be	AUX	VBD	VerbForm=fin|Tense=past	20	cop	_	_
+20	MRSA	mrsa	NOUN	NN	Number=sing	2	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 5
+# text = We ran pulsed-field gel electrophoresis on six resistant isolates and observed three patterns, one of which was identical to that identified in a previous study of inmates' nasal specimens.
+1	We	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	ran	run	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	pulsed-field	pulsed-field	ADJ	JJ	Degree=pos	5	amod	_	_
+4	gel	gel	NOUN	NN	Number=sing	5	compound	_	_
+5	electrophoresis	electrophoresis	NOUN	NN	Number=sing	2	dobj	_	_
+6	on	on	ADP	IN	_	9	case	_	_
+7	six	six	NUM	CD	NumType=card	9	nummod	_	_
+8	resistant	resistant	ADJ	JJ	Degree=pos	9	amod	_	_
+9	isolates	isolate	NOUN	NNS	Number=plur	5	nmod	_	_
+10	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+11	observed	observe	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	conj	_	_
+12	three	three	NUM	CD	NumType=card	13	nummod	_	_
+13	patterns	pattern	NOUN	NNS	Number=plur	11	dobj	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=comm	13	punct	_	_
+15	one	one	NUM	CD	NumType=card	19	nsubj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	which	which	DET	WDT	_	15	nmod	_	_
+18	was	be	AUX	VBD	VerbForm=fin|Tense=past	19	cop	_	_
+19	identical	identical	ADJ	JJ	Degree=pos	13	acl:relcl	_	_
+20	to	to	PART	TO	PartType=inf|VerbForm=inf	21	case	_	_
+21	that	that	DET	DT	_	19	nmod	_	_
+22	identified	identify	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	21	acl	_	_
+23	in	in	ADP	IN	_	26	case	_	_
+24	a	a	DET	DT	_	26	det	_	_
+25	previous	previous	ADJ	JJ	Degree=pos	26	amod	_	_
+26	study	study	NOUN	NN	Number=sing	22	nmod	_	_
+27	of	of	ADP	IN	_	31	case	_	_
+28	inmates	inmate	NOUN	NNS	Number=plur	31	nmod:poss	_	SpaceAfter=No
+29	'	'	PART	POS	Poss=yes	28	case	_	_
+30	nasal	nasal	ADJ	JJ	Degree=pos	31	amod	_	_
+31	specimens	specimen	NOUN	NNS	Number=plur	26	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 6
+# text = Finding MRSA-contaminated surfaces on a variety of environmental surfaces in the absence of an overt outbreak emphasizes that correctional facilities should have protocols for environmental cleaning as a component of MRSA prevention.
+1	Finding	find	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	17	csubj	_	_
+2	MRSA-contaminated	mrsa-contaminated	ADJ	JJ	Degree=pos	3	amod	_	_
+3	surfaces	surface	NOUN	NNS	Number=plur	1	dobj	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	_	6	det	_	_
+6	variety	variety	NOUN	NN	Number=sing	1	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	environmental	environmental	ADJ	JJ	Degree=pos	9	amod	_	_
+9	surfaces	surface	NOUN	NNS	Number=plur	6	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	absence	absence	NOUN	NN	Number=sing	1	nmod	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	an	an	DET	DT	_	16	det	_	_
+15	overt	overt	ADJ	JJ	Degree=pos	16	amod	_	_
+16	outbreak	outbreak	NOUN	NN	Number=sing	12	nmod	_	_
+17	emphasizes	emphasize	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+18	that	that	SCONJ	IN	_	22	mark	_	_
+19	correctional	correctional	ADJ	JJ	Degree=pos	20	amod	_	_
+20	facilities	facility	NOUN	NNS	Number=plur	22	nsubj	_	_
+21	should	should	VERB	MD	VerbType=mod	22	aux	_	_
+22	have	have	AUX	VB	VerbForm=inf	17	ccomp	_	_
+23	protocols	protocol	NOUN	NNS	Number=plur	22	dobj	_	_
+24	for	for	ADP	IN	_	23	prep	_	_
+25	environmental	environmental	ADJ	JJ	Degree=pos	26	amod	_	_
+26	cleaning	cleaning	NOUN	NN	Number=sing	24	pobj	_	_
+27	as	as	SCONJ	IN	_	26	prep	_	_
+28	a	a	DET	DT	_	29	det	_	_
+29	component	component	NOUN	NN	Number=sing	27	pobj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	MRSA	mrsa	NOUN	NN	Number=sing	32	compound	_	_
+32	prevention	prevention	NOUN	NN	Number=sing	30	pobj	_	SpaceAfter=No
+33	.	.	PUNCT	.	PunctType=peri	17	punct	_	SpaceAfter=No

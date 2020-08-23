@@ -1,0 +1,240 @@
+# sent_id = 1
+# text = Quantitative metabolome analysis using liquid chromatography-high-resolution mass spectrometry.
+1	Quantitative	quantitative	ADJ	JJ	Degree=pos	3	amod	_	_
+2	metabolome	metabolome	NOUN	NN	Number=sing	3	compound	_	_
+3	analysis	analysis	NOUN	NN	Number=sing	0	ROOT	_	_
+4	using	use	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	3	acl	_	_
+5	liquid	liquid	ADJ	JJ	Degree=pos	8	amod	_	_
+6	chromatography-high-resolution	chromatography-high-resolution	NOUN	NN	Number=sing	8	amod	_	_
+7	mass	mass	NOUN	NN	Number=sing	8	compound	_	_
+8	spectrometry	spectrometry	NOUN	NN	Number=sing	4	dobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = In this report, we introduce a liquid chromatography single-mass spectrometry method for metabolome quantification, using the LTQ Orbitrap high-resolution mass spectrometer.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	_	3	det	_	_
+3	report	report	NOUN	NN	Number=sing	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+5	we	-PRON-	PRON	PRP	PronType=prs	6	nsubj	_	_
+6	introduce	introduce	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+7	a	a	DET	DT	_	12	det	_	_
+8	liquid	liquid	ADJ	JJ	Degree=pos	12	amod	_	_
+9	chromatography	chromatography	NOUN	NN	Number=sing	12	compound	_	_
+10	single-mass	single-mass	ADJ	JJ	Degree=pos	12	amod	_	_
+11	spectrometry	spectrometry	NOUN	NN	Number=sing	12	compound	_	_
+12	method	method	NOUN	NN	Number=sing	6	dobj	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	metabolome	metabolome	NOUN	NN	Number=sing	15	compound	_	_
+15	quantification	quantification	NOUN	NN	Number=sing	6	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+17	using	use	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	6	advcl	_	_
+18	the	the	DET	DT	_	23	det	_	_
+19	LTQ	LTQ	PROPN	NNP	NounType=prop|Number=sing	23	compound	_	_
+20	Orbitrap	Orbitrap	PROPN	NNP	NounType=prop|Number=sing	23	compound	_	_
+21	high-resolution	high-resolution	ADJ	JJ	Degree=pos	23	amod	_	_
+22	mass	mass	NOUN	NN	Number=sing	23	compound	_	_
+23	spectrometer	spectrometer	NOUN	NN	Number=sing	17	dobj	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 3
+# text = Analytes were separated with hydrophilic interaction liquid chromatography.
+1	Analytes	analyte	NOUN	NNS	Number=plur	3	nsubjpass	_	_
+2	were	be	AUX	VBD	VerbForm=fin|Tense=past	3	auxpass	_	_
+3	separated	separate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+4	with	with	ADP	IN	_	8	case	_	_
+5	hydrophilic	hydrophilic	ADJ	JJ	Degree=pos	8	amod	_	_
+6	interaction	interaction	NOUN	NN	Number=sing	8	compound	_	_
+7	liquid	liquid	ADJ	JJ	Degree=pos	8	amod	_	_
+8	chromatography	chromatography	NOUN	NN	Number=sing	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 4
+# text = At a working resolution of 30,000 (at m/z 400), the limit of detection varied from 50 fmol to 5 pmol for 25 metabolites tested.
+1	At	at	ADP	IN	_	17	prep	_	_
+2	a	a	DET	DT	_	4	det	_	_
+3	working	work	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	4	amod	_	_
+4	resolution	resolution	NOUN	NN	Number=sing	1	pobj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	30,000	30,000	NUM	CD	NumType=card	5	pobj	_	_
+7	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	17	punct	_	SpaceAfter=No
+8	at	at	ADP	IN	_	7	prep	_	_
+9	m/z	m/z	NOUN	NN	Number=sing	8	pobj	_	_
+10	400	400	NUM	CD	NumType=card	9	nummod	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	8	punct	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	17	punct	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	limit	limit	NOUN	NN	Number=sing	17	nsubj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	detection	detection	NOUN	NN	Number=sing	14	nmod	_	_
+17	varied	vary	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+18	from	from	ADP	IN	_	20	case	_	_
+19	50	50	NUM	CD	NumType=card	20	nummod	_	_
+20	fmol	fmol	NOUN	NN	Number=sing	17	nmod	_	_
+21	to	to	PART	TO	PartType=inf|VerbForm=inf	23	case	_	_
+22	5	5	NUM	CD	NumType=card	23	nummod	_	_
+23	pmol	pmol	NOUN	NN	Number=sing	20	nmod	_	_
+24	for	for	ADP	IN	_	26	case	_	_
+25	25	25	NUM	CD	NumType=card	26	nummod	_	_
+26	metabolites	metabolite	NOUN	NNS	Number=plur	23	nmod	_	_
+27	tested	test	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	26	acl	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=peri	17	punct	_	_
+
+# sent_id = 5
+# text = In terms of metabolite concentration, the linearity was about 2 to 3 orders of magnitude for most compounds (R(2)>0.99).
+1	In	in	ADP	IN	_	2	case	_	_
+2	terms	term	NOUN	NNS	Number=plur	14	nmod	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	metabolite	metabolite	NOUN	NN	Number=sing	5	compound	_	_
+5	concentration	concentration	NOUN	NN	Number=sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	14	punct	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	linearity	linearity	NOUN	NN	Number=sing	14	nsubj	_	_
+9	was	be	AUX	VBD	VerbForm=fin|Tense=past	14	cop	_	_
+10	about	about	ADV	RB	Degree=pos	13	advmod	_	_
+11	2	2	NUM	CD	NumType=card	13	compound	_	_
+12	to	to	PART	TO	PartType=inf|VerbForm=inf	13	quantmod	_	_
+13	3	3	NUM	CD	NumType=card	14	nummod	_	_
+14	orders	order	NOUN	NNS	Number=plur	0	ROOT	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	magnitude	magnitude	NOUN	NN	Number=sing	14	nmod	_	_
+17	for	for	ADP	IN	_	19	case	_	_
+18	most	most	ADJ	JJS	Degree=sup	19	amod	_	_
+19	compounds	compound	NOUN	NNS	Number=plur	14	nmod	_	_
+20	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	21	punct	_	SpaceAfter=No
+21	R(2)>0.99	r(2)>0.99	NOUN	NN	Number=sing	19	appos	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=peri	14	punct	_	_
+
+# sent_id = 6
+# text = To determine the accuracy of the system in complex sample matrices, the isotope dilution method was evaluated from mixtures of pure compounds and uniformly 13C-labeled cell extracts.
+1	To	to	PART	TO	PartType=inf|VerbForm=inf	2	mark	_	_
+2	determine	determine	VERB	VB	VerbForm=inf	18	advcl	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	accuracy	accuracy	NOUN	NN	Number=sing	2	dobj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	system	system	NOUN	NN	Number=sing	4	nmod	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	complex	complex	ADJ	JJ	Degree=pos	11	amod	_	_
+10	sample	sample	NOUN	NN	Number=sing	11	compound	_	_
+11	matrices	matrix	NOUN	NNS	Number=plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	18	punct	_	_
+13	the	the	DET	DT	_	16	det	_	_
+14	isotope	isotope	NOUN	NN	Number=sing	16	compound	_	_
+15	dilution	dilution	NOUN	NN	Number=sing	16	compound	_	_
+16	method	method	NOUN	NN	Number=sing	18	nsubjpass	_	_
+17	was	be	AUX	VBD	VerbForm=fin|Tense=past	18	auxpass	_	_
+18	evaluated	evaluate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+19	from	from	ADP	IN	_	20	case	_	_
+20	mixtures	mixture	NOUN	NNS	Number=plur	18	nmod	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	pure	pure	ADJ	JJ	Degree=pos	23	amod	_	_
+23	compounds	compound	NOUN	NNS	Number=plur	20	nmod	_	_
+24	and	and	CCONJ	CC	ConjType=comp	20	cc	_	_
+25	uniformly	uniformly	ADV	RB	Degree=pos	26	advmod	_	_
+26	13C-labeled	13c-labeled	ADJ	JJ	Degree=pos	28	amod	_	_
+27	cell	cell	NOUN	NN	Number=sing	28	compound	_	_
+28	extracts	extract	NOUN	NNS	Number=plur	20	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=peri	18	punct	_	_
+
+# sent_id = 7
+# text = With the application of this method, quantification was possible within single runs even when the pool sizes of individual metabolites varied from 0.13 to 55.6 microM. As a case study, intracellular concentrations of central metabolites were determined for Methylobacterium extorquens AM1 during growth on two different carbon sources, methanol and succinate.
+1	With	with	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	application	application	NOUN	NN	Number=sing	10	nmod	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	_	6	det	_	_
+6	method	method	NOUN	NN	Number=sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+8	quantification	quantification	NOUN	NN	Number=sing	10	nsubj	_	_
+9	was	be	AUX	VBD	VerbForm=fin|Tense=past	10	cop	_	_
+10	possible	possible	ADJ	JJ	Degree=pos	0	ROOT	_	_
+11	within	within	ADP	IN	_	13	case	_	_
+12	single	single	ADJ	JJ	Degree=pos	13	amod	_	_
+13	runs	run	NOUN	NNS	Number=plur	10	nmod	_	_
+14	even	even	ADV	RB	Degree=pos	22	advmod	_	_
+15	when	when	ADV	WRB	_	22	advmod	_	_
+16	the	the	DET	DT	_	18	det	_	_
+17	pool	pool	NOUN	NN	Number=sing	18	compound	_	_
+18	sizes	size	NOUN	NNS	Number=plur	22	nsubj	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	individual	individual	ADJ	JJ	Degree=pos	21	amod	_	_
+21	metabolites	metabolite	NOUN	NNS	Number=plur	18	nmod	_	_
+22	varied	vary	VERB	VBD	VerbForm=fin|Tense=past	13	acl	_	_
+23	from	from	ADP	IN	_	27	case	_	_
+24	0.13	0.13	NUM	CD	NumType=card	26	compound	_	_
+25	to	to	PART	TO	PartType=inf|VerbForm=inf	26	dep	_	_
+26	55.6	55.6	NUM	CD	NumType=card	27	nummod	_	_
+27	microM.	microm.	NOUN	NN	Number=sing	22	nmod	_	_
+28	As	as	SCONJ	IN	_	31	case	_	_
+29	a	a	DET	DT	_	31	det	_	_
+30	case	case	NOUN	NN	Number=sing	31	compound	_	_
+31	study	study	NOUN	NN	Number=sing	22	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	PunctType=comm	39	punct	_	_
+33	intracellular	intracellular	ADJ	JJ	Degree=pos	34	amod	_	_
+34	concentrations	concentration	NOUN	NNS	Number=plur	39	nsubjpass	_	_
+35	of	of	ADP	IN	_	37	case	_	_
+36	central	central	ADJ	JJ	Degree=pos	37	amod	_	_
+37	metabolites	metabolite	NOUN	NNS	Number=plur	34	nmod	_	_
+38	were	be	AUX	VBD	VerbForm=fin|Tense=past	39	auxpass	_	_
+39	determined	determine	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	10	parataxis	_	_
+40	for	for	ADP	IN	_	42	mark	_	_
+41	Methylobacterium	methylobacterium	NOUN	NN	Number=sing	42	nsubj	_	_
+42	extorquens	extorquen	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	39	advcl	_	_
+43	AM1	am1	NOUN	NN	Number=sing	42	dobj	_	_
+44	during	during	ADP	IN	_	45	case	_	_
+45	growth	growth	NOUN	NN	Number=sing	42	nmod	_	_
+46	on	on	ADP	IN	_	50	case	_	_
+47	two	two	NUM	CD	NumType=card	50	nummod	_	_
+48	different	different	ADJ	JJ	Degree=pos	50	amod	_	_
+49	carbon	carbon	NOUN	NN	Number=sing	50	compound	_	_
+50	sources	source	NOUN	NNS	Number=plur	45	nmod	_	SpaceAfter=No
+51	,	,	PUNCT	,	PunctType=comm	50	punct	_	_
+52	methanol	methanol	NOUN	NN	Number=sing	50	appos	_	_
+53	and	and	CCONJ	CC	ConjType=comp	52	cc	_	_
+54	succinate	succinate	ADJ	JJ	Degree=pos	52	conj	_	SpaceAfter=No
+55	.	.	PUNCT	.	PunctType=peri	10	punct	_	_
+
+# sent_id = 8
+# text = Reproducible results from technical and biological repetitions were obtained that revealed significant variations of intracellular metabolite pool sizes, depending on the carbon source.
+1	Reproducible	reproducible	ADJ	JJ	Degree=pos	2	amod	_	_
+2	results	result	NOUN	NNS	Number=plur	9	nsubjpass	_	_
+3	from	from	ADP	IN	_	7	case	_	_
+4	technical	technical	ADJ	JJ	Degree=pos	7	amod	_	_
+5	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+6	biological	biological	ADJ	JJ	Degree=pos	4	conj	_	_
+7	repetitions	repetition	NOUN	NNS	Number=plur	2	nmod	_	_
+8	were	be	AUX	VBD	VerbForm=fin|Tense=past	9	auxpass	_	_
+9	obtained	obtain	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+10	that	that	DET	WDT	_	11	nsubj	_	_
+11	revealed	reveal	VERB	VBD	VerbForm=fin|Tense=past	9	ccomp	_	_
+12	significant	significant	ADJ	JJ	Degree=pos	13	amod	_	_
+13	variations	variation	NOUN	NNS	Number=plur	11	dobj	_	_
+14	of	of	ADP	IN	_	18	case	_	_
+15	intracellular	intracellular	ADJ	JJ	Degree=pos	18	amod	_	_
+16	metabolite	metabolite	NOUN	NN	Number=sing	18	compound	_	_
+17	pool	pool	NOUN	NN	Number=sing	18	compound	_	_
+18	sizes	size	NOUN	NNS	Number=plur	13	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=comm	11	punct	_	_
+20	depending	depend	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	11	prep	_	_
+21	on	on	ADP	IN	_	20	prep	_	_
+22	the	the	DET	DT	_	24	det	_	_
+23	carbon	carbon	NOUN	NN	Number=sing	24	compound	_	_
+24	source	source	NOUN	NN	Number=sing	21	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 9
+# text = The LTQ Obitrap offers new perspectives and strategies for metabolome quantification.
+1	The	the	DET	DT	_	3	det	_	_
+2	LTQ	LTQ	PROPN	NNP	NounType=prop|Number=sing	3	compound	_	_
+3	Obitrap	Obitrap	PROPN	NNP	NounType=prop|Number=sing	4	nsubj	_	_
+4	offers	offer	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+5	new	new	ADJ	JJ	Degree=pos	6	amod	_	_
+6	perspectives	perspective	NOUN	NNS	Number=plur	4	dobj	_	_
+7	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	strategies	strategy	NOUN	NNS	Number=plur	6	conj	_	_
+9	for	for	ADP	IN	_	6	prep	_	_
+10	metabolome	metabolome	NOUN	NN	Number=sing	11	compound	_	_
+11	quantification	quantification	NOUN	NN	Number=sing	9	pobj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=peri	4	punct	_	SpaceAfter=No

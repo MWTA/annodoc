@@ -1,0 +1,225 @@
+# sent_id = 1
+# text = .B. linens was usually reported to be the most important bacterial species associated with cheese surfaces [13, 28, 49].
+1	.B.	.B.	PUNCT	NFP	_	2	amod	_	_
+2	linens	linen	NOUN	NNS	Number=plur	5	nsubjpass	_	_
+3	was	be	AUX	VBD	VerbForm=fin|Tense=past	5	auxpass	_	_
+4	usually	usually	ADV	RB	Degree=pos	5	advmod	_	_
+5	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	to	to	PART	TO	PartType=inf|VerbForm=inf	12	mark	_	_
+7	be	be	AUX	VB	VerbForm=inf	12	cop	_	_
+8	the	the	DET	DT	_	12	det	_	_
+9	most	most	ADV	RBS	Degree=sup	10	advmod	_	_
+10	important	important	ADJ	JJ	Degree=pos	12	amod	_	_
+11	bacterial	bacterial	ADJ	JJ	Degree=pos	12	amod	_	_
+12	species	specie	NOUN	NNS	Number=plur	5	xcomp	_	_
+13	associated	associate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	12	acl	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	cheese	cheese	NOUN	NN	Number=sing	16	amod	_	_
+16	surfaces	surface	NOUN	NNS	Number=plur	13	nmod	_	_
+17	[	[	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	22	punct	_	SpaceAfter=No
+18	13	13	NUM	CD	NumType=card	22	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=comm	18	punct	_	_
+20	28	28	NUM	CD	NumType=card	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=comm	22	punct	_	_
+22	49	49	NUM	CD	NumType=card	16	appos	_	SpaceAfter=No
+23	]	]	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 2
+# text = In the present study, various Brevibacterium spp. were found on the cheeses from the farmhouses (dairies A, B and C).
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	present	present	ADJ	JJ	Degree=pos	4	amod	_	_
+4	study	study	NOUN	NN	Number=sing	11	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	11	punct	_	_
+6	various	various	ADJ	JJ	Degree=pos	8	amod	_	_
+7	Brevibacterium	Brevibacterium	PROPN	NNP	NounType=prop|Number=sing	8	compound	_	_
+8	spp	spp	NOUN	NN	Number=sing	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+10	were	be	AUX	VBD	VerbForm=fin|Tense=past	11	auxpass	_	_
+11	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	cheeses	cheese	NOUN	NNS	Number=plur	11	nmod	_	_
+15	from	from	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	farmhouses	farmhouse	NOUN	NNS	Number=plur	14	nmod	_	_
+18	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	20	punct	_	SpaceAfter=No
+19	dairies	dairy	NOUN	NNS	Number=plur	20	compound	_	_
+20	A	a	NOUN	NN	Number=sing	17	dep	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=comm	20	punct	_	_
+22	B	b	NOUN	NN	Number=sing	20	conj	_	_
+23	and	and	CCONJ	CC	ConjType=comp	20	cc	_	_
+24	C	c	NOUN	NN	Number=sing	20	conj	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	20	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	11	punct	_	_
+
+# sent_id = 3
+# text = B. linens and B. aurantiacum,
+1	B.	b.	ADJ	JJ	Degree=pos	2	compound	_	_
+2	linens	linen	NOUN	NNS	Number=plur	0	ROOT	_	_
+3	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+4	B.	B.	PROPN	NNP	NounType=prop|Number=sing	5	compound	_	_
+5	aurantiacum	aurantiacum	NOUN	NN	Number=sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	2	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = found on the cheeses from dairies B and C, respectively, have been used
+1	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	15	advcl	_	_
+2	on	on	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	cheeses	cheese	NOUN	NNS	Number=plur	1	nmod	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	dairies	dairy	NOUN	NNS	Number=plur	4	nmod	_	_
+7	B	b	NOUN	NN	Number=sing	6	dep	_	_
+8	and	and	CCONJ	CC	ConjType=comp	7	cc	_	_
+9	C	c	NOUN	NN	Number=sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+11	respectively	respectively	ADV	RB	Degree=pos	1	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+13	have	have	AUX	VBP	VerbForm=fin|Tense=pres	15	aux	_	_
+14	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	15	auxpass	_	_
+15	used	use	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 5
+# text = for a long time as ripening cultures by the dairy industry [16], whereas the soil bacteria B. permense found on the cheese from dairy A, to our knowledge, has not previously been found on cheese.
+1	for	for	ADP	IN	_	13	prep	_	_
+2	a	a	DET	DT	_	4	det	_	_
+3	long	long	ADJ	JJ	Degree=pos	4	amod	_	_
+4	time	time	NOUN	NN	Number=sing	1	pobj	_	_
+5	as	as	SCONJ	IN	_	4	prep	_	_
+6	ripening	ripen	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	5	pcomp	_	_
+7	cultures	culture	NOUN	NNS	Number=plur	6	dobj	_	_
+8	by	by	ADP	IN	_	6	prep	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	dairy	dairy	NOUN	NN	Number=sing	11	compound	_	_
+11	industry	industry	NOUN	NN	Number=sing	8	pobj	_	_
+12	[	[	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	13	punct	_	SpaceAfter=No
+13	16	16	NUM	CD	NumType=card	0	ROOT	_	SpaceAfter=No
+14	]	]	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=comm	13	punct	_	_
+16	whereas	whereas	SCONJ	IN	_	13	dep	_	_
+17	the	the	DET	DT	_	21	det	_	_
+18	soil	soil	NOUN	NN	Number=sing	21	compound	_	_
+19	bacteria	bacteria	NOUN	NNS	Number=plur	21	compound	_	_
+20	B.	B.	PROPN	NNP	NounType=prop|Number=sing	21	compound	_	_
+21	permense	permense	NOUN	NN	Number=sing	38	nsubjpass	_	_
+22	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	21	acl	_	_
+23	on	on	ADP	IN	_	22	prep	_	_
+24	the	the	DET	DT	_	25	det	_	_
+25	cheese	cheese	NOUN	NN	Number=sing	23	pobj	_	_
+26	from	from	ADP	IN	_	22	prep	_	_
+27	dairy	dairy	NOUN	NN	Number=sing	28	compound	_	_
+28	A	a	NOUN	NN	Number=sing	26	pobj	_	SpaceAfter=No
+29	,	,	PUNCT	,	PunctType=comm	22	punct	_	_
+30	to	to	PART	TO	PartType=inf|VerbForm=inf	22	prep	_	_
+31	our	-PRON-	DET	PRP$	PronType=prs|Poss=yes	32	poss	_	_
+32	knowledge	knowledge	NOUN	NN	Number=sing	30	pobj	_	SpaceAfter=No
+33	,	,	PUNCT	,	PunctType=comm	38	punct	_	_
+34	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	38	aux	_	_
+35	not	not	PART	RB	Degree=pos	38	neg	_	_
+36	previously	previously	ADV	RB	Degree=pos	38	advmod	_	_
+37	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	38	auxpass	_	_
+38	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	13	parataxis	_	_
+39	on	on	ADP	IN	_	40	case	_	_
+40	cheese	cheese	NOUN	NN	Number=sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	PunctType=peri	38	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = Several studies have now shown that Corynebacterium spp.
+1	Several	several	ADJ	JJ	Degree=pos	2	amod	_	_
+2	studies	study	NOUN	NNS	Number=plur	5	nsubj	_	_
+3	have	have	AUX	VBP	VerbForm=fin|Tense=pres	5	aux	_	_
+4	now	now	ADV	RB	Degree=pos	5	advmod	_	_
+5	shown	show	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	Corynebacterium	Corynebacterium	PROPN	NNP	NounType=prop|Number=sing	8	nsubj	_	_
+8	spp	spp	NOUN	NN	Number=sing	5	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 7
+# text = is the most dominant bacterial species on surface-ripened cheeses [3, 6, 34].
+1	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+2	the	the	DET	DT	_	6	det	_	_
+3	most	most	ADV	RBS	Degree=sup	4	advmod	_	_
+4	dominant	dominant	ADJ	JJ	Degree=pos	6	amod	_	_
+5	bacterial	bacterial	ADJ	JJ	Degree=pos	6	amod	_	_
+6	species	specie	NOUN	NNS	Number=plur	1	attr	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	surface-ripened	surface-ripened	ADJ	JJ	Degree=pos	9	amod	_	_
+9	cheeses	cheese	NOUN	NNS	Number=plur	1	nmod	_	_
+10	[	[	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	9	punct	_	SpaceAfter=No
+11	3	3	NUM	CD	NumType=card	9	appos	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	11	punct	_	_
+13	6	6	NUM	CD	NumType=card	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=comm	11	punct	_	_
+15	34	34	NUM	CD	NumType=card	11	appos	_	SpaceAfter=No
+16	]	]	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	11	punct	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 8
+# text = C. casei and/or C. variabile
+1	C.	c.	X	FW	Foreign=yes	2	compound	_	_
+2	casei	casei	NOUN	NN	Number=sing	0	ROOT	_	_
+3	and/or	and/or	CCONJ	CC	ConjType=comp	2	cc	_	_
+4	C.	c.	X	FW	Foreign=yes	2	conj	_	_
+5	variabile	variabile	NOUN	NN	Number=sing	2	advmod	_	SpaceAfter=No
+
+# sent_id = 9
+# text = were found in the present study to be the predominant bacterial species
+1	were	be	AUX	VBD	VerbForm=fin|Tense=past	2	auxpass	_	_
+2	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	present	present	ADJ	JJ	Degree=pos	6	amod	_	_
+6	study	study	NOUN	NN	Number=sing	2	nmod	_	_
+7	to	to	PART	TO	PartType=inf|VerbForm=inf	12	mark	_	_
+8	be	be	AUX	VB	VerbForm=inf	12	cop	_	_
+9	the	the	DET	DT	_	12	det	_	_
+10	predominant	predominant	ADJ	JJ	Degree=pos	12	amod	_	_
+11	bacterial	bacterial	ADJ	JJ	Degree=pos	12	amod	_	_
+12	species	specie	NOUN	NNS	Number=plur	2	xcomp	_	SpaceAfter=No
+
+# sent_id = 10
+# text = on the surfaces of the four cheeses and thus potentially important
+1	on	on	ADP	IN	_	0	ROOT	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	surfaces	surface	NOUN	NNS	Number=plur	1	pobj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	four	four	NUM	CD	NumType=card	7	nummod	_	_
+7	cheeses	cheese	NOUN	NNS	Number=plur	4	pobj	_	_
+8	and	and	CCONJ	CC	ConjType=comp	1	cc	_	_
+9	thus	thus	ADV	RB	Degree=pos	11	advmod	_	_
+10	potentially	potentially	ADV	RB	Degree=pos	11	advmod	_	_
+11	important	important	ADJ	JJ	Degree=pos	1	conj	_	SpaceAfter=No
+
+# sent_id = 11
+# text = during cheese ripening.
+1	during	during	ADP	IN	_	3	case	_	_
+2	cheese	cheese	NOUN	NN	Number=sing	3	amod	_	_
+3	ripening	ripen	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	0	ROOT	_	SpaceAfter=No
+4	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 12
+# text = These data confirm that strains of Corynebacterium spp. are candidates as ripening cultures for production of surface-ripened cheeses.
+1	These	these	DET	DT	_	2	det	_	_
+2	data	datum	NOUN	NNS	Number=plur	3	nsubj	_	_
+3	confirm	confirm	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	strains	strain	NOUN	NNS	Number=plur	10	nsubj	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	Corynebacterium	Corynebacterium	PROPN	NNP	NounType=prop|Number=sing	8	compound	_	_
+8	spp	spp	NOUN	NN	Number=sing	6	pobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+10	are	be	AUX	VBP	VerbForm=fin|Tense=pres	3	ccomp	_	_
+11	candidates	candidate	NOUN	NNS	Number=plur	10	attr	_	_
+12	as	as	SCONJ	IN	_	11	prep	_	_
+13	ripening	ripen	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	12	pcomp	_	_
+14	cultures	culture	NOUN	NNS	Number=plur	13	dobj	_	_
+15	for	for	ADP	IN	_	13	prep	_	_
+16	production	production	NOUN	NN	Number=sing	15	pobj	_	_
+17	of	of	ADP	IN	_	16	prep	_	_
+18	surface-ripened	surface-ripened	ADJ	JJ	Degree=pos	19	amod	_	_
+19	cheeses	cheese	NOUN	NNS	Number=plur	17	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No

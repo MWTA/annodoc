@@ -1,0 +1,137 @@
+# sent_id = 1
+# text = In semi-hard cheeses, like Gouda or Cheddar, degradation of protein
+1	In	in	ADP	IN	_	10	prep	_	_
+2	semi-hard	semi-hard	ADJ	JJ	Degree=pos	3	amod	_	_
+3	cheeses	cheese	NOUN	NNS	Number=plur	1	pobj	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+5	like	like	SCONJ	IN	_	10	prep	_	_
+6	Gouda	Gouda	PROPN	NNP	NounType=prop|Number=sing	5	pobj	_	_
+7	or	or	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	Cheddar	Cheddar	PROPN	NNP	NounType=prop|Number=sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+10	degradation	degradation	NOUN	NN	Number=sing	0	ROOT	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	protein	protein	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+
+# sent_id = 2
+# text = into amino acids and subsequent conversion of amino acids by Lactococcus sp. and/or Lactobacillus sp. is crucial for flavour development (Smit et al. 2000; Visser 1993).
+1	into	into	ADP	IN	_	3	case	_	_
+2	amino	amino	NOUN	NN	Number=sing	3	compound	_	_
+3	acids	acid	NOUN	NNS	Number=plur	0	ROOT	_	_
+4	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+5	subsequent	subsequent	ADJ	JJ	Degree=pos	6	amod	_	_
+6	conversion	conversion	NOUN	NN	Number=sing	3	conj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	amino	amino	NOUN	NN	Number=sing	9	compound	_	_
+9	acids	acid	NOUN	NNS	Number=plur	6	nmod	_	_
+10	by	by	ADP	IN	_	11	case	_	_
+11	Lactococcus	Lactococcus	PROPN	NNP	NounType=prop|Number=sing	6	nmod	_	_
+12	sp.	sp.	PROPN	NNP	NounType=prop|Number=sing	3	cc	_	_
+13	and/or	and/or	CCONJ	CC	ConjType=comp	12	cc	_	_
+14	Lactobacillus	Lactobacillus	PROPN	NNP	NounType=prop|Number=sing	15	compound	_	_
+15	sp.	sp.	PROPN	NNP	NounType=prop|Number=sing	3	conj	_	_
+16	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	3	conj	_	_
+17	crucial	crucial	ADJ	JJ	Degree=pos	16	acomp	_	_
+18	for	for	ADP	IN	_	17	prep	_	_
+19	flavour	flavour	ADJ	JJ	Degree=pos	20	amod	_	_
+20	development	development	NOUN	NN	Number=sing	18	pobj	_	_
+21	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	22	punct	_	SpaceAfter=No
+22	Smit	Smit	PROPN	NNP	NounType=prop|Number=sing	3	dep	_	_
+23	et	et	X	FW	Foreign=yes	22	dep	_	_
+24	al.	al.	X	FW	Foreign=yes	22	dep	_	_
+25	2000	2000	NUM	CD	NumType=card	22	nummod	_	SpaceAfter=No
+26	;	;	PUNCT	:	_	22	punct	_	_
+27	Visser	Visser	PROPN	NNP	NounType=prop|Number=sing	22	appos	_	_
+28	1993	1993	NUM	CD	NumType=card	27	nummod	_	SpaceAfter=No
+29	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	22	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 3
+# text = Other examples of microorganisms involved in the formation of very diverse flavours in dairy products are Propionibacterium sp. in Maasdammer and Swiss-type cheeses (Sarkar and Misra 1995), Streptococcus sp., Lb.
+1	Other	other	ADJ	JJ	Degree=pos	2	amod	_	_
+2	examples	example	NOUN	NNS	Number=plur	16	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	microorganisms	microorganism	NOUN	NNS	Number=plur	2	nmod	_	_
+5	involved	involve	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	acl	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	formation	formation	NOUN	NN	Number=sing	5	nmod	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	very	very	ADV	RB	Degree=pos	11	advmod	_	_
+11	diverse	diverse	ADJ	JJ	Degree=pos	12	amod	_	_
+12	flavours	flavour	NOUN	NNS	Number=plur	8	nmod	_	_
+13	in	in	ADP	IN	_	8	prep	_	_
+14	dairy	dairy	NOUN	NN	Number=sing	15	compound	_	_
+15	products	product	NOUN	NNS	Number=plur	13	pobj	_	_
+16	are	be	AUX	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+17	Propionibacterium	Propionibacterium	PROPN	NNP	NounType=prop|Number=sing	16	attr	_	_
+18	sp.	sp.	PROPN	NNP	NounType=prop|Number=sing	16	punct	_	_
+19	in	in	ADP	IN	_	16	prep	_	_
+20	Maasdammer	Maasdammer	PROPN	NNP	NounType=prop|Number=sing	23	nmod	_	_
+21	and	and	CCONJ	CC	ConjType=comp	20	cc	_	_
+22	Swiss-type	swiss-type	ADJ	JJ	Degree=pos	20	conj	_	_
+23	cheeses	cheese	NOUN	NNS	Number=plur	19	pobj	_	_
+24	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	25	punct	_	SpaceAfter=No
+25	Sarkar	Sarkar	PROPN	NNP	NounType=prop|Number=sing	23	dep	_	_
+26	and	and	CCONJ	CC	ConjType=comp	25	cc	_	_
+27	Misra	Misra	PROPN	NNP	NounType=prop|Number=sing	25	conj	_	_
+28	1995	1995	NUM	CD	NumType=card	27	nummod	_	SpaceAfter=No
+29	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	25	punct	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=comm	23	punct	_	_
+31	Streptococcus	Streptococcus	PROPN	NNP	NounType=prop|Number=sing	32	compound	_	_
+32	sp.	sp.	X	FW	Foreign=yes	23	appos	_	SpaceAfter=No
+33	,	,	PUNCT	,	PunctType=comm	23	punct	_	_
+34	Lb	lb	NOUN	NN	Number=sing	23	appos	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=peri	16	punct	_	_
+
+# sent_id = 4
+# text = bulgaricus spp.
+1	bulgaricus	bulgaricus	NOUN	NN	Number=sing	2	compound	_	_
+2	spp	spp	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+3	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 5
+# text = and Bifidobacterium sp. in (health-promoting) yoghurts (Nosova et al. 2000; Zourari et al. 1992; Hugenholtz et al. 2000), and Arthrobacter, Brevibacterium and Corynebacterium sp. in surface-ripened cheeses (Bockelmann and Hoppe Seyler 2001).
+1	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+2	Bifidobacterium	Bifidobacterium	PROPN	NNP	NounType=prop|Number=sing	0	ROOT	_	_
+3	sp.	sp.	X	FW	Foreign=yes	2	nummod	_	_
+4	in	in	ADP	IN	_	3	prep	_	_
+5	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	6	punct	_	SpaceAfter=No
+6	health-promoting	health-promoting	ADJ	JJ	Degree=pos	4	pobj	_	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	6	punct	_	_
+8	yoghurts	yoghurt	NOUN	NNS	Number=plur	4	pobj	_	_
+9	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	10	punct	_	SpaceAfter=No
+10	Nosova	Nosova	PROPN	NNP	NounType=prop|Number=sing	4	dep	_	_
+11	et	et	X	FW	Foreign=yes	10	dep	_	_
+12	al.	al.	X	FW	Foreign=yes	10	advmod	_	_
+13	2000	2000	NUM	CD	NumType=card	10	nummod	_	SpaceAfter=No
+14	;	;	PUNCT	:	_	10	punct	_	_
+15	Zourari	Zourari	PROPN	NNP	NounType=prop|Number=sing	10	appos	_	_
+16	et	et	X	FW	Foreign=yes	15	dep	_	_
+17	al.	al.	X	FW	Foreign=yes	15	advmod	_	_
+18	1992	1992	NUM	CD	NumType=card	15	nummod	_	SpaceAfter=No
+19	;	;	PUNCT	:	_	10	punct	_	_
+20	Hugenholtz	Hugenholtz	PROPN	NNP	NounType=prop|Number=sing	10	conj	_	_
+21	et	et	X	FW	Foreign=yes	20	dep	_	_
+22	al.	al.	X	FW	Foreign=yes	20	advmod	_	_
+23	2000	2000	NUM	CD	NumType=card	20	appos	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	20	punct	_	SpaceAfter=No
+25	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+26	and	and	CCONJ	CC	ConjType=comp	10	cc	_	_
+27	Arthrobacter	Arthrobacter	PROPN	NNP	NounType=prop|Number=sing	10	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	PunctType=comm	27	punct	_	_
+29	Brevibacterium	Brevibacterium	PROPN	NNP	NounType=prop|Number=sing	27	conj	_	_
+30	and	and	CCONJ	CC	ConjType=comp	29	cc	_	_
+31	Corynebacterium	Corynebacterium	PROPN	NNP	NounType=prop|Number=sing	29	conj	_	_
+32	sp.	sp.	PROPN	NNP	NounType=prop|Number=sing	4	pobj	_	_
+33	in	in	ADP	IN	_	4	prep	_	_
+34	surface-ripened	surface-ripened	ADJ	JJ	Degree=pos	35	amod	_	_
+35	cheeses	cheese	NOUN	NNS	Number=plur	33	pobj	_	_
+36	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	37	punct	_	SpaceAfter=No
+37	Bockelmann	Bockelmann	PROPN	NNP	NounType=prop|Number=sing	35	appos	_	_
+38	and	and	CCONJ	CC	ConjType=comp	37	cc	_	_
+39	Hoppe	Hoppe	PROPN	NNP	NounType=prop|Number=sing	40	compound	_	_
+40	Seyler	Seyler	PROPN	NNP	NounType=prop|Number=sing	37	conj	_	_
+41	2001	2001	NUM	CD	NumType=card	37	nummod	_	SpaceAfter=No
+42	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	37	punct	_	SpaceAfter=No
+43	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No

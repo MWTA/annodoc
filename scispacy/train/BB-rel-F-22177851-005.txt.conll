@@ -1,0 +1,179 @@
+# sent_id = 1
+# text = The strain studied, Proteus vulgaris
+1	The	the	DET	DT	_	2	det	_	_
+2	strain	strain	NOUN	NN	Number=sing	3	nsubj	_	_
+3	studied	study	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+5	Proteus	proteus	NOUN	NN	Number=sing	6	compound	_	_
+6	vulgaris	vulgaris	NOUN	NN	Number=sing	3	dobj	_	SpaceAfter=No
+
+# sent_id = 2
+# text = 1 M10, produced high concentrations of flavor compounds,
+1	1	1	NUM	CD	NumType=card	2	nummod	_	_
+2	M10	m10	NOUN	NN	Number=sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+4	produced	produce	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+5	high	high	ADJ	JJ	Degree=pos	6	amod	_	_
+6	concentrations	concentration	NOUN	NNS	Number=plur	4	dobj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	flavor	flavor	NOUN	NN	Number=sing	9	compound	_	_
+9	compounds	compound	NOUN	NNS	Number=plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=comm	4	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = particularly branched-chain alcohols, during the ripening process in a
+1	particularly	particularly	ADV	RB	Degree=pos	2	advmod	_	_
+2	branched-chain	branched-chain	ADJ	JJ	Degree=pos	3	amod	_	_
+3	alcohols	alcohol	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+5	during	during	ADP	IN	_	3	prep	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	ripening	ripen	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	8	amod	_	_
+8	process	process	NOUN	NN	Number=sing	5	pobj	_	_
+9	in	in	ADP	IN	_	8	prep	_	_
+10	a	a	DET	DT	_	9	pobj	_	SpaceAfter=No
+
+# sent_id = 4
+# text = model cheese.
+1	model	model	NOUN	NN	Number=sing	2	compound	_	_
+2	cheese	cheese	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+3	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 5
+# text = However, this strain has also been shown to exhibit some
+1	However	however	ADV	RB	Degree=pos	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	8	punct	_	_
+3	this	this	DET	DT	_	4	det	_	_
+4	strain	strain	NOUN	NN	Number=sing	8	nsubjpass	_	_
+5	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	8	aux	_	_
+6	also	also	ADV	RB	Degree=pos	8	advmod	_	_
+7	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	8	auxpass	_	_
+8	shown	show	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+9	to	to	PART	TO	PartType=inf|VerbForm=inf	10	aux	_	_
+10	exhibit	exhibit	VERB	VB	VerbForm=inf	8	xcomp	_	_
+11	some	some	DET	DT	_	10	dobj	_	SpaceAfter=No
+
+# sent_id = 6
+# text = potential risks for human health (Coton et al., 2012) even if no sanitary problems have been linked to the presence of this species as of this time.
+1	potential	potential	ADJ	JJ	Degree=pos	2	amod	_	_
+2	risks	risk	NOUN	NNS	Number=plur	0	ROOT	_	_
+3	for	for	ADP	IN	_	2	prep	_	_
+4	human	human	ADJ	JJ	Degree=pos	5	amod	_	_
+5	health	health	NOUN	NN	Number=sing	3	pobj	_	_
+6	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	7	punct	_	SpaceAfter=No
+7	Coton	Coton	PROPN	NNP	NounType=prop|Number=sing	2	dep	_	_
+8	et	et	X	FW	Foreign=yes	7	dep	_	_
+9	al.	al.	X	FW	Foreign=yes	7	dep	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+11	2012	2012	NUM	CD	NumType=card	7	appos	_	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	7	punct	_	_
+13	even	even	ADV	RB	Degree=pos	20	advmod	_	_
+14	if	if	SCONJ	IN	_	20	mark	_	_
+15	no	no	DET	DT	_	17	det	_	_
+16	sanitary	sanitary	ADJ	JJ	Degree=pos	17	amod	_	_
+17	problems	problem	NOUN	NNS	Number=plur	20	nsubjpass	_	_
+18	have	have	AUX	VBP	VerbForm=fin|Tense=pres	20	aux	_	_
+19	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	20	auxpass	_	_
+20	linked	link	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	acl	_	_
+21	to	to	PART	TO	PartType=inf|VerbForm=inf	23	case	_	_
+22	the	the	DET	DT	_	23	det	_	_
+23	presence	presence	NOUN	NN	Number=sing	20	nmod	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	this	this	DET	DT	_	26	det	_	_
+26	species	specie	NOUN	NNS	Number=plur	23	nmod	_	_
+27	as	as	SCONJ	IN	_	20	prep	_	_
+28	of	of	ADP	IN	_	27	prep	_	_
+29	this	this	DET	DT	_	30	det	_	_
+30	time	time	NOUN	NN	Number=sing	28	pobj	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = The objective of this study was to determine the capacity of colonization of two Gram-negative bacteria, Psychrobacter celer and H. alvei,
+1	The	the	DET	DT	_	2	det	_	_
+2	objective	objective	NOUN	NN	Number=sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	_	5	det	_	_
+5	study	study	NOUN	NN	Number=sing	2	nmod	_	_
+6	was	be	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+7	to	to	PART	TO	PartType=inf|VerbForm=inf	8	mark	_	_
+8	determine	determine	VERB	VB	VerbForm=inf	6	xcomp	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	capacity	capacity	NOUN	NN	Number=sing	8	dobj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	colonization	colonization	NOUN	NN	Number=sing	10	nmod	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	two	two	NUM	CD	NumType=card	16	nummod	_	_
+15	Gram-negative	gram-negative	ADJ	JJ	Degree=pos	16	amod	_	_
+16	bacteria	bacteria	NOUN	NNS	Number=plur	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=comm	8	punct	_	_
+18	Psychrobacter	psychrobacter	NOUN	NN	Number=sing	19	compound	_	_
+19	celer	celer	NOUN	NN	Number=sing	8	conj	_	_
+20	and	and	CCONJ	CC	ConjType=comp	19	cc	_	_
+21	H.	H.	PROPN	NNP	NounType=prop|Number=sing	22	compound	_	_
+22	alvei	alvei	NOUN	NNS	Number=plur	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	19	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = and their impact on the growth of other microbial populations and on
+1	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+2	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	3	poss	_	_
+3	impact	impact	NOUN	NN	Number=sing	0	ROOT	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	growth	growth	NOUN	NN	Number=sing	3	nmod	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	other	other	ADJ	JJ	Degree=pos	10	amod	_	_
+9	microbial	microbial	ADJ	JJ	Degree=pos	10	amod	_	_
+10	populations	population	NOUN	NNS	Number=plur	6	nmod	_	_
+11	and	and	CCONJ	CC	ConjType=comp	10	cc	_	_
+12	on	on	ADP	IN	_	3	prep	_	SpaceAfter=No
+
+# sent_id = 9
+# text = aroma compound production at the surface of experimental smear soft
+1	aroma	aroma	NOUN	NN	Number=sing	3	compound	_	_
+2	compound	compound	NOUN	NN	Number=sing	3	compound	_	_
+3	production	production	NOUN	NN	Number=sing	0	ROOT	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	surface	surface	NOUN	NN	Number=sing	3	nmod	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	experimental	experimental	ADJ	JJ	Degree=pos	9	amod	_	_
+9	smear	smear	NOUN	NN	Number=sing	10	amod	_	_
+10	soft	soft	ADJ	JJ	Degree=pos	6	nmod	_	SpaceAfter=No
+
+# sent_id = 10
+# text = cheese.
+1	cheese	cheese	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+2	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 11
+# text = These bacteria were isolated from cheeses and chosen on the
+1	These	these	DET	DT	_	2	det	_	_
+2	bacteria	bacteria	NOUN	NNS	Number=plur	4	nsubjpass	_	_
+3	were	be	AUX	VBD	VerbForm=fin|Tense=past	4	auxpass	_	_
+4	isolated	isolate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+5	from	from	ADP	IN	_	4	prep	_	_
+6	cheeses	cheese	NOUN	NNS	Number=plur	5	pobj	_	_
+7	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+8	chosen	choose	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	conj	_	_
+9	on	on	ADP	IN	_	8	prep	_	_
+10	the	the	DET	DT	_	9	pobj	_	SpaceAfter=No
+
+# sent_id = 12
+# text = basis of their low potential sanitary risk evaluated in the study of  Coton et al.
+1	basis	basis	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	7	case	_	_
+3	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	7	nmod:poss	_	_
+4	low	low	ADJ	JJ	Degree=pos	7	amod	_	_
+5	potential	potential	ADJ	JJ	Degree=pos	7	amod	_	_
+6	sanitary	sanitary	ADJ	JJ	Degree=pos	7	amod	_	_
+7	risk	risk	NOUN	NN	Number=sing	1	nmod	_	_
+8	evaluated	evaluate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	7	acl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	study	study	NOUN	NN	Number=sing	8	nmod	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	 	 	SPACE	_SP	_	12		_	SpaceAfter=No
+14	Coton	Coton	PROPN	NNP	NounType=prop|Number=sing	11	nmod	_	_
+15	et	et	X	FW	Foreign=yes	14	dep	_	_
+16	al.	al.	X	FW	Foreign=yes	1	dep	_	SpaceAfter=No

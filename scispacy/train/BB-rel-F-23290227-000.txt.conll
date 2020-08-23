@@ -1,0 +1,131 @@
+# sent_id = 1
+# text = The Hafnia strains slightly reduced counts of Enterococcus faecalis (~− 0.5 log from day 1) and promoted Lactobacillus plantarum
+1	The	the	DET	DT	_	3	det	_	_
+2	Hafnia	Hafnia	PROPN	NNP	NounType=prop|Number=sing	3	compound	_	_
+3	strains	strain	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	5	nsubj	_	_
+4	slightly	slightly	ADV	RB	Degree=pos	5	advmod	_	_
+5	reduced	reduce	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	6	amod	_	_
+6	counts	count	NOUN	NNS	Number=plur	0	ROOT	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	Enterococcus	enterococcus	NOUN	NN	Number=sing	9	compound	_	_
+9	faecalis	faecalis	NOUN	NN	Number=sing	7	pobj	_	_
+10	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	13	punct	_	SpaceAfter=No
+11	~−	~−	ADJ	JJ	Degree=pos	13	amod	_	_
+12	0.5	0.5	NUM	CD	NumType=card	13	nummod	_	_
+13	log	log	NOUN	NN	Number=sing	6	appos	_	_
+14	from	from	ADP	IN	_	13	prep	_	_
+15	day	day	NOUN	NN	Number=sing	14	pobj	_	_
+16	1	1	NUM	CD	NumType=card	15	nummod	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	13	punct	_	_
+18	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+19	promoted	promote	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	6	conj	_	_
+20	Lactobacillus	Lactobacillus	PROPN	NNP	NounType=prop|Number=sing	21	compound	_	_
+21	plantarum	plantarum	NOUN	NN	Number=sing	19	dobj	_	SpaceAfter=No
+
+# sent_id = 2
+# text = growth (+ 0.2 to 0.5 log from day 8) in cheese.
+1	growth	growth	NOUN	NN	Number=sing	0	ROOT	_	_
+2	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	1	punct	_	SpaceAfter=No
+3	+	+	CCONJ	CC	ConjType=comp	1	cc	_	_
+4	0.2	0.2	NUM	CD	NumType=card	6	quantmod	_	_
+5	to	to	PART	TO	PartType=inf|VerbForm=inf	6	quantmod	_	_
+6	0.5	0.5	NUM	CD	NumType=card	7	nummod	_	_
+7	log	log	NOUN	NN	Number=sing	1	conj	_	_
+8	from	from	ADP	IN	_	1	prep	_	_
+9	day	day	NOUN	NN	Number=sing	8	pobj	_	_
+10	8)	8)	NOUN	NN	Number=sing	9	nummod	_	_
+11	in	in	ADP	IN	_	1	prep	_	_
+12	cheese	cheese	NOUN	NN	Number=sing	11	pobj	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 3
+# text = They produced
+1	They	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	produced	produce	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 4
+# text = small amounts of putrescine (~ 1.3 mmol/kg) and cadaverine
+1	small	small	ADJ	JJ	Degree=pos	2	amod	_	_
+2	amounts	amount	NOUN	NNS	Number=plur	0	ROOT	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	putrescine	putrescine	NOUN	NN	Number=sing	2	nmod	_	_
+5	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	8	punct	_	SpaceAfter=No
+6	~	~	NOUN	NN	Number=sing	8	compound	_	_
+7	1.3	1.3	NUM	CD	NumType=card	8	nummod	_	_
+8	mmol/kg	mmol/kg	NOUN	NNS	Number=plur	4	appos	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	8	punct	_	_
+10	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+11	cadaverine	cadaverine	NOUN	NN	Number=sing	4	conj	_	SpaceAfter=No
+
+# sent_id = 5
+# text = (~ 0.9 mmol/kg) in cheese after 28 days, and did not
+1	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	4	punct	_	SpaceAfter=No
+2	~	~	NOUN	NN	Number=sing	4	amod	_	_
+3	0.9	0.9	NUM	CD	NumType=card	4	nummod	_	_
+4	mmol/kg	mmol/kg	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+5	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	4	punct	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	cheese	cheese	NOUN	NN	Number=sing	4	nmod	_	_
+8	after	after	ADP	IN	_	10	case	_	_
+9	28	28	NUM	CD	NumType=card	10	nummod	_	_
+10	days	day	NOUN	NNS	Number=plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+12	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+13	did	do	AUX	VBD	VerbForm=fin|Tense=past	4	conj	_	_
+14	not	not	PART	RB	Degree=pos	13	neg	_	SpaceAfter=No
+
+# sent_id = 6
+# text = affect levels of volatile aroma compounds.
+1	affect	affect	VERB	VB	VerbForm=inf	0	ROOT	_	_
+2	levels	level	NOUN	NNS	Number=plur	1	dobj	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	volatile	volatile	ADJ	JJ	Degree=pos	6	amod	_	_
+5	aroma	aroma	NOUN	NN	Number=sing	6	compound	_	_
+6	compounds	compound	NOUN	NNS	Number=plur	2	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 7
+# text = Further work on H. alvei strain B16 showed that E. coli O26:H11, inoculated at 2 log CFU/ml, was inhibited by H. alvei
+1	Further	further	ADJ	JJ	Degree=pos	2	amod	_	_
+2	work	work	NOUN	NN	Number=sing	8	nsubj	_	_
+3	on	on	ADP	IN	_	7	case	_	_
+4	H.	H.	PROPN	NNP	NounType=prop|Number=sing	7	compound	_	_
+5	alvei	alvei	X	FW	Foreign=yes	7	compound	_	_
+6	strain	strain	NOUN	NN	Number=sing	7	compound	_	_
+7	B16	b16	NOUN	NN	Number=sing	2	nmod	_	_
+8	showed	show	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+9	that	that	SCONJ	IN	_	21	mark	_	_
+10	E.	e.	X	FW	Foreign=yes	12	compound	_	_
+11	coli	coli	X	FW	Foreign=yes	12	compound	_	_
+12	O26:H11	o26:h11	NOUN	NN	Number=sing	21	nsubjpass	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=comm	12	punct	_	_
+14	inoculated	inoculate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	12	acl	_	_
+15	at	at	ADP	IN	_	18	case	_	_
+16	2	2	NUM	CD	NumType=card	18	nummod	_	_
+17	log	log	NOUN	NN	Number=sing	18	compound	_	_
+18	CFU/ml	cfu/ml	NOUN	NN	Number=sing	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=comm	12	punct	_	_
+20	was	be	AUX	VBD	VerbForm=fin|Tense=past	21	auxpass	_	_
+21	inhibited	inhibit	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	ccomp	_	_
+22	by	by	ADP	IN	_	24	case	_	_
+23	H.	H.	PROPN	NNP	NounType=prop|Number=sing	24	compound	_	_
+24	alvei	alvei	NOUN	NNS	Number=plur	21	nmod	_	SpaceAfter=No
+
+# sent_id = 8
+# text = B16 inoculated at 6 log CFU/ml and not at
+1	B16	b16	NOUN	NN	Number=sing	2	nsubj	_	_
+2	inoculated	inoculate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+3	at	at	ADP	IN	_	6	case	_	_
+4	6	6	NUM	CD	NumType=card	6	nummod	_	_
+5	log	log	NOUN	NN	Number=sing	6	compound	_	_
+6	CFU/ml	cfu/ml	NOUN	NN	Number=sing	2	nmod	_	_
+7	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	not	not	PART	RB	Degree=pos	9	neg	_	_
+9	at	at	ADP	IN	_	2	conj	_	SpaceAfter=No
+
+# sent_id = 9
+# text = 4.5 log CFU/ml.
+1	4.5	4.5	NUM	CD	NumType=card	3	nummod	_	_
+2	log	log	NOUN	NN	Number=sing	3	compound	_	_
+3	CFU/ml	cfu/ml	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+4	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No

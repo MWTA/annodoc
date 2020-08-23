@@ -1,0 +1,121 @@
+# sent_id = 1
+# text = First, the activity of branched-chain transaminase was measured by
+1	First	first	ADV	RB	Degree=pos	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	activity	activity	NOUN	NN	Number=sing	9	nsubjpass	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	branched-chain	branched-chain	ADJ	JJ	Degree=pos	7	amod	_	_
+7	transaminase	transaminase	NOUN	NN	Number=sing	4	nmod	_	_
+8	was	be	AUX	VBD	VerbForm=fin|Tense=past	9	auxpass	_	_
+9	measured	measure	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+10	by	by	ADP	IN	_	9	agent	_	SpaceAfter=No
+
+# sent_id = 2
+# text = incubating CFE with leucine and an excess of the co-substrate,
+1	incubating	incubate	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	0	ROOT	_	_
+2	CFE	cfe	NOUN	NN	Number=sing	1	dobj	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	leucine	leucine	NOUN	NN	Number=sing	2	nmod	_	_
+5	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+6	an	an	DET	DT	_	7	det	_	_
+7	excess	excess	NOUN	NN	Number=sing	4	conj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	co-substrate	co-substrate	NOUN	NN	Number=sing	8	pobj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=comm	1	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = α-ketoglutarate.
+1	α-ketoglutarate	α-ketoglutarate	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+2	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 4
+# text = The transaminase activity was found to be present in
+1	The	the	DET	DT	_	3	det	_	_
+2	transaminase	transaminase	NOUN	NN	Number=sing	3	compound	_	_
+3	activity	activity	NOUN	NN	Number=sing	5	nsubjpass	_	_
+4	was	be	AUX	VBD	VerbForm=fin|Tense=past	5	auxpass	_	_
+5	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	to	to	PART	TO	PartType=inf|VerbForm=inf	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=inf	8	cop	_	_
+8	present	present	ADJ	JJ	Degree=pos	5	xcomp	_	_
+9	in	in	ADP	IN	_	8	nmod	_	SpaceAfter=No
+
+# sent_id = 5
+# text = all microorganisms tested (Fig. 3A).
+1	all	all	DET	DT	_	2	det	_	_
+2	microorganisms	microorganism	NOUN	NNS	Number=plur	0	ROOT	_	_
+3	tested	test	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	acl	_	_
+4	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	6	punct	_	SpaceAfter=No
+5	Fig.	Fig.	PROPN	NNP	NounType=prop|Number=sing	6	compound	_	_
+6	3A	3a	NOUN	NN	Number=sing	3	appos	_	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 6
+# text = The highest variation was observed in the Lactobacillus genus.
+1	The	the	DET	DT	_	3	det	_	_
+2	highest	high	ADJ	JJS	Degree=sup	3	amod	_	_
+3	variation	variation	NOUN	NN	Number=sing	5	nsubjpass	_	_
+4	was	be	AUX	VBD	VerbForm=fin|Tense=past	5	auxpass	_	_
+5	observed	observe	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	Lactobacillus	Lactobacillus	PROPN	NNP	NounType=prop|Number=sing	9	compound	_	_
+9	genus	genus	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 7
+# text = L. lactis spp.
+1	L.	l.	X	FW	Foreign=yes	2	compound	_	_
+2	lactis	lactis	NOUN	NN	Number=sing	3	nsubj	_	_
+3	spp	spp	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+4	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 8
+# text = and Streptococcus thermophilus
+1	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+2	Streptococcus	Streptococcus	PROPN	NNP	NounType=prop|Number=sing	3	compound	_	_
+3	thermophilus	thermophilus	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 9
+# text = showed the highest specific transaminase activity towards leucine and
+1	showed	show	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+2	the	the	DET	DT	_	6	det	_	_
+3	highest	highest	ADV	RBS	Degree=sup	6	amod	_	_
+4	specific	specific	ADJ	JJ	Degree=pos	6	amod	_	_
+5	transaminase	transaminase	NOUN	NN	Number=sing	6	compound	_	_
+6	activity	activity	NOUN	NN	Number=sing	1	dobj	_	_
+7	towards	towards	ADP	IN	_	8	case	_	_
+8	leucine	leucine	NOUN	NN	Number=sing	6	nmod	_	_
+9	and	and	CCONJ	CC	ConjType=comp	1	cc	_	SpaceAfter=No
+
+# sent_id = 10
+# text = therefore potentially produce the highest concentrations of
+1	therefore	therefore	ADV	RB	Degree=pos	3	advmod	_	_
+2	potentially	potentially	ADV	RB	Degree=pos	3	advmod	_	_
+3	produce	produce	VERB	VB	VerbForm=inf	0	ROOT	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	highest	high	ADJ	JJS	Degree=sup	6	amod	_	_
+6	concentrations	concentration	NOUN	NNS	Number=plur	3	dobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	SpaceAfter=No
+
+# sent_id = 11
+# text = α-ketoisocaproic acid, which is the substrate for the formation of
+1	α-ketoisocaproic	α-ketoisocaproic	ADJ	JJ	Degree=pos	2	amod	_	_
+2	acid	acid	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+4	which	which	DET	WDT	_	7	nsubj	_	_
+5	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	7	cop	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	substrate	substrate	NOUN	NN	Number=sing	2	acl:relcl	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	formation	formation	NOUN	NN	Number=sing	7	nmod	_	_
+11	of	of	ADP	IN	_	10	prep	_	SpaceAfter=No
+
+# sent_id = 12
+# text = 3-methylbutanal.
+1	3-methylbutanal	3-methylbutanal	ADJ	JJ	Degree=pos	0	ROOT	_	SpaceAfter=No
+2	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No

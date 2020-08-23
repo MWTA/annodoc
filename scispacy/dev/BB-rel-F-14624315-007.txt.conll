@@ -1,0 +1,98 @@
+# sent_id = 1
+# text = This could also be seen from the data: in L. lactis subsp.
+1	This	this	DET	DT	_	5	nsubjpass	_	_
+2	could	could	VERB	MD	VerbType=mod	5	aux	_	_
+3	also	also	ADV	RB	Degree=pos	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=inf	5	auxpass	_	_
+5	seen	see	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	data	datum	NOUN	NNS	Number=plur	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	:	_	5	punct	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	L.	l.	X	FW	Foreign=yes	13	compound	_	_
+12	lactis	lactis	NOUN	NN	Number=sing	13	compound	_	_
+13	subsp	subsp	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 2
+# text = cremoris B1157 about 80% of the flavour formed in the incubation experiment was 3-methylbutanal, while for C. ammoniagenes B1506 this percentage was about 20% (data not shown).Taken
+1	cremoris	cremoris	NOUN	NN	Number=sing	2	nsubj	_	_
+2	B1157	b1157	NOUN	NN	Number=sing	15	nsubj	_	_
+3	about	about	ADP	IN	_	4	advmod	_	_
+4	80	80	NUM	CD	NumType=card	5	nummod	_	SpaceAfter=No
+5	%	%	NOUN	NN	Number=sing	2	dobj	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	flavour	flavour	NOUN	NN	Number=sing	6	pobj	_	_
+9	formed	form	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	acl	_	_
+10	in	in	ADP	IN	_	9	prep	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	incubation	incubation	NOUN	NN	Number=sing	13	compound	_	_
+13	experiment	experiment	NOUN	NN	Number=sing	10	pobj	_	_
+14	was	be	AUX	VBD	VerbForm=fin|Tense=past	15	cop	_	_
+15	3-methylbutanal	3-methylbutanal	ADJ	JJ	Degree=pos	24	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=comm	15	punct	_	_
+17	while	while	SCONJ	IN	_	21	mark	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	C.	c.	X	FW	Foreign=yes	20	compound	_	_
+20	ammoniagenes	ammoniagene	NOUN	NNS	Number=plur	21	compound	_	_
+21	B1506	b1506	VERB	VBP	VerbForm=fin|Tense=pres	24	advcl	_	_
+22	this	this	DET	DT	_	23	det	_	_
+23	percentage	percentage	NOUN	NN	Number=sing	24	nsubj	_	_
+24	was	be	AUX	VBD	VerbForm=fin|Tense=past	27	cop	_	_
+25	about	about	ADV	RB	Degree=pos	26	advmod	_	_
+26	20	20	NUM	CD	NumType=card	27	nummod	_	SpaceAfter=No
+27	%	%	NOUN	NN	Number=sing	0	ROOT	_	_
+28	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	29	punct	_	SpaceAfter=No
+29	data	datum	NOUN	NNS	Number=plur	27	dep	_	_
+30	not	not	PART	RB	Degree=pos	31	neg	_	_
+31	shown).Taken	shown).taken	ADJ	JJ	Degree=pos	29	acl	_	SpaceAfter=No
+
+# sent_id = 3
+# text = together, our results indicate that various strains and species used in
+1	together	together	ADV	RB	Degree=pos	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+3	our	-PRON-	DET	PRP$	PronType=prs|Poss=yes	4	nmod:poss	_	_
+4	results	result	NOUN	NNS	Number=plur	5	nsubj	_	_
+5	indicate	indicate	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+6	that	that	SCONJ	IN	_	5	punct	_	_
+7	various	various	ADJ	JJ	Degree=pos	8	amod	_	_
+8	strains	strain	NOUN	NNS	Number=plur	6	punct	_	_
+9	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+10	species	specie	NOUN	NNS	Number=plur	8	conj	_	_
+11	used	use	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	acl	_	_
+12	in	in	ADP	IN	_	11	prep	_	SpaceAfter=No
+
+# sent_id = 4
+# text = the dairy industry vary significantly in the enzyme activities involved
+1	the	the	DET	DT	_	3	det	_	_
+2	dairy	dairy	NOUN	NN	Number=sing	3	compound	_	_
+3	industry	industry	NOUN	NN	Number=sing	4	nsubj	_	_
+4	vary	vary	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+5	significantly	significantly	ADV	RB	Degree=pos	4	advmod	_	_
+6	in	in	ADP	IN	_	4	prep	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	enzyme	enzyme	NOUN	NN	Number=sing	9	compound	_	_
+9	activities	activity	NOUN	NNS	Number=plur	6	pobj	_	_
+10	involved	involve	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	9	acl	_	SpaceAfter=No
+
+# sent_id = 5
+# text = in the conversion of the amino acid leucine into flavour components
+1	in	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	conversion	conversion	NOUN	NN	Number=sing	0	ROOT	_	_
+4	of	of	ADP	IN	_	8	case	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	amino	amino	NOUN	NN	Number=sing	8	compound	_	_
+7	acid	acid	NOUN	NN	Number=sing	8	compound	_	_
+8	leucine	leucine	NOUN	NN	Number=sing	3	nmod	_	_
+9	into	into	ADP	IN	_	11	case	_	_
+10	flavour	flavour	ADJ	JJ	Degree=pos	11	amod	_	_
+11	components	component	NOUN	NNS	Number=plur	3	nmod	_	SpaceAfter=No
+
+# sent_id = 6
+# text = like 3-methylbutanal.
+1	like	like	SCONJ	IN	_	0	ROOT	_	_
+2	3-methylbutanal	3-methylbutanal	NOUN	NN	Number=sing	1	pobj	_	SpaceAfter=No
+3	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No

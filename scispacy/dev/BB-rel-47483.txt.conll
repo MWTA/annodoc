@@ -1,0 +1,181 @@
+# sent_id = 1
+# text = Ampicillin-resistant Haemophilus influenzae type B possessing a TEM-type beta-lactamase but little permeability barrier to ampicillin.
+1	Ampicillin-resistant	ampicillin-resistant	ADJ	JJ	Degree=pos	2	amod	_	_
+2	Haemophilus	haemophilus	NOUN	NN	Number=sing	3	nsubj	_	_
+3	influenzae	influenzae	NOUN	NN	Number=sing	0	ROOT	_	_
+4	type	type	NOUN	NN	Number=sing	5	compound	_	_
+5	B	b	NOUN	NN	Number=sing	3	dobj	_	_
+6	possessing	possess	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	5	acl	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	TEM-type	tem-type	ADJ	JJ	Degree=pos	9	amod	_	_
+9	beta-lactamase	beta-lactamase	NOUN	NN	Number=sing	6	dobj	_	_
+10	but	but	CCONJ	CC	ConjType=comp	9	cc	_	_
+11	little	little	ADJ	JJ	Degree=pos	12	amod	_	_
+12	permeability	permeability	NOUN	NN	Number=sing	13	compound	_	_
+13	barrier	barrier	NOUN	NN	Number=sing	9	conj	_	_
+14	to	to	ADP	IN	_	15	aux	_	_
+15	ampicillin	ampicillin	NOUN	NN	Number=sing	6	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = Ampicillin-resistant Haemophilus influenzae type B have been reported only during the past year.
+1	Ampicillin-resistant	ampicillin-resistant	ADJ	JJ	Degree=pos	2	amod	_	_
+2	Haemophilus	haemophilus	NOUN	NN	Number=sing	3	nsubj	_	_
+3	influenzae	influenzae	NOUN	NN	Number=sing	8	nsubjpass	_	_
+4	type	type	NOUN	NN	Number=sing	5	compound	_	_
+5	B	b	NOUN	NN	Number=sing	3	dobj	_	_
+6	have	have	AUX	VBP	VerbForm=fin|Tense=pres	8	aux	_	_
+7	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	8	auxpass	_	_
+8	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+9	only	only	ADV	RB	Degree=pos	8	advmod	_	_
+10	during	during	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	past	past	ADJ	JJ	Degree=pos	13	amod	_	_
+13	year	year	NOUN	NN	Number=sing	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=peri	8	punct	_	_
+
+# sent_id = 3
+# text = Five clinical isolates from the U.S. and Germany all had the TEM-type beta-lactamase which is known to be transferred widely among other gram-negative bacilli.
+1	Five	five	NUM	CD	NumType=card	3	nummod	_	_
+2	clinical	clinical	ADJ	JJ	Degree=pos	3	amod	_	_
+3	isolates	isolate	NOUN	NNS	Number=plur	10	nsubj	_	_
+4	from	from	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	U.S.	U.S.	PROPN	NNP	NounType=prop|Number=sing	4	pobj	_	_
+7	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	Germany	Germany	PROPN	NNP	NounType=prop|Number=sing	6	conj	_	_
+9	all	all	DET	DT	_	3	appos	_	_
+10	had	have	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	TEM-type	tem-type	NOUN	NN	Number=sing	13	amod	_	_
+13	beta-lactamase	beta-lactamase	NOUN	NN	Number=sing	10	dobj	_	_
+14	which	which	DET	WDT	_	16	nsubjpass	_	_
+15	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	16	auxpass	_	_
+16	known	know	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	13	acl:relcl	_	_
+17	to	to	PART	TO	PartType=inf|VerbForm=inf	19	mark	_	_
+18	be	be	AUX	VB	VerbForm=inf	19	auxpass	_	_
+19	transferred	transfer	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	16	xcomp	_	_
+20	widely	widely	ADV	RB	Degree=pos	19	advmod	_	_
+21	among	among	ADP	IN	_	24	case	_	_
+22	other	other	ADJ	JJ	Degree=pos	24	amod	_	_
+23	gram-negative	gram-negative	ADJ	JJ	Degree=pos	24	amod	_	_
+24	bacilli	bacilli	NOUN	NN	Number=sing	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	10	punct	_	_
+
+# sent_id = 4
+# text = Unlike those bacilli, however, the H. influenzae cell had very little barrier to entry of penicillins.
+1	Unlike	unlike	ADP	IN	_	9	prep	_	_
+2	those	those	DET	DT	_	3	det	_	_
+3	bacilli	bacilli	NOUN	NN	Number=sing	1	pobj	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+5	however	however	ADV	RB	Degree=pos	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	H.	h.	ADJ	JJ	Degree=pos	9	nsubj	_	_
+9	influenzae	influenzae	NOUN	NN	Number=sing	11	nsubj	_	_
+10	cell	cell	NOUN	NN	Number=sing	9	dobj	_	_
+11	had	have	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+12	very	very	ADV	RB	Degree=pos	13	advmod	_	_
+13	little	little	ADJ	JJ	Degree=pos	14	amod	_	_
+14	barrier	barrier	NOUN	NN	Number=sing	11	dobj	_	_
+15	to	to	PART	TO	PartType=inf|VerbForm=inf	16	case	_	_
+16	entry	entry	NOUN	NN	Number=sing	11	nmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	penicillins	penicillin	NOUN	NNS	Number=plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=peri	11	punct	_	_
+
+# sent_id = 5
+# text = This greater permeability of the H. influenzae cell to penicillins appeared to reduce the protective effect of its beta-lactamase, in that acquisition of the TEM-type beta-lactamase increased levels of resistance to penicillins much less for individual cells of H. influenzae than for those of Escherichia coli.
+1	This	this	DET	DT	_	3	det	_	_
+2	greater	great	ADJ	JJR	Degree=comp	3	amod	_	_
+3	permeability	permeability	NOUN	NN	Number=sing	7	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	H.	h.	ADJ	JJ	Degree=pos	3	nmod	_	_
+7	influenzae	influenzae	NOUN	NN	Number=sing	0	ROOT	_	_
+8	cell	cell	NOUN	NN	Number=sing	7	dobj	_	_
+9	to	to	PART	TO	PartType=inf|VerbForm=inf	10	case	_	_
+10	penicillins	penicillin	NOUN	NNS	Number=plur	7	nmod	_	_
+11	appeared	appear	VERB	VBD	VerbForm=fin|Tense=past	7	conj	_	_
+12	to	to	PART	TO	PartType=inf|VerbForm=inf	13	mark	_	_
+13	reduce	reduce	VERB	VB	VerbForm=inf	11	xcomp	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	protective	protective	ADJ	JJ	Degree=pos	16	amod	_	_
+16	effect	effect	NOUN	NN	Number=sing	13	dobj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	its	-PRON-	DET	PRP$	PronType=prs|Poss=yes	19	nmod:poss	_	_
+19	beta-lactamase	beta-lactamase	NOUN	NN	Number=sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	PunctType=comm	11	punct	_	_
+21	in	in	ADP	IN	_	41	mark	_	_
+22	that	that	DET	DT	_	41	mark	_	_
+23	acquisition	acquisition	NOUN	NN	Number=sing	41	nsubj	_	_
+24	of	of	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	_	27	det	_	_
+26	TEM-type	tem-type	NOUN	NN	Number=sing	27	amod	_	_
+27	beta-lactamase	beta-lactamase	NOUN	NN	Number=sing	23	nmod	_	_
+28	increased	increase	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	29	amod	_	_
+29	levels	level	NOUN	NNS	Number=plur	23	nmod	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	resistance	resistance	NOUN	NN	Number=sing	29	nmod	_	_
+32	to	to	PART	TO	PartType=inf|VerbForm=inf	33	mark	_	_
+33	penicillins	penicillin	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	23	acl	_	_
+34	much	much	ADV	RB	Degree=pos	35	advmod	_	_
+35	less	less	ADJ	JJR	Degree=comp	33	advmod	_	_
+36	for	for	ADP	IN	_	38	case	_	_
+37	individual	individual	ADJ	JJ	Degree=pos	38	amod	_	_
+38	cells	cell	NOUN	NNS	Number=plur	35	nmod	_	_
+39	of	of	ADP	IN	_	40	case	_	_
+40	H.	h.	ADJ	JJ	Degree=pos	38	nmod	_	_
+41	influenzae	influenzae	NOUN	NNS	Number=plur	7	nmod	_	_
+42	than	than	SCONJ	IN	_	44	case	_	_
+43	for	for	ADP	IN	_	44	case	_	_
+44	those	those	DET	DT	_	41	nmod	_	_
+45	of	of	ADP	IN	_	47	case	_	_
+46	Escherichia	escherichia	X	FW	Foreign=yes	47	compound	_	_
+47	coli	coli	X	FW	Foreign=yes	44	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	.	PunctType=peri	7	punct	_	_
+
+# sent_id = 6
+# text = Large inocula of either species appeared highly resistant.
+1	Large	large	ADJ	JJ	Degree=pos	2	amod	_	_
+2	inocula	inocula	NOUN	NN	Number=sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	either	either	DET	DT	_	5	det	_	_
+5	species	specie	NOUN	NNS	Number=plur	2	nmod	_	_
+6	appeared	appear	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+7	highly	highly	ADV	RB	Degree=pos	8	advmod	_	_
+8	resistant	resistant	ADJ	JJ	Degree=pos	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 7
+# text = The unusually low level of resistance of individual cells of H. influenzae containing the TEM-type beta-lactamase may have delayed their emergence or recognition, and has unresolved clinical implications.
+1	The	the	DET	DT	_	4	det	_	_
+2	unusually	unusually	ADV	RB	Degree=pos	3	advmod	_	_
+3	low	low	ADJ	JJ	Degree=pos	4	amod	_	_
+4	level	level	NOUN	NN	Number=sing	19	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	resistance	resistance	NOUN	NN	Number=sing	4	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	individual	individual	ADJ	JJ	Degree=pos	9	amod	_	_
+9	cells	cell	NOUN	NNS	Number=plur	6	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	H.	h.	ADJ	JJ	Degree=pos	12	compound	_	_
+12	influenzae	influenzae	NOUN	NNS	Number=plur	9	nmod	_	_
+13	containing	contain	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	12	acl	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	TEM-type	tem-type	ADJ	JJ	Degree=pos	16	amod	_	_
+16	beta-lactamase	beta-lactamase	NOUN	NN	Number=sing	13	dobj	_	_
+17	may	may	VERB	MD	VerbType=mod	19	aux	_	_
+18	have	have	AUX	VB	VerbForm=inf	19	aux	_	_
+19	delayed	delay	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+20	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	21	nmod:poss	_	_
+21	emergence	emergence	NOUN	NN	Number=sing	19	dobj	_	_
+22	or	or	CCONJ	CC	ConjType=comp	21	cc	_	_
+23	recognition	recognition	NOUN	NN	Number=sing	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=comm	19	punct	_	_
+25	and	and	CCONJ	CC	ConjType=comp	19	cc	_	_
+26	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	27	aux	_	_
+27	unresolved	unresolved	ADJ	JJ	Degree=pos	19	conj	_	_
+28	clinical	clinical	ADJ	JJ	Degree=pos	29	amod	_	_
+29	implications	implication	NOUN	NNS	Number=plur	27	dobj	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=peri	19	punct	_	SpaceAfter=No

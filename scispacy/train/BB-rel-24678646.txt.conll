@@ -1,0 +1,449 @@
+# sent_id = 1
+# text = Natural history of colonization with methicillin-resistant Staphylococcus aureus (MRSA) and vancomycin-resistant Enterococcus (VRE): a systematic review.
+1	Natural	natural	ADJ	JJ	Degree=pos	2	amod	_	_
+2	history	history	NOUN	NN	Number=sing	0	ROOT	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	colonization	colonization	NOUN	NN	Number=sing	3	pobj	_	_
+5	with	with	ADP	IN	_	8	case	_	_
+6	methicillin-resistant	methicillin-resistant	ADJ	JJ	Degree=pos	8	amod	_	_
+7	Staphylococcus	staphylococcus	X	FW	Foreign=yes	8	compound	_	_
+8	aureus	aureus	X	FW	Foreign=yes	4	nmod	_	_
+9	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	10	punct	_	SpaceAfter=No
+10	MRSA	mrsa	NOUN	NN	Number=sing	8	appos	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	10	punct	_	_
+12	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+13	vancomycin-resistant	vancomycin-resistant	ADJ	JJ	Degree=pos	14	amod	_	_
+14	Enterococcus	enterococcus	NOUN	NN	Number=sing	8	conj	_	_
+15	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	16	punct	_	SpaceAfter=No
+16	VRE	vre	NOUN	NN	Number=sing	14	appos	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	16	punct	_	SpaceAfter=No
+18	:	:	PUNCT	:	_	8	punct	_	_
+19	a	a	DET	DT	_	21	det	_	_
+20	systematic	systematic	ADJ	JJ	Degree=pos	21	amod	_	_
+21	review	review	NOUN	NN	Number=sing	8	appos	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = No published systematic reviews have assessed the natural history of colonization with methicillin-resistant Staphylococcus aureus (MRSA) or vancomycin-resistant Enterococcus (VRE).
+1	No	no	DET	DT	_	4	det	_	_
+2	published	publish	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	amod	_	_
+3	systematic	systematic	ADJ	JJ	Degree=pos	4	amod	_	_
+4	reviews	review	NOUN	NNS	Number=plur	6	nsubj	_	_
+5	have	have	AUX	VBP	VerbForm=fin|Tense=pres	6	aux	_	_
+6	assessed	assess	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	natural	natural	ADJ	JJ	Degree=pos	9	amod	_	_
+9	history	history	NOUN	NN	Number=sing	6	dobj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	colonization	colonization	NOUN	NN	Number=sing	9	nmod	_	_
+12	with	with	ADP	IN	_	15	case	_	_
+13	methicillin-resistant	methicillin-resistant	ADJ	JJ	Degree=pos	15	amod	_	_
+14	Staphylococcus	staphylococcus	X	FW	Foreign=yes	15	compound	_	_
+15	aureus	aureus	X	FW	Foreign=yes	11	nmod	_	_
+16	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	17	punct	_	SpaceAfter=No
+17	MRSA	mrsa	NOUN	NN	Number=sing	15	appos	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	17	punct	_	_
+19	or	or	CCONJ	CC	ConjType=comp	15	cc	_	_
+20	vancomycin-resistant	vancomycin-resistant	ADJ	JJ	Degree=pos	21	amod	_	_
+21	Enterococcus	enterococcus	NOUN	NN	Number=sing	15	conj	_	_
+22	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	23	punct	_	SpaceAfter=No
+23	VRE	vre	NOUN	NN	Number=sing	21	appos	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 3
+# text = Time to clearance of colonization has important implications for patient care and infection control policy.
+1	Time	time	NOUN	NN	Number=sing	6	nsubj	_	_
+2	to	to	PART	TO	PartType=inf|VerbForm=inf	3	case	_	_
+3	clearance	clearance	NOUN	NN	Number=sing	1	nmod	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	colonization	colonization	NOUN	NN	Number=sing	3	nmod	_	_
+6	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+7	important	important	ADJ	JJ	Degree=pos	8	amod	_	_
+8	implications	implication	NOUN	NNS	Number=plur	6	dobj	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	patient	patient	NOUN	NN	Number=sing	11	compound	_	_
+11	care	care	NOUN	NN	Number=sing	8	nmod	_	_
+12	and	and	CCONJ	CC	ConjType=comp	11	cc	_	_
+13	infection	infection	NOUN	NN	Number=sing	14	compound	_	_
+14	control	control	NOUN	NN	Number=sing	15	compound	_	_
+15	policy	policy	NOUN	NN	Number=sing	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	6	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = We performed parallel searches in OVID Medline for studies that reported the time to documented clearance of MRSA and VRE colonization in the absence of treatment, published between January 1990 and July 2012.
+1	We	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	performed	perform	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	parallel	parallel	ADJ	JJ	Degree=pos	4	amod	_	_
+4	searches	search	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	2	dobj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	OVID	OVID	PROPN	NNP	NounType=prop|Number=sing	7	compound	_	_
+7	Medline	Medline	PROPN	NNP	NounType=prop|Number=sing	4	nmod	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	studies	study	NOUN	NNS	Number=plur	7	nmod	_	_
+10	that	that	DET	WDT	_	11	nsubj	_	_
+11	reported	report	VERB	VBD	VerbForm=fin|Tense=past	9	acl:relcl	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	time	time	NOUN	NN	Number=sing	11	dobj	_	_
+14	to	to	PART	TO	PartType=inf|VerbForm=inf	15	mark	_	_
+15	documented	document	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	13	acl	_	_
+16	clearance	clearance	NOUN	NN	Number=sing	15	dobj	_	_
+17	of	of	ADP	IN	_	21	case	_	_
+18	MRSA	mrsa	NOUN	NN	Number=sing	21	compound	_	_
+19	and	and	CCONJ	CC	ConjType=comp	18	cc	_	_
+20	VRE	vre	NOUN	NN	Number=sing	18	conj	_	_
+21	colonization	colonization	NOUN	NN	Number=sing	16	nmod	_	_
+22	in	in	ADP	IN	_	26	case	_	_
+23	the	the	DET	DT	_	24	det	_	_
+24	absence	absence	NOUN	NN	Number=sing	26	dep	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	treatment	treatment	NOUN	NN	Number=sing	16	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=comm	11	punct	_	_
+28	published	publish	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	acl	_	_
+29	between	between	ADP	IN	_	30	case	_	_
+30	January	January	PROPN	NNP	NounType=prop|Number=sing	28	nmod	_	_
+31	1990	1990	NUM	CD	NumType=card	30	nummod	_	_
+32	and	and	CCONJ	CC	ConjType=comp	30	cc	_	_
+33	July	July	PROPN	NNP	NounType=prop|Number=sing	30	conj	_	_
+34	2012	2012	NUM	CD	NumType=card	33	nummod	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = For MRSA, we screened 982 articles, identified 16 eligible studies (13 observational studies and 3 randomized controlled trials), for a total of 1,804 non-duplicated subjects.
+1	For	for	ADP	IN	_	2	case	_	_
+2	MRSA	mrsa	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+4	we	-PRON-	PRON	PRP	PronType=prs	5	nsubj	_	_
+5	screened	screen	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+6	982	982	NUM	CD	NumType=card	7	nummod	_	_
+7	articles	article	NOUN	NNS	Number=plur	5	dobj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+9	identified	identify	VERB	VBD	VerbForm=fin|Tense=past	5	conj	_	_
+10	16	16	NUM	CD	NumType=card	12	nummod	_	_
+11	eligible	eligible	ADJ	JJ	Degree=pos	12	amod	_	_
+12	studies	study	NOUN	NNS	Number=plur	9	dobj	_	_
+13	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	16	punct	_	SpaceAfter=No
+14	13	13	NUM	CD	NumType=card	16	nummod	_	_
+15	observational	observational	ADJ	JJ	Degree=pos	16	amod	_	_
+16	studies	study	NOUN	NNS	Number=plur	12	dep	_	_
+17	and	and	CCONJ	CC	ConjType=comp	16	cc	_	_
+18	3	3	NUM	CD	NumType=card	21	nummod	_	_
+19	randomized	randomize	VERB	VBD	VerbForm=fin|Tense=past	21	amod	_	_
+20	controlled	control	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	21	amod	_	_
+21	trials	trial	NOUN	NNS	Number=plur	16	conj	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	16	punct	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	12	punct	_	_
+24	for	for	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	_	26	det	_	_
+26	total	total	NOUN	NN	Number=sing	9	nmod	_	_
+27	of	of	ADP	IN	_	30	case	_	_
+28	1,804	1,804	NUM	CD	NumType=card	30	nummod	_	_
+29	non-duplicated	non-duplicated	ADJ	JJ	Degree=pos	30	amod	_	_
+30	subjects	subject	NOUN	NNS	Number=plur	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 6
+# text = For VRE, we screened 284 articles, identified 13 eligible studies (12 observational studies and 1 randomized controlled trial), for a total of 1,936 non-duplicated subjects.
+1	For	for	ADP	IN	_	2	case	_	_
+2	VRE	vre	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+4	we	-PRON-	PRON	PRP	PronType=prs	5	nsubj	_	_
+5	screened	screen	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+6	284	284	NUM	CD	NumType=card	7	nummod	_	_
+7	articles	article	NOUN	NNS	Number=plur	5	dobj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+9	identified	identify	VERB	VBD	VerbForm=fin|Tense=past	5	conj	_	_
+10	13	13	NUM	CD	NumType=card	12	nummod	_	_
+11	eligible	eligible	ADJ	JJ	Degree=pos	12	amod	_	_
+12	studies	study	NOUN	NNS	Number=plur	9	dobj	_	_
+13	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	16	punct	_	SpaceAfter=No
+14	12	12	NUM	CD	NumType=card	16	nummod	_	_
+15	observational	observational	ADJ	JJ	Degree=pos	16	amod	_	_
+16	studies	study	NOUN	NNS	Number=plur	12	dep	_	_
+17	and	and	CCONJ	CC	ConjType=comp	16	cc	_	_
+18	1	1	NUM	CD	NumType=card	21	nummod	_	_
+19	randomized	randomize	VERB	VBD	VerbForm=fin|Tense=past	21	amod	_	_
+20	controlled	controlled	ADJ	JJ	Degree=pos	21	amod	_	_
+21	trial	trial	NOUN	NN	Number=sing	16	conj	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	16	punct	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	12	punct	_	_
+24	for	for	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	_	26	det	_	_
+26	total	total	NOUN	NN	Number=sing	9	nmod	_	_
+27	of	of	ADP	IN	_	30	case	_	_
+28	1,936	1,936	NUM	CD	NumType=card	30	nummod	_	_
+29	non-duplicated	non-duplicated	ADJ	JJ	Degree=pos	30	amod	_	_
+30	subjects	subject	NOUN	NNS	Number=plur	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 7
+# text = Studies reported varying definitions of clearance of colonization; no study reported time of initial colonization.
+1	Studies	study	NOUN	NNS	Number=plur	2	nsubj	_	_
+2	reported	report	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	varying	vary	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	4	amod	_	_
+4	definitions	definition	NOUN	NNS	Number=plur	2	dobj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	clearance	clearance	NOUN	NN	Number=sing	4	nmod	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	colonization	colonization	NOUN	NN	Number=sing	6	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	:	_	2	punct	_	_
+10	no	no	DET	DT	_	11	neg	_	_
+11	study	study	NOUN	NN	Number=sing	12	nsubj	_	_
+12	reported	report	VERB	VBD	VerbForm=fin|Tense=past	2	parataxis	_	_
+13	time	time	NOUN	NN	Number=sing	12	dobj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	initial	initial	ADJ	JJ	Degree=pos	16	amod	_	_
+16	colonization	colonization	NOUN	NN	Number=sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 8
+# text = Studies varied in the frequency of sampling, assays used for sampling, and follow-up period.
+1	Studies	study	NOUN	NNS	Number=plur	2	nsubj	_	_
+2	varied	vary	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	frequency	frequency	NOUN	NN	Number=sing	2	nmod	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	sampling	sampling	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+9	assays	assay	NOUN	NNS	Number=plur	2	dep	_	_
+10	used	use	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	9	acl	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	sampling	sampling	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=comm	12	punct	_	_
+14	and	and	CCONJ	CC	ConjType=comp	12	cc	_	_
+15	follow-up	follow-up	ADJ	JJ	Degree=pos	16	amod	_	_
+16	period	period	NOUN	NN	Number=sing	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 9
+# text = The median duration of total follow-up was 38 weeks for MRSA and 25 weeks for VRE.
+1	The	the	DET	DT	_	3	det	_	_
+2	median	median	ADJ	JJ	Degree=pos	3	amod	_	_
+3	duration	duration	NOUN	NN	Number=sing	9	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	total	total	ADJ	JJ	Degree=pos	6	amod	_	_
+6	follow-up	follow-up	NOUN	NN	Number=sing	3	nmod	_	_
+7	was	be	AUX	VBD	VerbForm=fin|Tense=past	9	cop	_	_
+8	38	38	NUM	CD	NumType=card	9	nummod	_	_
+9	weeks	week	NOUN	NNS	Number=plur	0	ROOT	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	MRSA	mrsa	NOUN	NN	Number=sing	9	nmod	_	_
+12	and	and	CCONJ	CC	ConjType=comp	11	cc	_	_
+13	25	25	NUM	CD	NumType=card	14	nummod	_	_
+14	weeks	week	NOUN	NNS	Number=plur	11	conj	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	VRE	vre	NOUN	NN	Number=sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 10
+# text = Based on pooled analyses, the model-estimated median time to clearance was 88 weeks after documented colonization for MRSA-colonized patients and 26 weeks for VRE-colonized patients.
+1	Based	base	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	case	_	_
+2	on	on	ADP	IN	_	4	case	_	_
+3	pooled	pool	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	amod	_	_
+4	analyses	analysis	NOUN	NNS	Number=plur	14	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	14	punct	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	model-estimated	model-estimated	ADJ	JJ	Degree=pos	9	amod	_	_
+8	median	median	ADJ	JJ	Degree=pos	9	amod	_	_
+9	time	time	NOUN	NN	Number=sing	14	nsubj	_	_
+10	to	to	PART	TO	PartType=inf|VerbForm=inf	11	case	_	_
+11	clearance	clearance	NOUN	NN	Number=sing	9	nmod	_	_
+12	was	be	AUX	VBD	VerbForm=fin|Tense=past	14	cop	_	_
+13	88	88	NUM	CD	NumType=card	14	nummod	_	_
+14	weeks	week	NOUN	NNS	Number=plur	0	ROOT	_	_
+15	after	after	ADP	IN	_	17	case	_	_
+16	documented	document	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	17	amod	_	_
+17	colonization	colonization	NOUN	NN	Number=sing	14	nmod	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	MRSA-colonized	mrsa-colonized	ADJ	JJ	Degree=pos	20	amod	_	_
+20	patients	patient	NOUN	NNS	Number=plur	17	nmod	_	_
+21	and	and	CCONJ	CC	ConjType=comp	17	cc	_	_
+22	26	26	NUM	CD	NumType=card	23	nummod	_	_
+23	weeks	week	NOUN	NNS	Number=plur	17	conj	_	_
+24	for	for	ADP	IN	_	26	case	_	_
+25	VRE-colonized	vre-colonized	ADJ	JJ	Degree=pos	26	amod	_	_
+26	patients	patient	NOUN	NNS	Number=plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=peri	14	punct	_	_
+
+# sent_id = 11
+# text = In a secondary analysis, clearance rates for MRSA and VRE were compared by restricting the duration of follow-up for the MRSA studies to the maximum observed time point for VRE studies (43 weeks).
+1	In	in	ADP	IN	_	4	case	_	_
+2	a	a	DET	DT	_	4	det	_	_
+3	secondary	secondary	ADJ	JJ	Degree=pos	4	amod	_	_
+4	analysis	analysis	NOUN	NN	Number=sing	13	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	13	punct	_	_
+6	clearance	clearance	NOUN	NN	Number=sing	7	compound	_	_
+7	rates	rate	NOUN	NNS	Number=plur	13	nsubjpass	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	MRSA	mrsa	NOUN	NN	Number=sing	7	nmod	_	_
+10	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+11	VRE	vre	NOUN	NN	Number=sing	9	conj	_	_
+12	were	be	AUX	VBD	VerbForm=fin|Tense=past	13	auxpass	_	_
+13	compared	compare	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+14	by	by	ADP	IN	_	15	mark	_	_
+15	restricting	restrict	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	13	advcl	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	duration	duration	NOUN	NN	Number=sing	15	dobj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	follow-up	follow-up	NOUN	NN	Number=sing	17	nmod	_	_
+20	for	for	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	_	23	det	_	_
+22	MRSA	mrsa	NOUN	NN	Number=sing	23	compound	_	_
+23	studies	study	NOUN	NNS	Number=plur	17	nmod	_	_
+24	to	to	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	_	26	det	_	_
+26	maximum	maximum	NOUN	NN	Number=sing	17	nmod	_	_
+27	observed	observe	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	29	amod	_	_
+28	time	time	NOUN	NN	Number=sing	29	compound	_	_
+29	point	point	NOUN	NN	Number=sing	17	nmod	_	_
+30	for	for	ADP	IN	_	32	case	_	_
+31	VRE	vre	NOUN	NN	Number=sing	32	compound	_	_
+32	studies	study	NOUN	NNS	Number=plur	29	nmod	_	_
+33	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	35	punct	_	SpaceAfter=No
+34	43	43	NUM	CD	NumType=card	35	nummod	_	_
+35	weeks	week	NOUN	NNS	Number=plur	32	appos	_	SpaceAfter=No
+36	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=peri	13	punct	_	_
+
+# sent_id = 12
+# text = With this restriction, the model-fitted median time to documented clearance for MRSA would occur at 41 weeks after documented colonization, demonstrating the sensitivity of the pooled estimate to length of study follow-up.
+1	With	with	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	_	3	det	_	_
+3	restriction	restriction	NOUN	NN	Number=sing	15	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	15	punct	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	model-fitted	model-fitted	ADJ	JJ	Degree=pos	8	amod	_	_
+7	median	median	ADJ	JJ	Degree=pos	8	amod	_	_
+8	time	time	NOUN	NN	Number=sing	15	nsubj	_	_
+9	to	to	PART	TO	PartType=inf|VerbForm=inf	10	mark	_	_
+10	documented	document	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	acl	_	_
+11	clearance	clearance	NOUN	NN	Number=sing	15	nsubj	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	MRSA	mrsa	NOUN	NN	Number=sing	11	nmod	_	_
+14	would	would	VERB	MD	VerbType=mod	15	aux	_	_
+15	occur	occur	VERB	VB	VerbForm=inf	0	ROOT	_	_
+16	at	at	ADP	IN	_	18	case	_	_
+17	41	41	NUM	CD	NumType=card	18	nummod	_	_
+18	weeks	week	NOUN	NNS	Number=plur	15	nmod	_	_
+19	after	after	ADP	IN	_	21	case	_	_
+20	documented	document	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	21	amod	_	_
+21	colonization	colonization	NOUN	NN	Number=sing	15	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	PunctType=comm	15	punct	_	_
+23	demonstrating	demonstrate	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	15	advcl	_	_
+24	the	the	DET	DT	_	25	det	_	_
+25	sensitivity	sensitivity	NOUN	NN	Number=sing	23	dobj	_	_
+26	of	of	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	_	29	det	_	_
+28	pooled	pooled	ADJ	JJ	Degree=pos	29	amod	_	_
+29	estimate	estimate	NOUN	NN	Number=sing	25	nmod	_	_
+30	to	to	PART	TO	PartType=inf|VerbForm=inf	31	case	_	_
+31	length	length	NOUN	NN	Number=sing	25	nmod	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	study	study	NOUN	NN	Number=sing	34	compound	_	_
+34	follow-up	follow-up	NOUN	NN	Number=sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=peri	15	punct	_	SpaceAfter=No
+
+# sent_id = 13
+# text = Few available studies report the natural history of MRSA and VRE colonization.
+1	Few	few	ADJ	JJ	Degree=pos	3	amod	_	_
+2	available	available	ADJ	JJ	Degree=pos	3	amod	_	_
+3	studies	study	NOUN	NNS	Number=plur	4	nsubj	_	_
+4	report	report	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	natural	natural	ADJ	JJ	Degree=pos	7	amod	_	_
+7	history	history	NOUN	NN	Number=sing	4	dobj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	MRSA	mrsa	NOUN	NN	Number=sing	12	compound	_	_
+10	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+11	VRE	vre	NOUN	NN	Number=sing	9	conj	_	_
+12	colonization	colonization	NOUN	NN	Number=sing	7	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 14
+# text = Lack of a consistent definition of clearance, uncertainty regarding the time of initial colonization, variation in frequency of sampling for persistent colonization, assays employed and variation in duration of follow-up are limitations of the existing published literature.
+1	Lack	lack	NOUN	NN	Number=sing	9	nsubj	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	a	a	DET	DT	_	5	det	_	_
+4	consistent	consistent	ADJ	JJ	Degree=pos	5	amod	_	_
+5	definition	definition	NOUN	NN	Number=sing	1	nmod	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	clearance	clearance	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+9	uncertainty	uncertainty	NOUN	NN	Number=sing	35	nsubj	_	_
+10	regarding	regard	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	9	prep	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	time	time	NOUN	NN	Number=sing	10	pobj	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	initial	initial	ADJ	JJ	Degree=pos	15	amod	_	_
+15	colonization	colonization	NOUN	NN	Number=sing	13	pobj	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=comm	27	punct	_	_
+17	variation	variation	NOUN	NN	Number=sing	27	nsubj	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	frequency	frequency	NOUN	NN	Number=sing	17	nmod	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	sampling	sampling	NOUN	NN	Number=sing	19	nmod	_	_
+22	for	for	ADP	IN	_	24	case	_	_
+23	persistent	persistent	ADJ	JJ	Degree=pos	24	amod	_	_
+24	colonization	colonization	NOUN	NN	Number=sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	PunctType=comm	27	punct	_	_
+26	assays	assay	NOUN	NNS	Number=plur	27	nsubj	_	_
+27	employed	employ	VERB	VBD	VerbForm=fin|Tense=past	9	parataxis	_	_
+28	and	and	CCONJ	CC	ConjType=comp	27	cc	_	_
+29	variation	variation	NOUN	NN	Number=sing	27	conj	_	_
+30	in	in	ADP	IN	_	31	case	_	_
+31	duration	duration	NOUN	NN	Number=sing	27	nmod	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	follow-up	follow-up	NOUN	NN	Number=sing	31	nmod	_	_
+34	are	be	AUX	VBP	VerbForm=fin|Tense=pres	35	cop	_	_
+35	limitations	limitation	NOUN	NNS	Number=plur	0	ROOT	_	_
+36	of	of	ADP	IN	_	40	case	_	_
+37	the	the	DET	DT	_	40	det	_	_
+38	existing	exist	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	40	amod	_	_
+39	published	publish	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	40	amod	_	_
+40	literature	literature	NOUN	NN	Number=sing	35	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	PunctType=peri	35	punct	_	_
+
+# sent_id = 15
+# text = The heterogeneity of study characteristics limits interpretation of pooled estimates of time to clearance, however, studies included in this review suggest an increase in documented clearance over time, a result which is sensitive to duration of follow-up.
+1	The	the	DET	DT	_	2	det	_	_
+2	heterogeneity	heterogeneity	NOUN	NN	Number=sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	study	study	NOUN	NN	Number=sing	5	compound	_	_
+5	characteristics	characteristics	NOUN	NN	Number=sing	2	nmod	_	_
+6	limits	limit	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+7	interpretation	interpretation	NOUN	NN	Number=sing	6	dobj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	pooled	pooled	ADJ	JJ	Degree=pos	10	amod	_	_
+10	estimates	estimate	NOUN	NNS	Number=plur	7	nmod	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	time	time	NOUN	NN	Number=sing	11	pobj	_	_
+13	to	to	PART	TO	PartType=inf|VerbForm=inf	14	case	_	_
+14	clearance	clearance	VERB	VB	VerbForm=inf	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=comm	19	punct	_	_
+16	however	however	ADV	RB	Degree=pos	19	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=comm	19	punct	_	_
+18	studies	study	NOUN	NNS	Number=plur	19	nsubj	_	_
+19	included	include	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	6	parataxis	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	this	this	DET	DT	_	22	det	_	_
+22	review	review	NOUN	NN	Number=sing	19	nmod	_	_
+23	suggest	suggest	VERB	VBP	VerbForm=fin|Tense=pres	6	advcl	_	_
+24	an	an	DET	DT	_	25	det	_	_
+25	increase	increase	NOUN	NN	Number=sing	23	dobj	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	documented	document	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	28	amod	_	_
+28	clearance	clearance	NOUN	NN	Number=sing	25	nmod	_	_
+29	over	over	ADP	IN	_	30	case	_	_
+30	time	time	NOUN	NN	Number=sing	25	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	PunctType=comm	25	punct	_	_
+32	a	a	DET	DT	_	33	det	_	_
+33	result	result	NOUN	NN	Number=sing	25	appos	_	_
+34	which	which	DET	WDT	_	36	nsubj	_	_
+35	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	36	cop	_	_
+36	sensitive	sensitive	ADJ	JJ	Degree=pos	33	acl:relcl	_	_
+37	to	to	PART	TO	PartType=inf|VerbForm=inf	38	case	_	_
+38	duration	duration	NOUN	NN	Number=sing	36	nmod	_	_
+39	of	of	ADP	IN	_	40	case	_	_
+40	follow-up	follow-up	NOUN	NN	Number=sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	PunctType=peri	6	punct	_	SpaceAfter=No

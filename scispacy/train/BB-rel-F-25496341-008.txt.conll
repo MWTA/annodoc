@@ -1,0 +1,260 @@
+# sent_id = 1
+# text = Surprisingly, more than 80 thousand
+1	Surprisingly	surprisingly	ADV	RB	Degree=pos	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+3	more	more	ADJ	JJR	Degree=comp	5	amod	_	_
+4	than	than	SCONJ	IN	_	5	quantmod	_	_
+5	80	80	NUM	CD	NumType=card	6	nummod	_	_
+6	thousand	thousand	NUM	CD	NumType=card	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = reads (~1% of the total good quality reads in cheese L) mapped to the Penicillium camemberti
+1	reads	read	NOUN	NNS	Number=plur	0	ROOT	_	_
+2	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	4	punct	_	SpaceAfter=No
+3	~1	~1	ADJ	JJ	Degree=pos	4	amod	_	SpaceAfter=No
+4	%	%	NOUN	NN	Number=sing	1	dep	_	_
+5	of	of	ADP	IN	_	10	case	_	_
+6	the	the	DET	DT	_	10	det	_	_
+7	total	total	ADJ	JJ	Degree=pos	10	amod	_	_
+8	good	good	ADJ	JJ	Degree=pos	10	amod	_	_
+9	quality	quality	NOUN	NN	Number=sing	10	compound	_	_
+10	reads	read	NOUN	NNS	Number=plur	4	nmod	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	cheese	cheese	NOUN	NN	Number=sing	13	compound	_	_
+13	L	l	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	13	punct	_	_
+15	mapped	map	VERB	VBD	VerbForm=fin|Tense=past	4	acl	_	_
+16	to	to	PART	TO	PartType=inf|VerbForm=inf	19	case	_	_
+17	the	the	DET	DT	_	19	det	_	_
+18	Penicillium	Penicillium	PROPN	NNP	NounType=prop|Number=sing	19	compound	_	_
+19	camemberti	camemberti	NOUN	NN	Number=sing	15	nmod	_	SpaceAfter=No
+
+# sent_id = 3
+# text = FM 013 genome, with 97.7% of perfect match reads, even though this
+1	FM	FM	PROPN	NNP	NounType=prop|Number=sing	3	compound	_	_
+2	013	013	NUM	CD	NumType=card	3	nummod	_	_
+3	genome	genome	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+5	with	with	ADP	IN	_	3	prep	_	_
+6	97.7	97.7	NUM	CD	NumType=card	7	nummod	_	SpaceAfter=No
+7	%	%	NOUN	NN	Number=sing	5	pobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	perfect	perfect	ADJ	JJ	Degree=pos	11	amod	_	_
+10	match	match	NOUN	NN	Number=sing	11	compound	_	_
+11	reads	read	NOUN	NNS	Number=plur	8	pobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+13	even	even	ADV	RB	Degree=pos	14	advmod	_	_
+14	though	though	SCONJ	IN	_	3	prep	_	_
+15	this	this	DET	DT	_	14	pobj	_	SpaceAfter=No
+
+# sent_id = 4
+# text = species is not known to occur in smear-ripened cheeses.
+1	species	specie	NOUN	NNS	Number=plur	4	nsubjpass	_	_
+2	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	4	auxpass	_	_
+3	not	not	PART	RB	Degree=pos	4	neg	_	_
+4	known	know	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+5	to	to	PART	TO	PartType=inf|VerbForm=inf	6	mark	_	_
+6	occur	occur	VERB	VB	VerbForm=inf	4	xcomp	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	smear-ripened	smear-ripened	ADJ	JJ	Degree=pos	9	amod	_	_
+9	cheeses	cheese	NOUN	NNS	Number=plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 5
+# text = One may
+1	One	one	NUM	CD	NumType=card	2	nsubj	_	_
+2	may	may	VERB	MD	VerbType=mod	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 6
+# text = hypothesize that this could result from cross-contamination due to the
+1	hypothesize	hypothesize	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+2	that	that	SCONJ	IN	_	5	mark	_	_
+3	this	this	DET	DT	_	5	nsubj	_	_
+4	could	could	VERB	MD	VerbType=mod	5	aux	_	_
+5	result	result	VERB	VB	VerbForm=inf	1	ccomp	_	_
+6	from	from	ADP	IN	_	5	prep	_	_
+7	cross-contamination	cross-contamination	NOUN	NN	Number=sing	6	pobj	_	_
+8	due	due	ADJ	JJ	Degree=pos	7	amod	_	_
+9	to	to	PART	TO	PartType=inf|VerbForm=inf	8	prep	_	_
+10	the	the	DET	DT	_	8	pobj	_	SpaceAfter=No
+
+# sent_id = 7
+# text = manufacturing of mould-ripened cheese in the same plant.
+1	manufacturing	manufacturing	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	mould-ripened	mould-ripened	ADJ	JJ	Degree=pos	4	amod	_	_
+4	cheese	cheese	NOUN	NN	Number=sing	1	nmod	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	same	same	ADJ	JJ	Degree=pos	8	amod	_	_
+8	plant	plant	NOUN	NN	Number=sing	1	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = The surface of the blue-veined cheese G was dominated by a strain close to Arthrobacter bergerei Ca106 (18.6% of the reads, 99.2% perfect match reads).
+1	The	the	DET	DT	_	2	det	_	_
+2	surface	surface	NOUN	NN	Number=sing	9	nsubjpass	_	_
+3	of	of	ADP	IN	_	7	case	_	_
+4	the	the	DET	DT	_	7	det	_	_
+5	blue-veined	blue-veined	ADJ	JJ	Degree=pos	7	amod	_	_
+6	cheese	cheese	NOUN	NN	Number=sing	7	compound	_	_
+7	G	g	NOUN	NN	Number=sing	2	nmod	_	_
+8	was	be	AUX	VBD	VerbForm=fin|Tense=past	9	auxpass	_	_
+9	dominated	dominate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+10	by	by	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	_	12	det	_	_
+12	strain	strain	NOUN	NN	Number=sing	9	nmod	_	_
+13	close	close	ADJ	JJ	Degree=pos	12	amod	_	_
+14	to	to	PART	TO	PartType=inf|VerbForm=inf	13	prep	_	_
+15	Arthrobacter	arthrobacter	NOUN	NN	Number=sing	14	pobj	_	_
+16	bergerei	bergerei	NOUN	NN	Number=sing	9	xcomp	_	_
+17	Ca106	ca106	NOUN	NN	Number=sing	16	dobj	_	_
+18	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	20	punct	_	SpaceAfter=No
+19	18.6	18.6	NUM	CD	NumType=card	20	nummod	_	SpaceAfter=No
+20	%	%	NOUN	NN	Number=sing	9	dep	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	_	23	det	_	_
+23	reads	read	NOUN	NNS	Number=plur	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=comm	20	punct	_	_
+25	99.2	99.2	NUM	CD	NumType=card	26	nummod	_	SpaceAfter=No
+26	%	%	NOUN	NN	Number=sing	29	compound	_	_
+27	perfect	perfect	ADJ	JJ	Degree=pos	29	amod	_	_
+28	match	match	NOUN	NN	Number=sing	29	compound	_	_
+29	reads	read	NOUN	NNS	Number=plur	20	appos	_	SpaceAfter=No
+30	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	20	punct	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 9
+# text = Like for the two other cheeses, Psychrobacter
+1	Like	like	SCONJ	IN	_	0	ROOT	_	_
+2	for	for	ADP	IN	_	1	prep	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	two	two	NUM	CD	NumType=card	6	nummod	_	_
+5	other	other	ADJ	JJ	Degree=pos	6	amod	_	_
+6	cheeses	cheese	NOUN	NNS	Number=plur	2	pobj	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+8	Psychrobacter	Psychrobacter	PROPN	NNP	NounType=prop|Number=sing	6	appos	_	SpaceAfter=No
+
+# sent_id = 10
+# text = species seem to be present in this cheese.
+1	species	specie	NOUN	NNS	Number=plur	2	nsubj	_	_
+2	seem	seem	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+3	to	to	PART	TO	PartType=inf|VerbForm=inf	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=inf	5	cop	_	_
+5	present	present	ADJ	JJ	Degree=pos	2	xcomp	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	this	this	DET	DT	_	8	det	_	_
+8	cheese	cheese	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 11
+# text = Cheese G was probably
+1	Cheese	cheese	NOUN	NN	Number=sing	2	amod	_	_
+2	G	g	NOUN	NN	Number=sing	3	nsubj	_	_
+3	was	be	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+4	probably	probably	ADV	RB	Degree=pos	3	advmod	_	SpaceAfter=No
+
+# sent_id = 12
+# text = manufactured with a thermophilic lactic starter culture, since Streptococcus thermophilus and Lactobacillus delbrueckii species were the dominant lactic acid bacteria, in contrast to the two other cheeses, in which Lactococcus lactis was the dominant lactic acid bacterium.
+1	manufactured	manufacture	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+2	with	with	ADP	IN	_	1	prep	_	_
+3	a	a	DET	DT	_	7	det	_	_
+4	thermophilic	thermophilic	ADJ	JJ	Degree=pos	7	amod	_	_
+5	lactic	lactic	ADJ	JJ	Degree=pos	7	amod	_	_
+6	starter	starter	NOUN	NN	Number=sing	7	compound	_	_
+7	culture	culture	NOUN	NN	Number=sing	2	pobj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+9	since	since	SCONJ	IN	_	21	mark	_	_
+10	Streptococcus	Streptococcus	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+11	thermophilus	thermophilus	NOUN	NN	Number=sing	15	nmod	_	_
+12	and	and	CCONJ	CC	ConjType=comp	11	cc	_	_
+13	Lactobacillus	lactobacillus	NOUN	NN	Number=sing	11	conj	_	_
+14	delbrueckii	delbrueckii	NOUN	NNS	Number=plur	15	compound	_	_
+15	species	specie	NOUN	NNS	Number=plur	21	nsubj	_	_
+16	were	be	AUX	VBD	VerbForm=fin|Tense=past	21	cop	_	_
+17	the	the	DET	DT	_	21	det	_	_
+18	dominant	dominant	ADJ	JJ	Degree=pos	21	amod	_	_
+19	lactic	lactic	ADJ	JJ	Degree=pos	21	amod	_	_
+20	acid	acid	NOUN	NN	Number=sing	21	compound	_	_
+21	bacteria	bacteria	NOUN	NNS	Number=plur	1	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	,	PunctType=comm	21	punct	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	contrast	contrast	NOUN	NN	Number=sing	21	nmod	_	_
+25	to	to	PART	TO	PartType=inf|VerbForm=inf	29	case	_	_
+26	the	the	DET	DT	_	29	det	_	_
+27	two	two	NUM	CD	NumType=card	29	nummod	_	_
+28	other	other	ADJ	JJ	Degree=pos	29	amod	_	_
+29	cheeses	cheese	NOUN	NNS	Number=plur	24	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=comm	29	punct	_	_
+31	in	in	ADP	IN	_	34	prep	_	_
+32	which	which	DET	WDT	_	31	pobj	_	_
+33	Lactococcus	lactococcus	NOUN	NN	Number=sing	34	compound	_	_
+34	lactis	lactis	NOUN	NN	Number=sing	40	nsubj	_	_
+35	was	be	AUX	VBD	VerbForm=fin|Tense=past	40	cop	_	_
+36	the	the	DET	DT	_	40	det	_	_
+37	dominant	dominant	ADJ	JJ	Degree=pos	40	amod	_	_
+38	lactic	lactic	ADJ	JJ	Degree=pos	40	amod	_	_
+39	acid	acid	NOUN	NN	Number=sing	40	compound	_	_
+40	bacterium	bacterium	NOUN	NN	Number=sing	29	appos	_	SpaceAfter=No
+41	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 13
+# text = Strains related to other reference strains sequenced in the present study, such as Psychrobacter aquimaris, Brachybacterium tyrofermentans, Corynebacterium ammoniagenes, Brevibacterium antiquum, Microbacterium gubbeenense, Brochothrix thermosphacta and Marinilactibacillus psychrotolerans, were also present in the cheeses (>80% perfect match reads, see Additional file 14: Table S8).
+1	Strains	strain	NOUN	NNS	Number=plur	38	nsubj	_	_
+2	related	related	ADJ	JJ	Degree=pos	1	amod	_	_
+3	to	to	PART	TO	PartType=inf|VerbForm=inf	6	case	_	_
+4	other	other	ADJ	JJ	Degree=pos	6	amod	_	_
+5	reference	reference	NOUN	NN	Number=sing	6	compound	_	_
+6	strains	strain	NOUN	NNS	Number=plur	2	nmod	_	_
+7	sequenced	sequence	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	6	acl	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	present	present	ADJ	JJ	Degree=pos	11	amod	_	_
+11	study	study	NOUN	NN	Number=sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	11	punct	_	_
+13	such	such	ADJ	JJ	Degree=pos	16	case	_	_
+14	as	as	SCONJ	IN	_	13	mwe	_	_
+15	Psychrobacter	Psychrobacter	PROPN	NNP	NounType=prop|Number=sing	16	compound	_	_
+16	aquimaris	aquimaris	NOUN	NN	Number=sing	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+18	Brachybacterium	Brachybacterium	PROPN	NNP	NounType=prop|Number=sing	19	compound	_	_
+19	tyrofermentans	tyrofermentan	NOUN	NNS	Number=plur	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+21	Corynebacterium	Corynebacterium	PROPN	NNP	NounType=prop|Number=sing	22	compound	_	_
+22	ammoniagenes	ammoniagene	NOUN	NNS	Number=plur	16	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+24	Brevibacterium	Brevibacterium	PROPN	NNP	NounType=prop|Number=sing	25	compound	_	_
+25	antiquum	antiquum	VERB	VBD	VerbForm=fin|Tense=past	16	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+27	Microbacterium	Microbacterium	PROPN	NNP	NounType=prop|Number=sing	28	compound	_	_
+28	gubbeenense	gubbeenense	NOUN	NN	Number=sing	16	conj	_	SpaceAfter=No
+29	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+30	Brochothrix	brochothrix	ADJ	JJ	Degree=pos	31	compound	_	_
+31	thermosphacta	thermosphacta	NOUN	NN	Number=sing	16	conj	_	_
+32	and	and	CCONJ	CC	ConjType=comp	31	cc	_	_
+33	Marinilactibacillus	marinilactibacillus	NOUN	NN	Number=sing	34	compound	_	_
+34	psychrotolerans	psychrotoleran	NOUN	NNS	Number=plur	31	conj	_	SpaceAfter=No
+35	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+36	were	be	AUX	VBD	VerbForm=fin|Tense=past	38	cop	_	_
+37	also	also	ADV	RB	Degree=pos	38	advmod	_	_
+38	present	present	ADJ	JJ	Degree=pos	0	ROOT	_	_
+39	in	in	ADP	IN	_	41	case	_	_
+40	the	the	DET	DT	_	41	det	_	_
+41	cheeses	cheese	NOUN	NNS	Number=plur	38	nmod	_	_
+42	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	48	punct	_	SpaceAfter=No
+43	>	>	NOUN	NN	Number=sing	48	nmod	_	SpaceAfter=No
+44	80	80	NUM	CD	NumType=card	45	nummod	_	SpaceAfter=No
+45	%	%	NOUN	NN	Number=sing	43	dep	_	_
+46	perfect	perfect	ADJ	JJ	Degree=pos	48	amod	_	_
+47	match	match	NOUN	NN	Number=sing	48	compound	_	_
+48	reads	read	NOUN	NNS	Number=plur	41	appos	_	SpaceAfter=No
+49	,	,	PUNCT	,	PunctType=comm	50	punct	_	_
+50	see	see	VERB	VB	VerbForm=inf	38	advcl	_	_
+51	Additional	Additional	PROPN	NNP	NounType=prop|Number=sing	52	amod	_	_
+52	file	file	NOUN	NN	Number=sing	50	ccomp	_	_
+53	14	14	NUM	CD	NumType=card	52	nummod	_	SpaceAfter=No
+54	:	:	PUNCT	:	_	52	punct	_	_
+55	Table	table	ADJ	JJ	Degree=pos	56	compound	_	_
+56	S8	s8	NOUN	NN	Number=sing	52	appos	_	SpaceAfter=No
+57	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	52	punct	_	SpaceAfter=No
+58	.	.	PUNCT	.	PunctType=peri	38	punct	_	SpaceAfter=No

@@ -1,0 +1,233 @@
+# sent_id = 1
+# text = The etiologic and epidemiologic spectrum of bronchiolitis in pediatric practice.
+1	The	the	DET	DT	_	5	det	_	_
+2	etiologic	etiologic	ADJ	JJ	Degree=pos	5	amod	_	_
+3	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+4	epidemiologic	epidemiologic	ADJ	JJ	Degree=pos	2	conj	_	_
+5	spectrum	spectrum	NOUN	NN	Number=sing	0	ROOT	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	bronchiolitis	bronchiolitis	NOUN	NN	Number=sing	5	nmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	pediatric	pediatric	ADJ	JJ	Degree=pos	10	amod	_	_
+10	practice	practice	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=peri	5	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = To develop a broad understanding of the causes and patterns of occurrence of wheezing associated respiratory infections, we analyzed data from an 11-year study of acute lower respiratory illness in a pediatric practice.
+1	To	to	PART	TO	PartType=inf|VerbForm=inf	2	mark	_	_
+2	develop	develop	VERB	VB	VerbForm=inf	20	advcl	_	_
+3	a	a	DET	DT	_	5	det	_	_
+4	broad	broad	ADJ	JJ	Degree=pos	5	amod	_	_
+5	understanding	understanding	NOUN	NN	Number=sing	2	dobj	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	causes	cause	NOUN	NNS	Number=plur	6	pobj	_	_
+9	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+10	patterns	pattern	NOUN	NNS	Number=plur	8	conj	_	_
+11	of	of	ADP	IN	_	8	prep	_	_
+12	occurrence	occurrence	NOUN	NN	Number=sing	11	pobj	_	_
+13	of	of	ADP	IN	_	17	case	_	_
+14	wheezing	wheeze	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	17	amod	_	_
+15	associated	associated	ADJ	JJ	Degree=pos	17	amod	_	_
+16	respiratory	respiratory	ADJ	JJ	Degree=pos	17	amod	_	_
+17	infections	infection	NOUN	NNS	Number=plur	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=comm	20	punct	_	_
+19	we	-PRON-	PRON	PRP	PronType=prs	20	nsubj	_	_
+20	analyzed	analyze	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+21	data	datum	NOUN	NNS	Number=plur	20	dobj	_	_
+22	from	from	ADP	IN	_	25	case	_	_
+23	an	an	DET	DT	_	25	det	_	_
+24	11-year	11-year	ADJ	JJ	Degree=pos	25	amod	_	_
+25	study	study	NOUN	NN	Number=sing	21	nmod	_	_
+26	of	of	ADP	IN	_	30	case	_	_
+27	acute	acute	ADJ	JJ	Degree=pos	30	amod	_	_
+28	lower	low	ADJ	JJR	Degree=comp	30	amod	_	_
+29	respiratory	respiratory	ADJ	JJ	Degree=pos	30	amod	_	_
+30	illness	illness	NOUN	NN	Number=sing	25	nmod	_	_
+31	in	in	ADP	IN	_	34	case	_	_
+32	a	a	DET	DT	_	34	det	_	_
+33	pediatric	pediatric	ADJ	JJ	Degree=pos	34	amod	_	_
+34	practice	practice	NOUN	NN	Number=sing	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=peri	20	punct	_	_
+
+# sent_id = 3
+# text = Although half of the WARI occurred in children less than 2 years of age, wheezing continued to be observed in 19% of children greater than 9 years of age who had lower respiratory illness.
+1	Although	although	SCONJ	IN	_	6	mark	_	_
+2	half	half	NOUN	NN	Number=sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	WARI	WARI	PROPN	NNP	NounType=prop|Number=sing	3	pobj	_	_
+6	occurred	occur	VERB	VBD	VerbForm=fin|Tense=past	17	advcl	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	children	child	NOUN	NNS	Number=plur	6	nmod	_	_
+9	less	less	ADJ	JJR	Degree=comp	11	advmod	_	_
+10	than	than	SCONJ	IN	_	11	quantmod	_	_
+11	2	2	NUM	CD	NumType=card	12	nummod	_	_
+12	years	year	NOUN	NNS	Number=plur	8	dep	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	age	age	NOUN	NN	Number=sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+16	wheezing	wheezing	NOUN	NN	Number=sing	17	nsubj	_	_
+17	continued	continue	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+18	to	to	PART	TO	PartType=inf|VerbForm=inf	20	aux	_	_
+19	be	be	AUX	VB	VerbForm=inf	20	auxpass	_	_
+20	observed	observe	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	17	xcomp	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	19	19	NUM	CD	NumType=card	23	nummod	_	SpaceAfter=No
+23	%	%	NOUN	NN	Number=sing	20	nmod	_	_
+24	of	of	ADP	IN	_	23	prep	_	_
+25	children	child	NOUN	NNS	Number=plur	24	pobj	_	_
+26	greater	great	ADJ	JJR	Degree=comp	25	amod	_	_
+27	than	than	SCONJ	IN	_	26	prep	_	_
+28	9	9	NUM	CD	NumType=card	29	nummod	_	_
+29	years	year	NOUN	NNS	Number=plur	27	pobj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	age	age	NOUN	NN	Number=sing	30	pobj	_	_
+32	who	who	PRON	WP	_	33	nsubj	_	_
+33	had	have	AUX	VBD	VerbForm=fin|Tense=past	23	acl:relcl	_	_
+34	lower	low	ADJ	JJR	Degree=comp	36	amod	_	_
+35	respiratory	respiratory	ADJ	JJ	Degree=pos	36	amod	_	_
+36	illness	illness	NOUN	NN	Number=sing	33	dobj	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=peri	17	punct	_	_
+
+# sent_id = 4
+# text = Males experienced LRI 1.25 times more often than did females; the relative risk of males for WARI was 1.35.
+1	Males	male	NOUN	NNS	Number=plur	2	nsubj	_	_
+2	experienced	experience	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	LRI	LRI	PROPN	NNP	NounType=prop|Number=sing	2	dobj	_	_
+4	1.25	1.25	NUM	CD	NumType=card	5	nummod	_	_
+5	times	time	NOUN	NNS	Number=plur	6	npadvmod	_	_
+6	more	more	ADV	RBR	Degree=comp	7	advmod	_	_
+7	often	often	ADV	RB	Degree=pos	2	advmod	_	_
+8	than	than	SCONJ	IN	_	9	mark	_	_
+9	did	do	AUX	VBD	VerbForm=fin|Tense=past	7	advcl	_	_
+10	females	female	NOUN	NNS	Number=plur	9	dobj	_	SpaceAfter=No
+11	;	;	PUNCT	:	_	2	punct	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	relative	relative	ADJ	JJ	Degree=pos	14	amod	_	_
+14	risk	risk	NOUN	NN	Number=sing	20	nsubj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	males	male	NOUN	NNS	Number=plur	14	nmod	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	WARI	WARI	PROPN	NNP	NounType=prop|Number=sing	16	nmod	_	_
+19	was	be	AUX	VBD	VerbForm=fin|Tense=past	20	cop	_	_
+20	1.35	1.35	NUM	CD	NumType=card	2	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 5
+# text = A nonbacterial pathogen was recovered from 21% of patients with WARI; respiratory syncytial virus, parainfluenza virus types 1 and 3, adenoviruses, and Mycoplasma pneumoniae accounted for 81% of the isolates.
+1	A	a	DET	DT	_	3	det	_	_
+2	nonbacterial	nonbacterial	ADJ	JJ	Degree=pos	3	amod	_	_
+3	pathogen	pathogen	NOUN	NN	Number=sing	5	nsubjpass	_	_
+4	was	be	AUX	VBD	VerbForm=fin|Tense=past	5	auxpass	_	_
+5	recovered	recover	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	21	21	NUM	CD	NumType=card	8	nummod	_	SpaceAfter=No
+8	%	%	NOUN	NN	Number=sing	5	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	patients	patient	NOUN	NNS	Number=plur	8	nmod	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	WARI	wari	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	:	_	5	punct	_	_
+14	respiratory	respiratory	ADJ	JJ	Degree=pos	16	amod	_	_
+15	syncytial	syncytial	ADJ	JJ	Degree=pos	16	amod	_	_
+16	virus	virus	NOUN	NN	Number=sing	30	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+18	parainfluenza	parainfluenza	NOUN	NN	Number=sing	20	compound	_	_
+19	virus	virus	NOUN	NN	Number=sing	20	compound	_	_
+20	types	type	NOUN	NNS	Number=plur	16	conj	_	_
+21	1	1	NUM	CD	NumType=card	20	nummod	_	_
+22	and	and	CCONJ	CC	ConjType=comp	21	cc	_	_
+23	3	3	NUM	CD	NumType=card	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+25	adenoviruses	adenovirus	NOUN	NNS	Number=plur	16	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+27	and	and	CCONJ	CC	ConjType=comp	16	cc	_	_
+28	Mycoplasma	mycoplasma	NOUN	NN	Number=sing	29	compound	_	_
+29	pneumoniae	pneumoniae	X	FW	Foreign=yes	30	nsubj	_	_
+30	accounted	account	VERB	VBD	VerbForm=fin|Tense=past	5	parataxis	_	_
+31	for	for	ADP	IN	_	33	case	_	_
+32	81	81	NUM	CD	NumType=card	33	nummod	_	SpaceAfter=No
+33	%	%	NOUN	NN	Number=sing	30	nmod	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	_	36	det	_	_
+36	isolates	isolate	NOUN	NNS	Number=plur	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 6
+# text = Patient age influenced the pattern of recovery of these agents.
+1	Patient	patient	NOUN	NN	Number=sing	2	compound	_	_
+2	age	age	NOUN	NN	Number=sing	3	nsubj	_	_
+3	influenced	influence	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	pattern	pattern	NOUN	NN	Number=sing	3	dobj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	recovery	recovery	NOUN	NN	Number=sing	5	nmod	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	these	these	DET	DT	_	10	det	_	_
+10	agents	agent	NOUN	NNS	Number=plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 7
+# text = The most common cause of WARI in children under 5 years of age was RSV whereas Mycoplasma pneumoniae was the most frequent isolate from school age children with wheezing illness.
+1	The	the	DET	DT	_	4	det	_	_
+2	most	most	ADV	RBS	Degree=sup	3	advmod	_	_
+3	common	common	ADJ	JJ	Degree=pos	4	amod	_	_
+4	cause	cause	NOUN	NN	Number=sing	6	case	_	_
+5	of	of	ADP	IN	_	4	pcomp	_	_
+6	WARI	wari	NOUN	NN	Number=sing	15	nsubj	_	_
+7	in	in	ADP	IN	_	6	prep	_	_
+8	children	child	NOUN	NNS	Number=plur	7	pobj	_	_
+9	under	under	ADP	IN	_	11	case	_	_
+10	5	5	NUM	CD	NumType=card	11	nummod	_	_
+11	years	year	NOUN	NNS	Number=plur	6	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	age	age	NOUN	NN	Number=sing	11	nmod	_	_
+14	was	be	AUX	VBD	VerbForm=fin|Tense=past	15	cop	_	_
+15	RSV	rsv	NOUN	NN	Number=sing	23	nsubj	_	_
+16	whereas	whereas	SCONJ	IN	_	19	mark	_	_
+17	Mycoplasma	mycoplasma	NOUN	NN	Number=sing	18	compound	_	_
+18	pneumoniae	pneumoniae	X	FW	Foreign=yes	19	nsubj	_	_
+19	was	be	AUX	VBD	VerbForm=fin|Tense=past	23	cop	_	_
+20	the	the	DET	DT	_	23	det	_	_
+21	most	most	ADV	RBS	Degree=sup	22	advmod	_	_
+22	frequent	frequent	ADJ	JJ	Degree=pos	23	amod	_	_
+23	isolate	isolate	NOUN	NN	Number=sing	0	ROOT	_	_
+24	from	from	ADP	IN	_	23	prep	_	_
+25	school	school	NOUN	NN	Number=sing	27	compound	_	_
+26	age	age	NOUN	NN	Number=sing	27	compound	_	_
+27	children	child	NOUN	NNS	Number=plur	24	pobj	_	_
+28	with	with	ADP	IN	_	23	prep	_	_
+29	wheezing	wheezing	NOUN	NN	Number=sing	30	amod	_	_
+30	illness	illness	NOUN	NN	Number=sing	28	pobj	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	23	punct	_	_
+
+# sent_id = 8
+# text = The data expand our understanding of the causes of WARI and are useful to diagnosticians and to researchers interested in the control of lower respiratory disease.
+1	The	the	DET	DT	_	2	det	_	_
+2	data	datum	NOUN	NNS	Number=plur	3	nsubj	_	_
+3	expand	expand	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+4	our	-PRON-	DET	PRP$	PronType=prs|Poss=yes	5	nmod:poss	_	_
+5	understanding	understanding	NOUN	NN	Number=sing	3	dobj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	causes	cause	NOUN	NNS	Number=plur	5	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	WARI	wari	NOUN	NN	Number=sing	8	nmod	_	_
+11	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+12	are	be	AUX	VBP	VerbForm=fin|Tense=pres	13	cop	_	_
+13	useful	useful	ADJ	JJ	Degree=pos	3	conj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	diagnosticians	diagnostician	NOUN	NNS	Number=plur	13	nmod	_	_
+16	and	and	CCONJ	CC	ConjType=comp	15	cc	_	_
+17	to	to	PART	TO	PartType=inf|VerbForm=inf	18	case	_	_
+18	researchers	researcher	NOUN	NNS	Number=plur	15	conj	_	_
+19	interested	interest	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	18	amod	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	_	22	det	_	_
+22	control	control	NOUN	NN	Number=sing	19	nmod	_	_
+23	of	of	ADP	IN	_	26	case	_	_
+24	lower	low	ADJ	JJR	Degree=comp	26	amod	_	_
+25	respiratory	respiratory	ADJ	JJ	Degree=pos	26	amod	_	_
+26	disease	disease	NOUN	NN	Number=sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No

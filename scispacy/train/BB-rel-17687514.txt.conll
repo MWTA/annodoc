@@ -1,0 +1,212 @@
+# sent_id = 1
+# text = Unveiling molecular mechanisms of bacterial surface proteins:
+1	Unveiling	unveil	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	0	ROOT	_	_
+2	molecular	molecular	ADJ	JJ	Degree=pos	3	amod	_	_
+3	mechanisms	mechanism	NOUN	NNS	Number=plur	1	dobj	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	bacterial	bacterial	ADJ	JJ	Degree=pos	7	amod	_	_
+6	surface	surface	NOUN	NN	Number=sing	7	compound	_	_
+7	proteins	protein	NOUN	NNS	Number=plur	3	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	1	punct	_	_
+
+# sent_id = 2
+# text = Streptococcus pneumoniae as a model organism for structural studies.
+1	Streptococcus	streptococcus	X	FW	Foreign=yes	2	nsubj	_	_
+2	pneumoniae	pneumoniae	X	FW	Foreign=yes	0	ROOT	_	_
+3	as	as	SCONJ	IN	_	6	case	_	_
+4	a	a	DET	DT	_	6	det	_	_
+5	model	model	NOUN	NN	Number=sing	6	compound	_	_
+6	organism	organism	NOUN	NN	Number=sing	2	nmod	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	structural	structural	ADJ	JJ	Degree=pos	9	amod	_	_
+9	studies	study	NOUN	NNS	Number=plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = Bacteria present a variety of molecules either on their surface or in a cell-free form.
+1	Bacteria	Bacteria	NOUN	NNS	Number=plur	2	nsubj	_	_
+2	present	present	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	variety	variety	NOUN	NN	Number=sing	2	dobj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	molecules	molecule	NOUN	NNS	Number=plur	4	nmod	_	_
+7	either	either	CCONJ	CC	ConjType=comp	10	cc:preconj	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	10	nmod:poss	_	_
+10	surface	surface	NOUN	NN	Number=sing	2	nmod	_	_
+11	or	or	CCONJ	CC	ConjType=comp	10	cc	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	_	15	det	_	_
+14	cell-free	cell-free	ADJ	JJ	Degree=pos	15	amod	_	_
+15	form	form	NOUN	NN	Number=sing	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 4
+# text = These molecules take part in numerous processes in the interactions with their host, with its tissues and other molecules.
+1	These	these	DET	DT	_	2	det	_	_
+2	molecules	molecule	NOUN	NNS	Number=plur	3	nsubj	_	_
+3	take	take	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+4	part	part	NOUN	NN	Number=sing	3	dobj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	numerous	numerous	ADJ	JJ	Degree=pos	7	amod	_	_
+7	processes	process	NOUN	NNS	Number=plur	3	nmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	interactions	interaction	NOUN	NNS	Number=plur	3	nmod	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	13	nmod:poss	_	_
+13	host	host	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	its	-PRON-	DET	PRP$	PronType=prs|Poss=yes	17	nmod:poss	_	_
+17	tissues	tissue	NOUN	NNS	Number=plur	3	nmod	_	_
+18	and	and	CCONJ	CC	ConjType=comp	17	cc	_	_
+19	other	other	ADJ	JJ	Degree=pos	20	amod	_	_
+20	molecules	molecule	NOUN	NNS	Number=plur	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 5
+# text = These molecules are essential to bacterial pathogenesis either during colonization or the spread/invasion stages, and most are virulence factors.
+1	These	these	DET	DT	_	2	det	_	_
+2	molecules	molecule	NOUN	NNS	Number=plur	4	nsubj	_	_
+3	are	be	AUX	VBP	VerbForm=fin|Tense=pres	4	cop	_	_
+4	essential	essential	ADJ	JJ	Degree=pos	0	ROOT	_	_
+5	to	to	PART	TO	PartType=inf|VerbForm=inf	7	case	_	_
+6	bacterial	bacterial	ADJ	JJ	Degree=pos	7	amod	_	_
+7	pathogenesis	pathogenesis	NOUN	NN	Number=sing	4	nmod	_	_
+8	either	either	CCONJ	CC	ConjType=comp	10	cc:preconj	_	_
+9	during	during	ADP	IN	_	10	case	_	_
+10	colonization	colonization	NOUN	NN	Number=sing	7	nmod	_	_
+11	or	or	CCONJ	CC	ConjType=comp	10	cc	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	spread/invasion	spread/invasion	NOUN	NN	Number=sing	14	compound	_	_
+14	stages	stage	NOUN	NNS	Number=plur	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+16	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+17	most	most	ADJ	JJS	Degree=sup	20	nsubj	_	_
+18	are	be	AUX	VBP	VerbForm=fin|Tense=pres	20	cop	_	_
+19	virulence	virulence	NOUN	NN	Number=sing	20	compound	_	_
+20	factors	factor	NOUN	NNS	Number=plur	4	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 6
+# text = This review is focused on such molecules using Streptococcus pneumoniae, a Gram-positive bacterium, as an example.
+1	This	this	DET	DT	_	2	det	_	_
+2	review	review	NOUN	NN	Number=sing	4	nsubjpass	_	_
+3	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	4	auxpass	_	_
+4	focused	focus	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	such	such	ADJ	JJ	Degree=pos	7	amod	_	_
+7	molecules	molecule	NOUN	NNS	Number=plur	4	nmod	_	_
+8	using	use	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	7	acl	_	_
+9	Streptococcus	streptococcus	X	FW	Foreign=yes	10	compound	_	_
+10	pneumoniae	pneumoniae	X	FW	Foreign=yes	8	dobj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+12	a	a	DET	DT	_	14	det	_	_
+13	Gram-positive	gram-positive	ADJ	JJ	Degree=pos	14	amod	_	_
+14	bacterium	bacterium	NOUN	NN	Number=sing	10	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+16	as	as	SCONJ	IN	_	18	case	_	_
+17	an	an	DET	DT	_	18	det	_	_
+18	example	example	NOUN	NN	Number=sing	4	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 7
+# text = Selected surface proteins are introduced, their structure described, and, whenever available, their mechanisms of function on an atomic level are explained.
+1	Selected	select	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	3	amod	_	_
+2	surface	surface	NOUN	NN	Number=sing	3	compound	_	_
+3	proteins	protein	NOUN	NNS	Number=plur	5	nsubjpass	_	_
+4	are	be	AUX	VBP	VerbForm=fin|Tense=pres	5	auxpass	_	_
+5	introduced	introduce	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+7	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	8	nmod:poss	_	_
+8	structure	structure	NOUN	NN	Number=sing	9	nsubj	_	_
+9	described	describe	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	5	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+11	and	and	CCONJ	CC	ConjType=comp	9	cc	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+13	whenever	whenever	ADV	WRB	_	14	advmod	_	_
+14	available	available	ADJ	JJ	Degree=pos	25	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=comm	25	punct	_	_
+16	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	17	nmod:poss	_	_
+17	mechanisms	mechanism	NOUN	NNS	Number=plur	25	nsubjpass	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	function	function	NOUN	NN	Number=sing	17	nmod	_	_
+20	on	on	ADP	IN	_	23	case	_	_
+21	an	an	DET	DT	_	23	det	_	_
+22	atomic	atomic	ADJ	JJ	Degree=pos	23	amod	_	_
+23	level	level	NOUN	NN	Number=sing	17	nmod	_	_
+24	are	be	AUX	VBP	VerbForm=fin|Tense=pres	25	auxpass	_	_
+25	explained	explain	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	9	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 8
+# text = Such mechanisms for hyaluronate lyase, pneumococcal surface protein A, pneumolysin, histidine-triad and fibronectin-binding proteins are discussed.
+1	Such	such	ADJ	JJ	Degree=pos	2	amod	_	_
+2	mechanisms	mechanism	NOUN	NNS	Number=plur	19	nsubjpass	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	hyaluronate	hyaluronate	NOUN	NN	Number=sing	5	compound	_	_
+5	lyase	lyase	NOUN	NN	Number=sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+7	pneumococcal	pneumococcal	ADJ	JJ	Degree=pos	10	amod	_	_
+8	surface	surface	NOUN	NN	Number=sing	10	compound	_	_
+9	protein	protein	NOUN	NN	Number=sing	10	compound	_	_
+10	A	a	NOUN	NN	Number=sing	19	nsubjpass	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+12	pneumolysin	pneumolysin	NOUN	NN	Number=sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+14	histidine-triad	histidine-triad	ADJ	JJ	Degree=pos	10	conj	_	_
+15	and	and	CCONJ	CC	ConjType=comp	10	cc	_	_
+16	fibronectin-binding	fibronectin-binding	ADJ	JJ	Degree=pos	10	conj	_	_
+17	proteins	protein	NOUN	NNS	Number=plur	10	conj	_	_
+18	are	be	AUX	VBP	VerbForm=fin|Tense=pres	19	auxpass	_	_
+19	discussed	discuss	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	19	punct	_	_
+
+# sent_id = 9
+# text = Elucidation of molecular mechanisms of virulence factors is essential for the understanding of bacteria and their functional properties.
+1	Elucidation	elucidation	NOUN	NN	Number=sing	9	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	molecular	molecular	ADJ	JJ	Degree=pos	4	amod	_	_
+4	mechanisms	mechanism	NOUN	NNS	Number=plur	1	nmod	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	virulence	virulence	NOUN	NN	Number=sing	7	compound	_	_
+7	factors	factor	NOUN	NNS	Number=plur	4	nmod	_	_
+8	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	9	cop	_	_
+9	essential	essential	ADJ	JJ	Degree=pos	0	ROOT	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	understanding	understanding	NOUN	NN	Number=sing	9	nmod	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	bacteria	bacteria	NOUN	NNS	Number=plur	12	nmod	_	_
+15	and	and	CCONJ	CC	ConjType=comp	12	cc	_	_
+16	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	18	nmod:poss	_	_
+17	functional	functional	ADJ	JJ	Degree=pos	18	amod	_	_
+18	properties	property	NOUN	NNS	Number=plur	12	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 10
+# text = Structural biology appears pivotal for these studies, as structural and mechanistic insights facilitate rational approach to the development of new treatments.
+1	Structural	structural	ADJ	JJ	Degree=pos	2	amod	_	_
+2	biology	biology	NOUN	NN	Number=sing	3	nsubj	_	_
+3	appears	appear	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+4	pivotal	pivotal	ADJ	JJ	Degree=pos	3	xcomp	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	these	these	DET	DT	_	7	det	_	_
+7	studies	study	NOUN	NNS	Number=plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+9	as	as	SCONJ	IN	_	14	mark	_	_
+10	structural	structural	ADJ	JJ	Degree=pos	13	amod	_	_
+11	and	and	CCONJ	CC	ConjType=comp	10	cc	_	_
+12	mechanistic	mechanistic	ADJ	JJ	Degree=pos	10	conj	_	_
+13	insights	insight	NOUN	NNS	Number=plur	14	nsubj	_	_
+14	facilitate	facilitate	VERB	VBP	VerbForm=fin|Tense=pres	3	advcl	_	_
+15	rational	rational	ADJ	JJ	Degree=pos	16	amod	_	_
+16	approach	approach	NOUN	NN	Number=sing	14	dobj	_	_
+17	to	to	PART	TO	PartType=inf|VerbForm=inf	19	case	_	_
+18	the	the	DET	DT	_	19	det	_	_
+19	development	development	NOUN	NN	Number=sing	16	nmod	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	new	new	ADJ	JJ	Degree=pos	22	amod	_	_
+22	treatments	treatment	NOUN	NNS	Number=plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No

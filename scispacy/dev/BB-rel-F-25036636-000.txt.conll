@@ -1,0 +1,108 @@
+# sent_id = 1
+# text = For
+1	For	for	ADP	IN	_	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2
+# text = most uninoculated microbial groups, their function in the context of
+1	most	most	ADJ	JJS	Degree=sup	2	advmod	_	_
+2	uninoculated	uninoculated	ADJ	JJ	Degree=pos	4	amod	_	_
+3	microbial	microbial	ADJ	JJ	Degree=pos	4	amod	_	_
+4	groups	group	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+6	their	-PRON-	DET	PRP$	PronType=prs|Poss=yes	7	nmod:poss	_	_
+7	function	function	NOUN	NN	Number=sing	4	appos	_	_
+8	in	in	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	context	context	NOUN	NN	Number=sing	8	pobj	_	_
+11	of	of	ADP	IN	_	10	prep	_	SpaceAfter=No
+
+# sent_id = 3
+# text = the community or in the production of cheese is largely unexplored.
+1	the	the	DET	DT	_	2	det	_	_
+2	community	community	NOUN	NN	Number=sing	9	nsubj	_	_
+3	or	or	CCONJ	CC	ConjType=comp	2	cc	_	_
+4	in	in	ADP	IN	_	2	conj	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	production	production	NOUN	NN	Number=sing	4	pobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	cheese	cheese	NOUN	NN	Number=sing	7	pobj	_	_
+9	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+10	largely	largely	ADV	RB	Degree=pos	11	advmod	_	_
+11	unexplored	unexplore	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	9	acomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 4
+# text = For
+1	For	for	ADP	IN	_	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 5
+# text = example, we identified two bacterial genera, Yaniella and Nocardiopsis, that have never been reported in food microbial ecosystems.
+1	example	example	NOUN	NN	Number=sing	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+3	we	-PRON-	PRON	PRP	PronType=prs	4	nsubj	_	_
+4	identified	identify	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+5	two	two	NUM	CD	NumType=card	7	nummod	_	_
+6	bacterial	bacterial	ADJ	JJ	Degree=pos	7	amod	_	_
+7	genera	genera	NOUN	NN	Number=sing	4	dobj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+9	Yaniella	Yaniella	PROPN	NNP	NounType=prop|Number=sing	7	appos	_	_
+10	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+11	Nocardiopsis	Nocardiopsis	PROPN	NNP	NounType=prop|Number=sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	7	punct	_	_
+13	that	that	DET	WDT	_	17	nsubjpass	_	_
+14	have	have	AUX	VBP	VerbForm=fin|Tense=pres	17	aux	_	_
+15	never	never	ADV	RB	Degree=pos	17	neg	_	_
+16	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	17	auxpass	_	_
+17	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	7	acl:relcl	_	_
+18	in	in	ADP	IN	_	17	prep	_	_
+19	food	food	NOUN	NN	Number=sing	21	compound	_	_
+20	microbial	microbial	ADJ	JJ	Degree=pos	21	amod	_	_
+21	ecosystems	ecosystem	NOUN	NNS	Number=plur	18	pobj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 6
+# text = We also find that halotolerant γ-Proteobacteria such as Vibrio, Halomonas, and Pseudoalteromonas that are typically associated with marine environments ( Holmström and Kjelleberg, 1999 and Reen et al., 2006) are widespread in cheese communities (Figure 2).
+1	We	-PRON-	PRON	PRP	PronType=prs	3	nsubj	_	_
+2	also	also	ADV	RB	Degree=pos	3	advmod	_	_
+3	find	find	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+4	that	that	SCONJ	IN	_	18	mark	_	_
+5	halotolerant	halotolerant	ADJ	JJ	Degree=pos	6	amod	_	_
+6	γ-Proteobacteria	γ-proteobacteria	NOUN	NN	Number=sing	18	nsubjpass	_	_
+7	such	such	ADJ	JJ	Degree=pos	8	amod	_	_
+8	as	as	SCONJ	IN	_	6	prep	_	_
+9	Vibrio	Vibrio	PROPN	NNP	NounType=prop|Number=sing	8	pobj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+11	Halomonas	Halomonas	PROPN	NNP	NounType=prop|Number=sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+13	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+14	Pseudoalteromonas	pseudoalteromonas	NOUN	NN	Number=sing	9	conj	_	_
+15	that	that	DET	WDT	_	18	nsubjpass	_	_
+16	are	be	AUX	VBP	VerbForm=fin|Tense=pres	18	auxpass	_	_
+17	typically	typically	ADV	RB	Degree=pos	18	advmod	_	_
+18	associated	associate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	3	ccomp	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	marine	marine	NOUN	NN	Number=sing	21	amod	_	_
+21	environments	environment	NOUN	NNS	Number=plur	18	nmod	_	_
+22	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	23	punct	_	_
+23	Holmström	Holmström	PROPN	NNP	NounType=prop|Number=sing	21	dep	_	_
+24	and	and	CCONJ	CC	ConjType=comp	23	cc	_	_
+25	Kjelleberg	Kjelleberg	PROPN	NNP	NounType=prop|Number=sing	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=comm	23	punct	_	_
+27	1999	1999	NUM	CD	NumType=card	23	conj	_	_
+28	and	and	CCONJ	CC	ConjType=comp	23	cc	_	_
+29	Reen	Reen	PROPN	NNP	NounType=prop|Number=sing	23	conj	_	_
+30	et	et	X	FW	Foreign=yes	23	dep	_	_
+31	al.	al.	X	FW	Foreign=yes	23	dep	_	SpaceAfter=No
+32	,	,	PUNCT	,	PunctType=comm	23	punct	_	_
+33	2006	2006	NUM	CD	NumType=card	23	appos	_	SpaceAfter=No
+34	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	23	punct	_	_
+35	are	be	AUX	VBP	VerbForm=fin|Tense=pres	36	cop	_	_
+36	widespread	widespread	ADJ	JJ	Degree=pos	18	conj	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	cheese	cheese	NOUN	NN	Number=sing	39	amod	_	_
+39	communities	community	NOUN	NNS	Number=plur	36	nmod	_	_
+40	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	41	punct	_	SpaceAfter=No
+41	Figure	figure	NOUN	NN	Number=sing	39	appos	_	_
+42	2	2	NUM	CD	NumType=card	41	nummod	_	SpaceAfter=No
+43	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	41	punct	_	SpaceAfter=No
+44	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No

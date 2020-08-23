@@ -1,0 +1,296 @@
+# sent_id = 1
+# text = Isolation, expression and characterization of a minor allergen from Penicillium crustosum.
+1	Isolation	isolation	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+3	expression	expression	NOUN	NN	Number=sing	1	conj	_	_
+4	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+5	characterization	characterization	NOUN	NN	Number=sing	1	conj	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	minor	minor	ADJ	JJ	Degree=pos	9	amod	_	_
+9	allergen	allergen	NOUN	NN	Number=sing	1	nmod	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	Penicillium	Penicillium	PROPN	NNP	NounType=prop|Number=sing	12	compound	_	_
+12	crustosum	crustosum	NOUN	NN	Number=sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = A ribosomal P1 protein, Pen b 26 from Penicillium brevicompactum, was previously identified as a major allergen.
+1	A	a	DET	DT	_	4	det	_	_
+2	ribosomal	ribosomal	ADJ	JJ	Degree=pos	4	amod	_	_
+3	P1	p1	NOUN	NN	Number=sing	4	compound	_	_
+4	protein	protein	NOUN	NN	Number=sing	15	nsubjpass	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+6	Pen	pen	NOUN	NN	Number=sing	4	appos	_	_
+7	b	b	CCONJ	CC	ConjType=comp	6	nummod	_	_
+8	26	26	NUM	CD	NumType=card	6	nummod	_	_
+9	from	from	ADP	IN	_	4	prep	_	_
+10	Penicillium	Penicillium	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+11	brevicompactum	brevicompactum	NOUN	NN	Number=sing	9	pobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+13	was	be	AUX	VBD	VerbForm=fin|Tense=past	15	auxpass	_	_
+14	previously	previously	ADV	RB	Degree=pos	15	advmod	_	_
+15	identified	identify	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+16	as	as	SCONJ	IN	_	19	case	_	_
+17	a	a	DET	DT	_	19	det	_	_
+18	major	major	ADJ	JJ	Degree=pos	19	amod	_	_
+19	allergen	allergen	NOUN	NN	Number=sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	15	punct	_	_
+
+# sent_id = 3
+# text = A homolog protein was isolated and characterized from Penicillium crustosum which is not known to be allergenic mold.
+1	A	a	DET	DT	_	3	det	_	_
+2	homolog	homolog	NOUN	NN	Number=sing	3	compound	_	_
+3	protein	protein	NOUN	NN	Number=sing	5	nsubjpass	_	_
+4	was	be	AUX	VBD	VerbForm=fin|Tense=past	5	auxpass	_	_
+5	isolated	isolate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+7	characterized	characterize	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	5	conj	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	Penicillium	penicillium	NOUN	NN	Number=sing	10	compound	_	_
+10	crustosum	crustosum	NOUN	NN	Number=sing	7	nmod	_	_
+11	which	which	DET	WDT	_	14	nsubjpass	_	_
+12	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	14	auxpass	_	_
+13	not	not	PART	RB	Degree=pos	14	neg	_	_
+14	known	know	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	10	acl:relcl	_	_
+15	to	to	PART	TO	PartType=inf|VerbForm=inf	18	mark	_	_
+16	be	be	AUX	VB	VerbForm=inf	18	cop	_	_
+17	allergenic	allergenic	ADJ	JJ	Degree=pos	18	amod	_	_
+18	mold	mold	NOUN	NN	Number=sing	14	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 4
+# text = A cDNA library of P. crustosum was constructed and screened using a probe based on the DNA sequence of Pen b 26.
+1	A	a	DET	DT	_	3	det	_	_
+2	cDNA	cdna	NOUN	NN	Number=sing	3	compound	_	_
+3	library	library	NOUN	NN	Number=sing	8	nsubjpass	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	P.	p.	NOUN	NN	Number=sing	6	compound	_	_
+6	crustosum	crustosum	NOUN	NN	Number=sing	3	nmod	_	_
+7	was	be	AUX	VBD	VerbForm=fin|Tense=past	8	auxpass	_	_
+8	constructed	construct	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+9	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+10	screened	screen	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	conj	_	_
+11	using	use	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	10	xcomp	_	_
+12	a	a	DET	DT	_	13	det	_	_
+13	probe	probe	NOUN	NN	Number=sing	11	dobj	_	_
+14	based	base	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	18	case	_	_
+15	on	on	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	_	18	det	_	_
+17	DNA	dna	NOUN	NN	Number=sing	18	compound	_	_
+18	sequence	sequence	NOUN	NN	Number=sing	13	nmod	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	Pen	pen	NOUN	NN	Number=sing	18	nmod	_	_
+21	b	b	CCONJ	CC	ConjType=comp	8	punct	_	_
+22	26	26	NUM	CD	NumType=card	21	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=peri	8	punct	_	_
+
+# sent_id = 5
+# text = A positive clone was isolated, expressed in Escherichia coli, purified and characterized by comparing its immunological and physical properties to Pen b 26.
+1	A	a	DET	DT	_	3	det	_	_
+2	positive	positive	ADJ	JJ	Degree=pos	3	amod	_	_
+3	clone	clone	NOUN	NN	Number=sing	5	nsubjpass	_	_
+4	was	be	AUX	VBD	VerbForm=fin|Tense=past	5	auxpass	_	_
+5	isolated	isolate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+7	expressed	express	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	5	dep	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	Escherichia	escherichia	X	FW	Foreign=yes	10	compound	_	_
+10	coli	coli	X	FW	Foreign=yes	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+12	purified	purify	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	5	conj	_	_
+13	and	and	CCONJ	CC	ConjType=comp	12	cc	_	_
+14	characterized	characterize	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	12	conj	_	_
+15	by	by	ADP	IN	_	16	mark	_	_
+16	comparing	compare	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	14	advcl	_	_
+17	its	-PRON-	DET	PRP$	PronType=prs|Poss=yes	18	nmod:poss	_	_
+18	immunological	immunological	ADJ	JJ	Degree=pos	16	dobj	_	_
+19	and	and	CCONJ	CC	ConjType=comp	18	cc	_	_
+20	physical	physical	ADJ	JJ	Degree=pos	18	conj	_	_
+21	properties	property	NOUN	NNS	Number=plur	18	dep	_	_
+22	to	to	PART	TO	PartType=inf|VerbForm=inf	23	case	_	_
+23	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	18	nmod	_	_
+24	b	b	CCONJ	CC	ConjType=comp	5	punct	_	_
+25	26	26	NUM	CD	NumType=card	24	nummod	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 6
+# text = It was designated as Pen cr 26 and had a 321 nt ORF corresponding to 107 amino acids with a MW of 11 kDa.
+1	It	-PRON-	PRON	PRP	PronType=prs	3	nsubjpass	_	_
+2	was	be	AUX	VBD	VerbForm=fin|Tense=past	3	auxpass	_	_
+3	designated	designate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	6	nsubj	_	_
+6	cr	cr	PROPN	NNP	NounType=prop|Number=sing	3	advcl	_	_
+7	26	26	NUM	CD	NumType=card	6	dobj	_	_
+8	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+9	had	have	AUX	VBD	VerbForm=fin|Tense=past	3	conj	_	_
+10	a	a	DET	DT	_	13	det	_	_
+11	321	321	NUM	CD	NumType=card	13	nummod	_	_
+12	nt	nt	NOUN	NN	Number=sing	13	compound	_	_
+13	ORF	orf	NOUN	NN	Number=sing	9	dobj	_	_
+14	corresponding	correspond	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	13	acl	_	_
+15	to	to	PART	TO	PartType=inf|VerbForm=inf	18	case	_	_
+16	107	107	NUM	CD	NumType=card	18	nummod	_	_
+17	amino	amino	NOUN	NN	Number=sing	18	compound	_	_
+18	acids	acid	NOUN	NNS	Number=plur	14	nmod	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	_	21	det	_	_
+21	MW	mw	NOUN	NN	Number=sing	14	nmod	_	_
+22	of	of	ADP	IN	_	25	case	_	_
+23	11	11	NUM	CD	NumType=card	25	nummod	_	SpaceAfter=No
+24	 	 	SPACE	_SP	_	23		_	SpaceAfter=No
+25	kDa	kda	NOUN	NN	Number=sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 7
+# text = Pen cr 26 had strong sequence homology to Pen b 26 (92% for nucleotides and 86% for amino acids) and its physical and predicted structural properties were similar to the latter.
+1	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	4	nsubj	_	_
+2	cr	cr	PROPN	NNP	NounType=prop|Number=sing	1	acl	_	_
+3	26	26	NUM	CD	NumType=card	2	nummod	_	_
+4	had	have	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+5	strong	strong	ADJ	JJ	Degree=pos	7	amod	_	_
+6	sequence	sequence	NOUN	NN	Number=sing	7	compound	_	_
+7	homology	homology	NOUN	NN	Number=sing	4	dobj	_	_
+8	to	to	PART	TO	PartType=inf|VerbForm=inf	9	case	_	_
+9	Pen	pen	NOUN	NN	Number=sing	7	nmod	_	_
+10	b	b	CCONJ	CC	ConjType=comp	4	dep	_	_
+11	26	26	NUM	CD	NumType=card	14	nummod	_	_
+12	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	14	punct	_	SpaceAfter=No
+13	92	92	NUM	CD	NumType=card	14	nummod	_	SpaceAfter=No
+14	%	%	NOUN	NN	Number=sing	4	dobj	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	nucleotides	nucleotide	NOUN	NNS	Number=plur	14	nmod	_	_
+17	and	and	CCONJ	CC	ConjType=comp	14	cc	_	_
+18	86	86	NUM	CD	NumType=card	19	nummod	_	SpaceAfter=No
+19	%	%	NOUN	NN	Number=sing	14	conj	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	amino	amino	NOUN	NN	Number=sing	22	compound	_	_
+22	acids	acid	NOUN	NNS	Number=plur	19	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	14	punct	_	_
+24	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+25	its	-PRON-	DET	PRP$	PronType=prs|Poss=yes	26	nmod:poss	_	_
+26	physical	physical	ADJ	JJ	Degree=pos	30	amod	_	_
+27	and	and	CCONJ	CC	ConjType=comp	26	cc	_	_
+28	predicted	predict	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	26	conj	_	_
+29	structural	structural	ADJ	JJ	Degree=pos	30	amod	_	_
+30	properties	property	NOUN	NNS	Number=plur	32	nsubj	_	_
+31	were	be	AUX	VBD	VerbForm=fin|Tense=past	32	cop	_	_
+32	similar	similar	ADJ	JJ	Degree=pos	4	conj	_	_
+33	to	to	PART	TO	PartType=inf|VerbForm=inf	35	case	_	_
+34	the	the	DET	DT	_	35	det	_	_
+35	latter	latter	ADJ	JJ	Degree=pos	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 8
+# text = The level of expression of Pen cr 26 was much lower than that of Pen b 26 in the same expression vector.
+1	The	the	DET	DT	_	2	det	_	_
+2	level	level	NOUN	NN	Number=sing	9	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	expression	expression	NOUN	NN	Number=sing	2	nmod	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	4	nmod	_	_
+7	cr	cr	PROPN	NNP	NounType=prop|Number=sing	4	acl	_	_
+8	26	26	NUM	CD	NumType=card	7	nummod	_	_
+9	was	be	AUX	VBD	VerbForm=fin|Tense=past	11	cop	_	_
+10	much	much	ADV	RB	Degree=pos	11	advmod	_	_
+11	lower	low	ADJ	JJR	Degree=comp	0	ROOT	_	_
+12	than	than	SCONJ	IN	_	13	case	_	_
+13	that	that	DET	DT	_	11	nmod	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	13	nmod	_	_
+16	b	b	CCONJ	CC	ConjType=comp	11	punct	_	_
+17	26	26	NUM	CD	NumType=card	16	nummod	_	_
+18	in	in	ADP	IN	_	22	case	_	_
+19	the	the	DET	DT	_	22	det	_	_
+20	same	same	ADJ	JJ	Degree=pos	22	amod	_	_
+21	expression	expression	NOUN	NN	Number=sing	22	compound	_	_
+22	vector	vector	NOUN	NN	Number=sing	16	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=peri	11	punct	_	_
+
+# sent_id = 9
+# text = Both proteins were recognized equally well by the IgG class specific antibodies, but Pen cr 26 was poorly recognized by Penicillium-sensitive atopic sera (IgE), suggesting striking antigenic difference in IgE epitopes, i.e., 87% were positive for Pen b 26 while only 23% were positive for Pen cr 26.
+1	Both	both	DET	DT	_	2	det	_	_
+2	proteins	protein	NOUN	NNS	Number=plur	4	nsubjpass	_	_
+3	were	be	AUX	VBD	VerbForm=fin|Tense=past	4	auxpass	_	_
+4	recognized	recognize	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+5	equally	equally	ADV	RB	Degree=pos	6	advmod	_	_
+6	well	well	ADV	RB	Degree=pos	4	advmod	_	_
+7	by	by	ADP	IN	_	12	case	_	_
+8	the	the	DET	DT	_	12	det	_	_
+9	IgG	igg	NOUN	NN	Number=sing	12	compound	_	_
+10	class	class	NOUN	NN	Number=sing	12	compound	_	_
+11	specific	specific	ADJ	JJ	Degree=pos	12	amod	_	_
+12	antibodies	antibody	NOUN	NNS	Number=plur	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+14	but	but	CCONJ	CC	ConjType=comp	4	cc	_	_
+15	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	20	nsubjpass	_	_
+16	cr	cr	PROPN	NNP	NounType=prop|Number=sing	15	acl	_	_
+17	26	26	NUM	CD	NumType=card	16	nummod	_	_
+18	was	be	AUX	VBD	VerbForm=fin|Tense=past	20	auxpass	_	_
+19	poorly	poorly	ADV	RB	Degree=pos	20	advmod	_	_
+20	recognized	recognize	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	conj	_	_
+21	by	by	ADP	IN	_	24	case	_	_
+22	Penicillium-sensitive	penicillium-sensitive	ADJ	JJ	Degree=pos	24	amod	_	_
+23	atopic	atopic	ADJ	JJ	Degree=pos	24	amod	_	_
+24	sera	sera	NOUN	NN	Number=sing	20	nmod	_	_
+25	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	26	punct	_	SpaceAfter=No
+26	IgE	ige	NOUN	NN	Number=sing	24	appos	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+29	suggesting	suggest	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	4	xcomp	_	_
+30	striking	striking	ADJ	JJ	Degree=pos	32	amod	_	_
+31	antigenic	antigenic	ADJ	JJ	Degree=pos	32	amod	_	_
+32	difference	difference	NOUN	NN	Number=sing	29	dobj	_	_
+33	in	in	ADP	IN	_	35	case	_	_
+34	IgE	ige	NOUN	NN	Number=sing	35	compound	_	_
+35	epitopes	epitope	NOUN	NNS	Number=plur	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	PunctType=comm	42	punct	_	_
+37	i.e.	i.e.	X	FW	Foreign=yes	42	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	,	PunctType=comm	42	punct	_	_
+39	87	87	NUM	CD	NumType=card	40	nummod	_	SpaceAfter=No
+40	%	%	NOUN	NN	Number=sing	42	nsubj	_	_
+41	were	be	AUX	VBD	VerbForm=fin|Tense=past	42	cop	_	_
+42	positive	positive	ADJ	JJ	Degree=pos	4	parataxis	_	_
+43	for	for	ADP	IN	_	44	case	_	_
+44	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	42	nmod	_	_
+45	b	b	CCONJ	CC	ConjType=comp	46	dep	_	_
+46	26	26	NUM	CD	NumType=card	42	dep	_	_
+47	while	while	SCONJ	IN	_	52	mark	_	_
+48	only	only	ADV	RB	Degree=pos	49	advmod	_	_
+49	23	23	NUM	CD	NumType=card	50	nummod	_	SpaceAfter=No
+50	%	%	NOUN	NN	Number=sing	52	nsubj	_	_
+51	were	be	AUX	VBD	VerbForm=fin|Tense=past	52	cop	_	_
+52	positive	positive	ADJ	JJ	Degree=pos	42	advcl	_	_
+53	for	for	ADP	IN	_	54	case	_	_
+54	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	55	nsubj	_	_
+55	cr	cr	PROPN	NNP	NounType=prop|Number=sing	52	xcomp	_	_
+56	26	26	NUM	CD	NumType=card	55	dobj	_	SpaceAfter=No
+57	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 10
+# text = The allergenicity of Pen cr 26 seems to be minor in nature and it could be a hypoallergenic variant of Pen b 26.
+1	The	the	DET	DT	_	2	det	_	_
+2	allergenicity	allergenicity	NOUN	NN	Number=sing	7	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	2	nmod	_	_
+5	cr	cr	PROPN	NNP	NounType=prop|Number=sing	2	acl	_	_
+6	26	26	NUM	CD	NumType=card	5	nummod	_	_
+7	seems	seem	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+8	to	to	PART	TO	PartType=inf|VerbForm=inf	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=inf	10	auxpass	_	_
+10	minor	minor	ADJ	JJ	Degree=pos	7	xcomp	_	_
+11	in	in	ADP	IN	_	10	prep	_	_
+12	nature	nature	NOUN	NN	Number=sing	11	pobj	_	_
+13	and	and	CCONJ	CC	ConjType=comp	7	cc	_	_
+14	it	-PRON-	PRON	PRP	PronType=prs	19	nsubj	_	_
+15	could	could	VERB	MD	VerbType=mod	19	aux	_	_
+16	be	be	AUX	VB	VerbForm=inf	19	cop	_	_
+17	a	a	DET	DT	_	19	det	_	_
+18	hypoallergenic	hypoallergenic	ADJ	JJ	Degree=pos	19	amod	_	_
+19	variant	variant	NOUN	NN	Number=sing	7	conj	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	Pen	Pen	PROPN	NNP	NounType=prop|Number=sing	19	nmod	_	_
+22	b	b	CCONJ	CC	ConjType=comp	19	nmod	_	_
+23	26	26	NUM	CD	NumType=card	22	nummod	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=peri	7	punct	_	SpaceAfter=No

@@ -1,0 +1,132 @@
+# sent_id = 1
+# text = Early pregnancy loss and neonatal deaths associated with Klebsiella pneumonia infection: a mini review of possible occupational health risk.
+1	Early	early	ADJ	JJ	Degree=pos	3	amod	_	_
+2	pregnancy	pregnancy	NOUN	NN	Number=sing	3	compound	_	_
+3	loss	loss	NOUN	NN	Number=sing	0	ROOT	_	_
+4	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+5	neonatal	neonatal	ADJ	JJ	Degree=pos	6	amod	_	_
+6	deaths	death	NOUN	NNS	Number=plur	3	conj	_	_
+7	associated	associate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	6	acl	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	Klebsiella	Klebsiella	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+10	pneumonia	pneumonia	NOUN	NN	Number=sing	11	compound	_	_
+11	infection	infection	NOUN	NN	Number=sing	7	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	:	_	3	punct	_	_
+13	a	a	DET	DT	_	15	det	_	_
+14	mini	mini	ADJ	JJ	Degree=pos	15	amod	_	_
+15	review	review	NOUN	NN	Number=sing	3	appos	_	_
+16	of	of	ADP	IN	_	15	prep	_	_
+17	possible	possible	ADJ	JJ	Degree=pos	20	amod	_	_
+18	occupational	occupational	ADJ	JJ	Degree=pos	20	amod	_	_
+19	health	health	NOUN	NN	Number=sing	20	compound	_	_
+20	risk	risk	NOUN	NN	Number=sing	16	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = Recurrent pregnancy loss is a disease of grave psychological and economic concern.
+1	Recurrent	recurrent	ADJ	JJ	Degree=pos	3	amod	_	_
+2	pregnancy	pregnancy	NOUN	NN	Number=sing	3	compound	_	_
+3	loss	loss	NOUN	NN	Number=sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	6	cop	_	_
+5	a	a	DET	DT	_	6	det	_	_
+6	disease	disease	NOUN	NN	Number=sing	0	ROOT	_	_
+7	of	of	ADP	IN	_	12	case	_	_
+8	grave	grave	NOUN	NN	Number=sing	12	amod	_	_
+9	psychological	psychological	ADJ	JJ	Degree=pos	12	amod	_	_
+10	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+11	economic	economic	ADJ	JJ	Degree=pos	9	conj	_	_
+12	concern	concern	NOUN	NN	Number=sing	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 3
+# text = The etiology in the vast majority of the cases is unknown or at best poorly understood.
+1	The	the	DET	DT	_	2	det	_	_
+2	etiology	etiology	NOUN	NN	Number=sing	11	nsubj	_	_
+3	in	in	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	vast	vast	ADJ	JJ	Degree=pos	6	amod	_	_
+6	majority	majority	NOUN	NN	Number=sing	3	pobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	cases	case	NOUN	NNS	Number=plur	7	pobj	_	_
+10	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	11	cop	_	_
+11	unknown	unknown	ADJ	JJ	Degree=pos	0	ROOT	_	_
+12	or	or	CCONJ	CC	ConjType=comp	11	cc	_	_
+13	at	at	ADP	IN	_	14	case	_	_
+14	best	good	ADJ	JJS	Degree=sup	16	advmod	_	_
+15	poorly	poorly	ADV	RB	Degree=pos	16	advmod	_	_
+16	understood	understand	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	11	punct	_	_
+
+# sent_id = 4
+# text = Although Klebsiella pneumonia infections have been reported in humans and animals during pregnancy, there is hardly any information to indicate whether or not these infections may be responsible for early pregnancy loss.
+1	Although	although	SCONJ	IN	_	7	mark	_	_
+2	Klebsiella	Klebsiella	PROPN	NNP	NounType=prop|Number=sing	4	compound	_	_
+3	pneumonia	pneumonia	NOUN	NN	Number=sing	4	compound	_	_
+4	infections	infection	NOUN	NNS	Number=plur	7	nsubjpass	_	_
+5	have	have	AUX	VBP	VerbForm=fin|Tense=pres	7	aux	_	_
+6	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	7	auxpass	_	_
+7	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	16	advcl	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	humans	human	NOUN	NNS	Number=plur	7	nmod	_	_
+10	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+11	animals	animal	NOUN	NNS	Number=plur	9	conj	_	_
+12	during	during	ADP	IN	_	13	case	_	_
+13	pregnancy	pregnancy	NOUN	NN	Number=sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+15	there	there	PRON	EX	AdvType=ex	16	expl	_	_
+16	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+17	hardly	hardly	ADV	RB	Degree=pos	19	advmod	_	_
+18	any	any	DET	DT	_	19	det	_	_
+19	information	information	NOUN	NN	Number=sing	16	attr	_	_
+20	to	to	PART	TO	PartType=inf|VerbForm=inf	21	aux	_	_
+21	indicate	indicate	VERB	VB	VerbForm=inf	19	acl	_	_
+22	whether	whether	SCONJ	IN	_	29	mark	_	_
+23	or	or	CCONJ	CC	ConjType=comp	24	cc	_	_
+24	not	not	PART	RB	Degree=pos	22	cc	_	_
+25	these	these	DET	DT	_	26	det	_	_
+26	infections	infection	NOUN	NNS	Number=plur	29	nsubj	_	_
+27	may	may	VERB	MD	VerbType=mod	29	aux	_	_
+28	be	be	AUX	VB	VerbForm=inf	29	cop	_	_
+29	responsible	responsible	ADJ	JJ	Degree=pos	21	ccomp	_	_
+30	for	for	ADP	IN	_	33	case	_	_
+31	early	early	ADJ	JJ	Degree=pos	33	amod	_	_
+32	pregnancy	pregnancy	NOUN	NN	Number=sing	33	compound	_	_
+33	loss	loss	NOUN	NN	Number=sing	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	PunctType=peri	16	punct	_	_
+
+# sent_id = 5
+# text = We present a review of literature and report for the first time in humans, Klebsiella pneumonia infection in placenta of a 38-year-old secondary recurrent aborter (parity 2 + 3).
+1	We	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	present	present	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	review	review	NOUN	NN	Number=sing	2	dobj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	literature	literature	NOUN	NN	Number=sing	4	nmod	_	_
+7	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	report	report	NOUN	NN	Number=sing	6	conj	_	_
+9	for	for	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	_	12	det	_	_
+11	first	first	ADJ	JJ	Degree=pos	12	amod	_	_
+12	time	time	NOUN	NN	Number=sing	4	nmod	_	_
+13	in	in	ADP	IN	_	4	prep	_	_
+14	humans	human	NOUN	NNS	Number=plur	13	pobj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+16	Klebsiella	Klebsiella	PROPN	NNP	NounType=prop|Number=sing	18	compound	_	_
+17	pneumonia	pneumonia	NOUN	NN	Number=sing	18	compound	_	_
+18	infection	infection	NOUN	NN	Number=sing	2	dobj	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	placenta	placenta	NOUN	NN	Number=sing	18	nmod	_	_
+21	of	of	ADP	IN	_	26	case	_	_
+22	a	a	DET	DT	_	26	det	_	_
+23	38-year-old	38-year-old	ADJ	JJ	Degree=pos	26	amod	_	_
+24	secondary	secondary	ADJ	JJ	Degree=pos	26	amod	_	_
+25	recurrent	recurrent	ADJ	JJ	Degree=pos	26	amod	_	_
+26	aborter	aborter	NOUN	NN	Number=sing	20	nmod	_	_
+27	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	28	punct	_	SpaceAfter=No
+28	parity	parity	NOUN	NN	Number=sing	26	dep	_	_
+29	2	2	NUM	CD	NumType=card	28	nummod	_	_
+30	+	+	CCONJ	CC	ConjType=comp	29	cc	_	_
+31	3	3	NUM	CD	NumType=card	29	conj	_	SpaceAfter=No
+32	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	28	punct	_	SpaceAfter=No
+33	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No

@@ -1,0 +1,76 @@
+# sent_id = 1
+# text = The culture independent analysis of
+1	The	the	DET	DT	_	4	det	_	_
+2	culture	culture	NOUN	NN	Number=sing	4	compound	_	_
+3	independent	independent	ADJ	JJ	Degree=pos	4	amod	_	_
+4	analysis	analysis	NOUN	NN	Number=sing	0	ROOT	_	_
+5	of	of	ADP	IN	_	4	prep	_	SpaceAfter=No
+
+# sent_id = 2
+# text = the white mould rind, Scimudin cheese, revealed as major bands M. luteus and P. glacincolaus and the presence of S. vitulinus.
+1	the	the	DET	DT	_	4	det	_	_
+2	white	white	ADJ	JJ	Degree=pos	4	amod	_	_
+3	mould	mould	NOUN	NNS	Number=plur	4	compound	_	_
+4	rind	rind	NOUN	NN	Number=sing	9	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+6	Scimudin	Scimudin	PROPN	NNP	NounType=prop|Number=sing	7	compound	_	_
+7	cheese	cheese	NOUN	NN	Number=sing	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+9	revealed	reveal	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+10	as	as	SCONJ	IN	_	14	case	_	_
+11	major	major	ADJ	JJ	Degree=pos	14	amod	_	_
+12	bands	band	NOUN	NNS	Number=plur	14	compound	_	_
+13	M.	m.	NOUN	NN	Number=sing	14	compound	_	_
+14	luteus	luteus	NOUN	NN	Number=sing	9	nmod	_	_
+15	and	and	CCONJ	CC	ConjType=comp	14	cc	_	_
+16	P.	p.	X	FW	Foreign=yes	17	compound	_	_
+17	glacincolaus	glacincolaus	NOUN	NN	Number=sing	14	conj	_	_
+18	and	and	CCONJ	CC	ConjType=comp	14	cc	_	_
+19	the	the	DET	DT	_	20	det	_	_
+20	presence	presence	NOUN	NN	Number=sing	14	conj	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	S.	s.	X	FW	Foreign=yes	23	compound	_	_
+23	vitulinus	vitulinus	X	FW	Foreign=yes	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 3
+# text = DGGE analysis of Casera Valtellina, a cheese characterized by low water activity of the rind, showed a surface composed by S. equorum, B. linens and B. casei
+1	DGGE	dgge	ADJ	JJ	Degree=pos	2	compound	_	_
+2	analysis	analysis	NOUN	NN	Number=sing	18	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	Casera	Casera	PROPN	NNP	NounType=prop|Number=sing	5	compound	_	_
+5	Valtellina	Valtellina	PROPN	NNP	NounType=prop|Number=sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+7	a	a	DET	DT	_	8	det	_	_
+8	cheese	cheese	NOUN	NN	Number=sing	5	appos	_	_
+9	characterized	characterize	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	acl	_	_
+10	by	by	ADP	IN	_	13	case	_	_
+11	low	low	ADJ	JJ	Degree=pos	13	amod	_	_
+12	water	water	NOUN	NN	Number=sing	13	compound	_	_
+13	activity	activity	NOUN	NN	Number=sing	9	nmod	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	_	16	det	_	_
+16	rind	rind	NOUN	NN	Number=sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=comm	2	punct	_	_
+18	showed	show	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+19	a	a	DET	DT	_	20	det	_	_
+20	surface	surface	NOUN	NN	Number=sing	18	dobj	_	_
+21	composed	compose	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	20	acl	_	_
+22	by	by	ADP	IN	_	24	case	_	_
+23	S.	s.	X	FW	Foreign=yes	24	compound	_	_
+24	equorum	equorum	X	FW	Foreign=yes	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	PunctType=comm	24	punct	_	_
+26	B.	b.	ADJ	JJ	Degree=pos	27	compound	_	_
+27	linens	linen	NOUN	NNS	Number=plur	24	conj	_	_
+28	and	and	CCONJ	CC	ConjType=comp	27	cc	_	_
+29	B.	b.	X	FW	Foreign=yes	30	compound	_	_
+30	casei	casei	NOUN	NN	Number=sing	27	conj	_	SpaceAfter=No
+
+# sent_id = 4
+# text = as the main bacterial species.
+1	as	as	SCONJ	IN	_	0	ROOT	_	_
+2	the	the	DET	DT	_	5	det	_	_
+3	main	main	ADJ	JJ	Degree=pos	5	amod	_	_
+4	bacterial	bacterial	ADJ	JJ	Degree=pos	5	amod	_	_
+5	species	specie	NOUN	NNS	Number=plur	1	pobj	_	SpaceAfter=No
+6	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No

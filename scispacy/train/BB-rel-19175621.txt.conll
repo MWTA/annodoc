@@ -1,0 +1,176 @@
+# sent_id = 1
+# text = Occurrence of extended-spectrum beta-lactamase-producing Salmonella enterica in northern Spain with evidence of CTX-M-9 clonal spread among animals and humans.
+1	Occurrence	occurrence	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	extended-spectrum	extended-spectrum	ADJ	JJ	Degree=pos	6	amod	_	_
+4	beta-lactamase-producing	beta-lactamase-producing	ADJ	JJ	Degree=pos	5	amod	_	_
+5	Salmonella	Salmonella	PROPN	NNP	NounType=prop|Number=sing	6	compound	_	_
+6	enterica	enterica	NOUN	NN	Number=sing	2	pobj	_	_
+7	in	in	ADP	IN	_	1	prep	_	_
+8	northern	northern	ADJ	JJ	Degree=pos	9	amod	_	_
+9	Spain	Spain	PROPN	NNP	NounType=prop|Number=sing	7	pobj	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	evidence	evidence	NOUN	NN	Number=sing	1	nmod	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	CTX-M-9	ctx-m-9	ADJ	JJ	Degree=pos	15	amod	_	_
+14	clonal	clonal	ADJ	JJ	Degree=pos	15	amod	_	_
+15	spread	spread	NOUN	NN	Number=sing	11	nmod	_	_
+16	among	among	ADP	IN	_	17	case	_	_
+17	animals	animal	NOUN	NNS	Number=plur	15	nmod	_	_
+18	and	and	CCONJ	CC	ConjType=comp	17	cc	_	_
+19	humans	human	NOUN	NNS	Number=plur	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = Among the 1233 Salmonella enterica isolates obtained in two Spanish hospitals, five isolates (0.4%) (serovars: Virchow, four; Livingstone, one) had the phenotype of an extended-spectrum beta-lactamase (ESBL) producer.
+1	Among	among	ADP	IN	_	30	prep	_	_
+2	the	the	DET	DT	_	6	det	_	_
+3	1233	1233	NUM	CD	NumType=card	6	nummod	_	_
+4	Salmonella	salmonella	NOUN	NN	Number=sing	6	compound	_	_
+5	enterica	enterica	NOUN	NN	Number=sing	6	amod	_	_
+6	isolates	isolate	NOUN	NNS	Number=plur	1	pobj	_	_
+7	obtained	obtain	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	6	acl	_	_
+8	in	in	ADP	IN	_	7	prep	_	_
+9	two	two	NUM	CD	NumType=card	11	nummod	_	_
+10	Spanish	spanish	ADJ	JJ	Degree=pos	11	amod	_	_
+11	hospitals	hospital	NOUN	NNS	Number=plur	8	pobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	30	punct	_	_
+13	five	five	NUM	CD	NumType=card	14	nummod	_	_
+14	isolates	isolate	NOUN	NNS	Number=plur	30	nsubj	_	_
+15	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	17	punct	_	SpaceAfter=No
+16	0.4	0.4	NUM	CD	NumType=card	17	nummod	_	SpaceAfter=No
+17	%	%	NOUN	NN	Number=sing	14	appos	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	17	punct	_	_
+19	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	20	punct	_	SpaceAfter=No
+20	serovars	serovar	NOUN	NNS	Number=plur	30	dep	_	SpaceAfter=No
+21	:	:	PUNCT	:	_	20	punct	_	_
+22	Virchow	Virchow	PROPN	NNP	NounType=prop|Number=sing	30	dep	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	22	punct	_	_
+24	four	four	NUM	CD	NumType=card	22	appos	_	SpaceAfter=No
+25	;	;	PUNCT	:	_	22	punct	_	_
+26	Livingstone	livingstone	NOUN	NN	Number=sing	30	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=comm	26	punct	_	_
+28	one	one	NUM	CD	NumType=card	26	appos	_	SpaceAfter=No
+29	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	28	punct	_	_
+30	had	have	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+31	the	the	DET	DT	_	32	det	_	_
+32	phenotype	phenotype	NOUN	NN	Number=sing	30	dobj	_	_
+33	of	of	ADP	IN	_	40	case	_	_
+34	an	an	DET	DT	_	40	det	_	_
+35	extended-spectrum	extended-spectrum	ADJ	JJ	Degree=pos	40	amod	_	_
+36	beta-lactamase	beta-lactamase	NOUN	NN	Number=sing	40	compound	_	_
+37	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	40	punct	_	SpaceAfter=No
+38	ESBL	esbl	NOUN	NN	Number=sing	40	compound	_	SpaceAfter=No
+39	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	40	punct	_	_
+40	producer	producer	NOUN	NN	Number=sing	32	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	PunctType=peri	30	punct	_	_
+
+# sent_id = 3
+# text = The genetic characterization of the ESBL of S. enterica Livingstone revealed a bla(SHV-2) gene.
+1	The	the	DET	DT	_	3	det	_	_
+2	genetic	genetic	ADJ	JJ	Degree=pos	3	amod	_	_
+3	characterization	characterization	NOUN	NN	Number=sing	11	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	ESBL	esbl	NOUN	NN	Number=sing	3	nmod	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	S.	S.	PROPN	NNP	NounType=prop|Number=sing	10	compound	_	_
+9	enterica	enterica	NOUN	NN	Number=sing	10	compound	_	_
+10	Livingstone	Livingstone	PROPN	NNP	NounType=prop|Number=sing	6	nmod	_	_
+11	revealed	reveal	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+12	a	a	DET	DT	_	15	det	_	_
+13	bla(SHV-2	bla(shv-2	NOUN	NN	Number=sing	15	compound	_	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	15	punct	_	_
+15	gene	gene	NOUN	NN	Number=sing	11	dobj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	11	punct	_	_
+
+# sent_id = 4
+# text = The bla(CTX-M-10) gene in a phage-related genetic environment was found in one S. enterica Virchow isolate, and the bla(CTX-M-9) gene within the In60 integron was found in the three remaining Virchow isolates.
+1	The	the	DET	DT	_	4	det	_	_
+2	bla(CTX-M-10	bla(ctx-m-10	NOUN	NN	Number=sing	4	compound	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	4	punct	_	_
+4	gene	gene	NOUN	NN	Number=sing	11	nsubjpass	_	_
+5	in	in	ADP	IN	_	9	case	_	_
+6	a	a	DET	DT	_	9	det	_	_
+7	phage-related	phage-related	ADJ	JJ	Degree=pos	9	amod	_	_
+8	genetic	genetic	ADJ	JJ	Degree=pos	9	amod	_	_
+9	environment	environment	NOUN	NN	Number=sing	4	nmod	_	_
+10	was	be	AUX	VBD	VerbForm=fin|Tense=past	11	auxpass	_	_
+11	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+12	in	in	ADP	IN	_	17	case	_	_
+13	one	one	NUM	CD	NumType=card	17	nummod	_	_
+14	S.	S.	PROPN	NNP	NounType=prop|Number=sing	17	compound	_	_
+15	enterica	enterica	NOUN	NN	Number=sing	17	compound	_	_
+16	Virchow	Virchow	PROPN	NNP	NounType=prop|Number=sing	17	compound	_	_
+17	isolate	isolate	NOUN	NN	Number=sing	11	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=comm	17	punct	_	_
+19	and	and	CCONJ	CC	ConjType=comp	17	cc	_	_
+20	the	the	DET	DT	_	23	det	_	_
+21	bla(CTX-M-9	bla(ctx-m-9	NOUN	NN	Number=sing	23	compound	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	23	punct	_	_
+23	gene	gene	NOUN	NN	Number=sing	29	nsubjpass	_	_
+24	within	within	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	_	27	det	_	_
+26	In60	in60	NOUN	NN	Number=sing	27	compound	_	_
+27	integron	integron	NOUN	NN	Number=sing	23	nmod	_	_
+28	was	be	AUX	VBD	VerbForm=fin|Tense=past	29	auxpass	_	_
+29	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	11	conj	_	_
+30	in	in	ADP	IN	_	35	case	_	_
+31	the	the	DET	DT	_	35	det	_	_
+32	three	three	NUM	CD	NumType=card	35	nummod	_	_
+33	remaining	remain	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	35	amod	_	_
+34	Virchow	Virchow	PROPN	NNP	NounType=prop|Number=sing	35	compound	_	_
+35	isolates	isolate	NOUN	NNS	Number=plur	29	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=peri	11	punct	_	_
+
+# sent_id = 5
+# text = These three isolates presented indistinguishable or closely related pulsed-field gel electrophoresis patterns among themselves and also as compared with the two other bla(CTX-M-9)-containing isolates previously obtained from animals.
+1	These	these	DET	DT	_	3	det	_	_
+2	three	three	NUM	CD	NumType=card	3	nummod	_	_
+3	isolates	isolate	NOUN	NNS	Number=plur	4	nsubj	_	_
+4	presented	present	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+5	indistinguishable	indistinguishable	ADJ	JJ	Degree=pos	12	amod	_	_
+6	or	or	CCONJ	CC	ConjType=comp	5	cc	_	_
+7	closely	closely	ADV	RB	Degree=pos	8	advmod	_	_
+8	related	related	ADJ	JJ	Degree=pos	5	conj	_	_
+9	pulsed-field	pulsed-field	ADJ	JJ	Degree=pos	12	amod	_	_
+10	gel	gel	NOUN	NN	Number=sing	12	compound	_	_
+11	electrophoresis	electrophoresis	NOUN	NN	Number=sing	12	compound	_	_
+12	patterns	pattern	NOUN	NNS	Number=plur	4	dobj	_	_
+13	among	among	ADP	IN	_	14	case	_	_
+14	themselves	-PRON-	PRON	PRP	PronType=prs	12	nmod	_	_
+15	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+16	also	also	ADV	RB	Degree=pos	18	advmod	_	_
+17	as	as	SCONJ	IN	_	18	mark	_	_
+18	compared	compare	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	conj	_	_
+19	with	with	ADP	IN	_	24	case	_	_
+20	the	the	DET	DT	_	24	det	_	_
+21	two	two	NUM	CD	NumType=card	24	nummod	_	_
+22	other	other	ADJ	JJ	Degree=pos	24	amod	_	_
+23	bla(CTX-M-9)-containing	bla(ctx-m-9)-containing	NOUN	NN	Number=sing	24	compound	_	_
+24	isolates	isolate	NOUN	NNS	Number=plur	18	nmod	_	_
+25	previously	previously	ADV	RB	Degree=pos	26	advmod	_	_
+26	obtained	obtain	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	24	acl	_	_
+27	from	from	ADP	IN	_	28	case	_	_
+28	animals	animal	NOUN	NNS	Number=plur	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 6
+# text = ESBL production is an emerging mechanism of resistance in S. enterica in the two studied hospitals.
+1	ESBL	esbl	NOUN	NN	Number=sing	2	compound	_	_
+2	production	production	NOUN	NN	Number=sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	6	cop	_	_
+4	an	an	DET	DT	_	6	det	_	_
+5	emerging	emerge	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	6	amod	_	_
+6	mechanism	mechanism	NOUN	NN	Number=sing	0	ROOT	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	resistance	resistance	NOUN	NN	Number=sing	6	nmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	S.	S.	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+11	enterica	enterica	NOUN	NN	Number=sing	8	nmod	_	_
+12	in	in	ADP	IN	_	16	case	_	_
+13	the	the	DET	DT	_	16	det	_	_
+14	two	two	NUM	CD	NumType=card	16	nummod	_	_
+15	studied	study	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	16	amod	_	_
+16	hospitals	hospital	NOUN	NNS	Number=plur	8	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	6	punct	_	SpaceAfter=No

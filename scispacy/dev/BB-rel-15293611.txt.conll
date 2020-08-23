@@ -1,0 +1,283 @@
+# sent_id = 1
+# text = Clonal strains of Pseudomonas aeruginosa in paediatric and adult cystic fibrosis units.
+1	Clonal	clonal	ADJ	JJ	Degree=pos	2	amod	_	_
+2	strains	strain	NOUN	NNS	Number=plur	0	ROOT	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	Pseudomonas	pseudomonas	X	FW	Foreign=yes	5	compound	_	_
+5	aeruginosa	aeruginosa	X	FW	Foreign=yes	2	nmod	_	_
+6	in	in	ADP	IN	_	12	case	_	_
+7	paediatric	paediatric	ADJ	JJ	Degree=pos	12	amod	_	_
+8	and	and	CCONJ	CC	ConjType=comp	7	cc	_	_
+9	adult	adult	ADJ	JJ	Degree=pos	7	conj	_	_
+10	cystic	cystic	ADJ	JJ	Degree=pos	12	amod	_	_
+11	fibrosis	fibrosis	NOUN	NN	Number=sing	12	compound	_	_
+12	units	unit	NOUN	NNS	Number=plur	2	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = Despite recent reports of clonal strains of Pseudomonas aeruginosa in cystic fibrosis (CF) units, the need for routine microbiological surveillance remains contentious.
+1	Despite	despite	SCONJ	IN	_	3	case	_	_
+2	recent	recent	ADJ	JJ	Degree=pos	3	amod	_	_
+3	reports	report	NOUN	NNS	Number=plur	24	nmod	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	clonal	clonal	ADJ	JJ	Degree=pos	6	amod	_	_
+6	strains	strain	NOUN	NNS	Number=plur	3	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	Pseudomonas	pseudomonas	X	FW	Foreign=yes	9	compound	_	_
+9	aeruginosa	aeruginosa	X	FW	Foreign=yes	6	nmod	_	_
+10	in	in	ADP	IN	_	16	case	_	_
+11	cystic	cystic	ADJ	JJ	Degree=pos	12	amod	_	_
+12	fibrosis	fibrosis	NOUN	NN	Number=sing	16	compound	_	_
+13	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	14	punct	_	SpaceAfter=No
+14	CF	cf	NOUN	NN	Number=sing	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	14	punct	_	_
+16	units	unit	NOUN	NNS	Number=plur	6	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=comm	24	punct	_	_
+18	the	the	DET	DT	_	19	det	_	_
+19	need	need	NOUN	NN	Number=sing	24	nsubj	_	_
+20	for	for	ADP	IN	_	19	prep	_	_
+21	routine	routine	ADJ	JJ	Degree=pos	23	amod	_	_
+22	microbiological	microbiological	ADJ	JJ	Degree=pos	23	amod	_	_
+23	surveillance	surveillance	NOUN	NN	Number=sing	20	pobj	_	_
+24	remains	remain	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+25	contentious	contentious	ADJ	JJ	Degree=pos	24	acomp	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	24	punct	_	_
+
+# sent_id = 3
+# text = Sputum was collected prospectively from productive patients attending the regional paediatric and adult CF units in Brisbane, Australia.
+1	Sputum	sputum	NOUN	NN	Number=sing	3	nsubjpass	_	_
+2	was	be	AUX	VBD	VerbForm=fin|Tense=past	3	auxpass	_	_
+3	collected	collect	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+4	prospectively	prospectively	ADV	RB	Degree=pos	3	advmod	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	productive	productive	ADJ	JJ	Degree=pos	7	amod	_	_
+7	patients	patient	NOUN	NNS	Number=plur	3	nmod	_	_
+8	attending	attend	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	7	acl	_	_
+9	the	the	DET	DT	_	15	det	_	_
+10	regional	regional	ADJ	JJ	Degree=pos	15	amod	_	_
+11	paediatric	paediatric	ADJ	JJ	Degree=pos	15	amod	_	_
+12	and	and	CCONJ	CC	ConjType=comp	11	cc	_	_
+13	adult	adult	ADJ	JJ	Degree=pos	11	conj	_	_
+14	CF	cf	NOUN	NN	Number=sing	15	compound	_	_
+15	units	unit	NOUN	NNS	Number=plur	8	dobj	_	_
+16	in	in	ADP	IN	_	3	prep	_	_
+17	Brisbane	Brisbane	PROPN	NNP	NounType=prop|Number=sing	16	pobj	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=comm	17	punct	_	_
+19	Australia	Australia	PROPN	NNP	NounType=prop|Number=sing	17	appos	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 4
+# text = All P. aeruginosa isolates were typed using pulsed-field gel electrophoresis.
+1	All	all	DET	DT	_	4	det	_	_
+2	P.	p.	X	FW	Foreign=yes	4	compound	_	_
+3	aeruginosa	aeruginosa	X	FW	Foreign=yes	4	compound	_	_
+4	isolates	isolate	NOUN	NNS	Number=plur	6	nsubjpass	_	_
+5	were	be	AUX	VBD	VerbForm=fin|Tense=past	6	auxpass	_	_
+6	typed	type	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+7	using	use	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	6	xcomp	_	_
+8	pulsed-field	pulsed-field	ADJ	JJ	Degree=pos	10	amod	_	_
+9	gel	gel	NOUN	NN	Number=sing	10	compound	_	_
+10	electrophoresis	electrophoresis	NOUN	NN	Number=sing	7	dobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 5
+# text = Spirometry, anthropometrics, hospitalisations and antibiotic sensitivity data were recorded.
+1	Spirometry	spirometry	NOUN	NN	Number=sing	11	nsubjpass	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+3	anthropometrics	anthropometric	NOUN	NNS	Number=plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+5	hospitalisations	hospitalisation	NOUN	NNS	Number=plur	3	conj	_	_
+6	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+7	antibiotic	antibiotic	ADJ	JJ	Degree=pos	9	amod	_	_
+8	sensitivity	sensitivity	NOUN	NN	Number=sing	9	compound	_	_
+9	data	datum	NOUN	NNS	Number=plur	5	conj	_	_
+10	were	be	AUX	VBD	VerbForm=fin|Tense=past	11	auxpass	_	_
+11	recorded	record	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=peri	11	punct	_	_
+
+# sent_id = 6
+# text = The first 100 sputum samples (first 50 patients at each clinic) harboured 163 isolates of P. aeruginosa.
+1	The	the	DET	DT	_	5	det	_	_
+2	first	first	ADJ	JJ	Degree=pos	5	amod	_	_
+3	100	100	NUM	CD	NumType=card	5	nummod	_	_
+4	sputum	sputum	NOUN	NN	Number=sing	5	compound	_	_
+5	samples	sample	NOUN	NNS	Number=plur	14	nsubj	_	_
+6	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	9	punct	_	SpaceAfter=No
+7	first	first	ADJ	JJ	Degree=pos	9	amod	_	_
+8	50	50	NUM	CD	NumType=card	9	nummod	_	_
+9	patients	patient	NOUN	NNS	Number=plur	5	dep	_	_
+10	at	at	ADP	IN	_	12	case	_	_
+11	each	each	DET	DT	_	12	det	_	_
+12	clinic	clinic	NOUN	NN	Number=sing	9	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	9	punct	_	_
+14	harboured	harbour	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+15	163	163	NUM	CD	NumType=card	16	nummod	_	_
+16	isolates	isolate	NOUN	NNS	Number=plur	14	dobj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	P.	p.	X	FW	Foreign=yes	19	compound	_	_
+19	aeruginosa	aeruginosa	X	FW	Foreign=yes	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	14	punct	_	_
+
+# sent_id = 7
+# text = A total of 39 patients shared a common strain (pulsotype 2), 20 patients shared a strain with at least one other patient and 41 patients harboured unique strains.
+1	A	a	DET	DT	_	2	det	_	_
+2	total	total	NOUN	NN	Number=sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	39	39	NUM	CD	NumType=card	5	nummod	_	_
+5	patients	patient	NOUN	NNS	Number=plur	2	nmod	_	_
+6	shared	share	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	common	common	ADJ	JJ	Degree=pos	9	amod	_	_
+9	strain	strain	NOUN	NN	Number=sing	6	dobj	_	_
+10	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	11	punct	_	SpaceAfter=No
+11	pulsotype	pulsotype	NOUN	NN	Number=sing	9	appos	_	_
+12	2	2	NUM	CD	NumType=card	11	nummod	_	SpaceAfter=No
+13	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	11	punct	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+15	20	20	NUM	CD	NumType=card	16	nummod	_	_
+16	patients	patient	NOUN	NNS	Number=plur	17	nsubj	_	_
+17	shared	share	VERB	VBD	VerbForm=fin|Tense=past	6	conj	_	_
+18	a	a	DET	DT	_	19	det	_	_
+19	strain	strain	NOUN	NN	Number=sing	17	dobj	_	_
+20	with	with	ADP	IN	_	25	case	_	_
+21	at	at	ADP	IN	_	22	case	_	_
+22	least	least	ADJ	JJS	Degree=sup	23	nmod:npmod	_	_
+23	one	one	NUM	CD	NumType=card	25	nummod	_	_
+24	other	other	ADJ	JJ	Degree=pos	25	amod	_	_
+25	patient	patient	NOUN	NN	Number=sing	17	nmod	_	_
+26	and	and	CCONJ	CC	ConjType=comp	25	cc	_	_
+27	41	41	NUM	CD	NumType=card	28	nummod	_	_
+28	patients	patient	NOUN	NNS	Number=plur	25	conj	_	_
+29	harboured	harbour	VERB	VBD	VerbForm=fin|Tense=past	17	conj	_	_
+30	unique	unique	ADJ	JJ	Degree=pos	31	amod	_	_
+31	strains	strain	NOUN	NNS	Number=plur	29	dobj	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 8
+# text = Eight patients shared a strain identical to a previously reported Australian transmissible strain (pulsotype 1).
+1	Eight	eight	NUM	CD	NumType=card	2	nummod	_	_
+2	patients	patient	NOUN	NNS	Number=plur	3	nsubj	_	_
+3	shared	share	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+4	a	a	DET	DT	_	5	det	_	_
+5	strain	strain	NOUN	NN	Number=sing	3	dobj	_	_
+6	identical	identical	ADJ	JJ	Degree=pos	5	amod	_	_
+7	to	to	PART	TO	PartType=inf|VerbForm=inf	13	case	_	_
+8	a	a	DET	DT	_	13	det	_	_
+9	previously	previously	ADV	RB	Degree=pos	10	advmod	_	_
+10	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	13	amod	_	_
+11	Australian	australian	ADJ	JJ	Degree=pos	13	amod	_	_
+12	transmissible	transmissible	ADJ	JJ	Degree=pos	13	amod	_	_
+13	strain	strain	NOUN	NN	Number=sing	6	nmod	_	_
+14	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	15	punct	_	SpaceAfter=No
+15	pulsotype	pulsotype	NOUN	NN	Number=sing	13	appos	_	_
+16	1	1	NUM	CD	NumType=card	15	nummod	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	15	punct	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 9
+# text = Compared with the unique strain group, patients harbouring pulsotype 2 were younger and had poorer lung function.
+1	Compared	compare	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	6	case	_	_
+2	with	with	ADP	IN	_	6	case	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	unique	unique	ADJ	JJ	Degree=pos	6	amod	_	_
+5	strain	strain	NOUN	NN	Number=sing	6	compound	_	_
+6	group	group	NOUN	NN	Number=sing	13	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	13	punct	_	_
+8	patients	patient	NOUN	NNS	Number=plur	13	nsubj	_	_
+9	harbouring	harbour	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	8	acl	_	_
+10	pulsotype	pulsotype	NOUN	NN	Number=sing	9	dobj	_	_
+11	2	2	NUM	CD	NumType=card	10	nummod	_	_
+12	were	be	AUX	VBD	VerbForm=fin|Tense=past	13	cop	_	_
+13	younger	young	ADJ	JJR	Degree=comp	0	ROOT	_	_
+14	and	and	CCONJ	CC	ConjType=comp	13	cc	_	_
+15	had	have	AUX	VBD	VerbForm=fin|Tense=past	13	conj	_	_
+16	poorer	poor	ADJ	JJR	Degree=comp	18	amod	_	_
+17	lung	lung	NOUN	NN	Number=sing	18	compound	_	_
+18	function	function	NOUN	NN	Number=sing	15	dobj	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=peri	13	punct	_	_
+
+# sent_id = 10
+# text = Treatment requirements were similar in these two groups, as were the rates of multiresistance.
+1	Treatment	treatment	NOUN	NN	Number=sing	2	compound	_	_
+2	requirements	requirement	NOUN	NNS	Number=plur	4	nsubj	_	_
+3	were	be	AUX	VBD	VerbForm=fin|Tense=past	4	cop	_	_
+4	similar	similar	ADJ	JJ	Degree=pos	0	ROOT	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	these	these	DET	DT	_	8	det	_	_
+7	two	two	NUM	CD	NumType=card	8	nummod	_	_
+8	groups	group	NOUN	NNS	Number=plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+10	as	as	SCONJ	IN	_	11	mark	_	_
+11	were	be	AUX	VBD	VerbForm=fin|Tense=past	4	advcl	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	rates	rate	NOUN	NNS	Number=plur	11	nsubj	_	_
+14	of	of	ADP	IN	_	13	prep	_	_
+15	multiresistance	multiresistance	NOUN	NN	Number=sing	14	pobj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 11
+# text = In conclusion, 59% of patients harboured a clonal strain, supporting the need for routine microbiological surveillance.
+1	In	in	ADP	IN	_	2	case	_	_
+2	conclusion	conclusion	NOUN	NN	Number=sing	8	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	8	punct	_	_
+4	59	59	NUM	CD	NumType=card	5	nummod	_	SpaceAfter=No
+5	%	%	NOUN	NN	Number=sing	8	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	patients	patient	NOUN	NNS	Number=plur	5	nmod	_	_
+8	harboured	harbour	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+9	a	a	DET	DT	_	11	det	_	_
+10	clonal	clonal	ADJ	JJ	Degree=pos	11	amod	_	_
+11	strain	strain	NOUN	NN	Number=sing	8	dobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	8	punct	_	_
+13	supporting	support	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	8	advcl	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	need	need	NOUN	NN	Number=sing	13	dobj	_	_
+16	for	for	ADP	IN	_	15	prep	_	_
+17	routine	routine	ADJ	JJ	Degree=pos	19	amod	_	_
+18	microbiological	microbiological	ADJ	JJ	Degree=pos	19	amod	_	_
+19	surveillance	surveillance	NOUN	NN	Number=sing	16	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	8	punct	_	_
+
+# sent_id = 12
+# text = In contrast to previously described clonal strains, the dominant pulsotype was indistinguishable from nonclonal strains with respect to both colonial morphology and multiresistance.
+1	In	in	ADP	IN	_	7	case	_	_
+2	contrast	contrast	NOUN	NN	Number=sing	7	dep	_	_
+3	to	to	PART	TO	PartType=inf|VerbForm=inf	7	case	_	_
+4	previously	previously	ADV	RB	Degree=pos	5	advmod	_	_
+5	described	describe	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	7	amod	_	_
+6	clonal	clonal	ADJ	JJ	Degree=pos	7	amod	_	_
+7	strains	strain	NOUN	NNS	Number=plur	13	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	13	punct	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	dominant	dominant	ADJ	JJ	Degree=pos	11	amod	_	_
+11	pulsotype	pulsotype	NOUN	NN	Number=sing	13	nsubj	_	_
+12	was	be	AUX	VBD	VerbForm=fin|Tense=past	13	cop	_	_
+13	indistinguishable	indistinguishable	ADJ	JJ	Degree=pos	0	ROOT	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	nonclonal	nonclonal	ADJ	JJ	Degree=pos	16	amod	_	_
+16	strains	strain	NOUN	NNS	Number=plur	13	nmod	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	respect	respect	NOUN	NN	Number=sing	22	dep	_	_
+19	to	to	PART	TO	PartType=inf|VerbForm=inf	22	case	_	_
+20	both	both	CCONJ	CC	ConjType=comp	22	cc:preconj	_	_
+21	colonial	colonial	ADJ	JJ	Degree=pos	22	amod	_	_
+22	morphology	morphology	NOUN	NN	Number=sing	13	nmod	_	_
+23	and	and	CCONJ	CC	ConjType=comp	22	cc	_	_
+24	multiresistance	multiresistance	NOUN	NN	Number=sing	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	13	punct	_	_
+
+# sent_id = 13
+# text = The clinical significance of clonal strains remains uncertain and requires longitudinal study.
+1	The	the	DET	DT	_	3	det	_	_
+2	clinical	clinical	ADJ	JJ	Degree=pos	3	amod	_	_
+3	significance	significance	NOUN	NN	Number=sing	7	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	clonal	clonal	ADJ	JJ	Degree=pos	6	amod	_	_
+6	strains	strain	NOUN	NNS	Number=plur	3	nmod	_	_
+7	remains	remain	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+8	uncertain	uncertain	ADJ	JJ	Degree=pos	7	xcomp	_	_
+9	and	and	CCONJ	CC	ConjType=comp	7	cc	_	_
+10	requires	require	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	7	conj	_	_
+11	longitudinal	longitudinal	ADJ	JJ	Degree=pos	12	amod	_	_
+12	study	study	NOUN	NN	Number=sing	10	dobj	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=peri	7	punct	_	SpaceAfter=No

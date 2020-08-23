@@ -1,0 +1,99 @@
+# sent_id = 1
+# text = Atypical mycobacteria causing non-pulmonary disease in Queensland.
+1	Atypical	atypical	ADJ	JJ	Degree=pos	2	amod	_	_
+2	mycobacteria	mycobacterium	NOUN	NNS	Number=plur	0	ROOT	_	_
+3	causing	cause	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	2	acl	_	_
+4	non-pulmonary	non-pulmonary	ADJ	JJ	Degree=pos	5	amod	_	_
+5	disease	disease	NOUN	NN	Number=sing	3	dobj	_	_
+6	in	in	ADP	IN	_	2	prep	_	_
+7	Queensland	Queensland	PROPN	NNP	NounType=prop|Number=sing	6	pobj	_	SpaceAfter=No
+8	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = During the period 1971--7, the Tuberculosis Reference Laboratory in Queensland dealt with 52 isolates of atypical mycobacteria made from non-pulmonary sites under circumstances suggesting complicity in disease.
+1	During	during	ADP	IN	_	14	prep	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	period	period	NOUN	NN	Number=sing	1	pobj	_	_
+4	1971	1971	NUM	CD	NumType=card	3	npadvmod	_	SpaceAfter=No
+5	-	-	SYM	SYM	_	6	punct	_	SpaceAfter=No
+6	-7	-7	NUM	CD	NumType=card	3	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	14	punct	_	_
+8	the	the	DET	DT	_	11	det	_	_
+9	Tuberculosis	Tuberculosis	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+10	Reference	Reference	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+11	Laboratory	Laboratory	PROPN	NNP	NounType=prop|Number=sing	14	nsubj	_	_
+12	in	in	ADP	IN	_	11	prep	_	_
+13	Queensland	Queensland	PROPN	NNP	NounType=prop|Number=sing	12	pobj	_	_
+14	dealt	deal	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	52	52	NUM	CD	NumType=card	17	nummod	_	_
+17	isolates	isolate	NOUN	NNS	Number=plur	14	nmod	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	atypical	atypical	ADJ	JJ	Degree=pos	20	amod	_	_
+20	mycobacteria	mycobacterium	NOUN	NNS	Number=plur	17	nmod	_	_
+21	made	make	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	20	acl	_	_
+22	from	from	ADP	IN	_	24	case	_	_
+23	non-pulmonary	non-pulmonary	ADJ	JJ	Degree=pos	24	amod	_	_
+24	sites	site	NOUN	NNS	Number=plur	21	nmod	_	_
+25	under	under	ADP	IN	_	26	case	_	_
+26	circumstances	circumstance	NOUN	NNS	Number=plur	24	nmod	_	_
+27	suggesting	suggest	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	26	acl	_	_
+28	complicity	complicity	NOUN	NN	Number=sing	27	dobj	_	_
+29	in	in	ADP	IN	_	30	case	_	_
+30	disease	disease	NOUN	NN	Number=sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	14	punct	_	_
+
+# sent_id = 3
+# text = Twenty-four isolates belonging to the MAIS complex were associated with lymph node infections in children.
+1	Twenty-four	twenty-four	NUM	CD	NumType=card	2	amod	_	_
+2	isolates	isolate	NOUN	NNS	Number=plur	9	nsubjpass	_	_
+3	belonging	belong	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	2	acl	_	_
+4	to	to	PART	TO	PartType=inf|VerbForm=inf	7	case	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	MAIS	mais	NOUN	NN	Number=sing	7	compound	_	_
+7	complex	complex	NOUN	NN	Number=sing	3	nmod	_	_
+8	were	be	AUX	VBD	VerbForm=fin|Tense=past	9	auxpass	_	_
+9	associated	associate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	lymph	lymph	NOUN	NN	Number=sing	13	compound	_	_
+12	node	node	NOUN	NN	Number=sing	13	compound	_	_
+13	infections	infection	NOUN	NNS	Number=plur	9	nmod	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	children	child	NOUN	NNS	Number=plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 4
+# text = Twelve isolates belonged to the M. fortuitum-chelonei complex; most were from superficial abscesses.
+1	Twelve	twelve	NUM	CD	NumType=card	2	nummod	_	_
+2	isolates	isolate	NOUN	NNS	Number=plur	3	nsubj	_	_
+3	belonged	belong	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+4	to	to	ADP	IN	_	8	case	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	M.	M.	PROPN	NNP	NounType=prop|Number=sing	8	compound	_	_
+7	fortuitum-chelonei	fortuitum-chelonei	ADJ	JJ	Degree=pos	8	amod	_	_
+8	complex	complex	NOUN	NN	Number=sing	3	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	:	_	3	punct	_	_
+10	most	most	ADJ	JJS	Degree=sup	11	advmod	_	_
+11	were	be	AUX	VBD	VerbForm=fin|Tense=past	14	cop	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	superficial	superficial	ADJ	JJ	Degree=pos	14	amod	_	_
+14	abscesses	abscess	NOUN	NNS	Number=plur	3	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 5
+# text = Five cases of M. marinum infection and 8 of M. ulcerans disease were detected.
+1	Five	five	NUM	CD	NumType=card	2	nummod	_	_
+2	cases	case	NOUN	NNS	Number=plur	14	nsubjpass	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	M.	m.	X	FW	Foreign=yes	6	compound	_	_
+5	marinum	marinum	NOUN	NN	Number=sing	6	compound	_	_
+6	infection	infection	NOUN	NN	Number=sing	2	nmod	_	_
+7	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	8	8	NUM	CD	NumType=card	12	compound	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	M.	m.	X	FW	Foreign=yes	12	compound	_	_
+11	ulcerans	ulcerans	ADJ	JJ	Degree=pos	12	compound	_	_
+12	disease	disease	NOUN	NN	Number=sing	6	conj	_	_
+13	were	be	AUX	VBD	VerbForm=fin|Tense=past	14	auxpass	_	_
+14	detected	detect	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	14	punct	_	SpaceAfter=No

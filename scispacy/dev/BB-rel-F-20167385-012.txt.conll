@@ -1,0 +1,49 @@
+# sent_id = 1
+# text = Deetae et al. (2009) reported that Gram negative bacteria including Microbacterium foliorum, Psychrobacter sp. and Proteus vulgaris,
+1	Deetae	Deetae	PROPN	NNP	NounType=prop|Number=sing	7	nsubj	_	_
+2	et	et	X	FW	Foreign=yes	1	dep	_	_
+3	al.	al.	X	FW	Foreign=yes	1	dep	_	_
+4	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	5	punct	_	SpaceAfter=No
+5	2009	2009	NUM	CD	NumType=card	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	5	punct	_	_
+7	reported	report	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	Gram	gram	NOUN	NN	Number=sing	11	compound	_	_
+10	negative	negative	ADJ	JJ	Degree=pos	11	amod	_	_
+11	bacteria	bacteria	NOUN	NNS	Number=plur	7	ccomp	_	_
+12	including	include	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	11	prep	_	_
+13	Microbacterium	microbacterium	NOUN	NN	Number=sing	14	compound	_	_
+14	foliorum	foliorum	NOUN	NN	Number=sing	12	pobj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=comm	14	punct	_	_
+16	Psychrobacter	Psychrobacter	PROPN	NNP	NounType=prop|Number=sing	17	compound	_	_
+17	sp.	sp.	PROPN	NNP	NounType=prop|Number=sing	11	punct	_	_
+18	and	and	CCONJ	CC	ConjType=comp	11	cc	_	_
+19	Proteus	proteus	NOUN	NN	Number=sing	20	compound	_	_
+20	vulgaris	vulgaris	NOUN	NN	Number=sing	11	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=comm	11	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = showed a strong potential for producing aroma compounds with pronounced
+1	showed	show	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+2	a	a	DET	DT	_	4	det	_	_
+3	strong	strong	ADJ	JJ	Degree=pos	4	amod	_	_
+4	potential	potential	NOUN	NN	Number=sing	1	dobj	_	_
+5	for	for	ADP	IN	_	6	mark	_	_
+6	producing	produce	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	4	acl	_	_
+7	aroma	aroma	NOUN	NN	Number=sing	8	compound	_	_
+8	compounds	compound	NOUN	NNS	Number=plur	6	dobj	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	pronounced	pronounced	ADJ	JJ	Degree=pos	6	nmod	_	SpaceAfter=No
+
+# sent_id = 3
+# text = “cheese” notes such as volatile sulphur compounds.
+1	“	“	NOUN	NN	Number=sing	2	compound	_	SpaceAfter=No
+2	cheese	cheese	NOUN	NN	Number=sing	4	nsubj	_	SpaceAfter=No
+3	”	”	NOUN	NN	Number=sing	4	nsubj	_	_
+4	notes	note	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+5	such	such	ADJ	JJ	Degree=pos	9	case	_	_
+6	as	as	SCONJ	IN	_	5	mwe	_	_
+7	volatile	volatile	ADJ	JJ	Degree=pos	9	amod	_	_
+8	sulphur	sulphur	ADJ	JJ	Degree=pos	9	compound	_	_
+9	compounds	compound	NOUN	NNS	Number=plur	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	4	punct	_	SpaceAfter=No

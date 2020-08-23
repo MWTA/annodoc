@@ -1,0 +1,27 @@
+# sent_id = 1
+# text = Three mgl sequences with high similarity to the marine bacterium Pseudoalteromonas haloplanktis were recovered from three cheese metagenomes (highlighted in gray box).
+1	Three	three	NUM	CD	NumType=card	3	nummod	_	_
+2	mgl	mgl	ADJ	JJ	Degree=pos	3	compound	_	_
+3	sequences	sequence	NOUN	NNS	Number=plur	14	nsubjpass	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	high	high	ADJ	JJ	Degree=pos	6	amod	_	_
+6	similarity	similarity	NOUN	NN	Number=sing	3	nmod	_	_
+7	to	to	PART	TO	PartType=inf|VerbForm=inf	12	case	_	_
+8	the	the	DET	DT	_	12	det	_	_
+9	marine	marine	NOUN	NN	Number=sing	12	amod	_	_
+10	bacterium	bacterium	NOUN	NN	Number=sing	12	compound	_	_
+11	Pseudoalteromonas	pseudoalteromonas	NOUN	NN	Number=sing	12	compound	_	_
+12	haloplanktis	haloplanktis	NOUN	NN	Number=sing	6	nmod	_	_
+13	were	be	AUX	VBD	VerbForm=fin|Tense=past	14	auxpass	_	_
+14	recovered	recover	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+15	from	from	ADP	IN	_	18	case	_	_
+16	three	three	NUM	CD	NumType=card	18	nummod	_	_
+17	cheese	cheese	NOUN	NN	Number=sing	18	amod	_	_
+18	metagenomes	metagenome	NOUN	NNS	Number=plur	14	nmod	_	_
+19	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	20	punct	_	SpaceAfter=No
+20	highlighted	highlight	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	18	dep	_	_
+21	in	in	ADP	IN	_	20	prep	_	_
+22	gray	gray	ADJ	JJ	Degree=pos	23	amod	_	_
+23	box	box	NOUN	NN	Number=sing	21	pobj	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	20	punct	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	14	punct	_	SpaceAfter=No

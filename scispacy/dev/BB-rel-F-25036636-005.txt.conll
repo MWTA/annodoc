@@ -1,0 +1,219 @@
+# sent_id = 1
+# text = Intensive sampling of three batches of cheese over a
+1	Intensive	intensive	ADJ	JJ	Degree=pos	2	amod	_	_
+2	sampling	sampling	NOUN	NN	Number=sing	0	ROOT	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	three	three	NUM	CD	NumType=card	5	nummod	_	_
+5	batches	batch	NOUN	NNS	Number=plur	3	pobj	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	cheese	cheese	NOUN	NN	Number=sing	6	pobj	_	_
+8	over	over	ADP	IN	_	2	prep	_	_
+9	a	a	DET	DT	_	8	pobj	_	SpaceAfter=No
+
+# sent_id = 2
+# text = 63-day aging period demonstrates that patterns of succession are highly
+1	63-day	63-day	ADJ	JJ	Degree=pos	3	amod	_	_
+2	aging	aging	NOUN	NN	Number=sing	3	compound	_	_
+3	period	period	NOUN	NN	Number=sing	4	nsubj	_	_
+4	demonstrates	demonstrate	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	patterns	pattern	NOUN	NNS	Number=plur	9	nsubj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	succession	succession	NOUN	NN	Number=sing	6	nmod	_	_
+9	are	be	AUX	VBP	VerbForm=fin|Tense=pres	4	ccomp	_	_
+10	highly	highly	ADV	RB	Degree=pos	9	advmod	_	SpaceAfter=No
+
+# sent_id = 3
+# text = reproducible (Figures 7A and 7B).
+1	reproducible	reproducible	ADJ	JJ	Degree=pos	4	amod	_	_
+2	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	4	punct	_	SpaceAfter=No
+3	Figures	figure	NOUN	NNS	Number=plur	4	compound	_	_
+4	7A	7a	NOUN	NN	Number=sing	0	ROOT	_	_
+5	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+6	7B	7b	NOUN	NN	Number=sing	4	conj	_	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 4
+# text = At the first time point, the community consisted primarily of Proteobacteria, the bacterium Leuconostoc, and the yeast Candida, which can be found at low levels in raw milk ( Quigley et al., 2013).
+1	At	at	ADP	IN	_	9	prep	_	_
+2	the	the	DET	DT	_	5	det	_	_
+3	first	first	ADJ	JJ	Degree=pos	5	amod	_	_
+4	time	time	NOUN	NN	Number=sing	5	compound	_	_
+5	point	point	NOUN	NN	Number=sing	1	pobj	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	community	community	NOUN	NN	Number=sing	9	nsubj	_	_
+9	consisted	consist	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+10	primarily	primarily	ADV	RB	Degree=pos	11	advmod	_	_
+11	of	of	ADP	IN	_	9	prep	_	_
+12	Proteobacteria	Proteobacteria	PROPN	NNP	NounType=prop|Number=sing	11	pobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=comm	12	punct	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	bacterium	bacterium	NOUN	NN	Number=sing	16	compound	_	_
+16	Leuconostoc	Leuconostoc	PROPN	NNP	NounType=prop|Number=sing	12	appos	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+18	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+19	the	the	DET	DT	_	21	det	_	_
+20	yeast	yeast	NOUN	NN	Number=sing	21	compound	_	_
+21	Candida	candida	NOUN	NN	Number=sing	9	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	PunctType=comm	21	punct	_	_
+23	which	which	DET	WDT	_	26	nsubjpass	_	_
+24	can	can	VERB	MD	VerbType=mod	26	aux	_	_
+25	be	be	AUX	VB	VerbForm=inf	26	auxpass	_	_
+26	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	21	relcl	_	_
+27	at	at	ADP	IN	_	26	prep	_	_
+28	low	low	ADJ	JJ	Degree=pos	29	amod	_	_
+29	levels	level	NOUN	NNS	Number=plur	27	pobj	_	_
+30	in	in	ADP	IN	_	29	prep	_	_
+31	raw	raw	ADJ	JJ	Degree=pos	32	amod	_	_
+32	milk	milk	NOUN	NN	Number=sing	30	pobj	_	_
+33	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	34	punct	_	_
+34	Quigley	Quigley	PROPN	NNP	NounType=prop|Number=sing	21	appos	_	_
+35	et	et	X	FW	Foreign=yes	34	dep	_	_
+36	al.	al.	X	FW	Foreign=yes	34	dep	_	SpaceAfter=No
+37	,	,	PUNCT	,	PunctType=comm	34	punct	_	_
+38	2013	2013	NUM	CD	NumType=card	34	appos	_	SpaceAfter=No
+39	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	34	punct	_	SpaceAfter=No
+40	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 5
+# text = Whereas Candida persisted in the fungal portion of the community, the Proteobacteria were succeeded by Staphylococcus within the first 7 days.
+1	Whereas	whereas	SCONJ	IN	_	3	mark	_	_
+2	Candida	candida	NOUN	NN	Number=sing	3	nsubj	_	_
+3	persisted	persist	VERB	VBD	VerbForm=fin|Tense=past	15	advcl	_	_
+4	in	in	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	fungal	fungal	ADJ	JJ	Degree=pos	7	amod	_	_
+7	portion	portion	NOUN	NN	Number=sing	4	pobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	community	community	NOUN	NN	Number=sing	8	pobj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=comm	15	punct	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	Proteobacteria	Proteobacteria	PROPN	NNP	NounType=prop|Number=sing	15	nsubjpass	_	_
+14	were	be	AUX	VBD	VerbForm=fin|Tense=past	15	auxpass	_	_
+15	succeeded	succeed	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+16	by	by	ADP	IN	_	15	agent	_	_
+17	Staphylococcus	Staphylococcus	PROPN	NNP	NounType=prop|Number=sing	16	pobj	_	_
+18	within	within	ADP	IN	_	15	prep	_	_
+19	the	the	DET	DT	_	22	det	_	_
+20	first	first	ADJ	JJ	Degree=pos	22	amod	_	_
+21	7	7	NUM	CD	NumType=card	22	nummod	_	_
+22	days	day	NOUN	NNS	Number=plur	18	pobj	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=peri	15	punct	_	_
+
+# sent_id = 6
+# text = As the rinds matured, bacterial taxa Brevibacterium and Brachybacterium and fungal taxa Penicillium and Scopulariopsis
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	rinds	rind	NOUN	NNS	Number=plur	4	nsubj	_	_
+4	matured	mature	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+6	bacterial	bacterial	ADJ	JJ	Degree=pos	8	amod	_	_
+7	taxa	taxa	NOUN	NN	Number=sing	8	compound	_	_
+8	Brevibacterium	Brevibacterium	PROPN	NNP	NounType=prop|Number=sing	4	conj	_	_
+9	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+10	Brachybacterium	Brachybacterium	PROPN	NNP	NounType=prop|Number=sing	8	conj	_	_
+11	and	and	CCONJ	CC	ConjType=comp	10	cc	_	_
+12	fungal	fungal	ADJ	JJ	Degree=pos	13	amod	_	_
+13	taxa	taxa	NOUN	NN	Number=sing	10	conj	_	_
+14	Penicillium	Penicillium	PROPN	NNP	NounType=prop|Number=sing	8	conj	_	_
+15	and	and	CCONJ	CC	ConjType=comp	14	cc	_	_
+16	Scopulariopsis	scopulariopsis	NOUN	NN	Number=sing	14	conj	_	SpaceAfter=No
+
+# sent_id = 7
+# text = emerged consistently as a significant fraction of the community (on
+1	emerged	emerge	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+2	consistently	consistently	ADV	RB	Degree=pos	1	advmod	_	_
+3	as	as	SCONJ	IN	_	6	case	_	_
+4	a	a	DET	DT	_	6	det	_	_
+5	significant	significant	ADJ	JJ	Degree=pos	6	amod	_	_
+6	fraction	fraction	NOUN	NN	Number=sing	1	nmod	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	community	community	NOUN	NN	Number=sing	7	pobj	_	_
+10	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	11	punct	_	SpaceAfter=No
+11	on	on	ADP	IN	_	1	prep	_	SpaceAfter=No
+
+# sent_id = 8
+# text = average, >1% in mature cheeses).
+1	average	average	ADJ	JJ	Degree=pos	5	amod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+3	>	>	X	XX	_	1	appos	_	SpaceAfter=No
+4	1	1	NUM	CD	NumType=card	5	nummod	_	SpaceAfter=No
+5	%	%	NOUN	NN	Number=sing	0	ROOT	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	mature	mature	ADJ	JJ	Degree=pos	8	amod	_	_
+8	cheeses	cheese	NOUN	NNS	Number=plur	5	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	5	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 9
+# text = Principal coordinate analysis shows a
+1	Principal	principal	ADJ	JJ	Degree=pos	3	amod	_	_
+2	coordinate	coordinate	ADJ	JJ	Degree=pos	3	amod	_	_
+3	analysis	analysis	NOUN	NN	Number=sing	4	nsubj	_	_
+4	shows	show	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+5	a	a	DET	DT	_	4	dobj	_	SpaceAfter=No
+
+# sent_id = 10
+# text = reproducible trajectory of all three communities over time ( Figure 7B),
+1	reproducible	reproducible	ADJ	JJ	Degree=pos	2	amod	_	_
+2	trajectory	trajectory	NOUN	NN	Number=sing	0	ROOT	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	all	all	DET	DT	_	6	det	_	_
+5	three	three	NUM	CD	NumType=card	6	nummod	_	_
+6	communities	community	NOUN	NNS	Number=plur	3	pobj	_	_
+7	over	over	ADP	IN	_	6	prep	_	_
+8	time	time	NOUN	NN	Number=sing	7	pobj	_	_
+9	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	11	punct	_	_
+10	Figure	figure	NOUN	NN	Number=sing	11	compound	_	_
+11	7B	7b	NOUN	NN	Number=sing	2	appos	_	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=comm	2	punct	_	SpaceAfter=No
+
+# sent_id = 11
+# text = with the most rapid changes in composition occurring at early time
+1	with	with	ADP	IN	_	5	case	_	_
+2	the	the	DET	DT	_	5	det	_	_
+3	most	most	ADV	RBS	Degree=sup	4	advmod	_	_
+4	rapid	rapid	ADJ	JJ	Degree=pos	5	amod	_	_
+5	changes	change	NOUN	NNS	Number=plur	0	ROOT	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	composition	composition	NOUN	NN	Number=sing	5	nmod	_	_
+8	occurring	occur	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	7	acl	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	early	early	ADJ	JJ	Degree=pos	11	amod	_	_
+11	time	time	NOUN	NN	Number=sing	8	nmod	_	SpaceAfter=No
+
+# sent_id = 12
+# text = points, which is consistent with previous observations of primary
+1	points	point	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+3	which	which	DET	WDT	_	5	nsubj	_	_
+4	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	5	cop	_	_
+5	consistent	consistent	ADJ	JJ	Degree=pos	1	relcl	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	previous	previous	ADJ	JJ	Degree=pos	8	amod	_	_
+8	observations	observation	NOUN	NNS	Number=plur	5	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	primary	primary	ADJ	JJ	Degree=pos	8	nmod	_	SpaceAfter=No
+
+# sent_id = 13
+# text = succession ( Fierer et al., 2012 and Shade et al., 2013).
+1	succession	succession	NOUN	NN	Number=sing	0	ROOT	_	_
+2	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	3	punct	_	_
+3	Fierer	Fierer	PROPN	NNP	NounType=prop|Number=sing	1	dep	_	_
+4	et	et	X	FW	Foreign=yes	3	dep	_	_
+5	al.	al.	X	FW	Foreign=yes	3	dep	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+7	2012	2012	NUM	CD	NumType=card	3	conj	_	_
+8	and	and	CCONJ	CC	ConjType=comp	7	cc	_	_
+9	Shade	Shade	PROPN	NNP	NounType=prop|Number=sing	7	conj	_	_
+10	et	et	X	FW	Foreign=yes	3	dep	_	_
+11	al.	al.	X	FW	Foreign=yes	3	dep	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+13	2013	2013	NUM	CD	NumType=card	3	appos	_	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	3	punct	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No

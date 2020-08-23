@@ -1,0 +1,159 @@
+# sent_id = 1
+# text = However, to date, a cheese-associated mgl gene has only been identified in Brevibacterium linens ( Amarita et al., 2004, Monnet et al., 2010 and Schröder et al., 2011).
+1	However	however	ADV	RB	Degree=pos	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	13	punct	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	date	date	NOUN	NN	Number=sing	13	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	13	punct	_	_
+6	a	a	DET	DT	_	9	det	_	_
+7	cheese-associated	cheese-associated	ADJ	JJ	Degree=pos	9	amod	_	_
+8	mgl	mgl	ADJ	JJ	Degree=pos	9	compound	_	_
+9	gene	gene	NOUN	NN	Number=sing	13	nsubjpass	_	_
+10	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	13	aux	_	_
+11	only	only	ADV	RB	Degree=pos	13	advmod	_	_
+12	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	13	auxpass	_	_
+13	identified	identify	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	Brevibacterium	brevibacterium	NOUN	NN	Number=sing	16	compound	_	_
+16	linens	linen	NOUN	NNS	Number=plur	13	nmod	_	_
+17	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	18	punct	_	_
+18	Amarita	Amarita	PROPN	NNP	NounType=prop|Number=sing	13	dep	_	_
+19	et	et	X	FW	Foreign=yes	18	dep	_	_
+20	al.	al.	X	FW	Foreign=yes	18	dep	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=comm	18	punct	_	_
+22	2004	2004	NUM	CD	NumType=card	18	appos	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	18	punct	_	_
+24	Monnet	Monnet	PROPN	NNP	NounType=prop|Number=sing	18	appos	_	_
+25	et	et	X	FW	Foreign=yes	24	dep	_	_
+26	al.	al.	X	FW	Foreign=yes	24	dep	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=comm	24	punct	_	_
+28	2010	2010	NUM	CD	NumType=card	24	conj	_	_
+29	and	and	CCONJ	CC	ConjType=comp	28	cc	_	_
+30	Schröder	Schröder	PROPN	NNP	NounType=prop|Number=sing	28	conj	_	_
+31	et	et	X	FW	Foreign=yes	24	dep	_	_
+32	al.	al.	X	FW	Foreign=yes	24	dep	_	SpaceAfter=No
+33	,	,	PUNCT	,	PunctType=comm	24	punct	_	_
+34	2011	2011	NUM	CD	NumType=card	24	appos	_	SpaceAfter=No
+35	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	18	punct	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=peri	13	punct	_	_
+
+# sent_id = 2
+# text = Our metagenomic sequencing uncovered previously undescribed mgl sequences with high sequence similarity to various γ-Proteobacteria in cheeses from both Europe and North America ( Table S4B).
+1	Our	-PRON-	DET	PRP$	PronType=prs|Poss=yes	3	nmod:poss	_	_
+2	metagenomic	metagenomic	ADJ	JJ	Degree=pos	3	amod	_	_
+3	sequencing	sequencing	NOUN	NN	Number=sing	4	nsubj	_	_
+4	uncovered	uncovered	ADJ	JJ	Degree=pos	0	ROOT	_	_
+5	previously	previously	ADV	RB	Degree=pos	6	advmod	_	_
+6	undescribed	undescribed	ADJ	JJ	Degree=pos	4	dep	_	_
+7	mgl	mgl	ADJ	JJ	Degree=pos	8	compound	_	_
+8	sequences	sequence	NOUN	NNS	Number=plur	6	dobj	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	high	high	ADJ	JJ	Degree=pos	12	amod	_	_
+11	sequence	sequence	NOUN	NN	Number=sing	12	compound	_	_
+12	similarity	similarity	NOUN	NN	Number=sing	8	nmod	_	_
+13	to	to	PART	TO	PartType=inf|VerbForm=inf	15	case	_	_
+14	various	various	ADJ	JJ	Degree=pos	15	amod	_	_
+15	γ-Proteobacteria	γ-proteobacteria	NOUN	NN	Number=sing	12	nmod	_	_
+16	in	in	ADP	IN	_	6	prep	_	_
+17	cheeses	cheese	NOUN	NNS	Number=plur	16	pobj	_	_
+18	from	from	ADP	IN	_	17	prep	_	_
+19	both	both	CCONJ	CC	ConjType=comp	20	preconj	_	_
+20	Europe	Europe	PROPN	NNP	NounType=prop|Number=sing	18	pobj	_	_
+21	and	and	CCONJ	CC	ConjType=comp	20	cc	_	_
+22	North	North	PROPN	NNP	NounType=prop|Number=sing	23	compound	_	_
+23	America	America	PROPN	NNP	NounType=prop|Number=sing	20	conj	_	_
+24	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	26	punct	_	_
+25	Table	table	ADJ	JJ	Degree=pos	26	compound	_	_
+26	S4B	s4b	NOUN	NN	Number=sing	4	dobj	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 3
+# text = Several of these previously undescribed mgl sequences belonged to Pseudoalteromonas spp.
+1	Several	several	ADJ	JJ	Degree=pos	0	ROOT	_	_
+2	of	of	ADP	IN	_	7	case	_	_
+3	these	these	DET	DT	_	7	det	_	_
+4	previously	previously	ADV	RB	Degree=pos	5	advmod	_	_
+5	undescribed	undescribed	ADJ	JJ	Degree=pos	7	amod	_	_
+6	mgl	mgl	ADJ	JJ	Degree=pos	7	compound	_	_
+7	sequences	sequence	NOUN	NNS	Number=plur	1	nmod	_	_
+8	belonged	belong	VERB	VBD	VerbForm=fin|Tense=past	7	acl	_	_
+9	to	to	ADP	IN	_	8	prep	_	_
+10	Pseudoalteromonas	Pseudoalteromonas	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+11	spp	spp	NOUN	NN	Number=sing	9	pobj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 4
+# text = ( Figures 4C and S4B).
+1	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	3	punct	_	_
+2	Figures	figure	NOUN	NNS	Number=plur	3	compound	_	_
+3	4C	4c	NOUN	NN	Number=sing	0	ROOT	_	_
+4	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+5	S4B	s4b	NOUN	NN	Number=sing	3	conj	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 5
+# text = We mapped metagenomic reads from three cheeses in which Pseudoalteromonas was abundant to the reference genome of Pseudoalteromonas haloplanktis (99.5% pairwise identity,  Table S4C).
+1	We	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	mapped	map	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	metagenomic	metagenomic	ADJ	JJ	Degree=pos	4	amod	_	_
+4	reads	read	NOUN	NNS	Number=plur	2	dobj	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	three	three	NUM	CD	NumType=card	7	nummod	_	_
+7	cheeses	cheese	NOUN	NNS	Number=plur	2	nmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	which	which	DET	WDT	_	12	nmod	_	_
+10	Pseudoalteromonas	pseudoalteromonas	NOUN	NN	Number=sing	12	nsubj	_	_
+11	was	be	AUX	VBD	VerbForm=fin|Tense=past	12	cop	_	_
+12	abundant	abundant	ADJ	JJ	Degree=pos	7	acl:relcl	_	_
+13	to	to	PART	TO	PartType=inf|VerbForm=inf	16	case	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	reference	reference	NOUN	NN	Number=sing	16	compound	_	_
+16	genome	genome	NOUN	NN	Number=sing	12	nmod	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	Pseudoalteromonas	pseudoalteromonas	NOUN	NN	Number=sing	19	compound	_	_
+19	haloplanktis	haloplanktis	NOUN	NN	Number=sing	16	nmod	_	_
+20	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	24	punct	_	SpaceAfter=No
+21	99.5	99.5	NUM	CD	NumType=card	22	nummod	_	SpaceAfter=No
+22	%	%	NOUN	NN	Number=sing	24	compound	_	_
+23	pairwise	pairwise	VERB	VBP	VerbForm=fin|Tense=pres	24	compound	_	_
+24	identity	identity	NOUN	NN	Number=sing	2	dep	_	SpaceAfter=No
+25	,	,	PUNCT	,	PunctType=comm	24	punct	_	_
+26	 	 	SPACE	_SP	_	25		_	SpaceAfter=No
+27	Table	table	ADJ	JJ	Degree=pos	28	compound	_	_
+28	S4C	s4c	NOUN	NN	Number=sing	24	appos	_	SpaceAfter=No
+29	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	24	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 6
+# text = Additionally, Pseudoalteromonas is known to have many cold-adapted enzymes that function in the polar seawater where this bacterium typically grows ( Médigue et al., 2005).
+1	Additionally	additionally	ADV	RB	Degree=pos	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+3	Pseudoalteromonas	pseudoalteromonas	NOUN	NN	Number=sing	5	nsubjpass	_	_
+4	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	5	auxpass	_	_
+5	known	know	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	to	to	PART	TO	PartType=inf|VerbForm=inf	7	mark	_	_
+7	have	have	AUX	VB	VerbForm=inf	5	xcomp	_	_
+8	many	many	ADJ	JJ	Degree=pos	10	amod	_	_
+9	cold-adapted	cold-adapted	ADJ	JJ	Degree=pos	10	amod	_	_
+10	enzymes	enzyme	NOUN	NNS	Number=plur	7	dobj	_	_
+11	that	that	DET	WDT	_	12	nsubj	_	_
+12	function	function	VERB	VBP	VerbForm=fin|Tense=pres	10	acl:relcl	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	polar	polar	ADJ	JJ	Degree=pos	16	amod	_	_
+16	seawater	seawater	NOUN	NN	Number=sing	12	nmod	_	_
+17	where	where	ADV	WRB	_	21	advmod	_	_
+18	this	this	DET	DT	_	19	det	_	_
+19	bacterium	bacterium	NOUN	NN	Number=sing	21	nsubj	_	_
+20	typically	typically	ADV	RB	Degree=pos	21	advmod	_	_
+21	grows	grow	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	16	acl:relcl	_	_
+22	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	23	punct	_	_
+23	Médigue	Médigue	PROPN	NNP	NounType=prop|Number=sing	5	dep	_	_
+24	et	et	X	FW	Foreign=yes	23	dep	_	_
+25	al.	al.	X	FW	Foreign=yes	23	dep	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=comm	23	punct	_	_
+27	2005	2005	NUM	CD	NumType=card	23	appos	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	23	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=peri	5	punct	_	SpaceAfter=No

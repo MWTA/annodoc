@@ -1,0 +1,157 @@
+# sent_id = 1
+# text = Campylobacter--a tale of two protein glycosylation systems.
+1	Campylobacter	campylobacter	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+2	--	--	PUNCT	:	_	1	punct	_	SpaceAfter=No
+3	a	a	DET	DT	_	4	det	_	_
+4	tale	tale	NOUN	NN	Number=sing	1	appos	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	two	two	NUM	CD	NumType=card	9	nummod	_	_
+7	protein	protein	NOUN	NN	Number=sing	9	compound	_	_
+8	glycosylation	glycosylation	NOUN	NN	Number=sing	9	compound	_	_
+9	systems	system	NOUN	NNS	Number=plur	5	pobj	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = Post-translational glycosylation is a universal modification of proteins in eukarya, archaea and bacteria.
+1	Post-translational	post-translational	ADJ	JJ	Degree=pos	2	amod	_	_
+2	glycosylation	glycosylation	NOUN	NN	Number=sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	6	cop	_	_
+4	a	a	DET	DT	_	6	det	_	_
+5	universal	universal	ADJ	JJ	Degree=pos	6	amod	_	_
+6	modification	modification	NOUN	NN	Number=sing	0	ROOT	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	proteins	protein	NOUN	NNS	Number=plur	6	nmod	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	eukarya	eukarya	NOUN	NN	Number=sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+12	archaea	archaea	NOUN	NNS	Number=plur	10	conj	_	_
+13	and	and	CCONJ	CC	ConjType=comp	12	cc	_	_
+14	bacteria	bacteria	NOUN	NNS	Number=plur	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 3
+# text = Two recent publications describe the first confirmed report of a bacterial N-linked glycosylation pathway in the human gastrointestinal pathogen Campylobacter jejuni.
+1	Two	two	NUM	CD	NumType=card	3	nummod	_	_
+2	recent	recent	ADJ	JJ	Degree=pos	3	amod	_	_
+3	publications	publication	NOUN	NNS	Number=plur	4	nsubj	_	_
+4	describe	describe	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	first	first	ADJ	JJ	Degree=pos	8	amod	_	_
+7	confirmed	confirm	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	amod	_	_
+8	report	report	NOUN	NN	Number=sing	4	dobj	_	_
+9	of	of	ADP	IN	_	14	case	_	_
+10	a	a	DET	DT	_	14	det	_	_
+11	bacterial	bacterial	ADJ	JJ	Degree=pos	14	amod	_	_
+12	N-linked	n-linked	ADJ	JJ	Degree=pos	14	amod	_	_
+13	glycosylation	glycosylation	NOUN	NN	Number=sing	14	compound	_	_
+14	pathway	pathway	NOUN	NN	Number=sing	8	nmod	_	_
+15	in	in	ADP	IN	_	21	case	_	_
+16	the	the	DET	DT	_	21	det	_	_
+17	human	human	ADJ	JJ	Degree=pos	21	amod	_	_
+18	gastrointestinal	gastrointestinal	ADJ	JJ	Degree=pos	21	amod	_	_
+19	pathogen	pathogen	NOUN	NN	Number=sing	21	compound	_	_
+20	Campylobacter	campylobacter	NOUN	NN	Number=sing	21	compound	_	_
+21	jejuni	jejuni	NOUN	NN	Number=sing	8	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 4
+# text = In addition, an O-linked glycosylation pathway has been identified and characterized in C. jejuni and the related species Campylobacter coli.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+4	an	an	DET	DT	_	7	det	_	_
+5	O-linked	o-linked	ADJ	JJ	Degree=pos	7	amod	_	_
+6	glycosylation	glycosylation	NOUN	NN	Number=sing	7	compound	_	_
+7	pathway	pathway	NOUN	NN	Number=sing	10	nsubjpass	_	_
+8	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	10	aux	_	_
+9	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	10	auxpass	_	_
+10	identified	identify	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+11	and	and	CCONJ	CC	ConjType=comp	10	cc	_	_
+12	characterized	characterize	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	10	conj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	C.	c.	ADJ	JJ	Degree=pos	15	compound	_	_
+15	jejuni	jejuni	NOUN	NN	Number=sing	12	nmod	_	_
+16	and	and	CCONJ	CC	ConjType=comp	15	cc	_	_
+17	the	the	DET	DT	_	21	det	_	_
+18	related	related	ADJ	JJ	Degree=pos	21	amod	_	_
+19	species	specie	NOUN	NNS	Number=plur	21	compound	_	_
+20	Campylobacter	campylobacter	NOUN	NN	Number=sing	21	compound	_	_
+21	coli	coli	X	FW	Foreign=yes	15	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=peri	10	punct	_	_
+
+# sent_id = 5
+# text = Both pathways have similarity to the respective N- and O-linked glycosylation processes in eukaryotes.
+1	Both	both	DET	DT	_	2	det	_	_
+2	pathways	pathway	NOUN	NNS	Number=plur	3	nsubj	_	_
+3	have	have	AUX	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+4	similarity	similarity	NOUN	NN	Number=sing	3	dobj	_	_
+5	to	to	PART	TO	PartType=inf|VerbForm=inf	12	case	_	_
+6	the	the	DET	DT	_	12	det	_	_
+7	respective	respective	ADJ	JJ	Degree=pos	12	amod	_	_
+8	N-	n-	NOUN	NN	Number=sing	7	dep	_	_
+9	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+10	O-linked	o-linked	ADJ	JJ	Degree=pos	8	conj	_	_
+11	glycosylation	glycosylation	NOUN	NN	Number=sing	12	compound	_	_
+12	processes	process	NOUN	NNS	Number=plur	4	nmod	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	eukaryotes	eukaryote	NOUN	NNS	Number=plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 6
+# text = In bacteria, homologues of the genes in both pathways are found in other organisms, the complex glycans linked to the glycoproteins share common biosynthetic precursors and these modifications could play similar biological roles.
+1	In	in	ADP	IN	_	12	prep	_	_
+2	bacteria	bacteria	NOUN	NNS	Number=plur	1	pobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	12	punct	_	_
+4	homologues	homologue	NOUN	NNS	Number=plur	12	nsubjpass	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	genes	gene	NOUN	NNS	Number=plur	4	nmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	both	both	DET	DT	_	10	det	_	_
+10	pathways	pathway	NOUN	NNS	Number=plur	4	nmod	_	_
+11	are	be	AUX	VBP	VerbForm=fin|Tense=pres	12	auxpass	_	_
+12	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	24	advcl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	other	other	ADJ	JJ	Degree=pos	15	amod	_	_
+15	organisms	organism	NOUN	NNS	Number=plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=comm	24	punct	_	_
+17	the	the	DET	DT	_	19	det	_	_
+18	complex	complex	ADJ	JJ	Degree=pos	19	amod	_	_
+19	glycans	glycan	NOUN	NNS	Number=plur	24	nsubj	_	_
+20	linked	link	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	19	acl	_	_
+21	to	to	PART	TO	PartType=inf|VerbForm=inf	23	case	_	_
+22	the	the	DET	DT	_	23	det	_	_
+23	glycoproteins	glycoprotein	NOUN	NNS	Number=plur	20	nmod	_	_
+24	share	share	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+25	common	common	ADJ	JJ	Degree=pos	27	amod	_	_
+26	biosynthetic	biosynthetic	ADJ	JJ	Degree=pos	27	amod	_	_
+27	precursors	precursor	NOUN	NNS	Number=plur	24	dobj	_	_
+28	and	and	CCONJ	CC	ConjType=comp	24	cc	_	_
+29	these	these	DET	DT	_	30	det	_	_
+30	modifications	modification	NOUN	NNS	Number=plur	32	nsubj	_	_
+31	could	could	VERB	MD	VerbType=mod	32	aux	_	_
+32	play	play	VERB	VB	VerbForm=inf	24	conj	_	_
+33	similar	similar	ADJ	JJ	Degree=pos	35	amod	_	_
+34	biological	biological	ADJ	JJ	Degree=pos	35	amod	_	_
+35	roles	role	NOUN	NNS	Number=plur	32	dobj	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=peri	32	punct	_	_
+
+# sent_id = 7
+# text = Thus, Campylobacter provides a unique model system for the elucidation and exploitation of glycoprotein biosynthesis.
+1	Thus	thus	ADV	RB	Degree=pos	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+3	Campylobacter	Campylobacter	PROPN	NNP	NounType=prop|Number=sing	4	nsubj	_	_
+4	provides	provide	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+5	a	a	DET	DT	_	8	det	_	_
+6	unique	unique	ADJ	JJ	Degree=pos	8	amod	_	_
+7	model	model	NOUN	NN	Number=sing	8	compound	_	_
+8	system	system	NOUN	NN	Number=sing	4	dobj	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	elucidation	elucidation	NOUN	NN	Number=sing	8	nmod	_	_
+12	and	and	CCONJ	CC	ConjType=comp	11	cc	_	_
+13	exploitation	exploitation	NOUN	NN	Number=sing	11	conj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	glycoprotein	glycoprotein	NOUN	NN	Number=sing	16	compound	_	_
+16	biosynthesis	biosynthesis	NOUN	NN	Number=sing	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	4	punct	_	SpaceAfter=No

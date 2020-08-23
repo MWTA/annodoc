@@ -1,0 +1,21 @@
+1	An	a	DET	DT	_	2	det	_	start_char=0|end_char=2
+2	example	example	NOUN	NN	_	6	nsubj	_	start_char=3|end_char=10
+3	of	of	ADP	IN	_	5	case	_	start_char=11|end_char=13
+4	this	this	DET	DT	_	5	det	_	start_char=14|end_char=18
+5	fact	fact	NOUN	NN	_	2	nmod	_	start_char=19|end_char=23
+6	is	be	VERB	VBZ	_	0	root	_	start_char=24|end_char=26
+7	the	the	DET	DT	_	8	det	_	start_char=27|end_char=30
+8	presence	presence	NOUN	NN	_	6	nsubj	_	start_char=32|end_char=40
+9	of	of	ADP	IN	_	11	case	_	start_char=41|end_char=43
+10	Psychrobacter	psychrobacter	NOUN	NN	_	11	compound	_	start_char=44|end_char=57
+11	DNA	dna	NOUN	NN	_	8	nmod	_	start_char=58|end_char=61
+12	on	on	ADP	IN	_	14	case	_	start_char=62|end_char=64
+13	the	the	DET	DT	_	14	det	_	start_char=65|end_char=68
+14	surface	surface	NOUN	NN	_	8	nmod	_	start_char=69|end_char=76
+15	of	of	ADP	IN	_	19	case	_	start_char=77|end_char=79
+16	Formaggio	Formaggio	PROPN	NNP	_	19	compound	_	start_char=80|end_char=89
+17	di	di	PROPN	NNP	_	18	compound	_	start_char=90|end_char=92
+18	Fossa	Fossa	PROPN	NNP	_	19	compound	_	start_char=94|end_char=99
+19	cheese	cheese	NOUN	NN	_	14	nmod	_	start_char=100|end_char=106
+20	.	.	PUNCT	.	_	6	punct	_	start_char=106|end_char=107
+

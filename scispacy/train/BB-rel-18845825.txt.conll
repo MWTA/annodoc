@@ -1,0 +1,85 @@
+# sent_id = 1
+# text = High genetic diversity of nontypeable Haemophilus influenzae isolates from two children attending a day care center.
+1	High	high	ADJ	JJ	Degree=pos	3	amod	_	_
+2	genetic	genetic	ADJ	JJ	Degree=pos	3	amod	_	_
+3	diversity	diversity	NOUN	NN	Number=sing	0	ROOT	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	nontypeable	nontypeable	ADJ	JJ	Degree=pos	8	amod	_	_
+6	Haemophilus	haemophilus	NOUN	NN	Number=sing	8	compound	_	_
+7	influenzae	influenzae	NOUN	NN	Number=sing	8	compound	_	_
+8	isolates	isolate	NOUN	NNS	Number=plur	4	pobj	_	_
+9	from	from	ADP	IN	_	3	prep	_	_
+10	two	two	NUM	CD	NumType=card	11	nummod	_	_
+11	children	child	NOUN	NNS	Number=plur	9	pobj	_	_
+12	attending	attend	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	11	acl	_	_
+13	a	a	DET	DT	_	16	det	_	_
+14	day	day	NOUN	NN	Number=sing	15	compound	_	_
+15	care	care	NOUN	NN	Number=sing	16	compound	_	_
+16	center	center	NOUN	NN	Number=sing	12	dobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	3	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = Twenty-one nontypeable Haemophilus influenzae (NTHi) isolates from the throats of two healthy children were genotyped by multilocus sequence typing.
+1	Twenty-one	twenty-one	NUM	CD	NumType=card	4	compound	_	_
+2	nontypeable	nontypeable	ADJ	JJ	Degree=pos	4	amod	_	_
+3	Haemophilus	haemophilus	NOUN	NN	Number=sing	4	compound	_	_
+4	influenzae	influenzae	NOUN	NN	Number=sing	8	compound	_	_
+5	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	6	punct	_	SpaceAfter=No
+6	NTHi	NTHi	NOUN	NNS	Number=plur	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	6	punct	_	_
+8	isolates	isolate	NOUN	NNS	Number=plur	17	nsubjpass	_	_
+9	from	from	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	throats	throat	NOUN	NNS	Number=plur	8	nmod	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	two	two	NUM	CD	NumType=card	15	nummod	_	_
+14	healthy	healthy	ADJ	JJ	Degree=pos	15	amod	_	_
+15	children	child	NOUN	NNS	Number=plur	11	nmod	_	_
+16	were	be	AUX	VBD	VerbForm=fin|Tense=past	17	auxpass	_	_
+17	genotyped	genotype	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+18	by	by	ADP	IN	_	21	case	_	_
+19	multilocus	multilocus	NOUN	NN	Number=sing	21	compound	_	_
+20	sequence	sequence	NOUN	NN	Number=sing	21	compound	_	_
+21	typing	typing	NOUN	NN	Number=sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=peri	17	punct	_	_
+
+# sent_id = 3
+# text = Nine unique sequence types (STs) were identified.
+1	Nine	nine	NUM	CD	NumType=card	4	nummod	_	_
+2	unique	unique	ADJ	JJ	Degree=pos	4	amod	_	_
+3	sequence	sequence	NOUN	NN	Number=sing	4	compound	_	_
+4	types	type	NOUN	NNS	Number=plur	9	nsubjpass	_	_
+5	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	6	punct	_	SpaceAfter=No
+6	STs	st	NOUN	NNS	Number=plur	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	6	punct	_	_
+8	were	be	AUX	VBD	VerbForm=fin|Tense=past	9	auxpass	_	_
+9	identified	identify	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=peri	9	punct	_	_
+
+# sent_id = 4
+# text = These STs were scattered throughout the phylogenetic tree of reported NTHi STs, demonstrating the high level of NTHi diversity found in colonized children.
+1	These	these	DET	DT	_	2	det	_	_
+2	STs	st	NOUN	NNS	Number=plur	4	nsubjpass	_	_
+3	were	be	AUX	VBD	VerbForm=fin|Tense=past	4	auxpass	_	_
+4	scattered	scatter	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+5	throughout	throughout	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	phylogenetic	phylogenetic	ADJ	JJ	Degree=pos	8	amod	_	_
+8	tree	tree	NOUN	NN	Number=sing	4	nmod	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	12	amod	_	_
+11	NTHi	NTHi	NOUN	NNS	Number=plur	12	compound	_	_
+12	STs	st	NOUN	NNS	Number=plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+14	demonstrating	demonstrate	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	4	advcl	_	_
+15	the	the	DET	DT	_	17	det	_	_
+16	high	high	ADJ	JJ	Degree=pos	17	amod	_	_
+17	level	level	NOUN	NN	Number=sing	14	dobj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	NTHi	NTHi	NOUN	NNS	Number=plur	20	compound	_	_
+20	diversity	diversity	NOUN	NN	Number=sing	17	nmod	_	_
+21	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	20	acl	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	colonized	colonize	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	24	amod	_	_
+24	children	child	NOUN	NNS	Number=plur	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	4	punct	_	SpaceAfter=No

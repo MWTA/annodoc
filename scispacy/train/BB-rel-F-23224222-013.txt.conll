@@ -1,0 +1,71 @@
+# sent_id = 1
+# text = Culture
+1	Culture	culture	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2
+# text = dependent identifications were basically confirmed by the culture
+1	dependent	dependent	ADJ	JJ	Degree=pos	2	amod	_	_
+2	identifications	identification	NOUN	NNS	Number=plur	5	nsubjpass	_	_
+3	were	be	AUX	VBD	VerbForm=fin|Tense=past	5	auxpass	_	_
+4	basically	basically	ADV	RB	Degree=pos	5	advmod	_	_
+5	confirmed	confirm	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	by	by	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	culture	culture	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+
+# sent_id = 3
+# text = independent method DGGE, even though the latter technique proved the
+1	independent	independent	ADJ	JJ	Degree=pos	3	amod	_	_
+2	method	method	NOUN	NN	Number=sing	3	compound	_	_
+3	DGGE	dgge	NOUN	NN	Number=sing	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	3	punct	_	_
+5	even	even	ADV	RB	Degree=pos	10	advmod	_	_
+6	though	though	SCONJ	IN	_	10	mark	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	latter	latter	ADJ	JJ	Degree=pos	9	amod	_	_
+9	technique	technique	NOUN	NN	Number=sing	10	nsubj	_	_
+10	proved	prove	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+11	the	the	DET	DT	_	10	dobj	_	SpaceAfter=No
+
+# sent_id = 4
+# text = presence of additional cultures including Str.
+1	presence	presence	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	additional	additional	ADJ	JJ	Degree=pos	4	amod	_	_
+4	cultures	culture	NOUN	NNS	Number=plur	1	nmod	_	_
+5	including	include	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	6	case	_	_
+6	Str	Str	PROPN	NNP	NounType=prop|Number=sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 5
+# text = thermophilus in cheese interiors as well as Vagococcus carniphilus, Psychrobacter spp.
+1	thermophilus	thermophilus	NOUN	NN	Number=sing	0	ROOT	_	_
+2	in	in	ADP	IN	_	1	prep	_	_
+3	cheese	cheese	NOUN	NN	Number=sing	4	amod	_	_
+4	interiors	interior	NOUN	NNS	Number=plur	2	pobj	_	_
+5	as	as	ADV	RB	Degree=pos	1	cc	_	_
+6	well	well	ADV	RB	Degree=pos	7	advmod	_	_
+7	as	as	SCONJ	IN	_	5	mwe	_	_
+8	Vagococcus	Vagococcus	PROPN	NNP	NounType=prop|Number=sing	9	compound	_	_
+9	carniphilus	carniphilus	NOUN	NN	Number=sing	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=comm	9	punct	_	_
+11	Psychrobacter	Psychrobacter	PROPN	NNP	NounType=prop|Number=sing	12	compound	_	_
+12	spp	spp	NOUN	NN	Number=sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 6
+# text = and Lb.
+1	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+2	Lb	lb	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+3	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 7
+# text = curvatus
+1	curvatus	curvatus	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 8
+# text = on cheese surfaces.
+1	on	on	ADP	IN	_	0	ROOT	_	_
+2	cheese	cheese	NOUN	NN	Number=sing	3	amod	_	_
+3	surfaces	surface	NOUN	NNS	Number=plur	1	pobj	_	SpaceAfter=No
+4	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No

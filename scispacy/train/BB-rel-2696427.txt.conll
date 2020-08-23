@@ -1,0 +1,170 @@
+# sent_id = 1
+# text = Presence of the fish pathogen Vibrio salmonicida in fish farm sediments.
+1	Presence	presence	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	fish	fish	ADJ	JJ	Degree=pos	7	amod	_	_
+5	pathogen	pathogen	NOUN	NN	Number=sing	7	compound	_	_
+6	Vibrio	Vibrio	PROPN	NNP	NounType=prop|Number=sing	7	compound	_	_
+7	salmonicida	salmonicida	NOUN	NN	Number=sing	2	pobj	_	_
+8	in	in	ADP	IN	_	7	prep	_	_
+9	fish	fish	ADJ	JJ	Degree=pos	11	amod	_	_
+10	farm	farm	NOUN	NN	Number=sing	11	compound	_	_
+11	sediments	sediment	NOUN	NNS	Number=plur	8	pobj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = The persistence of the fish pathogen Vibrio salmonicida in fish farm sediments was studied by use of fluorescent-antibody techniques.
+1	The	the	DET	DT	_	2	det	_	_
+2	persistence	persistence	NOUN	NN	Number=sing	14	nsubjpass	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	8	det	_	_
+5	fish	fish	ADJ	JJ	Degree=pos	8	amod	_	_
+6	pathogen	pathogen	NOUN	NN	Number=sing	8	compound	_	_
+7	Vibrio	Vibrio	PROPN	NNP	NounType=prop|Number=sing	8	compound	_	_
+8	salmonicida	salmonicida	NOUN	NN	Number=sing	3	pobj	_	_
+9	in	in	ADP	IN	_	2	prep	_	_
+10	fish	fish	ADJ	JJ	Degree=pos	12	amod	_	_
+11	farm	farm	NOUN	NN	Number=sing	12	compound	_	_
+12	sediments	sediment	NOUN	NNS	Number=plur	9	pobj	_	_
+13	was	be	AUX	VBD	VerbForm=fin|Tense=past	14	auxpass	_	_
+14	studied	study	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+15	by	by	ADP	IN	_	14	agent	_	_
+16	use	use	NOUN	NN	Number=sing	15	pobj	_	_
+17	of	of	ADP	IN	_	16	prep	_	_
+18	fluorescent-antibody	fluorescent-antibody	ADJ	JJ	Degree=pos	19	amod	_	_
+19	techniques	technique	NOUN	NNS	Number=plur	17	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	14	punct	_	_
+
+# sent_id = 3
+# text = The specificities of the monoclonal antibodies and polyclonal rabbit serum used in the study were tested against a number of Vibrio strains, including 4 isolates from intestinal tracts of healthy fish and 98 isolates from sediments.
+1	The	the	DET	DT	_	2	det	_	_
+2	specificities	specificity	NOUN	NNS	Number=plur	16	nsubjpass	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	monoclonal	monoclonal	ADJ	JJ	Degree=pos	6	amod	_	_
+6	antibodies	antibody	NOUN	NNS	Number=plur	2	nmod	_	_
+7	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	polyclonal	polyclonal	ADJ	JJ	Degree=pos	10	amod	_	_
+9	rabbit	rabbit	NOUN	NN	Number=sing	10	compound	_	_
+10	serum	serum	NOUN	NN	Number=sing	6	conj	_	_
+11	used	use	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	6	acl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	study	study	NOUN	NN	Number=sing	11	nmod	_	_
+15	were	be	AUX	VBD	VerbForm=fin|Tense=past	16	auxpass	_	_
+16	tested	test	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+17	against	against	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	_	19	det	_	_
+19	number	number	NOUN	NN	Number=sing	16	nmod	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	Vibrio	Vibrio	PROPN	NNP	NounType=prop|Number=sing	22	compound	_	_
+22	strains	strain	NOUN	NNS	Number=plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	19	punct	_	_
+24	including	include	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	26	case	_	_
+25	4	4	NUM	CD	NumType=card	26	nummod	_	_
+26	isolates	isolate	NOUN	NNS	Number=plur	19	nmod	_	_
+27	from	from	ADP	IN	_	16	prep	_	_
+28	intestinal	intestinal	ADJ	JJ	Degree=pos	29	amod	_	_
+29	tracts	tract	NOUN	NNS	Number=plur	27	pobj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	healthy	healthy	ADJ	JJ	Degree=pos	32	amod	_	_
+32	fish	fish	NOUN	NN	Number=sing	30	pobj	_	_
+33	and	and	CCONJ	CC	ConjType=comp	32	cc	_	_
+34	98	98	NUM	CD	NumType=card	35	nummod	_	_
+35	isolates	isolate	NOUN	NNS	Number=plur	32	conj	_	_
+36	from	from	ADP	IN	_	37	case	_	_
+37	sediments	sediment	NOUN	NNS	Number=plur	16	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	PunctType=peri	16	punct	_	_
+
+# sent_id = 4
+# text = V. salmonicida was detected in sediment samples from diseased farms several months after an outbreak of the disease.
+1	V.	v.	NOUN	NN	Number=sing	2	compound	_	_
+2	salmonicida	salmonicida	NOUN	NN	Number=sing	4	nsubjpass	_	_
+3	was	be	AUX	VBD	VerbForm=fin|Tense=past	4	auxpass	_	_
+4	detected	detect	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	sediment	sediment	ADJ	JJ	Degree=pos	7	amod	_	_
+7	samples	sample	NOUN	NNS	Number=plur	4	nmod	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	diseased	diseased	ADJ	JJ	Degree=pos	10	amod	_	_
+10	farms	farm	NOUN	NNS	Number=plur	7	nmod	_	_
+11	several	several	ADJ	JJ	Degree=pos	12	amod	_	_
+12	months	month	NOUN	NNS	Number=plur	4	npadvmod	_	_
+13	after	after	ADP	IN	_	15	case	_	_
+14	an	an	DET	DT	_	15	det	_	_
+15	outbreak	outbreak	NOUN	NN	Number=sing	4	nmod	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	_	18	det	_	_
+18	disease	disease	NOUN	NN	Number=sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 5
+# text = The bacterium was also detected in a sediment sample from a disease-free fish farm.
+1	The	the	DET	DT	_	2	det	_	_
+2	bacterium	bacterium	NOUN	NN	Number=sing	5	nsubjpass	_	_
+3	was	be	AUX	VBD	VerbForm=fin|Tense=past	5	auxpass	_	_
+4	also	also	ADV	RB	Degree=pos	5	advmod	_	_
+5	detected	detect	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	sediment	sediment	ADJ	JJ	Degree=pos	9	amod	_	_
+9	sample	sample	NOUN	NN	Number=sing	5	nmod	_	_
+10	from	from	ADP	IN	_	9	prep	_	_
+11	a	a	DET	DT	_	14	det	_	_
+12	disease-free	disease-free	ADJ	JJ	Degree=pos	14	amod	_	_
+13	fish	fish	ADJ	JJ	Degree=pos	14	amod	_	_
+14	farm	farm	NOUN	NN	Number=sing	10	pobj	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 6
+# text = No V. salmonicida could be detected in sediments not influenced by fish farming.
+1	No	no	DET	DT	_	3	neg	_	_
+2	V.	v.	X	FW	Foreign=yes	3	compound	_	_
+3	salmonicida	salmonicida	NOUN	NN	Number=sing	6	nsubjpass	_	_
+4	could	could	VERB	MD	VerbType=mod	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=inf	6	auxpass	_	_
+6	detected	detect	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+7	in	in	ADP	IN	_	6	prep	_	_
+8	sediments	sediment	NOUN	NNS	Number=plur	7	pobj	_	_
+9	not	not	PART	RB	Degree=pos	10	neg	_	_
+10	influenced	influence	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	acl	_	_
+11	by	by	ADP	IN	_	10	agent	_	_
+12	fish	fish	ADJ	JJ	Degree=pos	13	compound	_	_
+13	farming	farming	NOUN	NN	Number=sing	11	pobj	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 7
+# text = The number of positive samples was generally higher with application of rabbit serum as opposed to use of monoclonal antibodies, indicating that the rabbit serum may cross-react with other bacteria.
+1	The	the	DET	DT	_	2	det	_	_
+2	number	number	NOUN	NN	Number=sing	8	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	positive	positive	ADJ	JJ	Degree=pos	5	amod	_	_
+5	samples	sample	NOUN	NNS	Number=plur	2	nmod	_	_
+6	was	be	AUX	VBD	VerbForm=fin|Tense=past	8	cop	_	_
+7	generally	generally	ADV	RB	Degree=pos	8	advmod	_	_
+8	higher	high	ADJ	JJR	Degree=comp	0	ROOT	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	application	application	NOUN	NN	Number=sing	8	nmod	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	rabbit	rabbit	NOUN	NN	Number=sing	13	compound	_	_
+13	serum	serum	NOUN	NN	Number=sing	10	nmod	_	_
+14	as	as	SCONJ	IN	_	15	mark	_	_
+15	opposed	oppose	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	8	advcl	_	_
+16	to	to	PART	TO	PartType=inf|VerbForm=inf	17	case	_	_
+17	use	use	VERB	VB	VerbForm=inf	15	nmod	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	monoclonal	monoclonal	ADJ	JJ	Degree=pos	20	amod	_	_
+20	antibodies	antibody	NOUN	NNS	Number=plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=comm	8	punct	_	_
+22	indicating	indicate	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	8	xcomp	_	_
+23	that	that	SCONJ	IN	_	28	mark	_	_
+24	the	the	DET	DT	_	26	det	_	_
+25	rabbit	rabbit	NOUN	NN	Number=sing	26	compound	_	_
+26	serum	serum	NOUN	NN	Number=sing	28	nsubj	_	_
+27	may	may	VERB	MD	VerbType=mod	28	aux	_	_
+28	cross-react	cross-react	VERB	VB	VerbForm=inf	22	ccomp	_	_
+29	with	with	ADP	IN	_	31	case	_	_
+30	other	other	ADJ	JJ	Degree=pos	31	amod	_	_
+31	bacteria	bacteria	NOUN	NNS	Number=plur	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=peri	8	punct	_	SpaceAfter=No

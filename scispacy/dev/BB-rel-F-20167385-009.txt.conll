@@ -1,0 +1,44 @@
+# sent_id = 1
+# text = B. linens
+1	B.	b.	ADJ	JJ	Degree=pos	2	compound	_	_
+2	linens	linen	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2
+# text = was only isolated from the Casera, Gorgonzola and Scimudin cheese
+1	was	be	AUX	VBD	VerbForm=fin|Tense=past	3	auxpass	_	_
+2	only	only	ADV	RB	Degree=pos	3	advmod	_	_
+3	isolated	isolate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+4	from	from	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	Casera	Casera	PROPN	NNP	NounType=prop|Number=sing	4	pobj	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+8	Gorgonzola	Gorgonzola	PROPN	NNP	NounType=prop|Number=sing	11	nmod	_	_
+9	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+10	Scimudin	Scimudin	PROPN	NNP	NounType=prop|Number=sing	8	conj	_	_
+11	cheese	cheese	NOUN	NN	Number=sing	6	appos	_	SpaceAfter=No
+
+# sent_id = 3
+# text = surfaces, confirming the more recent information that this species is
+1	surfaces	surface	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+3	confirming	confirm	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	1	acl	_	_
+4	the	the	DET	DT	_	7	det	_	_
+5	more	more	ADV	RBR	Degree=comp	6	advmod	_	_
+6	recent	recent	ADJ	JJ	Degree=pos	7	amod	_	_
+7	information	information	NOUN	NN	Number=sing	3	dobj	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	this	this	DET	DT	_	10	det	_	_
+10	species	specie	NOUN	NNS	Number=plur	11	nsubj	_	_
+11	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	3	ccomp	_	SpaceAfter=No
+
+# sent_id = 4
+# text = not the most important bacterium on smear cheeses.
+1	not	not	PART	RB	Degree=pos	5	neg	_	_
+2	the	the	DET	DT	_	5	det	_	_
+3	most	most	ADV	RBS	Degree=sup	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=pos	5	amod	_	_
+5	bacterium	bacterium	NOUN	NN	Number=sing	0	ROOT	_	_
+6	on	on	ADP	IN	_	5	prep	_	_
+7	smear	smear	ADJ	JJ	Degree=pos	8	amod	_	_
+8	cheeses	cheese	NOUN	NNS	Number=plur	6	pobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=peri	5	punct	_	SpaceAfter=No

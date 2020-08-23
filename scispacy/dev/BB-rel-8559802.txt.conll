@@ -1,0 +1,191 @@
+# sent_id = 1
+# text = Construction of a cloning vector from a naturally occurring plasmid of Salmonella typhimurium.
+1	Construction	construction	NOUN	NN	Number=sing	0	ROOT	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	a	a	DET	DT	_	5	det	_	_
+4	cloning	clone	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	5	amod	_	_
+5	vector	vector	NOUN	NN	Number=sing	2	pobj	_	_
+6	from	from	ADP	IN	_	1	prep	_	_
+7	a	a	DET	DT	_	10	det	_	_
+8	naturally	naturally	ADV	RB	Degree=pos	9	advmod	_	_
+9	occurring	occur	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	10	amod	_	_
+10	plasmid	plasmid	NOUN	NN	Number=sing	6	pobj	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	Salmonella	salmonella	X	FW	Foreign=yes	13	compound	_	_
+13	typhimurium	typhimurium	X	FW	Foreign=yes	11	pobj	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = A naturally occurring plasmid isolated from a drug-resistant strain of Salmonella typhimurium (993) has been used to construct a plasmid vector for cloning in a wild strain of Salmonella.
+1	A	a	DET	DT	_	4	det	_	_
+2	naturally	naturally	ADV	RB	Degree=pos	3	advmod	_	_
+3	occurring	occur	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	4	amod	_	_
+4	plasmid	plasmid	NOUN	NN	Number=sing	18	nsubjpass	_	_
+5	isolated	isolate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	acl	_	_
+6	from	from	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	drug-resistant	drug-resistant	ADJ	JJ	Degree=pos	9	amod	_	_
+9	strain	strain	NOUN	NN	Number=sing	5	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	Salmonella	salmonella	X	FW	Foreign=yes	12	compound	_	_
+12	typhimurium	typhimurium	X	FW	Foreign=yes	9	nmod	_	_
+13	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	14	punct	_	SpaceAfter=No
+14	993	993	NUM	CD	NumType=card	9	appos	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	14	punct	_	_
+16	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	18	aux	_	_
+17	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	18	auxpass	_	_
+18	used	use	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+19	to	to	PART	TO	PartType=inf|VerbForm=inf	20	mark	_	_
+20	construct	construct	VERB	VB	VerbForm=inf	18	xcomp	_	_
+21	a	a	DET	DT	_	23	det	_	_
+22	plasmid	plasmid	NOUN	NN	Number=sing	23	compound	_	_
+23	vector	vector	NOUN	NN	Number=sing	20	dobj	_	_
+24	for	for	ADP	IN	_	25	case	_	_
+25	cloning	clone	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	20	nmod	_	_
+26	in	in	ADP	IN	_	25	prep	_	_
+27	a	a	DET	DT	_	29	det	_	_
+28	wild	wild	ADJ	JJ	Degree=pos	29	amod	_	_
+29	strain	strain	NOUN	NN	Number=sing	26	pobj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	Salmonella	Salmonella	PROPN	NNP	NounType=prop|Number=sing	30	pobj	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=peri	18	punct	_	_
+
+# sent_id = 3
+# text = The strain (993) contains at least two plasmids.
+1	The	the	DET	DT	_	2	det	_	_
+2	strain	strain	NOUN	NN	Number=sing	6	nsubj	_	_
+3	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	4	punct	_	SpaceAfter=No
+4	993	993	NUM	CD	NumType=card	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	4	punct	_	_
+6	contains	contain	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	least	least	ADJ	JJS	Degree=sup	9	nmod:npmod	_	_
+9	two	two	NUM	CD	NumType=card	10	nummod	_	_
+10	plasmids	plasmid	NOUN	NNS	Number=plur	6	dobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 4
+# text = The smaller plasmid (9 kb) contains an ampicillin-resistant marker, while the larger one (25 kb) is cryptic.
+1	The	the	DET	DT	_	3	det	_	_
+2	smaller	small	ADJ	JJR	Degree=comp	3	amod	_	_
+3	plasmid	plasmid	NOUN	NN	Number=sing	8	nsubj	_	_
+4	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	6	punct	_	SpaceAfter=No
+5	9	9	NUM	CD	NumType=card	6	nummod	_	_
+6	kb	kb	NOUN	NN	Number=sing	3	appos	_	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	6	punct	_	_
+8	contains	contain	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+9	an	an	DET	DT	_	11	det	_	_
+10	ampicillin-resistant	ampicillin-resistant	ADJ	JJ	Degree=pos	11	amod	_	_
+11	marker	marker	NOUN	NN	Number=sing	8	dobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=comm	8	punct	_	_
+13	while	while	SCONJ	IN	_	22	mark	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	larger	large	ADJ	JJR	Degree=comp	16	amod	_	_
+16	one	one	NOUN	NN	Number=sing	22	nsubj	_	_
+17	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	19	punct	_	SpaceAfter=No
+18	25	25	NUM	CD	NumType=card	19	nummod	_	_
+19	kb	kb	NOUN	NN	Number=sing	16	appos	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	19	punct	_	_
+21	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	22	cop	_	_
+22	cryptic	cryptic	ADJ	JJ	Degree=pos	8	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=peri	8	punct	_	_
+
+# sent_id = 5
+# text = Physical mapping of the 9-kb plasmid and construction of a 3.5-kb derivative have been carried out.
+1	Physical	physical	ADJ	JJ	Degree=pos	2	amod	_	_
+2	mapping	mapping	NOUN	NN	Number=sing	15	nsubjpass	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	9-kb	9-kb	ADJ	JJ	Degree=pos	6	amod	_	_
+6	plasmid	plasmid	NOUN	NN	Number=sing	2	nmod	_	_
+7	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	construction	construction	NOUN	NN	Number=sing	6	conj	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	_	12	det	_	_
+11	3.5-kb	3.5-kb	ADJ	JJ	Degree=pos	12	amod	_	_
+12	derivative	derivative	NOUN	NN	Number=sing	8	nmod	_	_
+13	have	have	AUX	VBP	VerbForm=fin|Tense=pres	15	aux	_	_
+14	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	15	auxpass	_	_
+15	carried	carry	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+16	out	out	ADP	RP	_	15	prt	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	15	punct	_	_
+
+# sent_id = 6
+# text = This plasmid has been used for cloning in a restriction+modification+strain of S. typhimurium using a conventional calcium chloride method.
+1	This	this	DET	DT	_	2	det	_	_
+2	plasmid	plasmid	NOUN	NN	Number=sing	5	nsubjpass	_	_
+3	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	5	aux	_	_
+4	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	5	auxpass	_	_
+5	used	use	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	cloning	clone	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	5	nmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	_	10	det	_	_
+10	restriction+modification+strain	restriction+modification+strain	NOUN	NN	Number=sing	7	nmod	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	S.	s.	X	FW	Foreign=yes	13	compound	_	_
+13	typhimurium	typhimurium	X	FW	Foreign=yes	10	nmod	_	_
+14	using	use	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	5	xcomp	_	_
+15	a	a	DET	DT	_	19	det	_	_
+16	conventional	conventional	ADJ	JJ	Degree=pos	19	amod	_	_
+17	calcium	calcium	NOUN	NN	Number=sing	19	compound	_	_
+18	chloride	chloride	NOUN	NN	Number=sing	19	compound	_	_
+19	method	method	NOUN	NN	Number=sing	14	dobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 7
+# text = It exhibited better efficiency of transformation than other commonly used plasmids such as pBR322 or its derivatives and transformants were found to be stable in the absence of antibiotic selection.
+1	It	-PRON-	PRON	PRP	PronType=prs	2	nsubj	_	_
+2	exhibited	exhibit	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+3	better	well	ADJ	JJR	Degree=comp	4	amod	_	_
+4	efficiency	efficiency	NOUN	NN	Number=sing	2	dobj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	transformation	transformation	NOUN	NN	Number=sing	4	nmod	_	_
+7	than	than	SCONJ	IN	_	11	case	_	_
+8	other	other	ADJ	JJ	Degree=pos	11	amod	_	_
+9	commonly	commonly	ADV	RB	Degree=pos	10	advmod	_	_
+10	used	use	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	11	amod	_	_
+11	plasmids	plasmid	NOUN	NNS	Number=plur	6	nmod	_	_
+12	such	such	ADJ	JJ	Degree=pos	14	case	_	_
+13	as	as	SCONJ	IN	_	12	mwe	_	_
+14	pBR322	pbr322	NOUN	NN	Number=sing	11	nmod	_	_
+15	or	or	CCONJ	CC	ConjType=comp	14	cc	_	_
+16	its	-PRON-	DET	PRP$	PronType=prs|Poss=yes	17	nmod:poss	_	_
+17	derivatives	derivative	NOUN	NNS	Number=plur	14	conj	_	_
+18	and	and	CCONJ	CC	ConjType=comp	17	cc	_	_
+19	transformants	transformant	NOUN	NNS	Number=plur	17	conj	_	_
+20	were	be	AUX	VBD	VerbForm=fin|Tense=past	21	auxpass	_	_
+21	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	conj	_	_
+22	to	to	PART	TO	PartType=inf|VerbForm=inf	24	mark	_	_
+23	be	be	AUX	VB	VerbForm=inf	24	cop	_	_
+24	stable	stable	ADJ	JJ	Degree=pos	21	xcomp	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	_	27	det	_	_
+27	absence	absence	NOUN	NN	Number=sing	24	nmod	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	antibiotic	antibiotic	ADJ	JJ	Degree=pos	30	amod	_	_
+30	selection	selection	NOUN	NN	Number=sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 8
+# text = The vector is compatible with pBR322 and can be used to study the expression of cloned genes in minicells.
+1	The	the	DET	DT	_	2	det	_	_
+2	vector	vector	NOUN	NN	Number=sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	4	cop	_	_
+4	compatible	compatible	ADJ	JJ	Degree=pos	0	ROOT	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	pBR322	pbr322	NOUN	NN	Number=sing	4	nmod	_	_
+7	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+8	can	can	VERB	MD	VerbType=mod	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=inf	10	auxpass	_	_
+10	used	use	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	4	conj	_	_
+11	to	to	PART	TO	PartType=inf|VerbForm=inf	12	mark	_	_
+12	study	study	VERB	VB	VerbForm=inf	10	xcomp	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	expression	expression	NOUN	NN	Number=sing	12	dobj	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	cloned	clone	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	17	amod	_	_
+17	genes	gene	NOUN	NNS	Number=plur	14	nmod	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	minicells	minicell	NOUN	NNS	Number=plur	14	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	4	punct	_	SpaceAfter=No

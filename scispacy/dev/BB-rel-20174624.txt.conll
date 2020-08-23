@@ -1,0 +1,368 @@
+# sent_id = 1
+# text = Neutrophils are resistant to Yersinia YopJ/P-induced apoptosis and are protected from ROS-mediated cell death by the type III secretion system.
+1	Neutrophils	neutrophil	NOUN	NNS	Number=plur	2	nsubj	_	_
+2	are	be	AUX	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+3	resistant	resistant	ADJ	JJ	Degree=pos	2	acomp	_	_
+4	to	to	ADP	IN	_	3	prep	_	_
+5	Yersinia	Yersinia	PROPN	NNP	NounType=prop|Number=sing	7	compound	_	_
+6	YopJ/P-induced	yopj/p-induced	ADJ	JJ	Degree=pos	7	amod	_	_
+7	apoptosis	apoptosis	NOUN	NN	Number=sing	4	pobj	_	_
+8	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+9	are	be	AUX	VBP	VerbForm=fin|Tense=pres	10	auxpass	_	_
+10	protected	protect	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	conj	_	_
+11	from	from	ADP	IN	_	14	case	_	_
+12	ROS-mediated	ros-mediated	ADJ	JJ	Degree=pos	14	amod	_	_
+13	cell	cell	NOUN	NN	Number=sing	14	compound	_	_
+14	death	death	NOUN	NN	Number=sing	10	nmod	_	_
+15	by	by	ADP	IN	_	20	case	_	_
+16	the	the	DET	DT	_	20	det	_	_
+17	type	type	NOUN	NN	Number=sing	20	compound	_	_
+18	III	iii	NUM	CD	NumType=card	20	nummod	_	_
+19	secretion	secretion	NOUN	NN	Number=sing	20	compound	_	_
+20	system	system	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = The human innate immune system relies on the coordinated activity of macrophages and polymorphonuclear leukocytes (neutrophils or PMNs) for defense against bacterial pathogens.
+1	The	the	DET	DT	_	5	det	_	_
+2	human	human	ADJ	JJ	Degree=pos	5	amod	_	_
+3	innate	innate	ADJ	JJ	Degree=pos	5	amod	_	_
+4	immune	immune	ADJ	JJ	Degree=pos	5	amod	_	_
+5	system	system	NOUN	NN	Number=sing	6	nsubj	_	_
+6	relies	rely	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+7	on	on	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	coordinated	coordinate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	10	amod	_	_
+10	activity	activity	NOUN	NN	Number=sing	6	nmod	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	macrophages	macrophage	NOUN	NNS	Number=plur	10	nmod	_	_
+13	and	and	CCONJ	CC	ConjType=comp	12	cc	_	_
+14	polymorphonuclear	polymorphonuclear	ADJ	JJ	Degree=pos	15	amod	_	_
+15	leukocytes	leukocyte	NOUN	NNS	Number=plur	12	conj	_	_
+16	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	17	punct	_	SpaceAfter=No
+17	neutrophils	neutrophil	NOUN	NNS	Number=plur	15	dep	_	_
+18	or	or	CCONJ	CC	ConjType=comp	17	cc	_	_
+19	PMNs	pmn	NOUN	NNS	Number=plur	17	conj	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	17	punct	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	defense	defense	NOUN	NN	Number=sing	10	nmod	_	_
+23	against	against	ADP	IN	_	25	case	_	_
+24	bacterial	bacterial	ADJ	JJ	Degree=pos	25	amod	_	_
+25	pathogens	pathogen	NOUN	NNS	Number=plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 3
+# text = Yersinia spp.
+1	Yersinia	Yersinia	PROPN	NNP	NounType=prop|Number=sing	2	nsubj	_	_
+2	spp	spp	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+3	.	.	PUNCT	.	PunctType=peri	2	punct	_	_
+
+# sent_id = 4
+# text = subvert the innate immune response to cause disease in humans.
+1	subvert	subvert	VERB	VB	VerbForm=inf	0	ROOT	_	_
+2	the	the	DET	DT	_	5	det	_	_
+3	innate	innate	ADJ	JJ	Degree=pos	5	amod	_	_
+4	immune	immune	ADJ	JJ	Degree=pos	5	amod	_	_
+5	response	response	NOUN	NN	Number=sing	1	dobj	_	_
+6	to	to	PART	TO	PartType=inf|VerbForm=inf	7	mark	_	_
+7	cause	cause	VERB	VB	VerbForm=inf	5	acl	_	_
+8	disease	disease	NOUN	NN	Number=sing	7	dobj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	humans	human	NOUN	NNS	Number=plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 5
+# text = In particular, the Yersinia outer protein YopJ (Y. pestis and Y. pseudotuberculosis) and YopP (Y. enterocolitica) rapidly induce apoptosis in murine macrophages and dendritic cells.
+1	In	in	ADP	IN	_	23	prep	_	_
+2	particular	particular	ADJ	JJ	Degree=pos	1	pobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	23	punct	_	_
+4	the	the	DET	DT	_	8	det	_	_
+5	Yersinia	Yersinia	PROPN	NNP	NounType=prop|Number=sing	8	compound	_	_
+6	outer	outer	NOUN	NN	Number=sing	8	compound	_	_
+7	protein	protein	NOUN	NN	Number=sing	8	compound	_	_
+8	YopJ	yopj	NOUN	NN	Number=sing	23	nsubj	_	_
+9	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	11	punct	_	SpaceAfter=No
+10	Y.	y.	X	FW	Foreign=yes	11	compound	_	_
+11	pestis	pestis	NOUN	NN	Number=sing	8	dep	_	_
+12	and	and	CCONJ	CC	ConjType=comp	11	cc	_	_
+13	Y.	y.	NOUN	NN	Number=sing	14	compound	_	_
+14	pseudotuberculosis	pseudotuberculosis	NOUN	NN	Number=sing	11	conj	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	11	punct	_	_
+16	and	and	CCONJ	CC	ConjType=comp	8	cc	_	_
+17	YopP	yopp	NOUN	NN	Number=sing	8	conj	_	_
+18	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	20	punct	_	SpaceAfter=No
+19	Y.	y.	X	FW	Foreign=yes	20	compound	_	_
+20	enterocolitica	enterocolitica	X	FW	Foreign=yes	17	appos	_	SpaceAfter=No
+21	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	20	punct	_	_
+22	rapidly	rapidly	ADV	RB	Degree=pos	23	advmod	_	_
+23	induce	induce	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+24	apoptosis	apoptosis	NOUN	NN	Number=sing	23	dobj	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	murine	murine	ADJ	JJ	Degree=pos	27	amod	_	_
+27	macrophages	macrophage	NOUN	NNS	Number=plur	24	nmod	_	_
+28	and	and	CCONJ	CC	ConjType=comp	27	cc	_	_
+29	dendritic	dendritic	ADJ	JJ	Degree=pos	30	amod	_	_
+30	cells	cell	NOUN	NNS	Number=plur	27	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=peri	23	punct	_	_
+
+# sent_id = 6
+# text = However, the effects of Yersinia Yop J/P on neutrophil fate are not clearly defined.
+1	However	however	ADV	RB	Degree=pos	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	15	punct	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	effects	effect	NOUN	NNS	Number=plur	15	nsubjpass	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	Yersinia	Yersinia	PROPN	NNP	NounType=prop|Number=sing	8	compound	_	_
+7	Yop	Yop	PROPN	NNP	NounType=prop|Number=sing	8	compound	_	_
+8	J/P	j/p	NOUN	NN	Number=sing	4	nmod	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	neutrophil	neutrophil	NOUN	NN	Number=sing	11	compound	_	_
+11	fate	fate	NOUN	NN	Number=sing	4	nmod	_	_
+12	are	be	AUX	VBP	VerbForm=fin|Tense=pres	15	auxpass	_	_
+13	not	not	PART	RB	Degree=pos	15	neg	_	_
+14	clearly	clearly	ADV	RB	Degree=pos	15	advmod	_	_
+15	defined	define	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	15	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = In this study, we utilized wild-type and mutant strains of Yersinia to test the contribution of YopJ and YopP on induction of apoptosis in human monocyte-derived macrophages (HMDM) and neutrophils.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	_	3	det	_	_
+3	study	study	NOUN	NN	Number=sing	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+5	we	-PRON-	PRON	PRP	PronType=prs	6	nsubj	_	_
+6	utilized	utilize	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+7	wild-type	wild-type	ADJ	JJ	Degree=pos	10	amod	_	_
+8	and	and	CCONJ	CC	ConjType=comp	7	cc	_	_
+9	mutant	mutant	ADJ	JJ	Degree=pos	7	conj	_	_
+10	strains	strain	NOUN	NNS	Number=plur	6	dobj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	Yersinia	Yersinia	PROPN	NNP	NounType=prop|Number=sing	10	nmod	_	_
+13	to	to	PART	TO	PartType=inf|VerbForm=inf	14	mark	_	_
+14	test	test	VERB	VB	VerbForm=inf	6	advcl	_	_
+15	the	the	DET	DT	_	16	det	_	_
+16	contribution	contribution	NOUN	NN	Number=sing	14	dobj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	YopJ	yopj	NOUN	NN	Number=sing	16	nmod	_	_
+19	and	and	CCONJ	CC	ConjType=comp	18	cc	_	_
+20	YopP	yopp	NOUN	NN	Number=sing	18	conj	_	_
+21	on	on	ADP	IN	_	22	case	_	_
+22	induction	induction	NOUN	NN	Number=sing	16	nmod	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	apoptosis	apoptosis	NOUN	NN	Number=sing	22	nmod	_	_
+25	in	in	ADP	IN	_	28	case	_	_
+26	human	human	ADJ	JJ	Degree=pos	28	amod	_	_
+27	monocyte-derived	monocyte-derived	ADJ	JJ	Degree=pos	28	amod	_	_
+28	macrophages	macrophage	NOUN	NNS	Number=plur	22	nmod	_	_
+29	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	30	punct	_	SpaceAfter=No
+30	HMDM	hmdm	NOUN	NN	Number=sing	28	appos	_	SpaceAfter=No
+31	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	30	punct	_	_
+32	and	and	CCONJ	CC	ConjType=comp	28	cc	_	_
+33	neutrophils	neutrophil	NOUN	NNS	Number=plur	28	conj	_	SpaceAfter=No
+34	.	.	PUNCT	.	PunctType=peri	6	punct	_	_
+
+# sent_id = 8
+# text = Whereas YopJ and YopP similarly induced apoptosis in HMDMs, interaction of human neutrophils with virulence plasmid-containing Yersinia did not result in PMN caspase activation, release of LDH, or loss of membrane integrity greater than PMN controls.
+1	Whereas	whereas	SCONJ	IN	_	6	mark	_	_
+2	YopJ	yopj	NOUN	NN	Number=sing	6	nsubj	_	_
+3	and	and	CCONJ	CC	ConjType=comp	2	cc	_	_
+4	YopP	yopp	NOUN	NN	Number=sing	2	conj	_	_
+5	similarly	similarly	ADV	RB	Degree=pos	6	advmod	_	_
+6	induced	induce	VERB	VBD	VerbForm=fin|Tense=past	21	advcl	_	_
+7	apoptosis	apoptosis	NOUN	NN	Number=sing	6	dobj	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	HMDMs	hmdms	NOUN	NN	Number=sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+11	interaction	interaction	NOUN	NN	Number=sing	21	nsubj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	human	human	ADJ	JJ	Degree=pos	14	amod	_	_
+14	neutrophils	neutrophil	NOUN	NNS	Number=plur	11	nmod	_	_
+15	with	with	ADP	IN	_	18	case	_	_
+16	virulence	virulence	NOUN	NN	Number=sing	18	compound	_	_
+17	plasmid-containing	plasmid-containing	NOUN	NN	Number=sing	18	amod	_	_
+18	Yersinia	Yersinia	PROPN	NNP	NounType=prop|Number=sing	11	nmod	_	_
+19	did	do	AUX	VBD	VerbForm=fin|Tense=past	21	aux	_	_
+20	not	not	PART	RB	Degree=pos	21	neg	_	_
+21	result	result	VERB	VB	VerbForm=inf	0	ROOT	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	PMN	pmn	NOUN	NN	Number=sing	25	compound	_	_
+24	caspase	caspase	NOUN	NN	Number=sing	25	compound	_	_
+25	activation	activation	NOUN	NN	Number=sing	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=comm	25	punct	_	_
+27	release	release	NOUN	NN	Number=sing	25	conj	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	LDH	ldh	NOUN	NN	Number=sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=comm	25	punct	_	_
+31	or	or	CCONJ	CC	ConjType=comp	25	cc	_	_
+32	loss	loss	NOUN	NN	Number=sing	25	conj	_	_
+33	of	of	ADP	IN	_	35	case	_	_
+34	membrane	membrane	NOUN	NN	Number=sing	35	compound	_	_
+35	integrity	integrity	NOUN	NN	Number=sing	32	nmod	_	_
+36	greater	great	ADJ	JJR	Degree=comp	35	amod	_	_
+37	than	than	SCONJ	IN	_	39	case	_	_
+38	PMN	pmn	NOUN	NN	Number=sing	39	compound	_	_
+39	controls	control	NOUN	NNS	Number=plur	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	PunctType=peri	21	punct	_	_
+
+# sent_id = 9
+# text = In contrast, interaction of human PMNs with the virulence plasmid-deficient Y. pestis strain KIM6 resulted in increased surface exposure of phosphatidylserine (PS) and cell death.
+1	In	in	ADP	IN	_	2	case	_	_
+2	contrast	contrast	NOUN	NN	Number=sing	16	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	16	punct	_	_
+4	interaction	interaction	NOUN	NN	Number=sing	16	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	human	human	ADJ	JJ	Degree=pos	7	amod	_	_
+7	PMNs	pmn	NOUN	NNS	Number=plur	4	nmod	_	_
+8	with	with	ADP	IN	_	15	case	_	_
+9	the	the	DET	DT	_	15	det	_	_
+10	virulence	virulence	NOUN	NN	Number=sing	15	compound	_	_
+11	plasmid-deficient	plasmid-deficient	ADJ	JJ	Degree=pos	15	amod	_	_
+12	Y.	y.	X	FW	Foreign=yes	15	compound	_	_
+13	pestis	pestis	NOUN	NN	Number=sing	15	compound	_	_
+14	strain	strain	NOUN	NN	Number=sing	15	compound	_	_
+15	KIM6	kim6	NOUN	NN	Number=sing	4	nmod	_	_
+16	resulted	result	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	increased	increase	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	20	amod	_	_
+19	surface	surface	NOUN	NN	Number=sing	20	compound	_	_
+20	exposure	exposure	NOUN	NN	Number=sing	16	nmod	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	phosphatidylserine	phosphatidylserine	NOUN	NN	Number=sing	20	nmod	_	_
+23	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	24	punct	_	SpaceAfter=No
+24	PS	ps	NOUN	NN	Number=sing	22	appos	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	24	punct	_	_
+26	and	and	CCONJ	CC	ConjType=comp	22	cc	_	_
+27	cell	cell	NOUN	NN	Number=sing	28	compound	_	_
+28	death	death	NOUN	NN	Number=sing	22	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=peri	16	punct	_	_
+
+# sent_id = 10
+# text = PMN reactive oxygen species (ROS) production was inhibited in a virulence plasmid-dependent but YopJ/YopP-independent manner.
+1	PMN	pmn	NOUN	NN	Number=sing	4	compound	_	_
+2	reactive	reactive	ADJ	JJ	Degree=pos	4	amod	_	_
+3	oxygen	oxygen	NOUN	NN	Number=sing	4	compound	_	_
+4	species	specie	NOUN	NNS	Number=plur	8	compound	_	_
+5	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	6	punct	_	SpaceAfter=No
+6	ROS	ros	NOUN	NN	Number=sing	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	6	punct	_	_
+8	production	production	NOUN	NN	Number=sing	10	nsubjpass	_	_
+9	was	be	AUX	VBD	VerbForm=fin|Tense=past	10	auxpass	_	_
+10	inhibited	inhibit	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+11	in	in	ADP	IN	_	17	case	_	_
+12	a	a	DET	DT	_	17	det	_	_
+13	virulence	virulence	NOUN	NN	Number=sing	14	nmod:npmod	_	_
+14	plasmid-dependent	plasmid-dependent	ADJ	JJ	Degree=pos	12	punct	_	_
+15	but	but	CCONJ	CC	ConjType=comp	14	cc	_	_
+16	YopJ/YopP-independent	yopj/yopp-independent	ADJ	JJ	Degree=pos	17	compound	_	_
+17	manner	manner	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=peri	10	punct	_	_
+
+# sent_id = 11
+# text = Following phagocytic interaction with Y. pestis strain KIM6, inhibition of PMN ROS production with diphenyleneiodonium chloride resulted in a reduction of PMN cell death similar to that induced by the virulence plasmid-containing strain Y. pestis KIM5.
+1	Following	follow	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	3	case	_	_
+2	phagocytic	phagocytic	ADJ	JJ	Degree=pos	3	amod	_	_
+3	interaction	interaction	NOUN	NN	Number=sing	18	nmod	_	_
+4	with	with	ADP	IN	_	8	case	_	_
+5	Y.	y.	NOUN	NN	Number=sing	8	compound	_	_
+6	pestis	pestis	NOUN	NN	Number=sing	8	compound	_	_
+7	strain	strain	NOUN	NN	Number=sing	8	compound	_	_
+8	KIM6	kim6	NOUN	NN	Number=sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=comm	18	punct	_	_
+10	inhibition	inhibition	NOUN	NN	Number=sing	18	nsubj	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	PMN	pmn	NOUN	NN	Number=sing	14	compound	_	_
+13	ROS	ros	NOUN	NN	Number=sing	14	compound	_	_
+14	production	production	NOUN	NN	Number=sing	10	nmod	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	diphenyleneiodonium	diphenyleneiodonium	NOUN	NN	Number=sing	17	compound	_	_
+17	chloride	chloride	NOUN	NN	Number=sing	14	nmod	_	_
+18	resulted	result	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	_	21	det	_	_
+21	reduction	reduction	NOUN	NN	Number=sing	18	nmod	_	_
+22	of	of	ADP	IN	_	25	case	_	_
+23	PMN	pmn	NOUN	NN	Number=sing	25	compound	_	_
+24	cell	cell	NOUN	NN	Number=sing	25	compound	_	_
+25	death	death	NOUN	NN	Number=sing	21	nmod	_	_
+26	similar	similar	ADJ	JJ	Degree=pos	25	amod	_	_
+27	to	to	PART	TO	PartType=inf|VerbForm=inf	28	case	_	_
+28	that	that	DET	DT	_	26	nmod	_	_
+29	induced	induce	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	28	acl	_	_
+30	by	by	ADP	IN	_	37	case	_	_
+31	the	the	DET	DT	_	37	det	_	_
+32	virulence	virulence	NOUN	NN	Number=sing	37	compound	_	_
+33	plasmid-containing	plasmid-containing	ADJ	JJ	Degree=pos	37	amod	_	_
+34	strain	strain	NOUN	NN	Number=sing	37	compound	_	_
+35	Y.	y.	NOUN	NN	Number=sing	37	compound	_	_
+36	pestis	pestis	NOUN	NN	Number=sing	37	compound	_	_
+37	KIM5	kim5	NOUN	NN	Number=sing	29	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	PunctType=peri	18	punct	_	SpaceAfter=No
+
+# sent_id = 12
+# text = Our findings showed that Yersinia YopJ and/or YopP did not induce pronounced apoptosis in human neutrophils.
+1	Our	-PRON-	DET	PRP$	PronType=prs|Poss=yes	2	nmod:poss	_	_
+2	findings	finding	NOUN	NNS	Number=plur	3	nsubj	_	_
+3	showed	show	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+4	that	that	SCONJ	IN	_	11	mark	_	_
+5	Yersinia	Yersinia	PROPN	NNP	NounType=prop|Number=sing	6	compound	_	_
+6	YopJ	yopj	NOUN	NN	Number=sing	11	nsubj	_	_
+7	and/or	and/or	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	YopP	yopp	NOUN	NN	Number=sing	6	conj	_	_
+9	did	do	AUX	VBD	VerbForm=fin|Tense=past	11	aux	_	_
+10	not	not	PART	RB	Degree=pos	11	neg	_	_
+11	induce	induce	VERB	VB	VerbForm=inf	3	ccomp	_	_
+12	pronounced	pronounced	ADJ	JJ	Degree=pos	13	amod	_	_
+13	apoptosis	apoptosis	NOUN	NN	Number=sing	11	dobj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	human	human	ADJ	JJ	Degree=pos	16	amod	_	_
+16	neutrophils	neutrophil	NOUN	NNS	Number=plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 13
+# text = Furthermore, robust PMN ROS production in response to virulence plasmid-deficient Yersinia was associated with increased PMN cell death, suggesting that Yersinia inhibition of PMN ROS production plays a role in evasion of the human innate immune response in part by limiting PMN apoptosis.
+1	Furthermore	furthermore	ADV	RB	Degree=pos	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	14	punct	_	_
+3	robust	robust	ADJ	JJ	Degree=pos	6	amod	_	_
+4	PMN	pmn	NOUN	NN	Number=sing	6	compound	_	_
+5	ROS	ros	NOUN	NN	Number=sing	6	compound	_	_
+6	production	production	NOUN	NN	Number=sing	14	nsubjpass	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	response	response	NOUN	NN	Number=sing	10	dep	_	_
+9	to	to	PART	TO	PartType=inf|VerbForm=inf	10	mark	_	_
+10	virulence	virulence	NOUN	NN	Number=sing	6	acl	_	_
+11	plasmid-deficient	plasmid-deficient	ADJ	JJ	Degree=pos	12	amod	_	_
+12	Yersinia	Yersinia	PROPN	NNP	NounType=prop|Number=sing	10	dobj	_	_
+13	was	be	AUX	VBD	VerbForm=fin|Tense=past	14	auxpass	_	_
+14	associated	associate	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+15	with	with	ADP	IN	_	19	case	_	_
+16	increased	increase	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	19	amod	_	_
+17	PMN	pmn	NOUN	NN	Number=sing	19	compound	_	_
+18	cell	cell	NOUN	NN	Number=sing	19	compound	_	_
+19	death	death	NOUN	NN	Number=sing	14	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	PunctType=comm	14	punct	_	_
+21	suggesting	suggest	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	14	advcl	_	_
+22	that	that	SCONJ	IN	_	29	mark	_	_
+23	Yersinia	Yersinia	PROPN	NNP	NounType=prop|Number=sing	24	compound	_	_
+24	inhibition	inhibition	NOUN	NN	Number=sing	29	nsubj	_	_
+25	of	of	ADP	IN	_	28	case	_	_
+26	PMN	pmn	NOUN	NN	Number=sing	28	compound	_	_
+27	ROS	ros	NOUN	NN	Number=sing	28	compound	_	_
+28	production	production	NOUN	NN	Number=sing	24	nmod	_	_
+29	plays	play	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	21	ccomp	_	_
+30	a	a	DET	DT	_	31	det	_	_
+31	role	role	NOUN	NN	Number=sing	29	dobj	_	_
+32	in	in	ADP	IN	_	33	case	_	_
+33	evasion	evasion	NOUN	NN	Number=sing	29	nmod	_	_
+34	of	of	ADP	IN	_	39	case	_	_
+35	the	the	DET	DT	_	39	det	_	_
+36	human	human	ADJ	JJ	Degree=pos	39	amod	_	_
+37	innate	innate	ADJ	JJ	Degree=pos	39	amod	_	_
+38	immune	immune	ADJ	JJ	Degree=pos	39	amod	_	_
+39	response	response	NOUN	NN	Number=sing	33	nmod	_	_
+40	in	in	ADP	IN	_	41	case	_	_
+41	part	part	NOUN	NN	Number=sing	33	nmod	_	_
+42	by	by	ADP	IN	_	43	mark	_	_
+43	limiting	limit	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	29	advcl	_	_
+44	PMN	pmn	NOUN	NN	Number=sing	45	compound	_	_
+45	apoptosis	apoptosis	NOUN	NN	Number=sing	43	dobj	_	SpaceAfter=No
+46	.	.	PUNCT	.	PunctType=peri	14	punct	_	SpaceAfter=No

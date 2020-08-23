@@ -1,0 +1,27 @@
+1	[	[	PUNCT	-LRB-	_	3	punct	_	start_char=0|end_char=1
+2	The	the	DET	DT	_	3	det	_	start_char=1|end_char=4
+3	infections	infection	NOUN	NNS	_	0	root	_	start_char=5|end_char=15
+4	from	from	ADP	IN	_	6	case	_	start_char=16|end_char=20
+5	"	"	PUNCT	``	_	6	punct	_	start_char=21|end_char=22
+6	Serratia	Serratia	PROPN	NNP	_	3	nmod	_	start_char=22|end_char=30
+7	"	"	PUNCT	''	_	6	punct	_	start_char=30|end_char=31
+8	in	in	ADP	IN	_	10	case	_	start_char=32|end_char=34
+9	the	the	DET	DT	_	10	det	_	start_char=35|end_char=38
+10	Hospital	Hospital	PROPN	NNP	_	3	nmod	_	start_char=39|end_char=47
+11	S.	S.	PROPN	NNP	_	14	compound	_	start_char=48|end_char=50
+12	Camillo	Camillo	PROPN	NNP	_	14	compound	_	start_char=51|end_char=58
+13	De	De	PROPN	NNP	_	14	compound	_	start_char=59|end_char=61
+14	Lellis	Lellis	PROPN	NNP	_	10	appos	_	start_char=62|end_char=68
+15	of	of	ADP	IN	_	16	case	_	start_char=69|end_char=71
+16	Roma	Roma	PROPN	NNP	_	14	nmod	_	start_char=72|end_char=76
+17	(	(	PUNCT	-LRB-	_	18	punct	_	start_char=77|end_char=78
+18	Italy	Italy	PROPN	NNP	_	16	appos	_	start_char=78|end_char=83
+19	)	)	PUNCT	-RRB-	_	18	punct	_	start_char=83|end_char=84
+20	(	(	PUNCT	-LRB-	_	23	punct	_	start_char=85|end_char=86
+21	author	author	NOUN	NN	_	23	nmod:poss	_	start_char=86|end_char=92
+22	's	's	PART	POS	_	21	case	_	start_char=92|end_char=94
+23	transl	transl	X	FW	_	18	advmod	_	start_char=95|end_char=101
+24	)	)	PUNCT	-RRB-	_	23	punct	_	start_char=101|end_char=102
+25	]	]	PUNCT	-RRB-	_	23	punct	_	start_char=102|end_char=103
+26	.	.	PUNCT	.	_	3	punct	_	start_char=103|end_char=104
+

@@ -1,0 +1,16 @@
+1	Rapid	rapid	ADJ	JJ	_	2	amod	_	start_char=0|end_char=5
+2	detection	detection	NOUN	NN	_	0	root	_	start_char=6|end_char=15
+3	with	with	ADP	IN	_	5	case	_	start_char=16|end_char=20
+4	monoclonal	monoclonal	ADJ	JJ	_	5	amod	_	start_char=21|end_char=31
+5	antibodies	antibody	NOUN	NNS	_	2	nmod	_	start_char=32|end_char=42
+6	of	of	ADP	IN	_	8	case	_	start_char=43|end_char=45
+7	Chlamydia	Chlamydia	PROPN	NNP	_	8	compound	_	start_char=46|end_char=55
+8	trachomatis	trachomatis	NOUN	NN	_	5	nmod	_	start_char=56|end_char=67
+9	in	in	ADP	IN	_	11	case	_	start_char=68|end_char=70
+10	urethral	urethral	ADJ	JJ	_	11	amod	_	start_char=71|end_char=79
+11	smears	smear	NOUN	NNS	_	5	nmod	_	start_char=80|end_char=86
+12	and	and	CONJ	CC	_	14	cc	_	start_char=87|end_char=90
+13	urine	urine	NOUN	NN	_	14	compound	_	start_char=91|end_char=96
+14	sediments	sediment	NOUN	NNS	_	11	conj	_	start_char=97|end_char=106
+15	.	.	PUNCT	.	_	2	punct	_	start_char=106|end_char=107
+

@@ -1,0 +1,182 @@
+# sent_id = 1
+# text = Culture
+1	Culture	culture	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2
+# text = dependent isolation followed by genotypic identifications was basically
+1	dependent	dependent	ADJ	JJ	Degree=pos	2	amod	_	_
+2	isolation	isolation	NOUN	NN	Number=sing	7	nsubj	_	_
+3	followed	follow	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	2	acl	_	_
+4	by	by	ADP	IN	_	6	case	_	_
+5	genotypic	genotypic	ADJ	JJ	Degree=pos	6	amod	_	_
+6	identifications	identification	NOUN	NNS	Number=plur	3	nmod	_	_
+7	was	be	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+8	basically	basically	ADV	RB	Degree=pos	7	advmod	_	SpaceAfter=No
+
+# sent_id = 3
+# text = confirmed by the culture-independent method, DGGE (Fig. 4).
+1	confirmed	confirm	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+2	by	by	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	culture-independent	culture-independent	ADJ	JJ	Degree=pos	5	amod	_	_
+5	method	method	NOUN	NN	Number=sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+7	DGGE	dgge	NOUN	NN	Number=sing	5	appos	_	_
+8	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	9	punct	_	SpaceAfter=No
+9	Fig.	Fig.	PROPN	NNP	NounType=prop|Number=sing	7	appos	_	_
+10	4	4	NUM	CD	NumType=card	9	nummod	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=peri	1	punct	_	_
+
+# sent_id = 4
+# text = Additionally, in the sample from the interior of the cheese from dairy A, DGGE band with strong intensity was identified as Streptococcus thermophilus.
+1	Additionally	additionally	ADV	RB	Degree=pos	22	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	22	punct	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	sample	sample	NOUN	NN	Number=sing	22	nmod	_	_
+6	from	from	ADP	IN	_	5	prep	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	interior	interior	PROPN	NNP	NounType=prop|Number=sing	6	pobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	cheese	cheese	NOUN	NN	Number=sing	9	pobj	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	dairy	dairy	NOUN	NN	Number=sing	14	compound	_	_
+14	A	a	NOUN	NN	Number=sing	5	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=comm	22	punct	_	_
+16	DGGE	dgge	NOUN	NN	Number=sing	17	compound	_	_
+17	band	band	NOUN	NN	Number=sing	22	nsubjpass	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	strong	strong	ADJ	JJ	Degree=pos	20	amod	_	_
+20	intensity	intensity	NOUN	NN	Number=sing	17	nmod	_	_
+21	was	be	AUX	VBD	VerbForm=fin|Tense=past	22	auxpass	_	_
+22	identified	identify	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+23	as	as	SCONJ	IN	_	25	case	_	_
+24	Streptococcus	Streptococcus	PROPN	NNP	NounType=prop|Number=sing	25	compound	_	_
+25	thermophilus	thermophilus	NOUN	NN	Number=sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	22	punct	_	_
+
+# sent_id = 5
+# text = Furthermore, DGGE bands with strong intensities from the cheese surface samples were found to represent Vagococcus carniphilus (the cheeses from dairies A, B and D), Psychrobacter spp.
+1	Furthermore	furthermore	ADV	RB	Degree=pos	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	14	punct	_	_
+3	DGGE	dgge	NOUN	NN	Number=sing	4	compound	_	_
+4	bands	band	NOUN	NNS	Number=plur	14	nsubjpass	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	strong	strong	ADJ	JJ	Degree=pos	7	amod	_	_
+7	intensities	intensity	NOUN	NNS	Number=plur	4	nmod	_	_
+8	from	from	ADP	IN	_	12	case	_	_
+9	the	the	DET	DT	_	12	det	_	_
+10	cheese	cheese	NOUN	NN	Number=sing	12	compound	_	_
+11	surface	surface	NOUN	NN	Number=sing	12	compound	_	_
+12	samples	sample	NOUN	NNS	Number=plur	7	nmod	_	_
+13	were	be	AUX	VBD	VerbForm=fin|Tense=past	14	auxpass	_	_
+14	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+15	to	to	PART	TO	PartType=inf|VerbForm=inf	16	mark	_	_
+16	represent	represent	VERB	VB	VerbForm=inf	14	xcomp	_	_
+17	Vagococcus	Vagococcus	PROPN	NNP	NounType=prop|Number=sing	18	compound	_	_
+18	carniphilus	carniphilus	NOUN	NN	Number=sing	16	dobj	_	_
+19	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	21	punct	_	SpaceAfter=No
+20	the	the	DET	DT	_	21	det	_	_
+21	cheeses	cheese	NOUN	NNS	Number=plur	16	dep	_	_
+22	from	from	ADP	IN	_	24	case	_	_
+23	dairies	dairy	NOUN	NNS	Number=plur	24	compound	_	_
+24	A	a	NOUN	NN	Number=sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	PunctType=comm	24	punct	_	_
+26	B	b	NOUN	NN	Number=sing	24	conj	_	_
+27	and	and	CCONJ	CC	ConjType=comp	24	cc	_	_
+28	D	d	NOUN	NN	Number=sing	24	conj	_	SpaceAfter=No
+29	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	24	punct	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=comm	21	punct	_	_
+31	Psychrobacter	Psychrobacter	PROPN	NNP	NounType=prop|Number=sing	32	compound	_	_
+32	spp	spp	NOUN	NN	Number=sing	21	conj	_	SpaceAfter=No
+33	.	.	PUNCT	.	PunctType=peri	14	punct	_	_
+
+# sent_id = 6
+# text = (the cheeses from dairies A and C) and Lb.
+1	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	3	punct	_	SpaceAfter=No
+2	the	the	DET	DT	_	3	det	_	_
+3	cheeses	cheese	NOUN	NNS	Number=plur	0	ROOT	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	dairies	dairy	NOUN	NNS	Number=plur	6	compound	_	_
+6	A	a	NOUN	NN	Number=sing	3	nmod	_	_
+7	and	and	CCONJ	CC	ConjType=comp	6	cc	_	_
+8	C	c	NOUN	NN	Number=sing	6	conj	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	6	punct	_	_
+10	and	and	CCONJ	CC	ConjType=comp	3	cc	_	_
+11	Lb	lb	NOUN	NN	Number=sing	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 7
+# text = curvatus
+1	curvatus	curvatus	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 8
+# text = (the cheese from dairy B) indicating that these bacterial species may
+1	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	8	punct	_	SpaceAfter=No
+2	the	the	DET	DT	_	3	det	_	_
+3	cheese	cheese	NOUN	NN	Number=sing	8	nsubj	_	_
+4	from	from	ADP	IN	_	3	prep	_	_
+5	dairy	dairy	NOUN	NN	Number=sing	6	compound	_	_
+6	B	b	NOUN	NN	Number=sing	4	pobj	_	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	3	punct	_	_
+8	indicating	indicate	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	0	ROOT	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	these	these	DET	DT	_	12	det	_	_
+11	bacterial	bacterial	ADJ	JJ	Degree=pos	12	amod	_	_
+12	species	specie	NOUN	NNS	Number=plur	13	nsubj	_	_
+13	may	may	VERB	MD	VerbType=mod	8	ccomp	_	SpaceAfter=No
+
+# sent_id = 9
+# text = play a role in cheese ripening, even though they were not found by the
+1	play	play	VERB	VB	VerbForm=inf	0	ROOT	_	_
+2	a	a	DET	DT	_	3	det	_	_
+3	role	role	NOUN	NN	Number=sing	1	dobj	_	_
+4	in	in	ADP	IN	_	3	prep	_	_
+5	cheese	cheese	NOUN	NN	Number=sing	6	compound	_	_
+6	ripening	ripening	NOUN	NN	Number=sing	4	pobj	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=comm	1	punct	_	_
+8	even	even	ADV	RB	Degree=pos	13	advmod	_	_
+9	though	though	SCONJ	IN	_	13	mark	_	_
+10	they	-PRON-	PRON	PRP	PronType=prs	13	nsubjpass	_	_
+11	were	be	AUX	VBD	VerbForm=fin|Tense=past	13	auxpass	_	_
+12	not	not	PART	RB	Degree=pos	13	neg	_	_
+13	found	find	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	1	advcl	_	_
+14	by	by	ADP	IN	_	15	case	_	_
+15	the	the	DET	DT	_	13	nmod	_	SpaceAfter=No
+
+# sent_id = 10
+# text = culture dependent approach.
+1	culture	culture	NOUN	NN	Number=sing	3	compound	_	_
+2	dependent	dependent	ADJ	JJ	Degree=pos	3	amod	_	_
+3	approach	approach	NOUN	NN	Number=sing	0	ROOT	_	SpaceAfter=No
+4	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 11
+# text = Unfortunately, several major DGGE bands in
+1	Unfortunately	unfortunately	ADV	RB	Degree=pos	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	6	punct	_	_
+3	several	several	ADJ	JJ	Degree=pos	6	amod	_	_
+4	major	major	ADJ	JJ	Degree=pos	6	amod	_	_
+5	DGGE	dgge	NOUN	NN	Number=sing	6	compound	_	_
+6	bands	band	NOUN	NNS	Number=plur	0	ROOT	_	_
+7	in	in	ADP	IN	_	6	prep	_	SpaceAfter=No
+
+# sent_id = 12
+# text = the samples from the cheese surface could not be successfully
+1	the	the	DET	DT	_	2	det	_	_
+2	samples	sample	NOUN	NNS	Number=plur	9	nsubj	_	_
+3	from	from	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	cheese	cheese	NOUN	NN	Number=sing	6	amod	_	_
+6	surface	surface	NOUN	NN	Number=sing	3	pobj	_	_
+7	could	could	VERB	MD	VerbType=mod	9	aux	_	_
+8	not	not	PART	RB	Degree=pos	9	neg	_	_
+9	be	be	AUX	VB	VerbForm=inf	0	ROOT	_	_
+10	successfully	successfully	ADV	RB	Degree=pos	9	advmod	_	SpaceAfter=No
+
+# sent_id = 13
+# text = identified.
+1	identified	identify	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+2	.	.	PUNCT	.	PunctType=peri	1	punct	_	SpaceAfter=No

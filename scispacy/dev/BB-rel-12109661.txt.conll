@@ -1,0 +1,297 @@
+# sent_id = 1
+# text = Long-term Helicobacter pylori infection and the development of atrophic gastritis and gastric cancer in Japan.
+1	Long-term	long-term	ADJ	JJ	Degree=pos	4	amod	_	_
+2	Helicobacter	helicobacter	NOUN	NN	Number=sing	4	compound	_	_
+3	pylori	pylori	NOUN	NN	Number=sing	4	compound	_	_
+4	infection	infection	NOUN	NN	Number=sing	0	ROOT	_	_
+5	and	and	CCONJ	CC	ConjType=comp	4	cc	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	development	development	NOUN	NN	Number=sing	4	conj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	atrophic	atrophic	ADJ	JJ	Degree=pos	10	amod	_	_
+10	gastritis	gastritis	NOUN	NN	Number=sing	7	nmod	_	_
+11	and	and	CCONJ	CC	ConjType=comp	10	cc	_	_
+12	gastric	gastric	ADJ	JJ	Degree=pos	13	amod	_	_
+13	cancer	cancer	NOUN	NN	Number=sing	10	conj	_	_
+14	in	in	ADP	IN	_	7	prep	_	_
+15	Japan	Japan	PROPN	NNP	NounType=prop|Number=sing	14	pobj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	4	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = The incidence of gastric cancer and the prevalence of Helicobacter pylori are high in Japan, so it is an important issue whether long-term H. pylori infection leads to chronic atrophic gastritis, considered one of the precursors of gastric cancer.
+1	The	the	DET	DT	_	2	det	_	_
+2	incidence	incidence	NOUN	NN	Number=sing	13	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	gastric	gastric	ADJ	JJ	Degree=pos	5	amod	_	_
+5	cancer	cancer	NOUN	NN	Number=sing	2	nmod	_	_
+6	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	prevalence	prevalence	NOUN	NN	Number=sing	5	conj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	Helicobacter	Helicobacter	PROPN	NNP	NounType=prop|Number=sing	11	compound	_	_
+11	pylori	pylorus	NOUN	NNS	Number=plur	8	nmod	_	_
+12	are	be	AUX	VBP	VerbForm=fin|Tense=pres	13	cop	_	_
+13	high	high	ADJ	JJ	Degree=pos	19	ccomp	_	_
+14	in	in	ADP	IN	_	13	prep	_	_
+15	Japan	Japan	PROPN	NNP	NounType=prop|Number=sing	14	pobj	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=comm	19	punct	_	_
+17	so	so	CCONJ	CC	ConjType=comp	19	advmod	_	_
+18	it	-PRON-	PRON	PRP	PronType=prs	19	nsubj	_	_
+19	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+20	an	an	DET	DT	_	22	det	_	_
+21	important	important	ADJ	JJ	Degree=pos	22	amod	_	_
+22	issue	issue	NOUN	NN	Number=sing	19	attr	_	_
+23	whether	whether	SCONJ	IN	_	28	mark	_	_
+24	long-term	long-term	ADJ	JJ	Degree=pos	27	amod	_	_
+25	H.	h.	ADJ	JJ	Degree=pos	27	compound	_	_
+26	pylori	pylori	NOUN	NN	Number=sing	27	compound	_	_
+27	infection	infection	NOUN	NN	Number=sing	28	nsubj	_	_
+28	leads	lead	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	19	ccomp	_	_
+29	to	to	PART	TO	PartType=inf|VerbForm=inf	32	case	_	_
+30	chronic	chronic	ADJ	JJ	Degree=pos	32	amod	_	_
+31	atrophic	atrophic	ADJ	JJ	Degree=pos	32	amod	_	_
+32	gastritis	gastritis	NOUN	NN	Number=sing	28	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	PunctType=comm	32	punct	_	_
+34	considered	consider	VERB	VBD	VerbForm=fin|Tense=past	32	acl	_	_
+35	one	one	NUM	CD	NumType=card	34	xcomp	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	_	38	det	_	_
+38	precursors	precursor	NOUN	NNS	Number=plur	35	nmod	_	_
+39	of	of	ADP	IN	_	41	case	_	_
+40	gastric	gastric	ADJ	JJ	Degree=pos	41	amod	_	_
+41	cancer	cancer	NOUN	NN	Number=sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	PunctType=peri	19	punct	_	_
+
+# sent_id = 3
+# text = We have reported that the grade of atrophy was higher in H. pylori-positive subjects than in H. pylori-negative subjects.
+1	We	-PRON-	PRON	PRP	PronType=prs	3	nsubj	_	_
+2	have	have	AUX	VBP	VerbForm=fin|Tense=pres	3	aux	_	_
+3	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	grade	grade	NOUN	NN	Number=sing	10	nsubj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	atrophy	atrophy	NOUN	NN	Number=sing	7	pobj	_	_
+9	was	be	AUX	VBD	VerbForm=fin|Tense=past	10	cop	_	_
+10	higher	high	ADJ	JJR	Degree=comp	3	ccomp	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	H.	h.	ADJ	JJ	Degree=pos	14	compound	_	_
+13	pylori-positive	pylori-positive	ADJ	JJ	Degree=pos	14	amod	_	_
+14	subjects	subject	NOUN	NNS	Number=plur	10	nmod	_	_
+15	than	than	SCONJ	IN	_	19	case	_	_
+16	in	in	ADP	IN	_	19	case	_	_
+17	H.	h.	ADJ	JJ	Degree=pos	18	nmod:npmod	_	_
+18	pylori-negative	pylori-negative	ADJ	JJ	Degree=pos	19	amod	_	_
+19	subjects	subject	NOUN	NNS	Number=plur	10	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 4
+# text = It has also been reported that the atrophy of gastric mucosa increased in H. pylori-infected monkeys compared with control monkeys in a 5-year follow-up study.
+1	It	-PRON-	PRON	PRP	PronType=prs	5	nsubjpass	_	_
+2	has	have	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	5	aux	_	_
+3	also	also	ADV	RB	Degree=pos	5	advmod	_	_
+4	been	be	AUX	VBN	VerbForm=part|Tense=past|Aspect=perf	5	auxpass	_	_
+5	reported	report	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	_
+6	that	that	SCONJ	IN	_	12	mark	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	atrophy	atrophy	NOUN	NN	Number=sing	12	nsubj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	gastric	gastric	ADJ	JJ	Degree=pos	11	amod	_	_
+11	mucosa	mucosa	NOUN	NN	Number=sing	8	nmod	_	_
+12	increased	increase	VERB	VBD	VerbForm=fin|Tense=past	5	ccomp	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	H.	h.	ADJ	JJ	Degree=pos	16	compound	_	_
+15	pylori-infected	pylori-infected	ADJ	JJ	Degree=pos	16	amod	_	_
+16	monkeys	monkey	NOUN	NNS	Number=plur	12	nmod	_	_
+17	compared	compare	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	20	case	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	control	control	ADJ	JJ	Degree=pos	20	amod	_	_
+20	monkeys	monkey	NOUN	NNS	Number=plur	12	advcl	_	_
+21	in	in	ADP	IN	_	25	case	_	_
+22	a	a	DET	DT	_	25	det	_	_
+23	5-year	5-year	ADJ	JJ	Degree=pos	25	amod	_	_
+24	follow-up	follow-up	ADJ	JJ	Degree=pos	25	amod	_	_
+25	study	study	NOUN	NN	Number=sing	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 5
+# text = Most H. pylori infections occur in children, and atrophy of the gastric mucosa progresses during aging.
+1	Most	Most	ADJ	JJS	Degree=sup	4	amod	_	_
+2	H.	h.	ADJ	JJ	Degree=pos	4	compound	_	_
+3	pylori	pylori	NOUN	NN	Number=sing	4	compound	_	_
+4	infections	infection	NOUN	NNS	Number=plur	5	nsubj	_	_
+5	occur	occur	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	children	child	NOUN	NNS	Number=plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=comm	5	punct	_	_
+9	and	and	CCONJ	CC	ConjType=comp	5	cc	_	_
+10	atrophy	atrophy	NOUN	NN	Number=sing	5	conj	_	_
+11	of	of	ADP	IN	_	15	case	_	_
+12	the	the	DET	DT	_	15	det	_	_
+13	gastric	gastric	ADJ	JJ	Degree=pos	15	amod	_	_
+14	mucosa	mucosa	NOUN	NN	Number=sing	15	compound	_	_
+15	progresses	progress	NOUN	NNS	Number=plur	10	nmod	_	_
+16	during	during	ADP	IN	_	17	case	_	_
+17	aging	aging	NOUN	NN	Number=sing	10	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=peri	5	punct	_	_
+
+# sent_id = 6
+# text = Long-term data show that H. pylori infection can lead to gastric atrophy and may play an important role in the development of gastric cancer.
+1	Long-term	long-term	ADJ	JJ	Degree=pos	2	amod	_	_
+2	data	datum	NOUN	NNS	Number=plur	3	nsubj	_	_
+3	show	show	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	H.	h.	X	FW	Foreign=yes	7	compound	_	_
+6	pylori	pylori	NOUN	NN	Number=sing	7	compound	_	_
+7	infection	infection	NOUN	NN	Number=sing	9	nsubj	_	_
+8	can	can	VERB	MD	VerbType=mod	9	aux	_	_
+9	lead	lead	VERB	VB	VerbForm=inf	3	ccomp	_	_
+10	to	to	PART	TO	PartType=inf|VerbForm=inf	12	case	_	_
+11	gastric	gastric	ADJ	JJ	Degree=pos	12	amod	_	_
+12	atrophy	atrophy	NOUN	NN	Number=sing	9	nmod	_	_
+13	and	and	CCONJ	CC	ConjType=comp	9	cc	_	_
+14	may	may	VERB	MD	VerbType=mod	15	aux	_	_
+15	play	play	VERB	VB	VerbForm=inf	9	conj	_	_
+16	an	an	DET	DT	_	18	det	_	_
+17	important	important	ADJ	JJ	Degree=pos	18	amod	_	_
+18	role	role	NOUN	NN	Number=sing	15	dobj	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	_	21	det	_	_
+21	development	development	NOUN	NN	Number=sing	15	nmod	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	gastric	gastric	ADJ	JJ	Degree=pos	24	amod	_	_
+24	cancer	cancer	NOUN	NN	Number=sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=peri	3	punct	_	_
+
+# sent_id = 7
+# text = Interestingly, there was no difference in the prevalence of H. pylori between patients with chronic gastritis and gastric cancer in Japan, but the prevalence of H. pylori in young Japanese gastric cancer patients was significantly higher than in the control group.
+1	Interestingly	interestingly	ADV	RB	Degree=pos	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+3	there	there	PRON	EX	AdvType=ex	4	expl	_	_
+4	was	be	AUX	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+5	no	no	DET	DT	_	6	neg	_	_
+6	difference	difference	NOUN	NN	Number=sing	4	nsubj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	prevalence	prevalence	NOUN	NN	Number=sing	6	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	H.	h.	ADJ	JJ	Degree=pos	12	compound	_	_
+12	pylori	pylorus	NOUN	NNS	Number=plur	9	nmod	_	_
+13	between	between	ADP	IN	_	14	case	_	_
+14	patients	patient	NOUN	NNS	Number=plur	12	nmod	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	chronic	chronic	ADJ	JJ	Degree=pos	17	amod	_	_
+17	gastritis	gastritis	NOUN	NN	Number=sing	14	nmod	_	_
+18	and	and	CCONJ	CC	ConjType=comp	17	cc	_	_
+19	gastric	gastric	ADJ	JJ	Degree=pos	20	amod	_	_
+20	cancer	cancer	NOUN	NN	Number=sing	17	conj	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	Japan	Japan	PROPN	NNP	NounType=prop|Number=sing	14	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=comm	4	punct	_	_
+24	but	but	CCONJ	CC	ConjType=comp	4	cc	_	_
+25	the	the	DET	DT	_	26	det	_	_
+26	prevalence	prevalence	NOUN	NN	Number=sing	38	nsubj	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	H.	h.	ADJ	JJ	Degree=pos	29	compound	_	_
+29	pylori	pylorus	NOUN	NNS	Number=plur	26	nmod	_	_
+30	in	in	ADP	IN	_	35	case	_	_
+31	young	young	ADJ	JJ	Degree=pos	35	amod	_	_
+32	Japanese	japanese	ADJ	JJ	Degree=pos	35	amod	_	_
+33	gastric	gastric	ADJ	JJ	Degree=pos	35	amod	_	_
+34	cancer	cancer	NOUN	NN	Number=sing	35	compound	_	_
+35	patients	patient	NOUN	NNS	Number=plur	26	nmod	_	_
+36	was	be	AUX	VBD	VerbForm=fin|Tense=past	38	cop	_	_
+37	significantly	significantly	ADV	RB	Degree=pos	38	advmod	_	_
+38	higher	high	ADJ	JJR	Degree=comp	4	conj	_	_
+39	than	than	SCONJ	IN	_	43	case	_	_
+40	in	in	ADP	IN	_	43	case	_	_
+41	the	the	DET	DT	_	43	det	_	_
+42	control	control	ADJ	JJ	Degree=pos	43	compound	_	_
+43	group	group	NOUN	NN	Number=sing	38	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 8
+# text = These data clearly show that H. pylori infection is one of the risk factors of gastric cancer in young Japanese people, There is no answer to whether curing H. pylori infection can reverse the atrophy of the gastric mucosa and decrease the risk of gastric cancer development.
+1	These	these	DET	DT	_	2	det	_	_
+2	data	datum	NOUN	NNS	Number=plur	4	nsubj	_	_
+3	clearly	clearly	ADV	RB	Degree=pos	4	advmod	_	_
+4	show	show	VERB	VBP	VerbForm=fin|Tense=pres	0	ROOT	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	H.	h.	X	FW	Foreign=yes	8	compound	_	_
+7	pylori	pylori	NOUN	NN	Number=sing	8	compound	_	_
+8	infection	infection	NOUN	NN	Number=sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	10	cop	_	_
+10	one	one	NUM	CD	NumType=card	4	ccomp	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	risk	risk	NOUN	NN	Number=sing	14	compound	_	_
+14	factors	factor	NOUN	NNS	Number=plur	10	nmod	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	gastric	gastric	ADJ	JJ	Degree=pos	17	amod	_	_
+17	cancer	cancer	NOUN	NN	Number=sing	14	nmod	_	_
+18	in	in	ADP	IN	_	10	prep	_	_
+19	young	young	ADJ	JJ	Degree=pos	21	amod	_	_
+20	Japanese	japanese	ADJ	JJ	Degree=pos	21	amod	_	_
+21	people	people	NOUN	NNS	Number=plur	18	pobj	_	SpaceAfter=No
+22	,	,	PUNCT	,	PunctType=comm	24	punct	_	_
+23	There	there	PRON	EX	AdvType=ex	24	expl	_	_
+24	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	4	parataxis	_	_
+25	no	no	DET	DT	_	26	det	_	_
+26	answer	answer	NOUN	NN	Number=sing	24	attr	_	_
+27	to	to	ADP	IN	_	26	prep	_	_
+28	whether	whether	SCONJ	IN	_	34	mark	_	_
+29	curing	cure	VERB	VBG	VerbForm=part|Tense=pres|Aspect=prog	32	amod	_	_
+30	H.	h.	ADJ	JJ	Degree=pos	32	compound	_	_
+31	pylori	pylori	NOUN	NN	Number=sing	32	compound	_	_
+32	infection	infection	NOUN	NN	Number=sing	34	nsubj	_	_
+33	can	can	VERB	MD	VerbType=mod	34	aux	_	_
+34	reverse	reverse	VERB	VB	VerbForm=inf	27	pcomp	_	_
+35	the	the	DET	DT	_	36	det	_	_
+36	atrophy	atrophy	NOUN	NN	Number=sing	34	dobj	_	_
+37	of	of	ADP	IN	_	40	case	_	_
+38	the	the	DET	DT	_	40	det	_	_
+39	gastric	gastric	ADJ	JJ	Degree=pos	40	amod	_	_
+40	mucosa	mucosa	NOUN	NN	Number=sing	36	nmod	_	_
+41	and	and	CCONJ	CC	ConjType=comp	34	cc	_	_
+42	decrease	decrease	VERB	VB	VerbForm=inf	34	conj	_	_
+43	the	the	DET	DT	_	44	det	_	_
+44	risk	risk	NOUN	NN	Number=sing	42	dobj	_	_
+45	of	of	ADP	IN	_	48	case	_	_
+46	gastric	gastric	ADJ	JJ	Degree=pos	48	amod	_	_
+47	cancer	cancer	NOUN	NN	Number=sing	48	compound	_	_
+48	development	development	NOUN	NN	Number=sing	44	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	.	PunctType=peri	4	punct	_	_
+
+# sent_id = 9
+# text = To clarify this issue, an intervention study must be done.
+1	To	to	PART	TO	PartType=inf|VerbForm=inf	2	mark	_	_
+2	clarify	clarify	VERB	VB	VerbForm=inf	11	advcl	_	_
+3	this	this	DET	DT	_	4	det	_	_
+4	issue	issue	NOUN	NN	Number=sing	2	dobj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=comm	11	punct	_	_
+6	an	an	DET	DT	_	8	det	_	_
+7	intervention	intervention	NOUN	NN	Number=sing	8	compound	_	_
+8	study	study	NOUN	NN	Number=sing	11	nsubjpass	_	_
+9	must	must	VERB	MD	VerbType=mod	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=inf	11	auxpass	_	_
+11	done	do	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	0	ROOT	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=peri	11	punct	_	_
+
+# sent_id = 10
+# text = A large clinical trial called the Japanese Intervention Trial of H. pylori is in progress.
+1	A	a	DET	DT	_	4	det	_	_
+2	large	large	ADJ	JJ	Degree=pos	4	amod	_	_
+3	clinical	clinical	ADJ	JJ	Degree=pos	4	amod	_	_
+4	trial	trial	NOUN	NN	Number=sing	13	nsubj	_	_
+5	called	call	VERB	VBD	VerbForm=fin|Tense=past	4	acl	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	Japanese	Japanese	PROPN	NNP	NounType=prop|Number=sing	9	compound	_	_
+8	Intervention	Intervention	PROPN	NNP	NounType=prop|Number=sing	9	compound	_	_
+9	Trial	Trial	PROPN	NNP	NounType=prop|Number=sing	5	oprd	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	H.	H.	PROPN	NNP	NounType=prop|Number=sing	12	compound	_	_
+12	pylori	pylorus	NOUN	NNS	Number=plur	9	nmod	_	_
+13	is	be	AUX	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	0	ROOT	_	_
+14	in	in	ADP	IN	_	13	prep	_	_
+15	progress	progress	NOUN	NN	Number=sing	14	pobj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=peri	13	punct	_	SpaceAfter=No

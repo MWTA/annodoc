@@ -1,0 +1,38 @@
+# sent_id = 1
+# text = For instance, Stack et al. (2010) reported that β-glucan produced by P. parvulus confers to Lactobacillus paracasei
+1	For	for	ADP	IN	_	10	prep	_	_
+2	instance	instance	NOUN	NN	Number=sing	1	pobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=comm	10	punct	_	_
+4	Stack	Stack	PROPN	NNP	NounType=prop|Number=sing	10	nsubj	_	_
+5	et	et	X	FW	Foreign=yes	4	dep	_	_
+6	al.	al.	X	FW	Foreign=yes	4	dep	_	_
+7	(	(	PUNCT	-LRB-	PunctType=brck|PunctSide=ini	8	punct	_	SpaceAfter=No
+8	2010	2010	NUM	CD	NumType=card	4	appos	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	PunctType=brck|PunctSide=fin	8	punct	_	_
+10	reported	report	VERB	VBD	VerbForm=fin|Tense=past	0	ROOT	_	_
+11	that	that	SCONJ	IN	_	17	mark	_	_
+12	β-glucan	β-glucan	NOUN	NN	Number=sing	17	nsubj	_	_
+13	produced	produce	VERB	VBN	VerbForm=part|Tense=past|Aspect=perf	12	acl	_	_
+14	by	by	ADP	IN	_	16	case	_	_
+15	P.	P.	PROPN	NNP	NounType=prop|Number=sing	16	compound	_	_
+16	parvulus	parvulus	NOUN	NN	Number=sing	13	nmod	_	_
+17	confers	confer	VERB	VBZ	VerbForm=fin|Tense=pres|Number=sing|Person=three	10	ccomp	_	_
+18	to	to	ADP	IN	_	17	prep	_	_
+19	Lactobacillus	Lactobacillus	PROPN	NNP	NounType=prop|Number=sing	20	compound	_	_
+20	paracasei	paracasei	VERB	VBD	VerbForm=fin|Tense=past	18	pobj	_	SpaceAfter=No
+
+# sent_id = 2
+# text = higher survival during gastrointestinal passage or technological
+1	higher	high	ADJ	JJR	Degree=comp	2	amod	_	_
+2	survival	survival	NOUN	NN	Number=sing	0	ROOT	_	_
+3	during	during	ADP	IN	_	5	case	_	_
+4	gastrointestinal	gastrointestinal	ADJ	JJ	Degree=pos	5	amod	_	_
+5	passage	passage	NOUN	NN	Number=sing	2	nmod	_	_
+6	or	or	CCONJ	CC	ConjType=comp	5	cc	_	_
+7	technological	technological	ADJ	JJ	Degree=pos	5	conj	_	SpaceAfter=No
+
+# sent_id = 3
+# text = process conditions.
+1	process	process	NOUN	NN	Number=sing	2	compound	_	_
+2	conditions	condition	NOUN	NNS	Number=plur	0	ROOT	_	SpaceAfter=No
+3	.	.	PUNCT	.	PunctType=peri	2	punct	_	SpaceAfter=No
