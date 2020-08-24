@@ -9,10 +9,10 @@ visualisation...
 
 [GENIA annotations](./genia-conll.html)
 
-[Stanza Dev dataset annotations](./stanza/dev/index.html)
+[Stanza BB-Rel Dev annotations](./stanza/dev/index.html)
 
-[Stanza Train dataset annotations](./stanza/train/index.html)
+[Stanza BB-Rel Train annotations](./stanza/train/index.html)
 
-[SciSpaCy Dev dataset annotations](./scispacy/dev/index.html)
+[SciSpaCy BB-Rel Dev dataset annotations](./scispacy/dev/index.html)
 
-[SciSpaCy Train dataset annotations](./scispacy/train/index.html)
+[SciSpaCy BB-Rel Train dataset annotations](./scispacy/train/index.html)
